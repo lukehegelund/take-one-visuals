@@ -1,0 +1,22 @@
+# Working docs (kept local, not part of the live site)
+PLAN.md
+FILMS.md
+UPLOAD_SHEET.md
+
+# Candidate thumbnails — only the picks (thumbnails-yt-picks/) are used by the site
+thumbnails-yt/
+
+# Local fonts — we load from Google Fonts CDN
+fonts/
+
+# Source video uploads
+videos/*.mov
+
+# macOS / OS junk
+.DS_Store
+Thumbs.db
+
+# Editor cruft
+*.swp
+.idea/
+.vscode/
