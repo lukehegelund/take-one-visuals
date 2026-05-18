@@ -102,9 +102,11 @@
   /* ─── Hero ───────────────────────────────────────────── */
   .hero {
     position: relative;
-    height: 100vh;
-    min-height: 640px;
+    width: 100%;
+    aspect-ratio: 1920 / 828;  /* matches cropped video (2.32:1 cinemascope) */
+    min-height: 420px;
     overflow: hidden;
+    background: #000;
     color: #fff;
   }
   .hero-media {
@@ -112,7 +114,7 @@
     width: 100%; height: 100%;
     object-fit: cover;
     object-position: center;
-    background: #000;  /* matches letterbox bars before video loads */
+    background: #000;
     filter: brightness(0.85);
   }
   .hero-overlay {
@@ -124,7 +126,7 @@
     height: 100%;
     display: flex; flex-direction: column;
     justify-content: flex-end;
-    padding: 0 2.5rem 5rem;
+    padding: 0 2.5rem 3rem;
     max-width: var(--maxw);
     margin: 0 auto;
   }
