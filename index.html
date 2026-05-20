@@ -130,20 +130,22 @@
     max-width: var(--maxw);
     margin: 0 auto;
   }
-  .hero-tag {
-    font-family: var(--sans);
-    font-size: 11px;
-    letter-spacing: 0.32em;
-    text-transform: uppercase;
-    opacity: 0.85;
-    margin-bottom: 1.5rem;
-  }
   .hero h1 {
     font-size: clamp(3rem, 8vw, 6.5rem);
     font-style: italic;
     font-weight: 300;
     max-width: 14ch;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+  }
+  .hero-sub {
+    font-family: var(--serif);
+    font-style: italic;
+    font-weight: 300;
+    font-size: clamp(1.05rem, 1.5vw, 1.4rem);
+    line-height: 1.45;
+    opacity: 0.92;
+    max-width: 38ch;
+    margin: 0 0 1rem;
   }
   .hero-scroll {
     position: absolute; bottom: 2rem; left: 50%; transform: translateX(-50%);
@@ -169,18 +171,25 @@
     text-align: center;
     border-bottom: 1px solid var(--rule);
   }
-  .intro h2 {
-    font-size: clamp(2rem, 4vw, 3.25rem);
+  .intro-poetic {
+    font-family: var(--serif);
     font-style: italic;
-    max-width: 22ch;
-    margin: 0 auto 1.5rem;
+    font-weight: 300;
+    font-size: clamp(1.5rem, 2.6vw, 2.25rem);
+    line-height: 1.4;
+    max-width: 36ch;
+    margin: 0 auto 2.5rem;
     color: var(--ink);
   }
-  .intro p {
-    max-width: 52ch;
+  .intro-positioning {
+    font-family: var(--serif);
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(1.1rem, 1.4vw, 1.35rem);
+    line-height: 1.5;
+    max-width: 50ch;
     margin: 0 auto;
     color: var(--ink-soft);
-    font-size: 1.05rem;
   }
 
   /* ─── Films ──────────────────────────────────────────── */
@@ -456,8 +465,8 @@
   </video>
   <div class="hero-overlay"></div>
   <div class="hero-inner">
-    <p class="hero-tag">Wedding Films · By Luke Hegelund</p>
-    <h1>Films your kids will rewatch.</h1>
+    <h1>Relive your best day.</h1>
+    <p class="hero-sub">Your wedding only happens once. We make it last forever.</p>
   </div>
   <div class="hero-scroll">Scroll</div>
 </header>
@@ -465,9 +474,8 @@
 <!-- ─── Intro strip ────────────────────────────────────── -->
 <section class="intro">
   <div class="container reveal">
-    <p class="eyebrow">A Small Studio</p>
-    <h2>Cinematic wedding films, made one day, one take at a time.</h2>
-    <p>Take One Visuals is a single-shooter studio for couples who want their day remembered like a film, not a highlight reel. Drone, multi-cam coverage, and a same-day edit so the celebration begins before the night ends.</p>
+    <h2 class="intro-poetic">Gleams of light on white-woven fabric. The gaze of a groom on his long-awaited treasure. A mother embracing her new son for the first time.</h2>
+    <p class="intro-positioning">Based in the Inland Northwest, Take One Visuals captures these moments — and preserves them for you, your loved ones, and your family-to-come.</p>
   </div>
 </section>
 
