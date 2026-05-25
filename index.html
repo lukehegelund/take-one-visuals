@@ -356,7 +356,7 @@
     color: var(--ink);
   }
 
-  /* ─── Reviews ────────────────────────────────────────── */
+  /* ─── Reviews (carousel) ─────────────────────────────── */
   .reviews {
     text-align: center;
     padding: 9rem 0;
@@ -364,22 +364,42 @@
   .reviews .eyebrow {
     text-align: center;
   }
-  .review-feature {
-    margin: 0 auto 6rem;
-    max-width: 38ch;
+  .review-carousel {
+    position: relative;
+    max-width: 760px;
+    margin: 0 auto;
+    min-height: 360px;
+    padding: 0 4rem;
   }
-  .review-feature p {
+  .review-slide {
+    position: absolute;
+    inset: 0;
+    padding: 0 4rem;
+    opacity: 0;
+    transition: opacity 0.7s ease;
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .review-slide.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .review-slide p {
     margin: 0;
     font-family: var(--serif);
     font-style: italic;
     font-weight: 300;
-    font-size: clamp(1.75rem, 3.3vw, 2.6rem);
-    line-height: 1.35;
+    font-size: clamp(1.5rem, 2.8vw, 2.2rem);
+    line-height: 1.4;
     color: var(--ink);
+    max-width: 36ch;
   }
-  .review-feature p::before { content: "\201C"; }
-  .review-feature p::after { content: "\201D"; }
-  .review-feature cite {
+  .review-slide p::before { content: "\201C"; }
+  .review-slide p::after { content: "\201D"; }
+  .review-slide cite {
     display: block;
     margin-top: 2.25rem;
     font-family: var(--sans);
@@ -390,54 +410,50 @@
     color: var(--ink-soft);
   }
 
-  .review-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem 5rem;
-    max-width: 1080px;
-    margin: 0 auto;
-    padding-top: 3.5rem;
-    border-top: 1px solid var(--rule);
-    text-align: left;
-  }
-  .review-card {
-    margin: 0;
-    position: relative;
-    padding-left: 1.75rem;
-  }
-  .review-card::before {
-    content: "\201C";
+  .carousel-arrow {
     position: absolute;
-    left: 0;
-    top: -0.5rem;
-    font-family: var(--serif);
-    font-size: 2.75rem;
-    line-height: 1;
-    color: var(--accent);
-    opacity: 0.7;
-  }
-  .review-card p {
-    margin: 0;
-    font-family: var(--serif);
-    font-style: italic;
-    font-weight: 300;
-    font-size: 1.2rem;
-    line-height: 1.55;
-    color: var(--ink);
-  }
-  .review-card cite {
-    display: block;
-    margin-top: 1.25rem;
-    font-family: var(--sans);
-    font-style: normal;
-    font-size: 10px;
-    letter-spacing: 0.28em;
-    text-transform: uppercase;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: 0;
+    padding: 1rem 0.5rem;
+    cursor: pointer;
     color: var(--ink-soft);
+    font-family: var(--serif);
+    font-size: 2rem;
+    line-height: 1;
+    opacity: 0.5;
+    transition: opacity 0.2s, color 0.2s;
+    z-index: 3;
+  }
+  .carousel-arrow:hover { opacity: 1; color: var(--ink); }
+  .carousel-arrow.prev { left: 0; }
+  .carousel-arrow.next { right: 0; }
+
+  .carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.7rem;
+    margin-top: 2.5rem;
+  }
+  .carousel-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--rule);
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+  }
+  .carousel-dot:hover { background: var(--ink-soft); }
+  .carousel-dot.active {
+    background: var(--accent);
+    transform: scale(1.3);
   }
 
   .reviews-google {
-    margin-top: 5rem;
+    margin-top: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -461,13 +477,13 @@
 
   @media (max-width: 720px) {
     .reviews { padding: 5.5rem 0; }
-    .review-feature { margin-bottom: 4rem; }
-    .review-grid {
-      grid-template-columns: 1fr;
-      gap: 3rem;
-      padding-top: 2.5rem;
+    .review-carousel {
+      min-height: 420px;
+      padding: 0 2.5rem;
     }
-    .reviews-google { margin-top: 3.5rem; flex-direction: column; gap: 1rem; }
+    .review-slide { padding: 0 2.5rem; }
+    .carousel-arrow { font-size: 1.5rem; padding: 0.5rem 0.25rem; }
+    .reviews-google { margin-top: 3rem; flex-direction: column; gap: 1rem; }
   }
 
   /* ─── Final CTA ──────────────────────────────────────── */
@@ -695,31 +711,42 @@
   <div class="container reveal">
     <p class="eyebrow">Kind Words</p>
 
-    <blockquote class="review-feature">
-      <p>I can't count how many times I've watched our video, but I cry every time. My family and friends say it's the most beautiful wedding video they've ever seen. I will cherish it forever.</p>
-      <cite>Matt &amp; Alisia &nbsp;·&nbsp; Liberty Lake, WA</cite>
-    </blockquote>
+    <div class="review-carousel" id="reviewCarousel" aria-roledescription="carousel" aria-label="Client reviews">
+      <button class="carousel-arrow prev" id="carouselPrev" aria-label="Previous review">&#x2039;</button>
+      <button class="carousel-arrow next" id="carouselNext" aria-label="Next review">&#x203A;</button>
 
-    <div class="review-grid">
-      <blockquote class="review-card">
+      <blockquote class="review-slide active" aria-roledescription="slide">
+        <p>I can't count how many times I've watched our video, but I cry every time. My family and friends say it's the most beautiful wedding video they've ever seen. I will cherish it forever.</p>
+        <cite>Matt &amp; Alisia &nbsp;·&nbsp; Liberty Lake, WA</cite>
+      </blockquote>
+
+      <blockquote class="review-slide" aria-roledescription="slide">
         <p>Watching the video felt as if I was re-experiencing the best day of my life. Luke captured every moment, both big and small.</p>
         <cite>Anna</cite>
       </blockquote>
 
-      <blockquote class="review-card">
-        <p>The editing blew our minds &mdash; the way he timed each shot with the most important songs from our wedding, and the way he transitioned the music. His high quality and well-educated taste really showed.</p>
+      <blockquote class="review-slide" aria-roledescription="slide">
+        <p>The editing blew our minds &mdash; the way he timed each shot with the most important songs, and the way he transitioned the music. His high quality and well-educated taste really showed.</p>
         <cite>Abbi</cite>
       </blockquote>
 
-      <blockquote class="review-card">
+      <blockquote class="review-slide" aria-roledescription="slide">
         <p>Luke was absolutely wonderful to work with. Prompt, knew exactly where to be and when, and made sure to capture everything just how I wanted. We were even able to have a same-day viewing of our wedding video.</p>
         <cite>Brianna</cite>
       </blockquote>
 
-      <blockquote class="review-card">
+      <blockquote class="review-slide" aria-roledescription="slide">
         <p>Cannot overstate how happy Luke made my husband and I on our wedding day. His professionalism and friendly demeanor made him the perfect videographer to capture the best day of our lives.</p>
         <cite>Moriah</cite>
       </blockquote>
+    </div>
+
+    <div class="carousel-dots" id="carouselDots" role="tablist" aria-label="Choose review">
+      <button class="carousel-dot active" data-slide="0" aria-label="Review 1"></button>
+      <button class="carousel-dot" data-slide="1" aria-label="Review 2"></button>
+      <button class="carousel-dot" data-slide="2" aria-label="Review 3"></button>
+      <button class="carousel-dot" data-slide="3" aria-label="Review 4"></button>
+      <button class="carousel-dot" data-slide="4" aria-label="Review 5"></button>
     </div>
 
     <div class="reviews-google">
@@ -807,6 +834,47 @@
   closeBtn.addEventListener('click', closeYt);
   modal.addEventListener('click', (e) => { if (e.target === modal) closeYt(); });
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && modal.classList.contains('open')) closeYt(); });
+
+  // Reviews carousel
+  (function () {
+    const carousel = document.getElementById('reviewCarousel');
+    if (!carousel) return;
+    const slides = carousel.querySelectorAll('.review-slide');
+    const dots = document.querySelectorAll('#carouselDots .carousel-dot');
+    const prevBtn = document.getElementById('carouselPrev');
+    const nextBtn = document.getElementById('carouselNext');
+    const ROTATE_MS = 7000;
+    let current = 0;
+    let timer = null;
+
+    function show(i) {
+      slides.forEach((s, idx) => s.classList.toggle('active', idx === i));
+      dots.forEach((d, idx) => d.classList.toggle('active', idx === i));
+      current = i;
+    }
+    function next() { show((current + 1) % slides.length); }
+    function prev() { show((current - 1 + slides.length) % slides.length); }
+    function start() { stop(); timer = setInterval(next, ROTATE_MS); }
+    function stop() { if (timer) { clearInterval(timer); timer = null; } }
+
+    nextBtn.addEventListener('click', () => { next(); start(); });
+    prevBtn.addEventListener('click', () => { prev(); start(); });
+    dots.forEach((dot, i) => dot.addEventListener('click', () => { show(i); start(); }));
+
+    // Pause on hover / focus
+    carousel.addEventListener('mouseenter', stop);
+    carousel.addEventListener('mouseleave', start);
+    carousel.addEventListener('focusin', stop);
+    carousel.addEventListener('focusout', start);
+
+    // Pause when section scrolls offscreen (saves cycles)
+    const sectionIO = new IntersectionObserver((entries) => {
+      entries.forEach(e => e.isIntersecting ? start() : stop());
+    }, { threshold: 0.2 });
+    sectionIO.observe(carousel);
+
+    start();
+  })();
 </script>
 
 </body>
