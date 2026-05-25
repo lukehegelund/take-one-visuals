@@ -6,6 +6,63 @@
 <title>Take One Visuals — Wedding Films</title>
 <meta name="description" content="A small studio crafting heirloom wedding films. Take One Visuals — by Luke Hegelund." />
 
+<!-- Structured data: Local business + reviews -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://lukehegelund.github.io/take-one-visuals/#business",
+  "name": "Take One Visuals",
+  "description": "Boutique wedding films in the Inland Northwest by Luke Hegelund.",
+  "image": "https://lukehegelund.github.io/take-one-visuals/images/luke-camera.jpeg",
+  "url": "https://lukehegelund.github.io/take-one-visuals/",
+  "areaServed": {
+    "@type": "Place",
+    "name": "Inland Northwest"
+  },
+  "priceRange": "$$$",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "14",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Matt & Alisia" },
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "reviewBody": "I can't count how many times I've watched our video but I cry every time. My family and friends say it's the most beautiful wedding video they've ever seen. I will cherish it forever."
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Anna Zuray" },
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "reviewBody": "Watching the video felt as if I was re-experiencing the best day of my life. Luke captured every moment, both big and small."
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Abbi Zuray" },
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "reviewBody": "The editing blew our minds. The way he timed each shot with the most important songs from our wedding and the way he transitioned the music showed his high quality and well-educated taste."
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Brianna Rowan" },
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "reviewBody": "Luke was absolutely wonderful to work with. Prompt, knew exactly where to be and when, and made sure to capture everything just how I wanted. We were able to have a same-day viewing of our wedding video."
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Moriah Hartman" },
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "reviewBody": "Cannot overstate how happy Luke made my husband and I on our wedding day. His professionalism and friendly demeanor made him the perfect videographer to capture the best day of our lives."
+    }
+  ]
+}
+</script>
+
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -96,7 +153,8 @@
     .nav.scrolled { padding: 0.8rem 1.5rem; }
     .nav-links { gap: 1.2rem; font-size: 10px; }
     .nav-links a:nth-child(2),
-    .nav-links a:nth-child(3) { display: none; }
+    .nav-links a:nth-child(3),
+    .nav-links a:nth-child(4) { display: none; }
   }
 
   /* ─── Hero ───────────────────────────────────────────── */
@@ -298,32 +356,118 @@
     color: var(--ink);
   }
 
-  /* ─── Testimonial ────────────────────────────────────── */
-  .testimonial {
+  /* ─── Reviews ────────────────────────────────────────── */
+  .reviews {
     text-align: center;
-    padding: 10rem 0;
+    padding: 9rem 0;
   }
-  .testimonial blockquote {
-    margin: 0 auto;
+  .reviews .eyebrow {
+    text-align: center;
+  }
+  .review-feature {
+    margin: 0 auto 6rem;
+    max-width: 38ch;
+  }
+  .review-feature p {
+    margin: 0;
     font-family: var(--serif);
     font-style: italic;
     font-weight: 300;
-    font-size: clamp(1.75rem, 3.5vw, 2.75rem);
+    font-size: clamp(1.75rem, 3.3vw, 2.6rem);
     line-height: 1.35;
-    max-width: 24ch;
     color: var(--ink);
   }
-  .testimonial blockquote::before { content: "\201C"; }
-  .testimonial blockquote::after { content: "\201D"; }
-  .testimonial cite {
+  .review-feature p::before { content: "\201C"; }
+  .review-feature p::after { content: "\201D"; }
+  .review-feature cite {
     display: block;
-    margin-top: 2.5rem;
+    margin-top: 2.25rem;
     font-family: var(--sans);
     font-style: normal;
     font-size: 11px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
     color: var(--ink-soft);
+  }
+
+  .review-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem 5rem;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding-top: 3.5rem;
+    border-top: 1px solid var(--rule);
+    text-align: left;
+  }
+  .review-card {
+    margin: 0;
+    position: relative;
+    padding-left: 1.75rem;
+  }
+  .review-card::before {
+    content: "\201C";
+    position: absolute;
+    left: 0;
+    top: -0.5rem;
+    font-family: var(--serif);
+    font-size: 2.75rem;
+    line-height: 1;
+    color: var(--accent);
+    opacity: 0.7;
+  }
+  .review-card p {
+    margin: 0;
+    font-family: var(--serif);
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.55;
+    color: var(--ink);
+  }
+  .review-card cite {
+    display: block;
+    margin-top: 1.25rem;
+    font-family: var(--sans);
+    font-style: normal;
+    font-size: 10px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+  }
+
+  .reviews-google {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+  .reviews-google-stars {
+    font-size: 11px;
+    letter-spacing: 0.25em;
+    color: var(--ink-soft);
+  }
+  .reviews-google-link {
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--ink);
+    padding-bottom: 4px;
+    transition: opacity 0.2s;
+  }
+  .reviews-google-link:hover { opacity: 0.6; }
+
+  @media (max-width: 720px) {
+    .reviews { padding: 5.5rem 0; }
+    .review-feature { margin-bottom: 4rem; }
+    .review-grid {
+      grid-template-columns: 1fr;
+      gap: 3rem;
+      padding-top: 2.5rem;
+    }
+    .reviews-google { margin-top: 3.5rem; flex-direction: column; gap: 1rem; }
   }
 
   /* ─── Final CTA ──────────────────────────────────────── */
@@ -452,6 +596,7 @@
   <div class="nav-links">
     <a href="films.html">Films</a>
     <a href="#about">About</a>
+    <a href="#reviews">Reviews</a>
     <a href="#experience">Experience</a>
     <a href="#inquire">Inquire</a>
   </div>
@@ -545,11 +690,42 @@
   </div>
 </section>
 
-<!-- ─── Testimonial ────────────────────────────────────── -->
-<section class="testimonial reveal">
-  <div class="container">
-    <blockquote>He didn't just film our wedding — he made the day feel like the movie I'd always imagined.</blockquote>
-    <cite>Kelsey &amp; Matt</cite>
+<!-- ─── Reviews ────────────────────────────────────────── -->
+<section class="reviews" id="reviews">
+  <div class="container reveal">
+    <p class="eyebrow">Kind Words</p>
+
+    <blockquote class="review-feature">
+      <p>I can't count how many times I've watched our video, but I cry every time. My family and friends say it's the most beautiful wedding video they've ever seen. I will cherish it forever.</p>
+      <cite>Matt &amp; Alisia &nbsp;·&nbsp; Liberty Lake, WA</cite>
+    </blockquote>
+
+    <div class="review-grid">
+      <blockquote class="review-card">
+        <p>Watching the video felt as if I was re-experiencing the best day of my life. Luke captured every moment, both big and small.</p>
+        <cite>Anna</cite>
+      </blockquote>
+
+      <blockquote class="review-card">
+        <p>The editing blew our minds &mdash; the way he timed each shot with the most important songs from our wedding, and the way he transitioned the music. His high quality and well-educated taste really showed.</p>
+        <cite>Abbi</cite>
+      </blockquote>
+
+      <blockquote class="review-card">
+        <p>Luke was absolutely wonderful to work with. Prompt, knew exactly where to be and when, and made sure to capture everything just how I wanted. We were even able to have a same-day viewing of our wedding video.</p>
+        <cite>Brianna</cite>
+      </blockquote>
+
+      <blockquote class="review-card">
+        <p>Cannot overstate how happy Luke made my husband and I on our wedding day. His professionalism and friendly demeanor made him the perfect videographer to capture the best day of our lives.</p>
+        <cite>Moriah</cite>
+      </blockquote>
+    </div>
+
+    <div class="reviews-google">
+      <span class="reviews-google-stars">★★★★★ &nbsp;5.0 &middot; 14 reviews</span>
+      <a href="https://www.google.com/search?q=Take+One+Visuals+Spokane+reviews" class="reviews-google-link" target="_blank" rel="noopener">Read all on Google →</a>
+    </div>
   </div>
 </section>
 
