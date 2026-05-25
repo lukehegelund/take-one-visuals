@@ -488,9 +488,10 @@
 
   /* ─── Final CTA ──────────────────────────────────────── */
   .cta {
-    background: var(--ink);
-    color: var(--bg);
+    background: var(--bg);
+    color: var(--ink);
     text-align: center;
+    border-top: 1px solid var(--rule);
   }
   .cta h2 {
     font-size: clamp(2.5rem, 6vw, 5rem);
@@ -500,7 +501,7 @@
   .cta p {
     max-width: 44ch;
     margin: 0 auto 3rem;
-    opacity: 0.7;
+    color: var(--ink-soft);
     font-size: 1.05rem;
   }
   .cta-button {
@@ -520,23 +521,19 @@
     border-color: var(--bg);
   }
 
-  /* Honeybook inquiry form wrapper — warm card on dark CTA */
+  /* Honeybook inquiry form wrapper — section already warm, form gets full width */
   .inquiry-form-wrap {
-    max-width: 720px;
-    margin: 3rem auto 0;
-    padding: 2.75rem 2.5rem;
-    background: var(--bg);
-    color: var(--ink);
+    max-width: 920px;
+    margin: 2rem auto 0;
+    padding: 0;
     text-align: left;
-    box-shadow: 0 30px 60px -20px rgba(0, 0, 0, 0.45);
   }
   .inquiry-form-wrap [class*="hb-p-"] {
     min-height: 320px;
   }
   @media (max-width: 720px) {
     .inquiry-form-wrap {
-      margin: 2.25rem auto 0;
-      padding: 1.75rem 1.25rem;
+      margin: 1.5rem auto 0;
     }
   }
 
@@ -779,7 +776,7 @@
 <!-- ─── Final CTA ──────────────────────────────────────── -->
 <section class="cta" id="inquire">
   <div class="container reveal">
-    <p class="eyebrow" style="color: rgba(250,247,242,0.6);">Begin</p>
+    <p class="eyebrow">Begin</p>
     <h2>Tell me about your day.</h2>
     <p>Every wedding I film starts with a real conversation. Share a few details and I'll be in touch within two days.</p>
     <div class="inquiry-form-wrap">
