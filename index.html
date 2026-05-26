@@ -192,7 +192,7 @@
     font-size: clamp(3rem, 8vw, 6.5rem);
     font-style: italic;
     font-weight: 300;
-    max-width: 14ch;
+    max-width: 22ch;  /* fits "Relive your best day." on one line at desktop, wraps naturally on narrow viewports */
     margin-bottom: 1rem;
   }
   .hero-scroll {
@@ -353,8 +353,17 @@
     font-family: var(--serif);
     font-style: italic;
     font-size: 1.5rem;
-    margin-top: 2rem;
+    margin: 2rem 0 0.35rem;
     color: var(--ink);
+  }
+  .about-text .signature-title {
+    font-family: var(--sans);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin: 0;
   }
 
   /* ─── Reviews (carousel) ─────────────────────────────── */
@@ -718,8 +727,10 @@
       <div class="about-text reveal">
         <p class="eyebrow">The Filmmaker</p>
         <p>I'm Luke, the founder of Take One Visuals. Since the day I made my first short film, I've been captivated by the creative filmmaking process: writing stories, capturing beauty, bringing viewers into an experience.</p>
-        <p>In 2022, I realized that this passion could be used to tell other people's stories, so I set out to make the most beautiful wedding films in the Inland Northwest. I call them wedding films &mdash; not videos &mdash; because that's what I deliver: not a recording, but a memory; not a file, but a feeling.</p>
+        <p>In 2022, I realized that this passion could be used to tell other people's stories, so I set out with the goal of making the most beautiful wedding films in the Inland Northwest. I call them wedding films &mdash; not videos &mdash; because that's what I deliver: not a recording, but a memory; not a file, but a feeling.</p>
         <p>If we haven't had the chance to meet yet, I would love to connect over coffee or a phone call and hear your dreams for your wedding, and hopefully help you remember them forever.</p>
+        <p class="signature">Luke Hegelund</p>
+        <p class="signature-title">Founder &amp; Filmmaker &nbsp;|&nbsp; Take One Visuals</p>
       </div>
     </div>
   </div>
