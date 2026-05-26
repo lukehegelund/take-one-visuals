@@ -192,7 +192,8 @@
     font-size: clamp(3rem, 8vw, 6.5rem);
     font-style: italic;
     font-weight: 300;
-    max-width: 22ch;  /* fits "Relive your best day." on one line at desktop, wraps naturally on narrow viewports */
+    width: max-content;       /* size to text — keeps "Relive your best day." on one line */
+    max-width: 100%;          /* but cap at parent so it wraps on narrow viewports */
     margin-bottom: 1rem;
   }
   .hero-scroll {
