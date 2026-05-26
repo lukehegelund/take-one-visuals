@@ -365,6 +365,8 @@
     text-transform: uppercase;
     color: var(--ink-soft);
     margin: 0;
+    max-width: none;       /* override the 48ch cap inherited from .about-text p */
+    white-space: nowrap;   /* keep "Founder & Filmmaker | Take One Visuals" on one line */
   }
 
   /* ─── Reviews (carousel) ─────────────────────────────── */
