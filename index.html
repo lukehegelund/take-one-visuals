@@ -3,8 +3,27 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Take One Visuals — Wedding Films</title>
-<meta name="description" content="A small studio crafting heirloom wedding films. Take One Visuals — by Luke Hegelund." />
+<title>Inland Northwest Wedding Films | Take One Visuals</title>
+<meta name="description" content="Boutique wedding films in the Inland Northwest. Take One Visuals serves Spokane, Coeur d'Alene, and surrounding venues — heirloom-quality, story-driven cinema by Luke Hegelund." />
+
+<!-- Canonical -->
+<link rel="canonical" href="https://takeonevisuals.com/" />
+
+<!-- Open Graph (social previews — Facebook, LinkedIn, iMessage, Slack, etc.) -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Take One Visuals" />
+<meta property="og:title" content="Inland Northwest Wedding Films | Take One Visuals" />
+<meta property="og:description" content="Boutique wedding films in the Inland Northwest. Spokane, Coeur d'Alene, and surrounding venues." />
+<meta property="og:url" content="https://takeonevisuals.com/" />
+<meta property="og:image" content="https://takeonevisuals.com/images/hero.jpeg" />
+<meta property="og:image:alt" content="A wedding film still by Take One Visuals — Inland Northwest" />
+<meta property="og:locale" content="en_US" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Inland Northwest Wedding Films | Take One Visuals" />
+<meta name="twitter:description" content="Boutique wedding films in the Inland Northwest. Spokane, Coeur d'Alene, and beyond." />
+<meta name="twitter:image" content="https://takeonevisuals.com/images/hero.jpeg" />
 
 <!-- Structured data: Local business + reviews -->
 <script type="application/ld+json">
@@ -16,10 +35,11 @@
   "description": "Boutique wedding films in the Inland Northwest by Luke Hegelund.",
   "image": "https://takeonevisuals.com/images/luke-camera.jpeg",
   "url": "https://takeonevisuals.com/",
-  "areaServed": {
-    "@type": "Place",
-    "name": "Inland Northwest"
-  },
+  "areaServed": [
+    { "@type": "Place", "name": "Inland Northwest" },
+    { "@type": "City", "name": "Spokane", "containedInPlace": { "@type": "State", "name": "Washington" } },
+    { "@type": "City", "name": "Coeur d'Alene", "containedInPlace": { "@type": "State", "name": "Idaho" } }
+  ],
   "priceRange": "$$$",
   "aggregateRating": {
     "@type": "AggregateRating",
@@ -58,6 +78,53 @@
       "author": { "@type": "Person", "name": "Moriah Hartman" },
       "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
       "reviewBody": "Cannot overstate how happy Luke made my husband and I on our wedding day. His professionalism and friendly demeanor made him the perfect videographer to capture the best day of our lives."
+    }
+  ]
+}
+</script>
+
+<!-- Structured data: Service offering -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Wedding Videography",
+  "name": "Boutique Wedding Films",
+  "description": "Heirloom-quality wedding films for couples in the Inland Northwest — Spokane, Coeur d'Alene, and surrounding venues. Story-driven cinema by Luke Hegelund.",
+  "provider": { "@id": "https://takeonevisuals.com/#business" },
+  "areaServed": [
+    { "@type": "Place", "name": "Inland Northwest" },
+    { "@type": "City", "name": "Spokane", "containedInPlace": { "@type": "State", "name": "Washington" } },
+    { "@type": "City", "name": "Coeur d'Alene", "containedInPlace": { "@type": "State", "name": "Idaho" } }
+  ],
+  "audience": { "@type": "Audience", "audienceType": "Engaged couples" }
+}
+</script>
+
+<!-- Structured data: VideoObject for featured films -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "name": "Matt & Alisia — Wedding Film",
+      "description": "Wedding film of Matt & Alisia by Take One Visuals in the Inland Northwest.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Kic7gRvoORU/maxresdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Kic7gRvoORU",
+      "contentUrl": "https://www.youtube.com/watch?v=Kic7gRvoORU",
+      "uploadDate": "2024-01-01",
+      "publisher": { "@id": "https://takeonevisuals.com/#business" }
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Brie & Jeff — Wedding Film",
+      "description": "Wedding film of Brie & Jeff by Take One Visuals in the Inland Northwest.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DD-6arIteLc/maxresdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DD-6arIteLc",
+      "contentUrl": "https://www.youtube.com/watch?v=DD-6arIteLc",
+      "uploadDate": "2024-01-01",
+      "publisher": { "@id": "https://takeonevisuals.com/#business" }
     }
   ]
 }
