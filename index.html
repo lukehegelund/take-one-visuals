@@ -108,22 +108,32 @@
   "@graph": [
     {
       "@type": "VideoObject",
+      "name": "Moriah & Dane — Wedding Film",
+      "description": "Wedding film of Moriah & Dane by Take One Visuals in Spokane, Washington.",
+      "thumbnailUrl": "https://takeonevisuals.com/thumbnails-yt-picks/Moriah%20%26%20Dane.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v3-MCgglKNg",
+      "contentUrl": "https://www.youtube.com/watch?v=v3-MCgglKNg",
+      "uploadDate": "2026-05-16",
+      "publisher": { "@id": "https://takeonevisuals.com/#business" }
+    },
+    {
+      "@type": "VideoObject",
       "name": "Matt & Alisia — Wedding Film",
-      "description": "Wedding film of Matt & Alisia by Take One Visuals in the Inland Northwest.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Kic7gRvoORU/maxresdefault.jpg",
+      "description": "Wedding film of Matt & Alisia by Take One Visuals in Liberty Lake, Washington.",
+      "thumbnailUrl": "https://takeonevisuals.com/thumbnails-yt-picks/Matt%20%26%20Alisia.jpg",
       "embedUrl": "https://www.youtube.com/embed/Kic7gRvoORU",
       "contentUrl": "https://www.youtube.com/watch?v=Kic7gRvoORU",
-      "uploadDate": "2024-01-01",
+      "uploadDate": "2026-04-18",
       "publisher": { "@id": "https://takeonevisuals.com/#business" }
     },
     {
       "@type": "VideoObject",
       "name": "Brie & Jeff — Wedding Film",
-      "description": "Wedding film of Brie & Jeff by Take One Visuals in the Inland Northwest.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DD-6arIteLc/maxresdefault.jpg",
+      "description": "Wedding film of Brie & Jeff by Take One Visuals in the Pacific Northwest.",
+      "thumbnailUrl": "https://takeonevisuals.com/thumbnails-yt-picks/Brie%20%26%20Jeff.jpg",
       "embedUrl": "https://www.youtube.com/embed/DD-6arIteLc",
       "contentUrl": "https://www.youtube.com/watch?v=DD-6arIteLc",
-      "uploadDate": "2024-01-01",
+      "uploadDate": "2025-07-08",
       "publisher": { "@id": "https://takeonevisuals.com/#business" }
     }
   ]
@@ -135,572 +145,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
 
-<style>
-  /* ─── Tokens ─────────────────────────────────────────── */
-  :root {
-    --bg: #FAF7F2;            /* warm off-white */
-    --ink: #1A1A1A;           /* near-black */
-    --ink-soft: #4A4A4A;      /* secondary text */
-    --rule: #E8E2D6;          /* faint divider */
-    --accent: #8C7B66;         /* warm taupe */
-    --serif: 'Cormorant Garamond', Georgia, serif;
-    --sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
-    --maxw: 1320px;
-  }
+<!-- Hero poster paints first while the video loads -->
+<link rel="preload" as="image" href="videos/hero-poster.jpg" fetchpriority="high" />
 
-  /* ─── Base ───────────────────────────────────────────── */
-  *, *::before, *::after { box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--ink);
-    font-family: var(--sans);
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 1.65;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-  }
-  img { display: block; max-width: 100%; height: auto; }
-  a { color: inherit; text-decoration: none; }
-  button { font: inherit; cursor: pointer; }
-
-  h1, h2, h3 {
-    font-family: var(--serif);
-    font-weight: 300;
-    letter-spacing: 0.005em;
-    margin: 0;
-    line-height: 1.1;
-  }
-  .eyebrow {
-    font-family: var(--sans);
-    font-size: 11px;
-    font-weight: 500;
-    letter-spacing: 0.22em;
-    text-transform: uppercase;
-    color: var(--accent);
-    margin-bottom: 1.25rem;
-  }
-
-  /* ─── Nav ────────────────────────────────────────────── */
-  .nav {
-    position: fixed; top: 0; left: 0; right: 0;
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 1.5rem 2.5rem;
-    z-index: 100;
-    transition: background 0.4s ease, padding 0.4s ease;
-    mix-blend-mode: difference;
-    color: #fff;
-  }
-  .nav.scrolled {
-    background: rgba(250, 247, 242, 0.96);
-    backdrop-filter: blur(8px);
-    padding: 1rem 2.5rem;
-    mix-blend-mode: normal;
-    color: var(--ink);
-    border-bottom: 1px solid var(--rule);
-  }
-  .wordmark {
-    font-family: var(--serif);
-    font-style: italic;
-    font-size: 1.35rem;
-    letter-spacing: 0.02em;
-  }
-  .nav-links {
-    display: flex; gap: 2.5rem;
-    font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase;
-    font-weight: 400;
-  }
-  .nav-links a { opacity: 0.85; transition: opacity 0.2s; }
-  .nav-links a:hover { opacity: 1; }
-
-  @media (max-width: 720px) {
-    .nav { padding: 1.1rem 1.5rem; }
-    .nav.scrolled { padding: 0.8rem 1.5rem; }
-    .nav-links { gap: 1.2rem; font-size: 10px; }
-    .nav-links a:nth-child(2),
-    .nav-links a:nth-child(3),
-    .nav-links a:nth-child(4) { display: none; }
-  }
-
-  /* ─── Hero ───────────────────────────────────────────── */
-  .hero {
-    position: relative;
-    width: 100%;
-    aspect-ratio: 1920 / 828;  /* matches cropped video (2.32:1 cinemascope) */
-    min-height: 420px;
-    overflow: hidden;
-    background: #000;
-    color: #fff;
-  }
-  .hero-media {
-    position: absolute; inset: 0;
-    width: 100%; height: 100%;
-    object-fit: cover;
-    object-position: center;
-    background: #000;
-    filter: brightness(0.85);
-  }
-  .hero-overlay {
-    position: absolute; inset: 0;
-    background: linear-gradient(180deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.05) 35%, rgba(0,0,0,0.55) 100%);
-  }
-  .hero-inner {
-    position: relative; z-index: 2;
-    height: 100%;
-    display: flex; flex-direction: column;
-    justify-content: flex-end;
-    padding: 0 2.5rem 3rem;
-    max-width: var(--maxw);
-    margin: 0 auto;
-  }
-  .hero h1 {
-    font-size: clamp(3rem, 8vw, 6.5rem);
-    font-style: italic;
-    font-weight: 300;
-    width: max-content;       /* size to text — keeps "Relive your best day." on one line */
-    max-width: 100%;          /* but cap at parent so it wraps on narrow viewports */
-    margin-bottom: 1rem;
-  }
-  .hero-scroll {
-    position: absolute; bottom: 2rem; left: 50%; transform: translateX(-50%);
-    font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase;
-    opacity: 0.7;
-    z-index: 2;
-  }
-
-  /* ─── Layout ─────────────────────────────────────────── */
-  .container {
-    max-width: var(--maxw);
-    margin: 0 auto;
-    padding: 0 2.5rem;
-  }
-  section { padding: 6rem 0; }
-  @media (max-width: 720px) {
-    section { padding: 4rem 0; }
-    .container { padding: 0 1.5rem; }
-  }
-
-  /* ─── Intro strip ────────────────────────────────────── */
-  .intro {
-    text-align: center;
-    border-bottom: 1px solid var(--rule);
-  }
-  .intro-heading {
-    font-family: var(--serif);
-    font-style: italic;
-    font-weight: 300;
-    font-size: clamp(2.25rem, 4.5vw, 3.75rem);
-    line-height: 1.2;
-    max-width: 28ch;
-    margin: 0 auto 2rem;
-    color: var(--ink);
-  }
-  .intro-poetic {
-    font-family: var(--serif);
-    font-style: italic;
-    font-weight: 300;
-    font-size: clamp(1.3rem, 1.85vw, 1.7rem);
-    line-height: 1.55;
-    max-width: 58ch;
-    margin: 0 auto 2rem;
-    color: var(--ink);
-  }
-  .intro-positioning {
-    font-family: var(--serif);
-    font-style: normal;
-    font-weight: 400;
-    font-size: clamp(1.3rem, 1.85vw, 1.7rem);
-    line-height: 1.55;
-    max-width: 64ch;
-    margin: 0 auto;
-    color: var(--ink);
-  }
-
-  /* ─── Films ──────────────────────────────────────────── */
-  .films { background: var(--bg); }
-  .films-header {
-    display: flex; align-items: flex-end; justify-content: space-between;
-    margin-bottom: 3.5rem;
-    gap: 2rem;
-  }
-  .films-header h2 {
-    font-size: clamp(2.25rem, 5vw, 4rem);
-  }
-  .films-link {
-    font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase;
-    border-bottom: 1px solid var(--ink);
-    padding-bottom: 4px;
-    transition: opacity 0.2s;
-  }
-  .films-link:hover { opacity: 0.6; }
-
-  .film {
-    margin-bottom: 6rem;
-  }
-  .film:last-child { margin-bottom: 0; }
-  .film-frame {
-    position: relative;
-    aspect-ratio: 16 / 9;
-    overflow: hidden;
-    background: #d8d2c5;
-    cursor: pointer;
-  }
-  .film-frame img {
-    width: 100%; height: 100%; object-fit: cover;
-    transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
-  }
-  .film:hover .film-frame img { transform: scale(1.03); }
-  .play-icon {
-    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
-    width: 64px; height: 64px;
-    border: 1px solid rgba(255,255,255,0.85);
-    border-radius: 50%;
-    display: flex; align-items: center; justify-content: center;
-    background: rgba(0,0,0,0.1);
-    backdrop-filter: blur(2px);
-    transition: background 0.3s, transform 0.3s;
-  }
-  .film:hover .play-icon { background: rgba(255,255,255,0.95); }
-  .play-icon svg { width: 18px; height: 18px; fill: #fff; margin-left: 3px; transition: fill 0.3s; }
-  .film:hover .play-icon svg { fill: var(--ink); }
-
-  .film-meta {
-    display: flex; justify-content: space-between; align-items: baseline;
-    margin-top: 1.5rem;
-    padding-top: 1.25rem;
-    border-top: 1px solid var(--rule);
-  }
-  .film-meta h3 {
-    font-size: 1.65rem;
-    font-style: italic;
-  }
-  .film-meta .location {
-    font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase;
-    color: var(--ink-soft);
-  }
-  @media (max-width: 720px) {
-    .film-meta { flex-direction: column; gap: 0.5rem; }
-    .film-meta h3 { font-size: 1.35rem; }
-  }
-
-  /* ─── About strip ────────────────────────────────────── */
-  .about {
-    background: #F3EEE4;
-    border-top: 1px solid var(--rule);
-    border-bottom: 1px solid var(--rule);
-  }
-  .about-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5rem;
-    align-items: center;
-  }
-  @media (max-width: 820px) {
-    .about-grid { grid-template-columns: 1fr; gap: 3rem; }
-  }
-  .about-image {
-    aspect-ratio: 4 / 5;
-    overflow: hidden;
-  }
-  .about-image img { width: 100%; height: 100%; object-fit: cover; }
-  .about-text h2 {
-    font-size: clamp(2rem, 4vw, 3rem);
-    font-style: italic;
-    margin-bottom: 1.75rem;
-  }
-  .about-text p {
-    color: var(--ink-soft);
-    font-size: 1.15rem;
-    line-height: 1.7;
-    margin: 0 0 1.25rem;
-    max-width: 48ch;
-  }
-  .about-text .signature {
-    font-family: var(--serif);
-    font-style: italic;
-    font-size: 1.5rem;
-    margin: 2rem 0 0.35rem;
-    color: var(--ink);
-  }
-  .about-text .signature-title {
-    font-family: var(--sans);
-    font-size: 11px;
-    font-weight: 500;
-    letter-spacing: 0.22em;
-    text-transform: uppercase;
-    color: var(--ink-soft);
-    margin: 0;
-    max-width: none;       /* override the 48ch cap inherited from .about-text p */
-    white-space: nowrap;   /* keep "Founder & Filmmaker | Take One Visuals" on one line */
-  }
-
-  /* ─── Reviews (carousel) ─────────────────────────────── */
-  .reviews {
-    text-align: center;
-    padding: 7rem 0;
-  }
-  .reviews .eyebrow {
-    text-align: center;
-  }
-  .review-carousel {
-    position: relative;
-    max-width: 760px;
-    margin: 0 auto;
-    min-height: 360px;
-    padding: 0 4rem;
-  }
-  .review-slide {
-    position: absolute;
-    inset: 0;
-    padding: 0 4rem;
-    opacity: 0;
-    transition: opacity 0.7s ease;
-    pointer-events: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .review-slide.active {
-    opacity: 1;
-    pointer-events: auto;
-  }
-  .review-slide p {
-    margin: 0;
-    font-family: var(--serif);
-    font-style: italic;
-    font-weight: 300;
-    font-size: clamp(1.5rem, 2.8vw, 2.2rem);
-    line-height: 1.4;
-    color: var(--ink);
-    max-width: 36ch;
-  }
-  .review-slide p::before { content: "\201C"; }
-  .review-slide p::after { content: "\201D"; }
-  .review-slide cite {
-    display: block;
-    margin-top: 2.25rem;
-    font-family: var(--sans);
-    font-style: normal;
-    font-size: 11px;
-    letter-spacing: 0.22em;
-    text-transform: uppercase;
-    color: var(--ink-soft);
-  }
-
-  .carousel-arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: none;
-    border: 0;
-    padding: 1rem 0.5rem;
-    cursor: pointer;
-    color: var(--ink-soft);
-    font-family: var(--serif);
-    font-size: 2rem;
-    line-height: 1;
-    opacity: 0.5;
-    transition: opacity 0.2s, color 0.2s;
-    z-index: 3;
-  }
-  .carousel-arrow:hover { opacity: 1; color: var(--ink); }
-  .carousel-arrow.prev { left: 0; }
-  .carousel-arrow.next { right: 0; }
-
-  .carousel-dots {
-    display: flex;
-    justify-content: center;
-    gap: 0.7rem;
-    margin-top: 2.5rem;
-  }
-  .carousel-dot {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: var(--rule);
-    border: 0;
-    padding: 0;
-    cursor: pointer;
-    transition: background 0.3s, transform 0.3s;
-  }
-  .carousel-dot:hover { background: var(--ink-soft); }
-  .carousel-dot.active {
-    background: var(--accent);
-    transform: scale(1.3);
-  }
-
-  .reviews-google {
-    margin-top: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.75rem;
-    flex-wrap: wrap;
-  }
-  .reviews-google-stars {
-    font-size: 11px;
-    letter-spacing: 0.22em;
-    color: var(--ink-soft);
-  }
-  .reviews-google-link {
-    font-size: 11px;
-    letter-spacing: 0.22em;
-    text-transform: uppercase;
-    border-bottom: 1px solid var(--ink);
-    padding-bottom: 4px;
-    transition: opacity 0.2s;
-  }
-  .reviews-google-link:hover { opacity: 0.6; }
-
-  @media (max-width: 720px) {
-    .reviews { padding: 5.5rem 0; }
-    .review-carousel {
-      min-height: 420px;
-      padding: 0 2.5rem;
-    }
-    .review-slide { padding: 0 2.5rem; }
-    .carousel-arrow { font-size: 1.5rem; padding: 0.5rem 0.25rem; }
-    .reviews-google { margin-top: 3rem; flex-direction: column; gap: 1rem; }
-  }
-
-  /* ─── Final CTA ──────────────────────────────────────── */
-  .cta {
-    background: var(--bg);
-    color: var(--ink);
-    text-align: center;
-    border-top: 1px solid var(--rule);
-  }
-  .cta h2 {
-    font-size: clamp(2.5rem, 6vw, 5rem);
-    font-style: italic;
-    margin-bottom: 2.5rem;
-  }
-  .cta p {
-    max-width: 44ch;
-    margin: 0 auto 3rem;
-    color: var(--ink-soft);
-    font-size: 1.15rem;
-    line-height: 1.65;
-  }
-  .cta-button {
-    display: inline-block;
-    padding: 1.1rem 3rem;
-    border: 1px solid rgba(250,247,242,0.4);
-    color: var(--bg);
-    font-size: 11px;
-    letter-spacing: 0.3em;
-    text-transform: uppercase;
-    background: transparent;
-    transition: background 0.3s, color 0.3s, border-color 0.3s;
-  }
-  .cta-button:hover {
-    background: var(--bg);
-    color: var(--ink);
-    border-color: var(--bg);
-  }
-
-  /* Honeybook inquiry form wrapper — section already warm, form gets full width */
-  .inquiry-form-wrap {
-    max-width: 920px;
-    margin: 2rem auto 0;
-    padding: 0;
-    text-align: left;
-  }
-  .inquiry-form-wrap [class*="hb-p-"] {
-    min-height: 320px;
-  }
-  @media (max-width: 720px) {
-    .inquiry-form-wrap {
-      margin: 1.5rem auto 0;
-    }
-  }
-
-  /* ─── Footer ─────────────────────────────────────────── */
-  footer {
-    padding: 4rem 0 3rem;
-    border-top: 1px solid var(--rule);
-    text-align: center;
-    background: var(--bg);
-  }
-  .footer-wordmark {
-    font-family: var(--serif);
-    font-style: italic;
-    font-size: 1.25rem;
-    margin-bottom: 1.5rem;
-  }
-  .footer-links {
-    display: flex; justify-content: center; gap: 2rem;
-    font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase;
-    color: var(--ink-soft);
-    margin-bottom: 2rem;
-  }
-  .footer-links a:hover { color: var(--ink); }
-  .footer-copy {
-    font-size: 11px;
-    color: var(--ink-soft);
-    opacity: 0.6;
-  }
-
-  /* ─── Reveal on scroll ───────────────────────────────── */
-  .reveal {
-    opacity: 0;
-    transform: translateY(24px);
-    transition: opacity 1s ease, transform 1s ease;
-  }
-  .reveal.in {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  @media (prefers-reduced-motion: reduce) {
-    .reveal { opacity: 1; transform: none; transition: none; }
-    html { scroll-behavior: auto; }
-  }
-
-  /* ─── YouTube modal ──────────────────────────────────── */
-  .film[data-yt] { cursor: pointer; }
-  .yt-modal {
-    position: fixed; inset: 0;
-    background: rgba(10, 10, 10, 0.94);
-    z-index: 1000;
-    display: none;
-    align-items: center; justify-content: center;
-    padding: 2rem;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-  .yt-modal.open { display: flex; opacity: 1; }
-  .yt-modal-frame {
-    position: relative;
-    width: 100%;
-    max-width: 1200px;
-    aspect-ratio: 16 / 9;
-  }
-  .yt-modal-frame iframe {
-    width: 100%; height: 100%;
-    border: 0;
-    background: #000;
-  }
-  .yt-close {
-    position: absolute;
-    top: -3rem; right: -0.5rem;
-    color: #fff;
-    background: none; border: 0; padding: 0;
-    font: inherit;
-    font-size: 1rem;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    cursor: pointer;
-    opacity: 0.7;
-    transition: opacity 0.2s;
-  }
-  .yt-close:hover { opacity: 1; }
-  @media (max-width: 720px) {
-    .yt-close { top: -2.5rem; right: 0; font-size: 0.85rem; }
-  }
-</style>
+<link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
@@ -718,10 +166,15 @@
 
 <!-- ─── Hero ───────────────────────────────────────────── -->
 <header class="hero">
-  <video class="hero-media" autoplay muted loop playsinline preload="auto" poster="videos/hero-poster.jpg">
-    <source src="videos/hero-mobile.mp4" type="video/mp4" media="(max-width: 720px)" />
-    <source src="videos/hero.mp4" type="video/mp4" />
-  </video>
+  <!-- src set by the inline script below: media queries on <video><source> are ignored by browsers -->
+  <video class="hero-media" autoplay muted loop playsinline preload="auto" poster="videos/hero-poster.jpg"
+         data-src-desktop="videos/hero.mp4" data-src-mobile="videos/hero-mobile.mp4"></video>
+  <script>
+    (function () {
+      var v = document.querySelector('.hero-media');
+      v.src = window.matchMedia('(max-width: 720px)').matches ? v.dataset.srcMobile : v.dataset.srcDesktop;
+    })();
+  </script>
   <div class="hero-overlay"></div>
   <div class="hero-inner">
     <h1>Relive your best day.</h1>
@@ -764,7 +217,10 @@
 
     <article class="film reveal" data-yt="Kic7gRvoORU">
       <div class="film-frame">
-        <img src="https://i.ytimg.com/vi/Kic7gRvoORU/maxresdefault.jpg" alt="Matt & Alisia wedding film thumbnail" loading="lazy" />
+        <picture>
+          <source srcset="thumbnails-yt-picks/Matt%20%26%20Alisia.webp" type="image/webp" />
+          <img src="thumbnails-yt-picks/Matt%20%26%20Alisia.jpg" alt="Matt & Alisia wedding film thumbnail — Liberty Lake" loading="lazy" />
+        </picture>
         <div class="play-icon">
           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -777,7 +233,10 @@
 
     <article class="film reveal" data-yt="DD-6arIteLc">
       <div class="film-frame">
-        <img src="https://i.ytimg.com/vi/DD-6arIteLc/maxresdefault.jpg" alt="Brie & Jeff wedding film thumbnail" loading="lazy" />
+        <picture>
+          <source srcset="thumbnails-yt-picks/Brie%20%26%20Jeff.webp" type="image/webp" />
+          <img src="thumbnails-yt-picks/Brie%20%26%20Jeff.jpg" alt="Brie & Jeff wedding film thumbnail — Pacific Northwest" loading="lazy" />
+        </picture>
         <div class="play-icon">
           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -862,6 +321,37 @@
   </div>
 </section>
 
+<!-- ─── Experience ─────────────────────────────────────── -->
+<section class="experience" id="experience">
+  <div class="container reveal">
+    <p class="eyebrow">The Experience</p>
+    <h2>From first coffee to final cut.</h2>
+
+    <div class="experience-steps">
+      <div class="experience-step">
+        <span class="step-number">— 01</span>
+        <h3>We meet</h3>
+        <p>Before anything else, I'd love to just talk over coffee or a phone call. Tell me about the two of you, how you met, and what you're dreaming up for your day.</p>
+      </div>
+      <div class="experience-step">
+        <span class="step-number">— 02</span>
+        <h3>I film your day</h3>
+        <p>When the day comes, I'll be there for all of it, the quiet moments and the big ones, capturing everything while you stay fully in it.</p>
+      </div>
+      <div class="experience-step">
+        <span class="step-number">— 03</span>
+        <h3>You relive it forever</h3>
+        <p>Then comes my favorite part: crafting your film. Every shot is chosen to bring you right back, this year and fifty years from now.</p>
+      </div>
+    </div>
+
+    <div class="experience-collections">
+      <p>No two weddings are the same, so I build every collection around your day. Reach out, and we'll find what fits.</p>
+      <a href="#inquire" class="btn">Connect Now</a>
+    </div>
+  </div>
+</section>
+
 <!-- ─── Final CTA ──────────────────────────────────────── -->
 <section class="cta" id="inquire">
   <div class="container reveal">
@@ -878,12 +368,15 @@
 <footer>
   <div class="container">
     <div class="footer-wordmark">Take One Visuals</div>
+    <div class="footer-rating">★★★★★ &nbsp;5.0 on Google</div>
     <div class="footer-links">
       <a href="#films">Films</a>
       <a href="#about">About</a>
+      <a href="#experience">Experience</a>
       <a href="#inquire">Inquire</a>
       <a href="https://instagram.com/takeonevisuals" target="_blank" rel="noopener">Instagram</a>
     </div>
+    <div class="footer-area">Spokane &middot; Coeur d'Alene &middot; the Inland Northwest</div>
     <div class="footer-copy">© Take One Visuals · Wedding films by Luke Hegelund</div>
   </div>
 </footer>
@@ -892,93 +385,11 @@
 <div class="yt-modal" id="ytModal" role="dialog" aria-modal="true" aria-label="Wedding film player">
   <div class="yt-modal-frame">
     <button class="yt-close" id="ytClose" aria-label="Close player">Close ✕</button>
-    <iframe id="ytIframe" allow="autoplay; encrypted-media; fullscreen" allowfullscreen></iframe>
+    <iframe id="ytIframe" title="Wedding film" allow="autoplay; encrypted-media; fullscreen" allowfullscreen></iframe>
   </div>
 </div>
 
-<script>
-  // Nav background switch on scroll
-  const nav = document.getElementById('nav');
-  const onScroll = () => {
-    if (window.scrollY > 80) nav.classList.add('scrolled');
-    else nav.classList.remove('scrolled');
-  };
-  window.addEventListener('scroll', onScroll, { passive: true });
-  onScroll();
-
-  // Reveal on scroll
-  const io = new IntersectionObserver((entries) => {
-    entries.forEach(e => {
-      if (e.isIntersecting) {
-        e.target.classList.add('in');
-        io.unobserve(e.target);
-      }
-    });
-  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
-  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
-
-  // YouTube modal
-  const modal = document.getElementById('ytModal');
-  const iframe = document.getElementById('ytIframe');
-  const closeBtn = document.getElementById('ytClose');
-  function openYt(id) {
-    iframe.src = `https://www.youtube.com/embed/${id}?autoplay=1&rel=0&modestbranding=1&playsinline=1`;
-    modal.classList.add('open');
-    document.body.style.overflow = 'hidden';
-  }
-  function closeYt() {
-    modal.classList.remove('open');
-    iframe.src = '';
-    document.body.style.overflow = '';
-  }
-  document.querySelectorAll('.film[data-yt]').forEach(el => {
-    el.addEventListener('click', () => openYt(el.dataset.yt));
-  });
-  closeBtn.addEventListener('click', closeYt);
-  modal.addEventListener('click', (e) => { if (e.target === modal) closeYt(); });
-  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && modal.classList.contains('open')) closeYt(); });
-
-  // Reviews carousel
-  (function () {
-    const carousel = document.getElementById('reviewCarousel');
-    if (!carousel) return;
-    const slides = carousel.querySelectorAll('.review-slide');
-    const dots = document.querySelectorAll('#carouselDots .carousel-dot');
-    const prevBtn = document.getElementById('carouselPrev');
-    const nextBtn = document.getElementById('carouselNext');
-    const ROTATE_MS = 7000;
-    let current = 0;
-    let timer = null;
-
-    function show(i) {
-      slides.forEach((s, idx) => s.classList.toggle('active', idx === i));
-      dots.forEach((d, idx) => d.classList.toggle('active', idx === i));
-      current = i;
-    }
-    function next() { show((current + 1) % slides.length); }
-    function prev() { show((current - 1 + slides.length) % slides.length); }
-    function start() { stop(); timer = setInterval(next, ROTATE_MS); }
-    function stop() { if (timer) { clearInterval(timer); timer = null; } }
-
-    nextBtn.addEventListener('click', () => { next(); start(); });
-    prevBtn.addEventListener('click', () => { prev(); start(); });
-    dots.forEach((dot, i) => dot.addEventListener('click', () => { show(i); start(); }));
-
-    // Pause on hover / focus
-    carousel.addEventListener('mouseenter', stop);
-    carousel.addEventListener('mouseleave', start);
-    carousel.addEventListener('focusin', stop);
-    carousel.addEventListener('focusout', start);
-
-    // Pause when section scrolls offscreen (saves cycles)
-    const sectionIO = new IntersectionObserver((entries) => {
-      entries.forEach(e => e.isIntersecting ? start() : stop());
-    }, { threshold: 0.2 });
-    sectionIO.observe(carousel);
-
-    start();
-  })();
-</script>
+<script src="site.js"></script>
 
 <!-- ─── Honeybook contact form loader ──────────────────── -->
 <img height="1" width="1" style="display:none" src="https://www.honeybook.com/p.png?pid=69bf22995cc4520007e98898" alt="" />
