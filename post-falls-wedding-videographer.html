@@ -44,12 +44,15 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
 
+<!-- Hero poster paints first while the video loads -->
+<link rel="preload" as="image" href="videos/hero-poster.jpg" fetchpriority="high" />
+
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
 <!-- ─── Nav ────────────────────────────────────────────── -->
-<nav class="nav solid" id="nav">
+<nav class="nav" id="nav">
   <a href="index.html" class="wordmark">Take One Visuals</a>
   <div class="nav-links">
     <a href="films.html">Films</a>
@@ -60,14 +63,30 @@
   </div>
 </nav>
 
-<!-- ─── Page hero ──────────────────────────────────────── -->
-<header class="page-hero">
-  <div class="container">
-    <p class="eyebrow">Based in Post Falls, ID</p>
+<!-- ─── Hero (identical reel to homepage) ─────────────── -->
+<header class="hero">
+  <!-- src set by the inline script below: media queries on <video><source> are ignored by browsers -->
+  <video class="hero-media" autoplay muted loop playsinline preload="auto" poster="videos/hero-poster.jpg"
+         data-src-desktop="videos/hero.mp4" data-src-mobile="videos/hero-mobile.mp4"></video>
+  <script>
+    (function () {
+      var v = document.querySelector('.hero-media');
+      v.src = window.matchMedia('(max-width: 720px)').matches ? v.dataset.srcMobile : v.dataset.srcDesktop;
+    })();
+  </script>
+  <div class="hero-overlay"></div>
+  <div class="hero-inner">
     <h1>Post Falls Wedding Videographer</h1>
-    <p>Take One Visuals is based right here in Post Falls, Idaho — cinematic, story-driven wedding films for local couples, filmed by someone who's actually part of this community.</p>
   </div>
+  <div class="hero-scroll">Scroll</div>
 </header>
+
+<!-- ─── Page intro ─────────────────────────────────────── -->
+<section class="intro">
+  <div class="container reveal">
+    <p class="intro-positioning">Take One Visuals is based right here in Post Falls, Idaho — cinematic, story-driven wedding films for local couples, filmed by someone who's actually part of this community.</p>
+  </div>
+</section>
 
 <nav class="location-links" aria-label="Nearby service areas">
   <a href="spokane-wedding-videographer.html">Spokane</a>
