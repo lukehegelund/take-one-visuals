@@ -20,3 +20,7 @@ Thumbs.db
 *.swp
 .idea/
 .vscode/
+
+# Python generates these during wedding-page validation; never publish them.
+__pycache__/
+*.pyc

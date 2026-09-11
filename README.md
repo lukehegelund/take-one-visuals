@@ -8,6 +8,8 @@ Static HTML/CSS/JS hosted on GitHub Pages. Films embedded from YouTube. Inquirie
 
 - `index.html` — homepage (hero video, featured films, about strip, testimonial, inquiry CTA)
 - `films.html` — full films portfolio
+- `weddings/` — full couple collections, generated from `data/weddings/`
+- `WEDDING_COLLECTIONS.md` — Supabase/Drive authoring and publication instructions
 - `videos/` — hero video assets (poster, desktop, mobile sources)
 - `images/` — site imagery
 - `thumbnails-yt-picks/` — custom YouTube thumbnails (also used as Films page thumbnails)
