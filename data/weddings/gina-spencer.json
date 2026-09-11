@@ -27,5 +27,10 @@
       "format": "landscape",
       "description": ""
     }
-  ]
+  ],
+  "cover": {
+    "source": "twelvelabs",
+    "video_id": "6a9c29315c930dcf6c5879ea",
+    "time_seconds": 250
+  }
 }

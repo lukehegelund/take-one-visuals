@@ -22,10 +22,15 @@
     },
     {
       "id": "video-book",
-      "title": "Wedding Film · Video Book",
+      "title": "Wedding Film \u00b7 Video Book",
       "drive_id": "1W9ML-CUnFekDtDoR6zLFOqYMxFIusvgY",
       "format": "landscape",
       "description": ""
     }
-  ]
+  ],
+  "cover": {
+    "source": "youtube",
+    "video_id": "H8bcZ1lSn34",
+    "time_seconds": null
+  }
 }

@@ -104,5 +104,10 @@
       "format": "landscape",
       "description": ""
     }
-  ]
+  ],
+  "cover": {
+    "source": "youtube",
+    "video_id": "v3-MCgglKNg",
+    "time_seconds": null
+  }
 }

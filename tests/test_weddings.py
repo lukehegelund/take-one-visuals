@@ -4,8 +4,10 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
 
 import build_weddings as site
+import sync_wedding_thumbnails as thumbnails
 
 
 class WeddingBuildTests(unittest.TestCase):
@@ -78,6 +80,7 @@ class WeddingBuildTests(unittest.TestCase):
             self.assertIn(video['drive_id'], page)
 
     def test_cover_tracks_main_film_and_unknown_date_is_omitted(self):
+        self.gallery.pop('cover', None)
         self.gallery['date'] = None
         site.validate(self.gallery)
         original = self.gallery['videos'][0]['drive_id']
@@ -92,6 +95,34 @@ class WeddingBuildTests(unittest.TestCase):
         self.assertNotIn('<time', archive + page)
         self.assertNotIn('None', archive + page)
         self.assertIn('loading="lazy"', archive)
+
+    def test_selected_cover_survives_playback_reordering_and_refresh(self):
+        self.gallery['cover'] = {'source': 'drive', 'video_id': self.gallery['videos'][0]['drive_id'], 'time_seconds': 30}
+        site.validate(self.gallery)
+        path = site.thumbnail_path(self.gallery)
+        self.gallery['videos'].reverse()
+        self.assertEqual(site.thumbnail_path(self.gallery), path)
+        with tempfile.TemporaryDirectory() as temp, patch.object(thumbnails, 'ROOT', Path(temp)), patch.object(thumbnails.urllib.request, 'urlopen') as request:
+            target = Path(temp) / path.lstrip('/')
+            target.parent.mkdir(parents=True)
+            selected_image = b'\xff\xd8\xffchosen cover'
+            target.write_bytes(selected_image)
+            thumbnails.sync(self.gallery, refresh=True)
+            request.assert_not_called()
+            self.assertEqual(target.read_bytes(), selected_image)
+            target.unlink()
+            with self.assertRaisesRegex(ValueError, 'missing selected cover'):
+                thumbnails.sync(self.gallery)
+
+    def test_reject_invalid_cover_sources(self):
+        for cover in [
+            {'source': 'drive', 'video_id': 'not-a-collection-file', 'time_seconds': 3},
+            {'source': 'youtube', 'video_id': '../../private', 'time_seconds': None},
+            {'source': 'drive', 'video_id': self.gallery['videos'][0]['drive_id'], 'time_seconds': float('nan')},
+        ]:
+            self.gallery['cover'] = cover
+            with self.assertRaises(ValueError):
+                site.validate(self.gallery)
 
 
 if __name__ == '__main__':

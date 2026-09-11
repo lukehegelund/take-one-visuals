@@ -8,6 +8,7 @@ import argparse
 import datetime as dt
 import html
 import json
+import math
 import re
 from pathlib import Path
 
@@ -24,7 +25,7 @@ def esc(value):
 def validate(record):
     """Fail closed on unknown/private fields and unsafe paths before any writes."""
     expected = {'schema_version', 'slug', 'names', 'date', 'status', 'drive_folder_id', 'videos'}
-    if set(record) != expected or record['schema_version'] != 1:
+    if set(record) not in (expected, expected | {'cover'}) or record['schema_version'] != 1:
         raise ValueError('Invalid gallery schema or unknown fields')
     if not isinstance(record['slug'], str) or not SLUG.fullmatch(record['slug']):
         raise ValueError('Invalid gallery slug')
@@ -54,6 +55,20 @@ def validate(record):
             raise ValueError('Invalid film description')
         seen.add(video['id'])
         drive_seen.add(video['drive_id'])
+    if 'cover' in record:
+        cover = record['cover']
+        if not isinstance(cover, dict) or set(cover) != {'source', 'video_id', 'time_seconds'}:
+            raise ValueError('Invalid selected cover metadata')
+        if cover['source'] == 'youtube':
+            if not re.fullmatch(r'[A-Za-z0-9_-]{11}', cover['video_id']) or cover['time_seconds'] is not None:
+                raise ValueError('Invalid YouTube cover source')
+        elif cover['source'] in ('drive', 'twelvelabs'):
+            timestamp = cover['time_seconds']
+            valid_source = cover['video_id'] in drive_seen if cover['source'] == 'drive' else bool(re.fullmatch(r'[a-f0-9]{24}', cover['video_id']))
+            if not valid_source or type(timestamp) not in (int, float) or not math.isfinite(timestamp) or timestamp < 0:
+                raise ValueError('Cover must reference a collection film and a valid timestamp')
+        else:
+            raise ValueError('Unknown cover source')
     return record
 
 
@@ -69,7 +84,9 @@ def date_markup(value):
 
 
 def thumbnail_path(record):
-    # The cover always belongs to the first film, which opens by default.
+    # A deliberately chosen cover survives future changes to playback order.
+    if record.get('cover'):
+        return f'/images/weddings/covers/{record["slug"]}.jpg'
     return f'/images/weddings/{record["videos"][0]["drive_id"]}.jpg'
 
 

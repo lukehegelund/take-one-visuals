@@ -13,5 +13,10 @@
       "format": "landscape",
       "description": ""
     }
-  ]
+  ],
+  "cover": {
+    "source": "drive",
+    "video_id": "1C8KLEZi0EAe-OJtn53EZWgyNDF0Phfdp",
+    "time_seconds": 2370
+  }
 }

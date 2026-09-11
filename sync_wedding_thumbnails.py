@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Cache the public main-film thumbnails locally; never download wedding videos."""
+"""Validate selected covers and cache default main-film thumbnails when needed."""
 import argparse
 import concurrent.futures
 import json
@@ -10,12 +10,14 @@ from build_weddings import ROOT, thumbnail_path, validate
 
 def sync(record, refresh=False, check=False):
     target = ROOT / thumbnail_path(record).lstrip('/')
-    if target.exists() and not refresh:
+    # Curated frames are intentional assets; even --refresh must preserve them.
+    selected = bool(record.get('cover'))
+    if target.exists() and (selected or not refresh):
         if not target.read_bytes().startswith(b'\xff\xd8\xff'):
             raise ValueError(f'{record["slug"]}: thumbnail is not a JPEG')
         return
-    if check:
-        raise ValueError(f'{record["slug"]}: missing main-film thumbnail')
+    if check or selected:
+        raise ValueError(f'{record["slug"]}: missing selected cover' if selected else f'{record["slug"]}: missing main-film thumbnail')
     file_id = record['videos'][0]['drive_id']
     url = f'https://drive.google.com/thumbnail?id={file_id}&sz=w1000'
     with urllib.request.urlopen(url, timeout=30) as response:

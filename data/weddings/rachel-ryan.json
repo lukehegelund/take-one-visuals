@@ -55,5 +55,10 @@
       "format": "portrait",
       "description": "The vertical highlight, with their reaction."
     }
-  ]
+  ],
+  "cover": {
+    "source": "twelvelabs",
+    "video_id": "6a9c30915c930dcf6c587c73",
+    "time_seconds": 582
+  }
 }

@@ -34,5 +34,10 @@
       "format": "landscape",
       "description": ""
     }
-  ]
+  ],
+  "cover": {
+    "source": "youtube",
+    "video_id": "OmcgvnItjRI",
+    "time_seconds": null
+  }
 }

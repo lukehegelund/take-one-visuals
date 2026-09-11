@@ -27,9 +27,11 @@ for hiding video file URLs from viewers.
 - Google Drive owns the original videos. The page streams Drive's `/preview`
   player directly, with one active iframe. No video downloads, copies, API keys,
   or Supabase credentials are shipped to visitors.
-- Main-film thumbnails are cached at `images/weddings/<first-drive-id>.jpg`.
-  Archive cards and couple-page social previews always use the first video's
-  actual Drive thumbnail. No expiring thumbnail URL is shipped to visitors.
+- Selected covers are stored at `images/weddings/covers/<slug>.jpg` and used
+  by archive cards and couple-page social previews. Each record keeps its cover
+  source and frame timestamp. These choices survive changes in playback order.
+  Records without a selected cover fall back to the main-film thumbnail at
+  `images/weddings/<first-drive-id>.jpg`. No expiring image URLs reach visitors.
 - A small record per couple is stored as JSON in Supabase `memory`, tagged
   `tov-wedding-gallery`. Its checked-in copy is `data/weddings/<slug>.json`.
 - `build_weddings.py` validates those records and generates `/weddings/` and
@@ -114,14 +116,36 @@ the same record export/build flow without exposing private business records.
 
 ## Covers and incomplete deliveries
 
-The first `videos` entry is the main video and determines both initial playback
-and the cover image. Prefer the finished wedding film when available; a
-ceremony or highlight can be the main video for a partial delivery. To add a
-newly delivered film, update the same record and rebuild. If it becomes the main
-film, move it to the first position and run `sync_wedding_thumbnails.py`. Run
-that script with `--refresh` when replacing a main video's content under the
-same Drive ID. Google chooses the source thumbnail, which can be dark when the
-video begins with a fade. The site preserves that actual thumbnail.
+The first `videos` entry opens by default. A separately chosen `cover` is stable
+even when more films are delivered or their order changes. Luke requested
+flattering, deliberately selected covers on September 10, 2026. All 19 current
+collections have selected covers: 14 existing YouTube designs, four stills from
+local or media-library copies, and one frame captured from the Drive player.
+
+Optional `cover` metadata has exactly three fields:
+
+```json
+{"source": "drive", "video_id": "ID_OF_A_FILM_IN_THIS_COLLECTION", "time_seconds": 2370}
+```
+
+`source` is `drive`, `youtube`, or `twelvelabs`. YouTube uses its 11-character
+video ID and `time_seconds: null`; Drive uses a film ID already in the record;
+TwelveLabs uses its 24-character video ID and a nonnegative frame timestamp.
+Save the selected JPEG to `images/weddings/covers/<slug>.jpg` before building.
+Choose clear faces, flattering expressions and lighting, kisses, or first-dance
+moments. Inspect the actual image and avoid fades, motion blur, player controls,
+and unrelated guests. Keep only the JPEG and public provenance in the repo,
+never signed stream URLs, keys, or local media-library details.
+
+`sync_wedding_thumbnails.py --check` verifies all selected covers exist. Even
+`--refresh` preserves selected covers; it refreshes only automatic fallback
+thumbnails. Missing selected images fail validation instead of silently
+reverting to an opening frame. To change a selected cover, deliberately replace
+its JPEG and update the source metadata.
+
+To add a newly delivered film, update the same record and rebuild. New couples
+can be published with one film. Prefer a finished wedding film when available,
+but a ceremony or highlight can open a partial collection.
 
 September 10 inventory: Cole & Caitlin's delivery folder is empty. Jennifer's
 latest ceremony (v4) and the loose `Wedding Video Final.mov` from June 2022

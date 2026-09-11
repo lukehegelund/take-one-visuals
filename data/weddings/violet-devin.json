@@ -20,5 +20,10 @@
       "format": "landscape",
       "description": ""
     }
-  ]
+  ],
+  "cover": {
+    "source": "youtube",
+    "video_id": "ZmiIU0AQfr8",
+    "time_seconds": null
+  }
 }
