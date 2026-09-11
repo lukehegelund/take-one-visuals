@@ -3,6 +3,17 @@
 This is the first design iteration, starting with Rachel and Ryan. The reusable
 personal template will be made after Luke finishes fine-tuning this page.
 
+The top Films menu and all-films links now open `/weddings/`; the original
+`films.html` portfolio is available as Highlights from collection navigation.
+The archive has four collections: Rachel & Ryan (7 films), Allie & Alan (1),
+Alexa & Jacob (2), and Ia & Jared (4). The three additions use existing public
+Drive permissions and verified wedding dates from Supabase.
+
+For navigation-only edits to city pages, run
+`python3 build_location_pages.py --navigation-only`. The live city pages contain
+later editorial changes that the original full generator does not yet include;
+do not run its default full rebuild merely to change navigation.
+
 Luke approved public viewing and live publication on September 10, 2026.
 All seven selected files have anyone-with-link viewer access; the folder remains
 restricted. Film titles have no descriptive captions and the page has no Drive

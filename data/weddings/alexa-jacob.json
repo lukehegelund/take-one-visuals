@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "slug": "alexa-jacob",
+  "names": "Alexa & Jacob",
+  "date": "2025-09-07",
+  "status": "published",
+  "drive_folder_id": "1IQxqkwepx_1tX8DMidx3igUyyAJ0GSGq",
+  "videos": [
+    {
+      "id": "wedding-film",
+      "title": "Wedding Film",
+      "drive_id": "1fmMVqqIqKRVNlNx3QMsFvhyNioe9zU0p",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "ceremony",
+      "title": "Full Ceremony",
+      "drive_id": "1GSbOmc9I0s7-_bw4ta8zLoyUDZa6cS4-",
+      "format": "landscape",
+      "description": ""
+    }
+  ]
+}

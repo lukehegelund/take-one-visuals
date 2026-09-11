@@ -182,11 +182,12 @@ def build(p):
 </head>
 <body>
 
+<!-- Films opens complete couple collections; highlights stay at films.html. -->
 <!-- ─── Nav ────────────────────────────────────────────── -->
 <nav class="nav" id="nav">
   <a href="index.html" class="wordmark">Take One Visuals</a>
   <div class="nav-links">
-    <a href="films.html">Films</a>
+    <a href="/weddings/">Films</a>
     <a href="index.html#about">About</a>
     <a href="index.html#reviews">Reviews</a>
     <a href="index.html#experience">Experience</a>
@@ -235,7 +236,7 @@ def build(p):
     <div class="films-grid">
 {chr(10).join(film_card(k) for k in p['films'])}
     </div>
-    <p class="films-link"><a href="films.html">See every film →</a></p>
+    <p class="films-link"><a href="/weddings/">See every film →</a></p>
   </div>
 </section>
 
@@ -307,7 +308,7 @@ def build(p):
     <div class="footer-wordmark">Take One Visuals</div>
     <div class="footer-rating">★★★★★ &nbsp;5.0 on Google</div>
     <div class="footer-links">
-      <a href="films.html">Films</a>
+      <a href="/weddings/">Films</a>
       <a href="index.html#about">About</a>
       <a href="index.html#experience">Experience</a>
       <a href="index.html#inquire">Inquire</a>
@@ -519,8 +520,20 @@ CDA = {
 PAGES = [SPOKANE, CDA]
 
 if __name__ == "__main__":
+    import argparse
+    from pathlib import Path
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--navigation-only', action='store_true', help='Update Films links while preserving later editorial changes in the published pages')
+    args = parser.parse_args()
     for page in PAGES:
-        html = build(page)
+        if args.navigation_only:
+            # The published city copy was edited after the original generator.
+            # Navigation updates must not revert those verified editorial changes.
+            html = Path(page['file']).read_text()
+            html = html.replace('<a href="films.html">Films</a>', '<a href="/weddings/">Films</a>')
+            html = html.replace('<a href="films.html">See every film →</a>', '<a href="/weddings/">See every film →</a>')
+        else:
+            html = build(page)
         with open(page["file"], "w", encoding="utf-8") as fh:
             fh.write(html)
         print(f"wrote {page['file']}  ({len(html.splitlines())} lines, {len(html)} bytes)")

@@ -83,7 +83,7 @@ def shell(title, description, path, content, preview=False):
 </head><body class="wedding-page">
 <a class="skip-link" href="#main">Skip to content</a>
 <nav class="nav solid" aria-label="Main navigation"><a href="/" class="wordmark">Take One Visuals</a>
-<div class="nav-links"><a href="/films.html">Films</a><a href="/weddings/" class="active">Weddings</a><a href="/#inquire" class="inquire-link">Inquire</a></div></nav>
+<div class="nav-links"><a href="/weddings/" class="active">Films</a><a href="/films.html">Highlights</a><a href="/#inquire" class="inquire-link">Inquire</a></div></nav>
 <main id="main" class="wedding-shell">{content}</main>
 <div class="wedding-shell"><footer class="collection-footer"><a class="wordmark" href="/">Take One Visuals</a><span>Wedding films. Yours to return to.</span><a class="text-link" href="/weddings/">All weddings ↗</a></footer></div>
 </body></html>'''
@@ -91,6 +91,8 @@ def shell(title, description, path, content, preview=False):
 
 def couple_page(record, preview=False):
     first = record['videos'][0]
+    # Collections with a single delivered film use singular labels too.
+    film_count = f"{len(record['videos'])} {'film' if len(record['videos']) == 1 else 'films'}"
     buttons = []
     for index, video in enumerate(record['videos']):
         buttons.append(f'''<li><button type="button" class="film-choice" data-film="{esc(video['id'])}" aria-current="{'true' if index == 0 else 'false'}" aria-controls="wedding-player">
@@ -101,7 +103,7 @@ def couple_page(record, preview=False):
     content = f'''
 <header class="collection-header"><a class="back-link" href="/weddings/">← All weddings</a>
 <div class="collection-heading"><div><p class="eyebrow">The wedding collection</p><h1>{esc(record['names']).replace('&amp;', '<em>&amp;</em>')}</h1></div>
-<div class="collection-details"><time datetime="{record['date']}">{date_label(record['date'])}</time><p>{len(record['videos'])} films to return to</p></div></div></header>
+<div class="collection-details"><time datetime="{record['date']}">{date_label(record['date'])}</time><p>{film_count} to return to</p></div></div></header>
 <div class="cinema" aria-label="Wedding film player">
 <div class="cinema-bar"><span>Now showing</span><span id="film-position">01 / {len(record['videos']):02d}</span></div>
 <div class="screen{' is-portrait' if first['format'] == 'portrait' else ''}" id="screen"><iframe id="wedding-player" src="https://drive.google.com/file/d/{first['drive_id']}/preview" title="{esc(record['names'])}: {esc(first['title'])}" allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
@@ -110,7 +112,7 @@ def couple_page(record, preview=False):
 <section class="film-collection" aria-labelledby="collection-title"><div class="collection-label"><h2 id="collection-title">Their films</h2><span>{len(record['videos'])} in the collection</span></div><ol class="film-list">{''.join(buttons)}</ol>
 <noscript><p>Enable JavaScript to switch between films.</p></noscript></section>
 <script id="wedding-data" type="application/json">{payload}</script>'''
-    return shell(record['names'] + ' | Wedding Films', f'The wedding films of {record["names"]}, {date_label(record["date"])}. Watch their highlight, ceremony, and full collection.', f'/weddings/{record["slug"]}/', content, preview)
+    return shell(record['names'] + ' | Wedding Films', f'The wedding films of {record["names"]}, {date_label(record["date"])}. Watch their wedding film collection.', f'/weddings/{record["slug"]}/', content, preview)
 
 
 def archive_page(records, preview=False):
@@ -118,7 +120,7 @@ def archive_page(records, preview=False):
     for record in records:
         initials = ' & '.join(part.strip()[0] for part in record['names'].split('&') if part.strip())
         cards.append(f'''<article class="archive-item" data-search="{esc(record['names'].casefold() + ' ' + date_label(record['date']).casefold())}"><a class="wedding-card" href="/weddings/{record['slug']}/">
-<div class="archive-cover"><span class="monogram" aria-hidden="true">{esc(initials)}</span><span class="cover-label"><span>{len(record['videos'])} films</span><span>View collection ↗</span></span></div>
+<div class="archive-cover"><span class="monogram" aria-hidden="true">{esc(initials)}</span><span class="cover-label"><span>{len(record['videos'])} {'film' if len(record['videos']) == 1 else 'films'}</span><span>View collection ↗</span></span></div>
 <h2>{esc(record['names'])}</h2><p><time datetime="{record['date']}">{date_label(record['date'])}</time></p></a></article>''')
     content = f'''<header class="archive-header"><p class="eyebrow">The wedding archive</p><h1>Every story has a home.</h1><p>A place to return to the day. Find a couple and explore their wedding film collection.</p></header>
 <div class="archive-controls"><div class="archive-search"><label for="wedding-search">Find a couple</label><input id="wedding-search" type="search" placeholder="Search names or year" autocomplete="off"></div><p class="archive-count" id="archive-count" aria-live="polite">{len(records)} {'wedding' if len(records) == 1 else 'weddings'}</p></div>

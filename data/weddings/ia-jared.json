@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "slug": "ia-jared",
+  "names": "Ia & Jared",
+  "date": "2025-08-16",
+  "status": "published",
+  "drive_folder_id": "1qOrTxRhuVeqaga_czd1VN-Aetc3Z-A7A",
+  "videos": [
+    {
+      "id": "highlight",
+      "title": "Wedding Highlight",
+      "drive_id": "17mocjax8KSNHQg8pei9VqGxMxy1q0Iuq",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "wedding-film",
+      "title": "Wedding Film",
+      "drive_id": "1P51eenPNlHcnsZcJStm2rhMudkEmv54X",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "ceremony",
+      "title": "Full Ceremony",
+      "drive_id": "1b_65UxXMnoGUOwooQQNEMQ463ctLMvmY",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "speeches",
+      "title": "Reception Speeches",
+      "drive_id": "1L3f2vbnUE14p_5m7lrCM1wwA2jQRlO2R",
+      "format": "landscape",
+      "description": ""
+    }
+  ]
+}
