@@ -32,7 +32,8 @@ def validate(record):
         raise ValueError('Status must be draft or published')
     if not isinstance(record['names'], str) or not 1 <= len(record['names']) <= 120:
         raise ValueError('Gallery names are required')
-    dt.date.fromisoformat(record['date'])
+    if record['date'] is not None:
+        dt.date.fromisoformat(record['date'])
     if not DRIVE_ID.fullmatch(record['drive_folder_id']):
         raise ValueError('Invalid Drive folder ID')
     if not isinstance(record['videos'], list) or not 1 <= len(record['videos']) <= 100:
@@ -57,11 +58,22 @@ def validate(record):
 
 
 def date_label(value):
+    if value is None:
+        return ''
     date = dt.date.fromisoformat(value)
     return f'{date:%B} {date.day}, {date.year}'
 
 
-def shell(title, description, path, content, preview=False):
+def date_markup(value):
+    return f'<time datetime="{esc(value)}">{date_label(value)}</time>' if value else ''
+
+
+def thumbnail_path(record):
+    # The cover always belongs to the first film, which opens by default.
+    return f'/images/weddings/{record["videos"][0]["drive_id"]}.jpg'
+
+
+def shell(title, description, path, content, preview=False, thumbnail=None):
     # Full HTML makes deep links useful without depending on client-side routing.
     return f'''<!DOCTYPE html>
 {MARKER}
@@ -75,6 +87,7 @@ def shell(title, description, path, content, preview=False):
 <meta property="og:title" content="{esc(title)} | Take One Visuals">
 <meta property="og:description" content="{esc(description)}">
 <meta property="og:url" content="https://takeonevisuals.com{esc(path)}">
+{'<meta property="og:image" content="https://takeonevisuals.com' + esc(thumbnail) + '">' if thumbnail else ''}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
@@ -103,7 +116,7 @@ def couple_page(record, preview=False):
     content = f'''
 <header class="collection-header"><a class="back-link" href="/weddings/">← All weddings</a>
 <div class="collection-heading"><div><p class="eyebrow">The wedding collection</p><h1>{esc(record['names']).replace('&amp;', '<em>&amp;</em>')}</h1></div>
-<div class="collection-details"><time datetime="{record['date']}">{date_label(record['date'])}</time><p>{film_count} to return to</p></div></div></header>
+<div class="collection-details">{date_markup(record['date'])}<p>{film_count} to return to</p></div></div></header>
 <div class="cinema" aria-label="Wedding film player">
 <div class="cinema-bar"><span>Now showing</span><span id="film-position">01 / {len(record['videos']):02d}</span></div>
 <div class="screen{' is-portrait' if first['format'] == 'portrait' else ''}" id="screen"><iframe id="wedding-player" src="https://drive.google.com/file/d/{first['drive_id']}/preview" title="{esc(record['names'])}: {esc(first['title'])}" allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
@@ -112,16 +125,16 @@ def couple_page(record, preview=False):
 <section class="film-collection" aria-labelledby="collection-title"><div class="collection-label"><h2 id="collection-title">Their films</h2><span>{len(record['videos'])} in the collection</span></div><ol class="film-list">{''.join(buttons)}</ol>
 <noscript><p>Enable JavaScript to switch between films.</p></noscript></section>
 <script id="wedding-data" type="application/json">{payload}</script>'''
-    return shell(record['names'] + ' | Wedding Films', f'The wedding films of {record["names"]}, {date_label(record["date"])}. Watch their wedding film collection.', f'/weddings/{record["slug"]}/', content, preview)
+    dated = f', {date_label(record["date"])}' if record['date'] else ''
+    return shell(record['names'] + ' | Wedding Films', f'The wedding films of {record["names"]}{dated}. Watch their wedding film collection.', f'/weddings/{record["slug"]}/', content, preview, thumbnail_path(record))
 
 
 def archive_page(records, preview=False):
     cards = []
     for record in records:
-        initials = ' & '.join(part.strip()[0] for part in record['names'].split('&') if part.strip())
         cards.append(f'''<article class="archive-item" data-search="{esc(record['names'].casefold() + ' ' + date_label(record['date']).casefold())}"><a class="wedding-card" href="/weddings/{record['slug']}/">
-<div class="archive-cover"><span class="monogram" aria-hidden="true">{esc(initials)}</span><span class="cover-label"><span>{len(record['videos'])} {'film' if len(record['videos']) == 1 else 'films'}</span><span>View collection ↗</span></span></div>
-<h2>{esc(record['names'])}</h2><p><time datetime="{record['date']}">{date_label(record['date'])}</time></p></a></article>''')
+<div class="archive-cover"><img src="{thumbnail_path(record)}" alt="{esc(record['names'])}: {esc(record['videos'][0]['title'])}" width="1000" height="563" loading="lazy" decoding="async"><span class="cover-label"><span>{len(record['videos'])} {'film' if len(record['videos']) == 1 else 'films'}</span><span>View collection ↗</span></span></div>
+<h2>{esc(record['names'])}</h2>{'<p>' + date_markup(record['date']) + '</p>' if record['date'] else ''}</a></article>''')
     content = f'''<header class="archive-header"><p class="eyebrow">The wedding archive</p><h1>Every story has a home.</h1><p>A place to return to the day. Find a couple and explore their wedding film collection.</p></header>
 <div class="archive-controls"><div class="archive-search"><label for="wedding-search">Find a couple</label><input id="wedding-search" type="search" placeholder="Search names or year" autocomplete="off"></div><p class="archive-count" id="archive-count" aria-live="polite">{len(records)} {'wedding' if len(records) == 1 else 'weddings'}</p></div>
 <div class="archive-grid">{''.join(cards)}</div><p class="archive-empty" id="archive-empty" {'hidden' if records else ''}>{'No weddings match your search.' if records else 'Wedding collections are coming soon.'}</p><button type="button" class="load-more" id="load-more" hidden>View more weddings</button>'''
@@ -135,7 +148,7 @@ def build(root=ROOT, preview=False, check=False):
         if path.stem != record['slug']:
             raise ValueError(f'{path.name}: filename must match slug')
         records.append(record)
-    records.sort(key=lambda r: (r['date'], r['slug']), reverse=True)
+    records.sort(key=lambda r: (r['date'] or '', r['slug']), reverse=True)
     included = [r for r in records if preview or r['status'] == 'published']
     outputs = {root / 'weddings/index.html': archive_page(included, preview)}
     for record in included:

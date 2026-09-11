@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "slug": "brie-jeff",
+  "names": "Brie & Jeff",
+  "date": "2025-06-29",
+  "status": "published",
+  "drive_folder_id": "1ggjV_pYZ2vcMmDqJpmWrGj-hnGqDINls",
+  "videos": [
+    {
+      "id": "wedding-film",
+      "title": "Wedding Film",
+      "drive_id": "1jYDX43dEIUD06NIBE_u0S7v2I8rcAO6c",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "ceremony",
+      "title": "Ceremony",
+      "drive_id": "1vgTzN3GeAJ7AQhsDwSFah1QVGGSfqJuV",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "reception",
+      "title": "Reception",
+      "drive_id": "1SC43z4djk8UCrC-SMN4R-pCyKsQ-KsOt",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "highlight",
+      "title": "Wedding Highlight",
+      "drive_id": "18N6WLmOwcaZ8307uEYq2-KC76L3XBcoE",
+      "format": "landscape",
+      "description": ""
+    }
+  ]
+}

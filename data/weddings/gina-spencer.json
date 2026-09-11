@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "slug": "gina-spencer",
+  "names": "Gina & Spencer",
+  "date": "2026-03-06",
+  "status": "published",
+  "drive_folder_id": "1gXJjedE2La-jPX6SFtO538t524quwlWs",
+  "videos": [
+    {
+      "id": "wedding-film",
+      "title": "Wedding Film",
+      "drive_id": "1XAiDoBITGRX3r5W6bvEwaQ1myxU9j-rD",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "ceremony",
+      "title": "Ceremony",
+      "drive_id": "1iAvt0tIRf8QgpkBmCwybetTV3QMoA001",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "speeches",
+      "title": "Reception Speeches",
+      "drive_id": "1wpNfSPYmKywHcjhd7ddi74WKnoZOCwDA",
+      "format": "landscape",
+      "description": ""
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "slug": "kelsie-davidson",
+  "names": "Kelsie & Davidson",
+  "date": "2025-05-31",
+  "status": "published",
+  "drive_folder_id": "1SR10Px53v4ECY83xLN9RLll8KUEK1A0k",
+  "videos": [
+    {
+      "id": "wedding-film",
+      "title": "Wedding Film",
+      "drive_id": "1KCaQntAS8trgBvLaNY9k8zzU19_d2TM9",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "ceremony",
+      "title": "Ceremony",
+      "drive_id": "1-JUdNHM7CTeGu3xzEBiMlDC_cShKINeI",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "speeches",
+      "title": "Reception Speeches",
+      "drive_id": "1-hlQuxclr9OIIx7PCkcGilnOF2d0NTeh",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "highlight",
+      "title": "Wedding Highlight",
+      "drive_id": "1_suwskh5WWHFC0NHMeJYcwEc3NUj6Jcv",
+      "format": "landscape",
+      "description": ""
+    }
+  ]
+}

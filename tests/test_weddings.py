@@ -77,6 +77,22 @@ class WeddingBuildTests(unittest.TestCase):
         for video in self.gallery['videos']:
             self.assertIn(video['drive_id'], page)
 
+    def test_cover_tracks_main_film_and_unknown_date_is_omitted(self):
+        self.gallery['date'] = None
+        site.validate(self.gallery)
+        original = self.gallery['videos'][0]['drive_id']
+        self.gallery['videos'].reverse()
+        main = self.gallery['videos'][0]['drive_id']
+        archive = site.archive_page([self.gallery])
+        page = site.couple_page(self.gallery)
+        self.assertIn(f'/images/weddings/{main}.jpg', archive)
+        self.assertNotIn(f'/images/weddings/{original}.jpg', archive)
+        self.assertIn(f'og:image" content="https://takeonevisuals.com/images/weddings/{main}.jpg', page)
+        self.assertIn(f'/file/d/{main}/preview', page)
+        self.assertNotIn('<time', archive + page)
+        self.assertNotIn('None', archive + page)
+        self.assertIn('loading="lazy"', archive)
+
 
 if __name__ == '__main__':
     unittest.main()

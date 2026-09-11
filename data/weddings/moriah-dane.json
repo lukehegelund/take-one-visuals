@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "slug": "moriah-dane",
+  "names": "Moriah & Dane",
+  "date": "2025-07-28",
+  "status": "published",
+  "drive_folder_id": "1JEGt-xlykCyoA2GoMdwImMZU3hAWzxRC",
+  "videos": [
+    {
+      "id": "wedding-film",
+      "title": "Wedding Film",
+      "drive_id": "1HU5LMYCpR-PsfsdDl4F7iLaX-TJrGq8R",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "ceremony",
+      "title": "Ceremony",
+      "drive_id": "1cSOUB7X0yxF8BsP1BgJLE3JsSS4ngvQ5",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "first-dance",
+      "title": "First Dance",
+      "drive_id": "12p-37GSH5_xmaxPNLs0vtYGmXEpSUkg6",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "speeches",
+      "title": "Reception Speeches",
+      "drive_id": "1bEmkhL6iNQqxcHmWYYpRlKLbv4UJQ709",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "highlight",
+      "title": "Wedding Highlight",
+      "drive_id": "11u9GWsp8qGwHYMugYt9mHxmfgqhFOc7p",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "video-message-1",
+      "title": "Video Message 1",
+      "drive_id": "1iIAFodDmedOURAIxh96jX_qBR9cQmBuZ",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "video-message-2",
+      "title": "Video Message 2",
+      "drive_id": "15k1Hna435PjNpvT8d_fmLWIt4FQ8Xfux",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "video-message-3",
+      "title": "Video Message 3",
+      "drive_id": "1Jupm6ITOeNL597EPBAHJDORXNckgA4KS",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "video-message-4",
+      "title": "Video Message 4",
+      "drive_id": "1orDsU-c0dvtU70-1UkW8UyrnbynfA4P4",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "video-message-5",
+      "title": "Video Message 5",
+      "drive_id": "1826B9dMAolAqzd-NVlFDFs20eq-kMxKV",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "video-message-6",
+      "title": "Video Message 6",
+      "drive_id": "1J5Kv3zfALWlCj9s1YtoWwJ5Nvxfm8MG7",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "video-message-7",
+      "title": "Video Message 7",
+      "drive_id": "1prWL5BTrKLT4gPkSOiLThXYP-HgE5DjQ",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "video-message-8",
+      "title": "Video Message 8",
+      "drive_id": "1VBK5vQeFUSTs-95LZ9SzXj_7GX2lPkj2",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "video-message-9",
+      "title": "Video Message 9",
+      "drive_id": "1EOzjwWwAmyEVPaaPLupfN3upeCPe25LT",
+      "format": "landscape",
+      "description": ""
+    }
+  ]
+}

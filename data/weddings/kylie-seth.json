@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "slug": "kylie-seth",
+  "names": "Kylie & Seth",
+  "date": "2025-06-21",
+  "status": "published",
+  "drive_folder_id": "1lkOJYs6Ig04L9adymeVtpvvVeXDLX2Jp",
+  "videos": [
+    {
+      "id": "wedding-film",
+      "title": "Wedding Film",
+      "drive_id": "19A3SuK-XJnj8aMWkAs43o8c6Dr0pGRSd",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "ceremony",
+      "title": "Ceremony",
+      "drive_id": "1yoRj_Z3MpROomOcNe43m0AyLkc8-tfts",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "highlight",
+      "title": "Wedding Highlight",
+      "drive_id": "1m5lDfCrfWFQvS2zZhq2TimsGZzZ34PjO",
+      "format": "landscape",
+      "description": ""
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "slug": "brianna-caleb",
+  "names": "Brianna & Caleb",
+  "date": "2025-06-20",
+  "status": "published",
+  "drive_folder_id": "1Oq6MEv5KdUQTJrdJofmaTLvv_X41EGGE",
+  "videos": [
+    {
+      "id": "wedding-film",
+      "title": "Wedding Film",
+      "drive_id": "14Z6gThfp5tWrdtj-nbahS1Wxobalfa2M",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "ceremony",
+      "title": "Ceremony",
+      "drive_id": "1PUBwERUq3MGx_Be99W2KnoliCVW_4qml",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "video-book",
+      "title": "Wedding Film · Video Book",
+      "drive_id": "1W9ML-CUnFekDtDoR6zLFOqYMxFIusvgY",
+      "format": "landscape",
+      "description": ""
+    }
+  ]
+}

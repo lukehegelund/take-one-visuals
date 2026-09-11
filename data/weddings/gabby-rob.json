@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "slug": "gabby-rob",
+  "names": "Gabby & Rob",
+  "date": "2025-06-14",
+  "status": "published",
+  "drive_folder_id": "1SGcjHF2e8sQKCxvukbkjbzfd2yJ8DKGr",
+  "videos": [
+    {
+      "id": "wedding-film",
+      "title": "Wedding Film",
+      "drive_id": "1-mOItR9Qrm_XszIrxndUcNFL19CJmu4S",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "ceremony",
+      "title": "Ceremony",
+      "drive_id": "1rZ2mUSDXvAnb7nJ2FvLUOUW01QSMxf5B",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "reception",
+      "title": "Reception",
+      "drive_id": "1jW0ANmS9ZMyX11i5VjB2zxVxAluy-mds",
+      "format": "landscape",
+      "description": ""
+    },
+    {
+      "id": "highlight",
+      "title": "Wedding Highlight",
+      "drive_id": "1Xkj5l0zayHVDcCvCuQzKic-yxiCDAgci",
+      "format": "landscape",
+      "description": ""
+    }
+  ]
+}

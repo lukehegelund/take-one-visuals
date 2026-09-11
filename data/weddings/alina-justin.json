@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "slug": "alina-justin",
+  "names": "Alina & Justin",
+  "date": null,
+  "status": "published",
+  "drive_folder_id": "1bOaD1ZZLTs66fO2NRF4ngH1PrzXSMLo8",
+  "videos": [
+    {
+      "id": "wedding-film",
+      "title": "Wedding Film",
+      "drive_id": "1p9NJ12B8NqIQkMy0Zh38D8PrTvDlgMB2",
+      "format": "landscape",
+      "description": ""
+    }
+  ]
+}

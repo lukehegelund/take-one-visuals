@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "slug": "anna-spencer",
+  "names": "Anna & Spencer",
+  "date": null,
+  "status": "published",
+  "drive_folder_id": "1bOaD1ZZLTs66fO2NRF4ngH1PrzXSMLo8",
+  "videos": [
+    {
+      "id": "wedding-film",
+      "title": "Wedding Film",
+      "drive_id": "1a1Ai_54k-kk3AVrqqsusQKd80Ka_mYH0",
+      "format": "landscape",
+      "description": ""
+    }
+  ]
+}
