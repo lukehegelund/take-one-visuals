@@ -117,7 +117,10 @@
       ],
       "speed": 100,
       "fadeIn": 0,
-      "fadeOut": 0
+      "fadeOut": 0,
+      "ruleRefs": [
+        "musicAnalysis"
+      ]
     },
     {
       "id": "3-2",
@@ -134,7 +137,10 @@
       ],
       "speed": 100,
       "fadeIn": 0,
-      "fadeOut": 0
+      "fadeOut": 0,
+      "ruleRefs": [
+        "musicAnalysis"
+      ]
     },
     {
       "id": "3-3",
@@ -151,7 +157,10 @@
       ],
       "speed": 100,
       "fadeIn": 0,
-      "fadeOut": 0
+      "fadeOut": 0,
+      "ruleRefs": [
+        "musicAnalysis"
+      ]
     },
     {
       "id": "3-4",
@@ -168,7 +177,10 @@
       ],
       "speed": 100,
       "fadeIn": 0,
-      "fadeOut": 0
+      "fadeOut": 0,
+      "ruleRefs": [
+        "musicAnalysis"
+      ]
     },
     {
       "id": "3-5",
@@ -185,7 +197,10 @@
       ],
       "speed": 100,
       "fadeIn": 0,
-      "fadeOut": 0
+      "fadeOut": 0,
+      "ruleRefs": [
+        "musicAnalysis"
+      ]
     },
     {
       "id": "3-6",
@@ -202,7 +217,10 @@
       ],
       "speed": 100,
       "fadeIn": 0,
-      "fadeOut": 0
+      "fadeOut": 0,
+      "ruleRefs": [
+        "musicAnalysis"
+      ]
     },
     {
       "id": "3-7",
@@ -219,7 +237,10 @@
       ],
       "speed": 100,
       "fadeIn": 0,
-      "fadeOut": 0
+      "fadeOut": 0,
+      "ruleRefs": [
+        "musicAnalysis"
+      ]
     },
     {
       "id": "3-8",
@@ -236,7 +257,10 @@
       ],
       "speed": 100,
       "fadeIn": 0,
-      "fadeOut": 0
+      "fadeOut": 0,
+      "ruleRefs": [
+        "musicAnalysis"
+      ]
     },
     {
       "id": "3-9",
@@ -253,7 +277,10 @@
       ],
       "speed": 100,
       "fadeIn": 0,
-      "fadeOut": 0
+      "fadeOut": 0,
+      "ruleRefs": [
+        "musicAnalysis"
+      ]
     },
     {
       "id": "3-10",
@@ -270,7 +297,10 @@
       ],
       "speed": 100,
       "fadeIn": 0,
-      "fadeOut": 0
+      "fadeOut": 0,
+      "ruleRefs": [
+        "musicAnalysis"
+      ]
     },
     {
       "id": "4-1",
@@ -287,7 +317,8 @@
       "fadeIn": 0,
       "fadeOut": 0,
       "ruleRefs": [
-        "musicSelection"
+        "musicSelection",
+        "musicAnalysis"
       ]
     },
     {
@@ -305,7 +336,8 @@
       "fadeIn": 0,
       "fadeOut": 0,
       "ruleRefs": [
-        "musicSelection"
+        "musicSelection",
+        "musicAnalysis"
       ]
     },
     {
@@ -323,7 +355,8 @@
       "fadeIn": 0,
       "fadeOut": 0,
       "ruleRefs": [
-        "musicSelection"
+        "musicSelection",
+        "musicAnalysis"
       ]
     },
     {
@@ -341,7 +374,8 @@
       "fadeIn": 0,
       "fadeOut": 0,
       "ruleRefs": [
-        "musicSelection"
+        "musicSelection",
+        "musicAnalysis"
       ]
     },
     {
@@ -359,7 +393,8 @@
       "fadeIn": 0,
       "fadeOut": 0,
       "ruleRefs": [
-        "musicSelection"
+        "musicSelection",
+        "musicAnalysis"
       ]
     },
     {
@@ -378,7 +413,8 @@
       "fadeIn": 0,
       "fadeOut": 0,
       "ruleRefs": [
-        "musicSelection"
+        "musicSelection",
+        "musicAnalysis"
       ]
     },
     {
@@ -396,7 +432,8 @@
       "fadeIn": 0,
       "fadeOut": 0,
       "ruleRefs": [
-        "musicSelection"
+        "musicSelection",
+        "musicAnalysis"
       ]
     },
     {
@@ -415,7 +452,8 @@
       "fadeOut": 0,
       "ruleRefs": [
         "musicalCrash",
-        "musicSelection"
+        "musicSelection",
+        "musicAnalysis"
       ]
     },
     {
@@ -433,7 +471,8 @@
       "fadeIn": 0,
       "fadeOut": 0,
       "ruleRefs": [
-        "musicSelection"
+        "musicSelection",
+        "musicAnalysis"
       ]
     },
     {
@@ -452,7 +491,8 @@
       "fadeIn": 0,
       "fadeOut": 0,
       "ruleRefs": [
-        "musicSelection"
+        "musicSelection",
+        "musicAnalysis"
       ]
     },
     {
@@ -2466,7 +2506,8 @@
         "music",
         "scoring",
         "musicalCrash",
-        "musicSelection"
+        "musicSelection",
+        "musicAnalysis"
       ]
     },
     {
@@ -2489,7 +2530,8 @@
         "weddingDayRecap",
         "music",
         "scoring",
-        "musicalCrash"
+        "musicalCrash",
+        "musicAnalysis"
       ]
     },
     {
@@ -3313,7 +3355,7 @@
     }
   ],
   "schema": "tov-web-wedding-template-v1",
-  "revision": "2026-10-03.11",
+  "revision": "2026-10-03.12",
   "nativeSeedFingerprint": "8bdfdf4e6e615de832172783bf678bec28f09d367391a56db06be8df2579b348",
   "authority": "Supabase and website; native Resolve capture is historical seed",
   "trackOrder": [
@@ -3391,7 +3433,7 @@
     "vows": "Vows guide meaning/emotion; preparation > portraits > first look. Bride/groom unless a specific line naturally leads elsewhere. Preserve musical slots and synchronized A-roll.",
     "takes": "Three auditions in Take Selector only; no ALT tracks. First-pick source excerpt once; backup reuse allowed.",
     "slowMotion": "Shots 2/3 and marked slow-motion clips: 70%, Optical Flow, preserve musical slots.",
-    "music": "No ducking. Verify actual tempo; key, major/minor mode and local harmony before pitched scoring.",
+    "music": "No ducking. Analyze every chosen full song for tempo, measures, key and chord progression before constructing the timeline; use that map for passage selection, section moods, gear changes, phrase-aligned edits and compatible pitched scoring. Follow musicAnalysis.",
     "scoring": "Substantially more varied cellos, vocalizations/voicings, risers and swells into/through Gear4, strongest progressive development in Gear5, particularly where song arrangement lacks lift. Align phrases, harmony, downbeats and story. Preserve intelligible dialogue; not every element continuously. Bridge breathers/rough joins outside Gear4/5 as useful.",
     "ambient": "One matching nature/wind bed outdoors; fade indoors; none during reception.",
     "transitions": "First two boundaries centered 2-second dissolves; others cuts. Opening/closing fades 1 second. Approved kiss false-ending fade adjustable, default 1 second; immediate energetic reception restart.",
@@ -3429,7 +3471,8 @@
     "musicalCrash": "Gear describes energy; crash describes a specific audible musical event. A crash requires a clear planned drop within the actual source-song arrangement, verified by listening through that interval. A high-to-low gear change, quieter song/section, fade or tail is not automatically a crash. Identify the exact source song and source drop time, then align picture and emotional release to it. Until verified, use energy reduction/transition. If no deliberate drop exists and the story needs a crash, choose a source song with a real drop; never invent or certify an unverified event.",
     "cakePair": "Whenever two cake shots are used: ONE real shot of the couple cutting cake, then ONE real shot of them eating it together (feeding each other or sharing first bites qualifies), with the couple visible in both. Serving, plated cake, details or another cutting angle never substitute for eating. All three auditions for each slot must match its distinct cutting/eating role and pass full-interval exposure, motion and color-transform QC. If eating footage is absent, flag it missing and use another genuinely covered activity pair; never invent eating. Preserve the two existing slots and durations.",
     "weddingDayRecap": "Immediately after the two activity/cake shots, use the Rachel & Ryan EXTENDED FILM whole-day recap order and musical measures, not seconds: Bride getting-ready close-up (0.5 measures) > Groom getting-ready / boutonniere (0.5 measures) > Bride/father first-look turn (0.5 measures) > Bride/father hug (0.5 measures) > Bride approaching groom for first look (1 measures) > Groom turns / reveal (1 measures) > Emotional first-look reaction / hold (2 measures) > Ceremony kiss (1 measures) > Grand entrance with cheers (1 measures) > Couple first-dance spin (1 measures) > Send-off walking through cheering guests (0.5 measures) > Send-off dip / kiss (0.5 measures) > Golden-hour field / walking closing shot (3 measures). Thirteen shots total 13 measures. Strong Gear 5 music/scoring through recap; any release must follow the actual song arrangement, not a fake crash or arbitrary gear switch. Final closing shot fades out. Use real covered footage; when first look or send-off is absent, disclose truthful substitutions, never invent events. Preserve three role-matching auditions, unique assigned first picks, full-interval QC, synchronized source audio and sparse markers.",
-    "musicSelection": "Choose passages for their role: held 1 for warm opening anticipation; gentle 4 / 1 / optional 5 movement into Gears 2 and 3; steady celebration for reception; growing romantic tension and release for recap. These are preferences, not a mandatory progression. Chord numbers are relative to the verified local key; inversions such as 1/3 can help explain bass movement. Judge melody, rhythm, voicing and arrangement alongside harmony. Analyze tempo and downbeats before mapping chord changes; keep real changes at verified musical boundaries without forcing them to a grid. Rearrange a song's steady and moving passages when useful, preserving complete phrases, compatible harmony and musical joins. Use Ryan and Rachel as the preferred recap mood reference; Krysta and Dylan is acceptable but the target is more moving. Search unused song families and audition actual passages; model estimates and catalog tags alone do not verify mood or chords."
+    "musicSelection": "Choose passages for their role: held 1 for warm opening anticipation; gentle 4 / 1 / optional 5 movement into Gears 2 and 3; steady celebration for reception; growing romantic tension and release for recap. These are preferences, not a mandatory progression. Chord numbers are relative to the verified local key; inversions such as 1/3 can help explain bass movement. Judge melody, rhythm, voicing and arrangement alongside harmony. Analyze tempo and downbeats before mapping chord changes; keep real changes at verified musical boundaries without forcing them to a grid. Rearrange a song's steady and moving passages when useful, preserving complete phrases, compatible harmony and musical joins. Use Ryan and Rachel as the preferred recap mood reference; Krysta and Dylan is acceptable but the target is more moving. Search unused song families and audition actual passages; model estimates and catalog tags alone do not verify mood or chords.",
+    "musicAnalysis": "Default before constructing a film timeline: analyze each chosen full song for tempo, downbeats and measures, local key, and chord progression. Use the trained ChordFormer ensemble for a first pass where available; retain useful bass inversions such as 1/3, simplify chord decoration to the base chord, and check ambiguous or important changes against the audio. Distinguish estimated from verified harmony and timing. Use this map actively to choose and rearrange passages, assign section moods and gear changes, shape harmonic tension and release, align edits to musical phrases and changes, and select compatible custom scoring. Combine harmony with melody, rhythm, arrangement and story; chords alone do not determine mood. Keep the user's chosen song unless a replacement is requested. Mark only new chord changes with concise Nashville numbers, including useful minor or slash-bass notation; no consecutive duplicate chord labels. Analyze the actual tempo and measure positions first; do not force a detected change onto a convenient grid or claim unverified frame accuracy."
   },
-  "fingerprint": "2a29d72d7a3548d75b614a885f4a9aab38b770605d9d4567c09618c143dcf90f"
+  "fingerprint": "0ad6e5c7b83dd3ea1eb175c98931873526c248d527e68b432a044629be191fb8"
 }
