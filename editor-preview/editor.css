@@ -137,3 +137,5 @@ footer{display:none}
 .planning-card:not(.planning-track-6) h3{padding-right:32px}
 
 .movable-transition{top:3px;height:calc(var(--track-height) - 6px);z-index:6;pointer-events:auto;cursor:grab;padding:0;border-radius:1px;touch-action:none;background:linear-gradient(45deg,transparent 48%,#ddc69b 49%,#ddc69b 51%,transparent 52%),#ddc69b18;border:1px solid #ddc69b99}.movable-transition:hover{background-color:#ddc69b30}.movable-transition:active{cursor:grabbing}.transition-resize{position:absolute;right:-3px;top:0;bottom:0;width:7px;cursor:ew-resize}
+
+.duplicate-ghost{opacity:.7;outline:1px solid #e4b57d;pointer-events:none}
