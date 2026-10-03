@@ -16,3 +16,12 @@
 .workspace .viewer[data-mode=template]{max-height:none!important;overflow:visible}
 /* The phase cue and card grid size naturally together, so neither overlaps transport. */
 #planning-view{min-height:0}.workspace .viewer[data-mode=template]{display:block;height:auto;flex:0 0 auto}
+/* A fixed canvas and reserved cue row keep transport and timeline stationary while scrubbing.
+   Long instructions scroll inside their own card instead of resizing the editor. */
+.workspace .viewer[data-mode=template]{height:clamp(460px,58vh,600px);min-height:0;max-height:none!important;display:flex;flex-direction:column;overflow:hidden;flex:none}
+#planning-phase,#planning-phase[hidden]{display:block!important;flex:0 0 44px;height:44px;margin:6px 6px 0;overflow:auto}
+#planning-phase[hidden]{visibility:hidden}
+#planning-view{flex:1;min-height:0;grid-template-rows:minmax(0,1.15fr) minmax(0,.9fr) minmax(0,1.5fr) minmax(0,1fr)}
+.planning-card{min-height:0;overflow:auto;scrollbar-gutter:stable;overscroll-behavior:contain}
+#playback-status,#playback-status:empty{display:block;min-height:23px;height:23px;overflow:hidden}
+@media(max-width:700px){.workspace .viewer[data-mode=template]{height:clamp(540px,70svh,760px)}#planning-phase,#planning-phase[hidden]{flex-basis:56px;height:56px}}
