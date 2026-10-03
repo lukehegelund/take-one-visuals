@@ -16,7 +16,7 @@
     },
     {
       "time": 156,
-      "name": "Planned crash — source validation pending"
+      "name": "Planned crash \u2014 source validation pending"
     },
     {
       "time": 171,
@@ -75,7 +75,7 @@
       "ordinal": 4,
       "start": 120,
       "end": 183,
-      "title": "Reception source audio · every picture clip",
+      "title": "Reception source audio \u00b7 every picture clip",
       "detail": "Synchronized camera scratch on every reception picture clip, including quiet original sound. Preserve useful voices, laughter, applause and action alongside unducked music.",
       "rules": [
         "Strong synchronized cheers at the grand entrance, with source-camera sound for every ordered reception clip under the existing scratch policy."
@@ -109,7 +109,7 @@
       "start": 0,
       "end": 17.958333333333332,
       "title": "GEAR 1 / Calm ambient opening",
-      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song’s key; match elements to its key and the story.",
+      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song\u2019s key; match elements to its key and the story.",
       "rules": [
         "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
         "Keep music unducked. Preserve intelligible dialogue with fitting scoring level, register and spacing.",
@@ -126,7 +126,7 @@
       "start": 18,
       "end": 29.958333333333332,
       "title": "GEAR 2 / Gentle melodic flow",
-      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song’s key; match elements to its key and the story.",
+      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song\u2019s key; match elements to its key and the story.",
       "rules": [
         "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
         "Keep music unducked. Preserve intelligible dialogue with fitting scoring level, register and spacing.",
@@ -143,7 +143,7 @@
       "start": 30,
       "end": 59.958333333333336,
       "title": "GEAR 3 / Moderate rhythmic lift",
-      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song’s key; match elements to its key and the story.",
+      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song\u2019s key; match elements to its key and the story.",
       "rules": [
         "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
         "Keep music unducked. Preserve intelligible dialogue with fitting scoring level, register and spacing.",
@@ -160,7 +160,7 @@
       "start": 60,
       "end": 65.95833333333333,
       "title": "GEAR 2 / Restrained melodic flow",
-      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song’s key; match elements to its key and the story.",
+      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song\u2019s key; match elements to its key and the story.",
       "rules": [
         "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
         "Keep music unducked. Preserve intelligible dialogue with fitting scoring level, register and spacing.",
@@ -176,7 +176,7 @@
       "ordinal": 5,
       "start": 66,
       "end": 77.95833333333333,
-      "title": "GEAR 3 → 4 / Cello phrase + rising swell",
+      "title": "GEAR 3 \u2192 4 / Cello phrase + rising swell",
       "detail": "Begin the lift with a sustained cello phrase or solo, then add a phrase-aligned swell or riser into Gear 4. Key/mode/local harmony must be verified.",
       "rules": [
         "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
@@ -262,7 +262,7 @@
       "start": 120,
       "end": 143.95833333333334,
       "title": "GEAR 4 / Sustained upbeat celebration",
-      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Energetic reception begins immediately after the kiss fade completes. Custom Scoring folder: vocalizations, cellos and swells. Detect each song’s key; match elements to its key and the story.",
+      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Energetic reception begins immediately after the kiss fade completes. Custom Scoring folder: vocalizations, cellos and swells. Detect each song\u2019s key; match elements to its key and the story.",
       "rules": [
         "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
         "Keep music unducked. Preserve intelligible dialogue with fitting scoring level, register and spacing.",
@@ -640,7 +640,7 @@
         }
       ],
       "number": 2,
-      "transition": "Dissolve · 2 s centered",
+      "transition": "Dissolve \u00b7 2 s centered",
       "opticalFlow": true,
       "qualityControl": {
         "status": "pending",
@@ -700,7 +700,7 @@
         }
       ],
       "number": 3,
-      "transition": "Dissolve · 2 s centered",
+      "transition": "Dissolve \u00b7 2 s centered",
       "opticalFlow": true,
       "qualityControl": {
         "status": "pending",
@@ -2327,7 +2327,7 @@
       "start": 138,
       "end": 141,
       "title": "Reception 07 / Flower toss / game / activity A",
-      "detail": "Use the actual covered moment, completing the action within the musical slot. A covered game or activity substitutes when no toss was filmed. Review the full source interval before selecting it.",
+      "detail": "Use the actual covered moment, completing the action within the musical slot. A covered game or activity substitutes when no toss was filmed. Review the full source interval before selecting it. When these two slots use cake: show the couple cutting it in this first slot.",
       "rules": [
         "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
         "Follow the ordered reception policy. Keep synchronized source sound, including quiet audio; skip loud music-only/silent sources. Full source-interval QC is mandatory."
@@ -2346,7 +2346,8 @@
           "qualityControl": {
             "status": "pending",
             "reason": "Review exposure, camera motion and correct color transform over the full source interval."
-          }
+          },
+          "cakePairRequirement": "If auditioning cake, cutting with couple visible; real covered footage required."
         },
         {
           "id": "36-2",
@@ -2358,7 +2359,8 @@
           "qualityControl": {
             "status": "pending",
             "reason": "Review exposure, camera motion and correct color transform over the full source interval."
-          }
+          },
+          "cakePairRequirement": "If auditioning cake, cutting with couple visible; real covered footage required."
         },
         {
           "id": "36-3",
@@ -2370,7 +2372,8 @@
           "qualityControl": {
             "status": "pending",
             "reason": "Review exposure, camera motion and correct color transform over the full source interval."
-          }
+          },
+          "cakePairRequirement": "If auditioning cake, cutting with couple visible; real covered footage required."
         }
       ],
       "number": 30,
@@ -2385,8 +2388,10 @@
       "ruleRefs": [
         "receptionSequence",
         "receptionScratchAudio",
-        "footageQualityControl"
-      ]
+        "footageQualityControl",
+        "cakePair"
+      ],
+      "cakePairRole": "cutting"
     },
     {
       "id": "6-32",
@@ -2395,7 +2400,7 @@
       "start": 141,
       "end": 144,
       "title": "Reception 08 / Flower toss / game / activity B",
-      "detail": "Use the actual covered moment, completing the action within the musical slot. A covered game or activity substitutes when no toss was filmed. Review the full source interval before selecting it.",
+      "detail": "Use the actual covered moment, completing the action within the musical slot. A covered game or activity substitutes when no toss was filmed. Review the full source interval before selecting it. When these two slots use cake: show the couple eating it together in this second slot, including feeding each other or sharing first bites; never substitute serving, details or another cutting shot. Flag absent eating and use another covered activity pair.",
       "rules": [
         "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
         "Follow the ordered reception policy. Keep synchronized source sound, including quiet audio; skip loud music-only/silent sources. Full source-interval QC is mandatory."
@@ -2414,7 +2419,8 @@
           "qualityControl": {
             "status": "pending",
             "reason": "Review exposure, camera motion and correct color transform over the full source interval."
-          }
+          },
+          "cakePairRequirement": "If auditioning cake, eating-together with couple visible; real covered footage required."
         },
         {
           "id": "39-2",
@@ -2426,7 +2432,8 @@
           "qualityControl": {
             "status": "pending",
             "reason": "Review exposure, camera motion and correct color transform over the full source interval."
-          }
+          },
+          "cakePairRequirement": "If auditioning cake, eating-together with couple visible; real covered footage required."
         },
         {
           "id": "39-3",
@@ -2438,7 +2445,8 @@
           "qualityControl": {
             "status": "pending",
             "reason": "Review exposure, camera motion and correct color transform over the full source interval."
-          }
+          },
+          "cakePairRequirement": "If auditioning cake, eating-together with couple visible; real covered footage required."
         }
       ],
       "number": 31,
@@ -2453,8 +2461,10 @@
       "ruleRefs": [
         "receptionSequence",
         "receptionScratchAudio",
-        "footageQualityControl"
-      ]
+        "footageQualityControl",
+        "cakePair"
+      ],
+      "cakePairRole": "eating-together"
     },
     {
       "id": "6-energy-1",
@@ -3067,7 +3077,7 @@
     }
   ],
   "schema": "tov-web-wedding-template-v1",
-  "revision": "2026-10-03.8",
+  "revision": "2026-10-03.9",
   "nativeSeedFingerprint": "8bdfdf4e6e615de832172783bf678bec28f09d367391a56db06be8df2579b348",
   "authority": "Supabase and website; native Resolve capture is historical seed",
   "trackOrder": [
@@ -3172,7 +3182,7 @@
         "Prettiest golden-hour couple portraits B",
         "Conclusion"
       ],
-      "instruction": "Reception only after kiss fade: Grand entrance and cheers > First dance > Couple talking with guests and laughing A > Couple talking with guests and laughing B > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > Peak energy with bride/groom A > Peak energy with bride/groom B > Peak energy with bride/groom C > Peak energy with bride/groom D > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Seventeen full-paced slots. Two social shots are separate full measures. Four added peak-energy shots after the activities must each show at least one of bride/groom. Preserve all prior clip lengths; return to first dance after the planned crash, then two golden-hour portraits and conclusion. Covered events only. Musical restart, unducked music, scratch audio, three choices and unique assigned first picks remain. Film opening and vows/prep unchanged."
+      "instruction": "Reception only after kiss fade: Grand entrance and cheers > First dance > Couple talking with guests and laughing A > Couple talking with guests and laughing B > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > Peak energy with bride/groom A > Peak energy with bride/groom B > Peak energy with bride/groom C > Peak energy with bride/groom D > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Seventeen full-paced slots. Two social shots are separate full measures. Four added peak-energy shots after the activities must each show at least one of bride/groom. Preserve all prior clip lengths; return to first dance after the planned crash, then two golden-hour portraits and conclusion. Covered events only. Musical restart, unducked music, scratch audio, three choices and unique assigned first picks remain. Film opening and vows/prep unchanged. If the activity pair uses cake, apply cakePair: cutting first, eating together second; missing eating requires a flagged alternative covered activity pair."
     },
     "footageQualityControl": "Mandatory for every selection and audition: review the entire selected source interval for wrong exposure and unintended shake or handheld repositioning. Reject and substitute unusable footage; distinguish intentional camera movement. For log footage, verify the correct color transform before judging exposure. Semantic match alone never passes. Record pending/pass/rejected and a reason; pass requires full-interval exposure, motion and color-transform review. Any source, interval or retiming change requires fresh QC.",
     "markers": "Sparse essential story/musical markers only. No per-clip QC markers; exposure/shake review stays in Inspector and records. Explicit measure anchors are allowed.",
@@ -3182,7 +3192,8 @@
       "firstDanceReturnMeasure": 53,
       "status": "awaiting-source-song-validation",
       "instruction": "Choose an actual source song with a clear planned arrangement drop. Verify by listening and identify exact source-song time, then align the lower-gear first-dance return and picture/emotional release. Neither gear change, song switch, fade nor tail proves a crash."
-    }
+    },
+    "cakePair": "Whenever two cake shots are used: ONE real shot of the couple cutting cake, then ONE real shot of them eating it together (feeding each other or sharing first bites qualifies), with the couple visible in both. Serving, plated cake, details or another cutting angle never substitute for eating. All three auditions for each slot must match its distinct cutting/eating role and pass full-interval exposure, motion and color-transform QC. If eating footage is absent, flag it missing and use another genuinely covered activity pair; never invent eating. Preserve the two existing slots and durations."
   },
-  "fingerprint": "130f3720e3b278d727a99d7ac726f251f3d887253607f804134b6b7d152dafc2"
+  "fingerprint": "9f1834aade3b4b902cc1d162f46155f5ebbe132d3332bfe5a720f87abb7ecbb1"
 }
