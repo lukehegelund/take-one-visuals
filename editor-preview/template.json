@@ -1,234 +1,22 @@
 {
   "capturedAt": "2026-10-03T17:55:57.731908+00:00",
-  "duration": 168,
+  "duration": 171,
   "markers": [
     {
-      "time": 0,
-      "name": "1 measure"
-    },
-    {
-      "time": 3,
-      "name": "1 measure"
-    },
-    {
-      "time": 6,
-      "name": "1 measure"
-    },
-    {
-      "time": 9,
-      "name": "1 measure"
-    },
-    {
-      "time": 12,
-      "name": "1 measure"
-    },
-    {
-      "time": 15,
-      "name": "1 measure"
-    },
-    {
-      "time": 18,
-      "name": "1 measure"
-    },
-    {
-      "time": 21,
-      "name": "1 measure"
-    },
-    {
-      "time": 24,
-      "name": "1 measure"
-    },
-    {
-      "time": 27,
-      "name": "1 measure"
-    },
-    {
-      "time": 30,
-      "name": "1 measure"
-    },
-    {
-      "time": 33,
-      "name": "1 measure"
-    },
-    {
-      "time": 36,
-      "name": "1 measure"
-    },
-    {
-      "time": 39,
-      "name": "1 measure"
-    },
-    {
-      "time": 42,
-      "name": "1 measure"
-    },
-    {
-      "time": 45,
-      "name": "1 measure"
-    },
-    {
-      "time": 48,
-      "name": "1 measure"
-    },
-    {
-      "time": 51,
-      "name": "1 measure"
-    },
-    {
-      "time": 54,
-      "name": "1 measure"
-    },
-    {
-      "time": 57,
-      "name": "1 measure"
-    },
-    {
-      "time": 60,
-      "name": "1 measure"
-    },
-    {
-      "time": 63,
-      "name": "1 measure"
-    },
-    {
-      "time": 66,
-      "name": "1 measure"
-    },
-    {
-      "time": 69,
-      "name": "1 measure"
-    },
-    {
-      "time": 72,
-      "name": "1 measure"
-    },
-    {
-      "time": 75,
-      "name": "1 measure"
-    },
-    {
       "time": 77.95833333333333,
-      "name": "Gear 4 here"
+      "name": "Gear 4 lift"
     },
     {
-      "time": 78,
-      "name": "1 measure"
-    },
-    {
-      "time": 81,
-      "name": "1 measure"
-    },
-    {
-      "time": 84,
-      "name": "1 measure"
-    },
-    {
-      "time": 87,
-      "name": "1 measure"
-    },
-    {
-      "time": 90,
-      "name": "1 measure"
-    },
-    {
-      "time": 93,
-      "name": "1 measure"
-    },
-    {
-      "time": 96,
-      "name": "1 measure"
-    },
-    {
-      "time": 99,
-      "name": "1 measure"
-    },
-    {
-      "time": 102,
-      "name": "1 measure"
-    },
-    {
-      "time": 105,
-      "name": "1 measure"
-    },
-    {
-      "time": 108,
-      "name": "1 measure"
-    },
-    {
-      "time": 111,
-      "name": "1 measure"
-    },
-    {
-      "time": 114,
-      "name": "1 measure"
-    },
-    {
-      "time": 117,
-      "name": "1 measure"
+      "time": 118.25,
+      "name": "Kiss false-ending fade"
     },
     {
       "time": 120,
-      "name": "1 measure"
-    },
-    {
-      "time": 123,
-      "name": "1 measure"
-    },
-    {
-      "time": 126,
-      "name": "1 measure"
-    },
-    {
-      "time": 129,
-      "name": "1 measure"
-    },
-    {
-      "time": 132,
-      "name": "1 measure"
-    },
-    {
-      "time": 135,
-      "name": "1 measure"
-    },
-    {
-      "time": 138,
-      "name": "1 measure"
-    },
-    {
-      "time": 141,
-      "name": "1 measure"
-    },
-    {
-      "time": 144,
-      "name": "1 measure"
-    },
-    {
-      "time": 147,
-      "name": "1 measure"
-    },
-    {
-      "time": 150,
-      "name": "1 measure"
-    },
-    {
-      "time": 153,
-      "name": "1 measure"
-    },
-    {
-      "time": 156,
-      "name": "1 measure"
+      "name": "Reception restart"
     },
     {
       "time": 159,
-      "name": "1 measure"
-    },
-    {
-      "time": 162,
-      "name": "1 measure"
-    },
-    {
-      "time": 165,
-      "name": "1 measure"
+      "name": "Conclusion"
     }
   ],
   "cards": [
@@ -282,7 +70,7 @@
       "track": 1,
       "ordinal": 4,
       "start": 120,
-      "end": 168,
+      "end": 171,
       "title": "Reception source audio · every picture clip",
       "detail": "Synchronized camera scratch on every reception picture clip, including quiet original sound. Preserve useful voices, laughter, applause and action alongside unducked music.",
       "rules": [
@@ -466,7 +254,7 @@
       "track": 3,
       "ordinal": 10,
       "start": 120,
-      "end": 149.95833333333334,
+      "end": 152.95833333333334,
       "title": "GEAR 4 / Sustained upbeat celebration",
       "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Energetic reception begins immediately after the kiss fade completes. Custom Scoring folder: vocalizations, cellos and swells. Detect each song’s key; match elements to its key and the story.",
       "rules": [
@@ -482,8 +270,8 @@
       "id": "3-11",
       "track": 3,
       "ordinal": 11,
-      "start": 150,
-      "end": 167.95833333333334,
+      "start": 153,
+      "end": 170.95833333333334,
       "title": "GEAR 4 to GEAR 2 / Closing drop",
       "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song’s key; match elements to its key and the story.",
       "rules": [
@@ -636,7 +424,7 @@
       "track": 4,
       "ordinal": 9,
       "start": 120,
-      "end": 149.95833333333334,
+      "end": 152.95833333333334,
       "title": "GEAR 4 / Sustained upbeat celebration",
       "detail": "Energetic reception begins immediately after the kiss fade completes. Different reception song: forward movement and sustained celebratory energy. Enter GEAR 4 directly after full cheers.",
       "rules": [
@@ -651,8 +439,8 @@
       "id": "4-10",
       "track": 4,
       "ordinal": 10,
-      "start": 150,
-      "end": 167.95833333333334,
+      "start": 153,
+      "end": 170.95833333333334,
       "title": "GEAR 4 to GEAR 2 / Closing drop",
       "detail": "Drop from steady upbeat energy into gentle melodic flow for the ending. This is distinct from CRASH OUT (GEAR 5 to GEAR 1).",
       "rules": [
@@ -2122,7 +1910,7 @@
       "rules": [
         "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
         "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
-        "Reception sequence only, immediately after the kiss false-ending fade: Grand entrance and cheers > First dance > Laughter during speeches or with friends > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Twelve picture slots in this exact order. Preserve measure-based pacing and the immediate energetic unducked musical restart. Grand entrance includes genuine cheers; dance-floor clips must show upbeat movement, not slow first-dance swaying. Use a genuinely covered game/activity if no flower toss exists; never invent events. Maintain matched scratch audio, three relevant audition choices and unique first picks. The film opening and vows/preparation remain unchanged."
+        "Reception only, immediately after kiss false-ending fade: Grand entrance and cheers > First dance > Couple talking with guests and laughing A > Couple talking with guests and laughing B > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Thirteen slots; the two social interaction shots are separate full one-measure slots, never half-length. Both show the couple talking with guests/crowd and laughing. Preserve every established clip length and musical alignment; downstream positions shift by one measure. Genuine upbeat dance-floor movement, covered activity substitute if no toss; never invent events. Immediate unducked music restart and synchronized scratch audio remain. Three relevant choices, unique first picks and mandatory full-interval source QC; vows and film opening unchanged."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -2180,7 +1968,7 @@
       "rules": [
         "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
         "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
-        "Reception sequence only, immediately after the kiss false-ending fade: Grand entrance and cheers > First dance > Laughter during speeches or with friends > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Twelve picture slots in this exact order. Preserve measure-based pacing and the immediate energetic unducked musical restart. Grand entrance includes genuine cheers; dance-floor clips must show upbeat movement, not slow first-dance swaying. Use a genuinely covered game/activity if no flower toss exists; never invent events. Maintain matched scratch audio, three relevant audition choices and unique first picks. The film opening and vows/preparation remain unchanged."
+        "Reception only, immediately after kiss false-ending fade: Grand entrance and cheers > First dance > Couple talking with guests and laughing A > Couple talking with guests and laughing B > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Thirteen slots; the two social interaction shots are separate full one-measure slots, never half-length. Both show the couple talking with guests/crowd and laughing. Preserve every established clip length and musical alignment; downstream positions shift by one measure. Genuine upbeat dance-floor movement, covered activity substitute if no toss; never invent events. Immediate unducked music restart and synchronized scratch audio remain. Three relevant choices, unique first picks and mandatory full-interval source QC; vows and film opening unchanged."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -2239,12 +2027,12 @@
       "ordinal": 28,
       "start": 126,
       "end": 129,
-      "title": "Reception 03 / Laughter during speeches or with friends",
-      "detail": "Use the actual covered moment, completing the action within the musical slot. Review the full source interval before selecting it.",
+      "title": "Reception 03 / Couple talking with guests and laughing A",
+      "detail": "One complete social interaction: couple talking with guests/crowd and genuinely laughing. Review the full source interval; speeches alone are not a substitute for this interaction.",
       "rules": [
         "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
         "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
-        "Reception sequence only, immediately after the kiss false-ending fade: Grand entrance and cheers > First dance > Laughter during speeches or with friends > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Twelve picture slots in this exact order. Preserve measure-based pacing and the immediate energetic unducked musical restart. Grand entrance includes genuine cheers; dance-floor clips must show upbeat movement, not slow first-dance swaying. Use a genuinely covered game/activity if no flower toss exists; never invent events. Maintain matched scratch audio, three relevant audition choices and unique first picks. The film opening and vows/preparation remain unchanged."
+        "Reception only, immediately after kiss false-ending fade: Grand entrance and cheers > First dance > Couple talking with guests and laughing A > Couple talking with guests and laughing B > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Thirteen slots; the two social interaction shots are separate full one-measure slots, never half-length. Both show the couple talking with guests/crowd and laughing. Preserve every established clip length and musical alignment; downstream positions shift by one measure. Genuine upbeat dance-floor movement, covered activity substitute if no toss; never invent events. Immediate unducked music restart and synchronized scratch audio remain. Three relevant choices, unique first picks and mandatory full-interval source QC; vows and film opening unchanged."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -2298,17 +2086,81 @@
       }
     },
     {
+      "id": "6-social-b",
+      "track": 6,
+      "ordinal": 28,
+      "start": 129,
+      "end": 132,
+      "title": "Reception 04 / Couple talking with guests and laughing B",
+      "detail": "One complete social interaction: couple talking with guests/crowd and genuinely laughing. Review the full source interval; speeches alone are not a substitute for this interaction.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
+        "Reception only, immediately after kiss false-ending fade: Grand entrance and cheers > First dance > Couple talking with guests and laughing A > Couple talking with guests and laughing B > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Thirteen slots; the two social interaction shots are separate full one-measure slots, never half-length. Both show the couple talking with guests/crowd and laughing. Preserve every established clip length and musical alignment; downstream positions shift by one measure. Genuine upbeat dance-floor movement, covered activity substitute if no toss; never invent events. Immediate unducked music restart and synchronized scratch audio remain. Three relevant choices, unique first picks and mandatory full-interval source QC; vows and film opening unchanged."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "20-2",
+          "src": "/cam-b/clips/20-2.mp4",
+          "poster": "/cam-b/clips/20-2.jpg",
+          "label": "Speech reactions",
+          "film": "Moriah & Dane",
+          "duration": 3.169833,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
+        },
+        {
+          "id": "20-1",
+          "src": "/cam-b/clips/20.mp4",
+          "poster": "/cam-b/clips/20.jpg",
+          "label": "Speech reactions",
+          "film": "Reanna & Brandon",
+          "duration": 4.004,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
+        },
+        {
+          "id": "20-3",
+          "src": "/cam-b/clips/20-3.mp4",
+          "poster": "/cam-b/clips/20-3.jpg",
+          "label": "Speech reactions",
+          "film": "Dakota & Rosie",
+          "duration": 3.211542,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
+        }
+      ],
+      "number": 27,
+      "transition": "Cut",
+      "opticalFlow": false,
+      "receptionScratchAudio": true,
+      "receptionSequenceIndex": 4,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
+    },
+    {
       "id": "6-29",
       "track": 6,
       "ordinal": 29,
-      "start": 129,
-      "end": 132,
-      "title": "Reception 04 / Upbeat dance floor A",
+      "start": 132,
+      "end": 135,
+      "title": "Reception 05 / Upbeat dance floor A",
       "detail": "Use genuinely upbeat dance-floor movement; reject restrained first-dance swaying. Review the full source interval before selecting it.",
       "rules": [
         "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
         "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
-        "Reception sequence only, immediately after the kiss false-ending fade: Grand entrance and cheers > First dance > Laughter during speeches or with friends > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Twelve picture slots in this exact order. Preserve measure-based pacing and the immediate energetic unducked musical restart. Grand entrance includes genuine cheers; dance-floor clips must show upbeat movement, not slow first-dance swaying. Use a genuinely covered game/activity if no flower toss exists; never invent events. Maintain matched scratch audio, three relevant audition choices and unique first picks. The film opening and vows/preparation remain unchanged."
+        "Reception only, immediately after kiss false-ending fade: Grand entrance and cheers > First dance > Couple talking with guests and laughing A > Couple talking with guests and laughing B > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Thirteen slots; the two social interaction shots are separate full one-measure slots, never half-length. Both show the couple talking with guests/crowd and laughing. Preserve every established clip length and musical alignment; downstream positions shift by one measure. Genuine upbeat dance-floor movement, covered activity substitute if no toss; never invent events. Immediate unducked music restart and synchronized scratch audio remain. Three relevant choices, unique first picks and mandatory full-interval source QC; vows and film opening unchanged."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -2348,11 +2200,11 @@
           }
         }
       ],
-      "number": 27,
+      "number": 28,
       "transition": "Cut",
       "opticalFlow": false,
       "receptionScratchAudio": true,
-      "receptionSequenceIndex": 4,
+      "receptionSequenceIndex": 5,
       "qualityControl": {
         "status": "pending",
         "reason": "Full source interval review required."
@@ -2362,14 +2214,14 @@
       "id": "6-30",
       "track": 6,
       "ordinal": 30,
-      "start": 132,
-      "end": 135,
-      "title": "Reception 05 / Upbeat dance floor B",
+      "start": 135,
+      "end": 138,
+      "title": "Reception 06 / Upbeat dance floor B",
       "detail": "Use genuinely upbeat dance-floor movement; reject restrained first-dance swaying. Review the full source interval before selecting it.",
       "rules": [
         "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
         "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
-        "Reception sequence only, immediately after the kiss false-ending fade: Grand entrance and cheers > First dance > Laughter during speeches or with friends > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Twelve picture slots in this exact order. Preserve measure-based pacing and the immediate energetic unducked musical restart. Grand entrance includes genuine cheers; dance-floor clips must show upbeat movement, not slow first-dance swaying. Use a genuinely covered game/activity if no flower toss exists; never invent events. Maintain matched scratch audio, three relevant audition choices and unique first picks. The film opening and vows/preparation remain unchanged."
+        "Reception only, immediately after kiss false-ending fade: Grand entrance and cheers > First dance > Couple talking with guests and laughing A > Couple talking with guests and laughing B > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Thirteen slots; the two social interaction shots are separate full one-measure slots, never half-length. Both show the couple talking with guests/crowd and laughing. Preserve every established clip length and musical alignment; downstream positions shift by one measure. Genuine upbeat dance-floor movement, covered activity substitute if no toss; never invent events. Immediate unducked music restart and synchronized scratch audio remain. Three relevant choices, unique first picks and mandatory full-interval source QC; vows and film opening unchanged."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -2409,11 +2261,11 @@
           }
         }
       ],
-      "number": 28,
+      "number": 29,
       "transition": "Cut",
       "opticalFlow": false,
       "receptionScratchAudio": true,
-      "receptionSequenceIndex": 5,
+      "receptionSequenceIndex": 6,
       "qualityControl": {
         "status": "pending",
         "reason": "Full source interval review required."
@@ -2423,14 +2275,14 @@
       "id": "6-31",
       "track": 6,
       "ordinal": 31,
-      "start": 135,
-      "end": 138,
-      "title": "Reception 06 / Flower toss / game / activity A",
+      "start": 138,
+      "end": 141,
+      "title": "Reception 07 / Flower toss / game / activity A",
       "detail": "Use the actual covered moment, completing the action within the musical slot. A covered game or activity substitutes when no toss was filmed. Review the full source interval before selecting it.",
       "rules": [
         "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
         "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
-        "Reception sequence only, immediately after the kiss false-ending fade: Grand entrance and cheers > First dance > Laughter during speeches or with friends > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Twelve picture slots in this exact order. Preserve measure-based pacing and the immediate energetic unducked musical restart. Grand entrance includes genuine cheers; dance-floor clips must show upbeat movement, not slow first-dance swaying. Use a genuinely covered game/activity if no flower toss exists; never invent events. Maintain matched scratch audio, three relevant audition choices and unique first picks. The film opening and vows/preparation remain unchanged."
+        "Reception only, immediately after kiss false-ending fade: Grand entrance and cheers > First dance > Couple talking with guests and laughing A > Couple talking with guests and laughing B > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Thirteen slots; the two social interaction shots are separate full one-measure slots, never half-length. Both show the couple talking with guests/crowd and laughing. Preserve every established clip length and musical alignment; downstream positions shift by one measure. Genuine upbeat dance-floor movement, covered activity substitute if no toss; never invent events. Immediate unducked music restart and synchronized scratch audio remain. Three relevant choices, unique first picks and mandatory full-interval source QC; vows and film opening unchanged."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -2473,11 +2325,11 @@
           }
         }
       ],
-      "number": 29,
+      "number": 30,
       "transition": "Cut",
       "opticalFlow": false,
       "receptionScratchAudio": true,
-      "receptionSequenceIndex": 6,
+      "receptionSequenceIndex": 7,
       "qualityControl": {
         "status": "pending",
         "reason": "Full source interval review required."
@@ -2487,14 +2339,14 @@
       "id": "6-32",
       "track": 6,
       "ordinal": 32,
-      "start": 138,
-      "end": 141,
-      "title": "Reception 07 / Flower toss / game / activity B",
+      "start": 141,
+      "end": 144,
+      "title": "Reception 08 / Flower toss / game / activity B",
       "detail": "Use the actual covered moment, completing the action within the musical slot. A covered game or activity substitutes when no toss was filmed. Review the full source interval before selecting it.",
       "rules": [
         "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
         "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
-        "Reception sequence only, immediately after the kiss false-ending fade: Grand entrance and cheers > First dance > Laughter during speeches or with friends > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Twelve picture slots in this exact order. Preserve measure-based pacing and the immediate energetic unducked musical restart. Grand entrance includes genuine cheers; dance-floor clips must show upbeat movement, not slow first-dance swaying. Use a genuinely covered game/activity if no flower toss exists; never invent events. Maintain matched scratch audio, three relevant audition choices and unique first picks. The film opening and vows/preparation remain unchanged."
+        "Reception only, immediately after kiss false-ending fade: Grand entrance and cheers > First dance > Couple talking with guests and laughing A > Couple talking with guests and laughing B > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Thirteen slots; the two social interaction shots are separate full one-measure slots, never half-length. Both show the couple talking with guests/crowd and laughing. Preserve every established clip length and musical alignment; downstream positions shift by one measure. Genuine upbeat dance-floor movement, covered activity substitute if no toss; never invent events. Immediate unducked music restart and synchronized scratch audio remain. Three relevant choices, unique first picks and mandatory full-interval source QC; vows and film opening unchanged."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -2537,70 +2389,6 @@
           }
         }
       ],
-      "number": 30,
-      "transition": "Cut",
-      "opticalFlow": false,
-      "receptionScratchAudio": true,
-      "receptionSequenceIndex": 7,
-      "qualityControl": {
-        "status": "pending",
-        "reason": "Full source interval review required."
-      }
-    },
-    {
-      "id": "6-33",
-      "track": 6,
-      "ordinal": 33,
-      "start": 141,
-      "end": 144,
-      "title": "Reception 08 / First dance A",
-      "detail": "Use the actual covered moment, completing the action within the musical slot. Review the full source interval before selecting it.",
-      "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
-        "Reception sequence only, immediately after the kiss false-ending fade: Grand entrance and cheers > First dance > Laughter during speeches or with friends > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Twelve picture slots in this exact order. Preserve measure-based pacing and the immediate energetic unducked musical restart. Grand entrance includes genuine cheers; dance-floor clips must show upbeat movement, not slow first-dance swaying. Use a genuinely covered game/activity if no flower toss exists; never invent events. Maintain matched scratch audio, three relevant audition choices and unique first picks. The film opening and vows/preparation remain unchanged."
-      ],
-      "speed": 100,
-      "fadeIn": 0,
-      "fadeOut": 0,
-      "takes": [
-        {
-          "id": "21-2",
-          "src": "/cam-b/clips/21-2.mp4",
-          "poster": "/cam-b/clips/21-2.jpg",
-          "label": "First dance",
-          "film": "Caitlin & Cole",
-          "duration": 3.166667,
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
-          }
-        },
-        {
-          "id": "21-1",
-          "src": "/cam-b/clips/21.mp4",
-          "poster": "/cam-b/clips/21.jpg",
-          "label": "First dance",
-          "film": "Rachel & Ryan",
-          "duration": 4.004,
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
-          }
-        },
-        {
-          "id": "21-3",
-          "src": "/cam-b/clips/21-3.mp4",
-          "poster": "/cam-b/clips/21-3.jpg",
-          "label": "First dance",
-          "film": "Gina & Spencer",
-          "duration": 3.166667,
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
-          }
-        }
-      ],
       "number": 31,
       "transition": "Cut",
       "opticalFlow": false,
@@ -2612,34 +2400,22 @@
       }
     },
     {
-      "id": "6-34",
+      "id": "6-33",
       "track": 6,
-      "ordinal": 34,
+      "ordinal": 33,
       "start": 144,
       "end": 147,
-      "title": "Reception 09 / First dance B",
+      "title": "Reception 09 / First dance A",
       "detail": "Use the actual covered moment, completing the action within the musical slot. Review the full source interval before selecting it.",
       "rules": [
         "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
         "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
-        "Reception sequence only, immediately after the kiss false-ending fade: Grand entrance and cheers > First dance > Laughter during speeches or with friends > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Twelve picture slots in this exact order. Preserve measure-based pacing and the immediate energetic unducked musical restart. Grand entrance includes genuine cheers; dance-floor clips must show upbeat movement, not slow first-dance swaying. Use a genuinely covered game/activity if no flower toss exists; never invent events. Maintain matched scratch audio, three relevant audition choices and unique first picks. The film opening and vows/preparation remain unchanged."
+        "Reception only, immediately after kiss false-ending fade: Grand entrance and cheers > First dance > Couple talking with guests and laughing A > Couple talking with guests and laughing B > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Thirteen slots; the two social interaction shots are separate full one-measure slots, never half-length. Both show the couple talking with guests/crowd and laughing. Preserve every established clip length and musical alignment; downstream positions shift by one measure. Genuine upbeat dance-floor movement, covered activity substitute if no toss; never invent events. Immediate unducked music restart and synchronized scratch audio remain. Three relevant choices, unique first picks and mandatory full-interval source QC; vows and film opening unchanged."
       ],
       "speed": 100,
       "fadeIn": 0,
       "fadeOut": 0,
       "takes": [
-        {
-          "id": "21-3",
-          "src": "/cam-b/clips/21-3.mp4",
-          "poster": "/cam-b/clips/21-3.jpg",
-          "label": "First dance",
-          "film": "Gina & Spencer",
-          "duration": 3.166667,
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
-          }
-        },
         {
           "id": "21-2",
           "src": "/cam-b/clips/21-2.mp4",
@@ -2659,6 +2435,18 @@
           "label": "First dance",
           "film": "Rachel & Ryan",
           "duration": 4.004,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
+        },
+        {
+          "id": "21-3",
+          "src": "/cam-b/clips/21-3.mp4",
+          "poster": "/cam-b/clips/21-3.jpg",
+          "label": "First dance",
+          "film": "Gina & Spencer",
+          "duration": 3.166667,
           "qualityControl": {
             "status": "pending",
             "reason": "Review exposure, camera motion and correct color transform over the full source interval."
@@ -2676,17 +2464,81 @@
       }
     },
     {
-      "id": "6-35",
+      "id": "6-34",
       "track": 6,
-      "ordinal": 35,
+      "ordinal": 34,
       "start": 147,
       "end": 150,
-      "title": "Reception 10 / Prettiest golden-hour couple portraits A",
+      "title": "Reception 10 / First dance B",
       "detail": "Use the actual covered moment, completing the action within the musical slot. Review the full source interval before selecting it.",
       "rules": [
         "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
         "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
-        "Reception sequence only, immediately after the kiss false-ending fade: Grand entrance and cheers > First dance > Laughter during speeches or with friends > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Twelve picture slots in this exact order. Preserve measure-based pacing and the immediate energetic unducked musical restart. Grand entrance includes genuine cheers; dance-floor clips must show upbeat movement, not slow first-dance swaying. Use a genuinely covered game/activity if no flower toss exists; never invent events. Maintain matched scratch audio, three relevant audition choices and unique first picks. The film opening and vows/preparation remain unchanged."
+        "Reception only, immediately after kiss false-ending fade: Grand entrance and cheers > First dance > Couple talking with guests and laughing A > Couple talking with guests and laughing B > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Thirteen slots; the two social interaction shots are separate full one-measure slots, never half-length. Both show the couple talking with guests/crowd and laughing. Preserve every established clip length and musical alignment; downstream positions shift by one measure. Genuine upbeat dance-floor movement, covered activity substitute if no toss; never invent events. Immediate unducked music restart and synchronized scratch audio remain. Three relevant choices, unique first picks and mandatory full-interval source QC; vows and film opening unchanged."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "21-3",
+          "src": "/cam-b/clips/21-3.mp4",
+          "poster": "/cam-b/clips/21-3.jpg",
+          "label": "First dance",
+          "film": "Gina & Spencer",
+          "duration": 3.166667,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
+        },
+        {
+          "id": "21-2",
+          "src": "/cam-b/clips/21-2.mp4",
+          "poster": "/cam-b/clips/21-2.jpg",
+          "label": "First dance",
+          "film": "Caitlin & Cole",
+          "duration": 3.166667,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
+        },
+        {
+          "id": "21-1",
+          "src": "/cam-b/clips/21.mp4",
+          "poster": "/cam-b/clips/21.jpg",
+          "label": "First dance",
+          "film": "Rachel & Ryan",
+          "duration": 4.004,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
+        }
+      ],
+      "number": 33,
+      "transition": "Cut",
+      "opticalFlow": false,
+      "receptionScratchAudio": true,
+      "receptionSequenceIndex": 10,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
+    },
+    {
+      "id": "6-35",
+      "track": 6,
+      "ordinal": 35,
+      "start": 150,
+      "end": 153,
+      "title": "Reception 11 / Prettiest golden-hour couple portraits A",
+      "detail": "Use the actual covered moment, completing the action within the musical slot. Review the full source interval before selecting it.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
+        "Reception only, immediately after kiss false-ending fade: Grand entrance and cheers > First dance > Couple talking with guests and laughing A > Couple talking with guests and laughing B > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Thirteen slots; the two social interaction shots are separate full one-measure slots, never half-length. Both show the couple talking with guests/crowd and laughing. Preserve every established clip length and musical alignment; downstream positions shift by one measure. Genuine upbeat dance-floor movement, covered activity substitute if no toss; never invent events. Immediate unducked music restart and synchronized scratch audio remain. Three relevant choices, unique first picks and mandatory full-interval source QC; vows and film opening unchanged."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -2729,11 +2581,11 @@
           }
         }
       ],
-      "number": 33,
+      "number": 34,
       "transition": "Cut",
       "opticalFlow": false,
       "receptionScratchAudio": true,
-      "receptionSequenceIndex": 10,
+      "receptionSequenceIndex": 11,
       "qualityControl": {
         "status": "pending",
         "reason": "Full source interval review required."
@@ -2743,14 +2595,14 @@
       "id": "6-36",
       "track": 6,
       "ordinal": 36,
-      "start": 150,
-      "end": 156,
-      "title": "Reception 11 / Prettiest golden-hour couple portraits B",
+      "start": 153,
+      "end": 159,
+      "title": "Reception 12 / Prettiest golden-hour couple portraits B",
       "detail": "Use the actual covered moment, completing the action within the musical slot. Review the full source interval before selecting it.",
       "rules": [
         "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
         "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
-        "Reception sequence only, immediately after the kiss false-ending fade: Grand entrance and cheers > First dance > Laughter during speeches or with friends > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Twelve picture slots in this exact order. Preserve measure-based pacing and the immediate energetic unducked musical restart. Grand entrance includes genuine cheers; dance-floor clips must show upbeat movement, not slow first-dance swaying. Use a genuinely covered game/activity if no flower toss exists; never invent events. Maintain matched scratch audio, three relevant audition choices and unique first picks. The film opening and vows/preparation remain unchanged."
+        "Reception only, immediately after kiss false-ending fade: Grand entrance and cheers > First dance > Couple talking with guests and laughing A > Couple talking with guests and laughing B > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Thirteen slots; the two social interaction shots are separate full one-measure slots, never half-length. Both show the couple talking with guests/crowd and laughing. Preserve every established clip length and musical alignment; downstream positions shift by one measure. Genuine upbeat dance-floor movement, covered activity substitute if no toss; never invent events. Immediate unducked music restart and synchronized scratch audio remain. Three relevant choices, unique first picks and mandatory full-interval source QC; vows and film opening unchanged."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -2793,11 +2645,11 @@
           }
         }
       ],
-      "number": 34,
+      "number": 35,
       "transition": "Cut",
       "opticalFlow": false,
       "receptionScratchAudio": true,
-      "receptionSequenceIndex": 11,
+      "receptionSequenceIndex": 12,
       "qualityControl": {
         "status": "pending",
         "reason": "Full source interval review required."
@@ -2807,14 +2659,14 @@
       "id": "6-37",
       "track": 6,
       "ordinal": 37,
-      "start": 156,
-      "end": 168,
-      "title": "Reception 12 / Conclusion",
+      "start": 159,
+      "end": 171,
+      "title": "Reception 13 / Conclusion",
       "detail": "Use the actual covered moment, completing the action within the musical slot. Review the full source interval before selecting it.",
       "rules": [
         "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
         "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
-        "Reception sequence only, immediately after the kiss false-ending fade: Grand entrance and cheers > First dance > Laughter during speeches or with friends > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Twelve picture slots in this exact order. Preserve measure-based pacing and the immediate energetic unducked musical restart. Grand entrance includes genuine cheers; dance-floor clips must show upbeat movement, not slow first-dance swaying. Use a genuinely covered game/activity if no flower toss exists; never invent events. Maintain matched scratch audio, three relevant audition choices and unique first picks. The film opening and vows/preparation remain unchanged."
+        "Reception only, immediately after kiss false-ending fade: Grand entrance and cheers > First dance > Couple talking with guests and laughing A > Couple talking with guests and laughing B > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Thirteen slots; the two social interaction shots are separate full one-measure slots, never half-length. Both show the couple talking with guests/crowd and laughing. Preserve every established clip length and musical alignment; downstream positions shift by one measure. Genuine upbeat dance-floor movement, covered activity substitute if no toss; never invent events. Immediate unducked music restart and synchronized scratch audio remain. Three relevant choices, unique first picks and mandatory full-interval source QC; vows and film opening unchanged."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -2857,11 +2709,11 @@
           }
         }
       ],
-      "number": 35,
+      "number": 36,
       "transition": "Cut",
       "opticalFlow": false,
       "receptionScratchAudio": true,
-      "receptionSequenceIndex": 12,
+      "receptionSequenceIndex": 13,
       "qualityControl": {
         "status": "pending",
         "reason": "Full source interval review required."
@@ -2869,7 +2721,7 @@
     }
   ],
   "schema": "tov-web-wedding-template-v1",
-  "revision": "2026-10-03.5",
+  "revision": "2026-10-03.6",
   "nativeSeedFingerprint": "8bdfdf4e6e615de832172783bf678bec28f09d367391a56db06be8df2579b348",
   "authority": "Supabase and website; native Resolve capture is historical seed",
   "trackOrder": [
@@ -2903,7 +2755,7 @@
     "meter": "4/4",
     "provisional": true,
     "secondsPerMeasure": 3,
-    "measures": 56
+    "measures": 57
   },
   "overrides": [
     {
@@ -2925,12 +2777,17 @@
     {
       "id": "ordered-reception-sequence",
       "approved": "2026-10-03",
-      "instruction": "Reception sequence only, immediately after the kiss false-ending fade: Grand entrance and cheers > First dance > Laughter during speeches or with friends > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Twelve picture slots in this exact order. Preserve measure-based pacing and the immediate energetic unducked musical restart. Grand entrance includes genuine cheers; dance-floor clips must show upbeat movement, not slow first-dance swaying. Use a genuinely covered game/activity if no flower toss exists; never invent events. Maintain matched scratch audio, three relevant audition choices and unique first picks. The film opening and vows/preparation remain unchanged."
+      "instruction": "Reception only, immediately after kiss false-ending fade: Grand entrance and cheers > First dance > Couple talking with guests and laughing A > Couple talking with guests and laughing B > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Thirteen slots; the two social interaction shots are separate full one-measure slots, never half-length. Both show the couple talking with guests/crowd and laughing. Preserve every established clip length and musical alignment; downstream positions shift by one measure. Genuine upbeat dance-floor movement, covered activity substitute if no toss; never invent events. Immediate unducked music restart and synchronized scratch audio remain. Three relevant choices, unique first picks and mandatory full-interval source QC; vows and film opening unchanged."
     },
     {
       "id": "mandatory-footage-qc",
       "approved": "2026-10-03",
       "instruction": "Mandatory for every selection and audition: review the entire selected source interval for wrong exposure and unintended shake or handheld repositioning. Reject and substitute unusable footage; distinguish intentional camera movement. For log footage, verify the correct color transform before judging exposure. Semantic match alone never passes. Record pending/pass/rejected and a reason; pass requires full-interval exposure, motion and color-transform review. Any source, interval or retiming change requires fresh QC."
+    },
+    {
+      "id": "sparse-essential-markers",
+      "approved": "2026-10-03",
+      "instruction": "Sparse essential story/musical markers only. No per-clip QC markers; exposure/shake review stays in Inspector and records. Explicit measure anchors are allowed."
     }
   ],
   "policies": {
@@ -2944,11 +2801,12 @@
     "receptionScratchAudio": "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
     "receptionSequence": {
       "start": 120,
-      "end": 168,
+      "end": 171,
       "order": [
         "Grand entrance and cheers",
         "First dance",
-        "Laughter during speeches or with friends",
+        "Couple talking with guests and laughing A",
+        "Couple talking with guests and laughing B",
         "Upbeat dance floor A",
         "Upbeat dance floor B",
         "Flower toss / game / activity A",
@@ -2959,9 +2817,10 @@
         "Prettiest golden-hour couple portraits B",
         "Conclusion"
       ],
-      "instruction": "Reception sequence only, immediately after the kiss false-ending fade: Grand entrance and cheers > First dance > Laughter during speeches or with friends > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Twelve picture slots in this exact order. Preserve measure-based pacing and the immediate energetic unducked musical restart. Grand entrance includes genuine cheers; dance-floor clips must show upbeat movement, not slow first-dance swaying. Use a genuinely covered game/activity if no flower toss exists; never invent events. Maintain matched scratch audio, three relevant audition choices and unique first picks. The film opening and vows/preparation remain unchanged."
+      "instruction": "Reception only, immediately after kiss false-ending fade: Grand entrance and cheers > First dance > Couple talking with guests and laughing A > Couple talking with guests and laughing B > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Thirteen slots; the two social interaction shots are separate full one-measure slots, never half-length. Both show the couple talking with guests/crowd and laughing. Preserve every established clip length and musical alignment; downstream positions shift by one measure. Genuine upbeat dance-floor movement, covered activity substitute if no toss; never invent events. Immediate unducked music restart and synchronized scratch audio remain. Three relevant choices, unique first picks and mandatory full-interval source QC; vows and film opening unchanged."
     },
-    "footageQualityControl": "Mandatory for every selection and audition: review the entire selected source interval for wrong exposure and unintended shake or handheld repositioning. Reject and substitute unusable footage; distinguish intentional camera movement. For log footage, verify the correct color transform before judging exposure. Semantic match alone never passes. Record pending/pass/rejected and a reason; pass requires full-interval exposure, motion and color-transform review. Any source, interval or retiming change requires fresh QC."
+    "footageQualityControl": "Mandatory for every selection and audition: review the entire selected source interval for wrong exposure and unintended shake or handheld repositioning. Reject and substitute unusable footage; distinguish intentional camera movement. For log footage, verify the correct color transform before judging exposure. Semantic match alone never passes. Record pending/pass/rejected and a reason; pass requires full-interval exposure, motion and color-transform review. Any source, interval or retiming change requires fresh QC.",
+    "markers": "Sparse essential story/musical markers only. No per-clip QC markers; exposure/shake review stays in Inspector and records. Explicit measure anchors are allowed."
   },
-  "fingerprint": "07e93e75030791335ad84631e239091ce440c0fb19689e50cede0c747738634d"
+  "fingerprint": "a2369cd5c74c6a35cf7d635153f5c403513436ca5c7e29fd65fa479d108b7b9e"
 }
