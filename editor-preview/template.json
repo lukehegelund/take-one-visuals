@@ -287,7 +287,7 @@
       "detail": "Synchronized camera scratch on every reception picture clip, including quiet original sound. Preserve useful voices, laughter, applause and action alongside unducked music.",
       "rules": [
         "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
-        "At the reception opening, prioritize strong synchronized celebration reactions alongside the quiet-source default; never duplicate source-camera audio."
+        "Strong synchronized cheers at the grand entrance, with source-camera sound for every ordered reception clip under the existing scratch policy."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -641,7 +641,7 @@
       "detail": "Energetic reception begins immediately after the kiss fade completes. Different reception song: forward movement and sustained celebratory energy. Enter GEAR 4 directly after full cheers.",
       "rules": [
         "Keep music unducked throughout.",
-        "At the reception restart, energetic unducked music hits immediately with the explosive action; preserve the existing measure slot."
+        "Energetic reception music restarts immediately at the completed kiss fade and remains unducked throughout the ordered reception sequence."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -735,7 +735,11 @@
           "poster": "/cam-b/clips/01.jpg",
           "label": "Venue establishing wide",
           "film": "Rachel & Ryan",
-          "duration": 3.970633
+          "duration": 3.970633,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "1-2",
@@ -743,7 +747,11 @@
           "poster": "/cam-b/clips/01-2.jpg",
           "label": "Venue establishing wide",
           "film": "Ia & Jared",
-          "duration": 3.208333
+          "duration": 3.208333,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "1-3",
@@ -751,12 +759,20 @@
           "poster": "/cam-b/clips/01-3.jpg",
           "label": "Venue establishing wide",
           "film": "Caitlin & Cole",
-          "duration": 3.166667
+          "duration": 3.166667,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
       "number": 1,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
       "id": "6-3",
@@ -779,7 +795,11 @@
           "poster": "/cam-b/clips/12.jpg",
           "label": "Empty ceremony space",
           "film": "Gabriella & Robert",
-          "duration": 2.458333
+          "duration": 2.458333,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "12-2",
@@ -787,7 +807,11 @@
           "poster": "/cam-b/clips/12-2.jpg",
           "label": "Empty ceremony space",
           "film": "Ia & Jared",
-          "duration": 3.208333
+          "duration": 3.208333,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "12-3",
@@ -795,12 +819,20 @@
           "poster": "/cam-b/clips/12-3.jpg",
           "label": "Empty ceremony space",
           "film": "Brianna & Caleb",
-          "duration": 2.569233
+          "duration": 2.569233,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
       "number": 2,
       "transition": "Dissolve · 2 s centered",
-      "opticalFlow": true
+      "opticalFlow": true,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
       "id": "6-5",
@@ -823,7 +855,11 @@
           "poster": "/cam-b/clips/02.jpg",
           "label": "Rings & invitation",
           "film": "Caitlin & Cole",
-          "duration": 3.083333
+          "duration": 3.083333,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "2-2",
@@ -831,7 +867,11 @@
           "poster": "/cam-b/clips/02-2.jpg",
           "label": "Rings & invitation",
           "film": "Rachel & Ryan",
-          "duration": 3.2032
+          "duration": 3.2032,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "2-3",
@@ -839,12 +879,20 @@
           "poster": "/cam-b/clips/02-3.jpg",
           "label": "Rings & invitation",
           "film": "Kylie & Seth",
-          "duration": 3.169833
+          "duration": 3.169833,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
       "number": 3,
       "transition": "Dissolve · 2 s centered",
-      "opticalFlow": true
+      "opticalFlow": true,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
       "id": "6-6",
@@ -868,7 +916,11 @@
           "poster": "/cam-b/clips/04.jpg",
           "label": "Bride preparation",
           "film": "Dakota & Rosie",
-          "duration": 2.627625
+          "duration": 2.627625,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "4-2",
@@ -876,7 +928,11 @@
           "poster": "/cam-b/clips/04-2.jpg",
           "label": "Bride preparation",
           "film": "Allie & Alan",
-          "duration": 3.208333
+          "duration": 3.208333,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "4-3",
@@ -884,12 +940,20 @@
           "poster": "/cam-b/clips/04-3.jpg",
           "label": "Bride preparation",
           "film": "Kylie & Seth",
-          "duration": 1.968633
+          "duration": 1.968633,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
       "number": 4,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
       "id": "6-7",
@@ -913,7 +977,11 @@
           "poster": "/cam-b/clips/05.jpg",
           "label": "Groom preparation",
           "film": "Moriah & Dane",
-          "duration": 2.869533
+          "duration": 2.869533,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "5-2",
@@ -921,7 +989,11 @@
           "poster": "/cam-b/clips/05-2.jpg",
           "label": "Groom preparation",
           "film": "Reanna & Brandon",
-          "duration": 3.169833
+          "duration": 3.169833,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "5-3",
@@ -929,12 +1001,20 @@
           "poster": "/cam-b/clips/05-3.jpg",
           "label": "Groom preparation",
           "film": "Gina & Spencer",
-          "duration": 1.966667
+          "duration": 1.966667,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
       "number": 5,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
       "id": "6-8",
@@ -958,7 +1038,11 @@
           "poster": "/cam-b/clips/10.jpg",
           "label": "Couple walking",
           "film": "Moriah & Dane",
-          "duration": 3.6036
+          "duration": 3.6036,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "10-2",
@@ -966,7 +1050,11 @@
           "poster": "/cam-b/clips/10-2.jpg",
           "label": "Couple walking",
           "film": "Gabriella & Robert",
-          "duration": 3.208333
+          "duration": 3.208333,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "10-3",
@@ -974,12 +1062,20 @@
           "poster": "/cam-b/clips/10-3.jpg",
           "label": "Couple walking",
           "film": "Kylie & Seth",
-          "duration": 3.2032
+          "duration": 3.2032,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
       "number": 6,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
       "id": "6-9",
@@ -1003,7 +1099,11 @@
           "poster": "/cam-b/clips/28.jpg",
           "label": "Medium portrait & connection",
           "film": "Gabriella & Robert",
-          "duration": 3.583333
+          "duration": 3.583333,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "28-2",
@@ -1011,7 +1111,11 @@
           "poster": "/cam-b/clips/28-2.jpg",
           "label": "Medium portrait & connection",
           "film": "Allie & Alan",
-          "duration": 3.583333
+          "duration": 3.583333,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "28-3",
@@ -1019,12 +1123,20 @@
           "poster": "/cam-b/clips/28-3.jpg",
           "label": "Medium portrait & connection",
           "film": "Moriah & Dane",
-          "duration": 1.668333
+          "duration": 1.668333,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
       "number": 7,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
       "id": "6-10",
@@ -1048,7 +1160,11 @@
           "poster": "/cam-b/clips/29.jpg",
           "label": "Close faces & expressions",
           "film": "Violet & Devin",
-          "duration": 3.6
+          "duration": 3.6,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "29-2",
@@ -1056,7 +1172,11 @@
           "poster": "/cam-b/clips/29-2.jpg",
           "label": "Close faces & expressions",
           "film": "Kylie & Seth",
-          "duration": 3.6036
+          "duration": 3.6036,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "29-3",
@@ -1064,12 +1184,20 @@
           "poster": "/cam-b/clips/29-3.jpg",
           "label": "Close faces & expressions",
           "film": "Dakota & Rosie",
-          "duration": 3.628625
+          "duration": 3.628625,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
       "number": 8,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
       "id": "6-11",
@@ -1093,7 +1221,11 @@
           "poster": "/cam-b/clips/31.jpg",
           "label": "Hands & small portrait details",
           "film": "Rachel & Ryan",
-          "duration": 3.6036
+          "duration": 3.6036,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "31-2",
@@ -1101,7 +1233,11 @@
           "poster": "/cam-b/clips/31-2.jpg",
           "label": "Hands & small portrait details",
           "film": "Ia & Jared",
-          "duration": 3.583333
+          "duration": 3.583333,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "31-3",
@@ -1109,12 +1245,20 @@
           "poster": "/cam-b/clips/31-3.jpg",
           "label": "Hands & small portrait details",
           "film": "Dakota & Rosie",
-          "duration": 2.836167
+          "duration": 2.836167,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
       "number": 9,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
       "id": "6-12",
@@ -1138,7 +1282,11 @@
           "poster": "/cam-b/clips/08.jpg",
           "label": "First look reaction",
           "film": "Rachel & Ryan",
-          "duration": 3.5035
+          "duration": 3.5035,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "8-2",
@@ -1146,7 +1294,11 @@
           "poster": "/cam-b/clips/08-2.jpg",
           "label": "First look reaction",
           "film": "Kylie & Seth",
-          "duration": 3.169833
+          "duration": 3.169833,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "8-3",
@@ -1154,12 +1306,20 @@
           "poster": "/cam-b/clips/08-3.jpg",
           "label": "First look reaction",
           "film": "Moriah & Dane",
-          "duration": 3.169833
+          "duration": 3.169833,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
       "number": 10,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
       "id": "6-13",
@@ -1183,7 +1343,11 @@
           "poster": "/cam-b/clips/09.jpg",
           "label": "Hands & partial reveal",
           "film": "Rachel & Ryan",
-          "duration": 4.004
+          "duration": 4.004,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "9-2",
@@ -1191,7 +1355,11 @@
           "poster": "/cam-b/clips/09-2.jpg",
           "label": "Hands & partial reveal",
           "film": "Dakota & Rosie",
-          "duration": 3.211542
+          "duration": 3.211542,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "9-3",
@@ -1199,12 +1367,20 @@
           "poster": "/cam-b/clips/09-3.jpg",
           "label": "Hands & partial reveal",
           "film": "Ia & Jared",
-          "duration": 3.166667
+          "duration": 3.166667,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
       "number": 11,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
       "id": "6-14",
@@ -1228,7 +1404,11 @@
           "poster": "/cam-b/clips/16.jpg",
           "label": "Vows & listening reaction",
           "film": "Gina & Spencer",
-          "duration": 3.966667
+          "duration": 3.966667,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "16-2",
@@ -1236,7 +1416,11 @@
           "poster": "/cam-b/clips/16-2.jpg",
           "label": "Vows & listening reaction",
           "film": "Moriah & Dane",
-          "duration": 3.169833
+          "duration": 3.169833,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "16-3",
@@ -1244,12 +1428,20 @@
           "poster": "/cam-b/clips/16-3.jpg",
           "label": "Vows & listening reaction",
           "film": "Kelsie & Davidson",
-          "duration": 3.208333
+          "duration": 3.208333,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
       "number": 12,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
       "id": "6-15",
@@ -1272,7 +1464,11 @@
           "poster": "/cam-b/clips/07.jpg",
           "label": "Candid bride reaction",
           "film": "Caitlin & Cole",
-          "duration": 2.333008
+          "duration": 2.333008,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "7-2",
@@ -1280,7 +1476,11 @@
           "poster": "/cam-b/clips/07-2.jpg",
           "label": "Candid bride reaction",
           "film": "Moriah & Dane",
-          "duration": 3.169833
+          "duration": 3.169833,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "7-3",
@@ -1288,12 +1488,20 @@
           "poster": "/cam-b/clips/07-3.jpg",
           "label": "Candid bride reaction",
           "film": "Allie & Alan",
-          "duration": 3.208333
+          "duration": 3.208333,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
       "number": 13,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
       "id": "6-16",
@@ -1317,7 +1525,11 @@
           "poster": "/cam-b/clips/11.jpg",
           "label": "Faces, embrace & kiss",
           "film": "Alisia & Matt",
-          "duration": 4.004
+          "duration": 4.004,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "11-2",
@@ -1325,7 +1537,11 @@
           "poster": "/cam-b/clips/11-2.jpg",
           "label": "Faces, embrace & kiss",
           "film": "Moriah & Dane",
-          "duration": 3.169833
+          "duration": 3.169833,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "11-3",
@@ -1333,12 +1549,20 @@
           "poster": "/cam-b/clips/11-3.jpg",
           "label": "Faces, embrace & kiss",
           "film": "Ia & Jared",
-          "duration": 3.166667
+          "duration": 3.166667,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
       "number": 14,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
       "id": "6-17",
@@ -1362,7 +1586,11 @@
           "poster": "/cam-b/clips/06.jpg",
           "label": "Bride & parent moment",
           "film": "Gina & Spencer",
-          "duration": 3.966667
+          "duration": 3.966667,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "6-2",
@@ -1370,7 +1598,11 @@
           "poster": "/cam-b/clips/06-2.jpg",
           "label": "Bride & parent moment",
           "film": "Gabriella & Robert",
-          "duration": 3.208333
+          "duration": 3.208333,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "6-3",
@@ -1378,12 +1610,20 @@
           "poster": "/cam-b/clips/06-3.jpg",
           "label": "Bride & parent moment",
           "film": "Reanna & Brandon",
-          "duration": 3.169833
+          "duration": 3.169833,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
       "number": 15,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
       "id": "6-18",
@@ -1407,7 +1647,11 @@
           "poster": "/cam-b/clips/13-retimed.jpg",
           "label": "Guests & family",
           "film": "Brianna & Caleb",
-          "duration": 2.625
+          "duration": 2.625,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "13-2",
@@ -1415,7 +1659,11 @@
           "poster": "/cam-b/clips/13-2.jpg",
           "label": "Guests & family",
           "film": "Gabriella & Robert",
-          "duration": 3.166667
+          "duration": 3.166667,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "13-3",
@@ -1423,12 +1671,20 @@
           "poster": "/cam-b/clips/13-3.jpg",
           "label": "Guests & family",
           "film": "Jennifer & partner",
-          "duration": 3.2032
+          "duration": 3.2032,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
       "number": 16,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
       "id": "6-19",
@@ -1452,7 +1708,11 @@
           "poster": "/cam-b/clips/30.jpg",
           "label": "Walking together in warm light",
           "film": "Alisia & Matt",
-          "duration": 3.570233
+          "duration": 3.570233,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "30-2",
@@ -1460,7 +1720,11 @@
           "poster": "/cam-b/clips/30-2.jpg",
           "label": "Walking together in warm light",
           "film": "Rachel & Ryan",
-          "duration": 3.6036
+          "duration": 3.6036,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "30-3",
@@ -1468,12 +1732,20 @@
           "poster": "/cam-b/clips/30-3.jpg",
           "label": "Walking together in warm light",
           "film": "Moriah & Dane",
-          "duration": 3.6036
+          "duration": 3.6036,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
       "number": 17,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
       "id": "6-20",
@@ -1497,7 +1769,11 @@
           "poster": "/cam-b/clips/14.jpg",
           "label": "Aisle walk",
           "film": "Gina & Spencer",
-          "duration": 3.166667
+          "duration": 3.166667,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "14-2",
@@ -1505,7 +1781,11 @@
           "poster": "/cam-b/clips/14-2.jpg",
           "label": "Aisle walk",
           "film": "Jennifer & partner",
-          "duration": 3.169833
+          "duration": 3.169833,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "14-3",
@@ -1513,12 +1793,20 @@
           "poster": "/cam-b/clips/14-3.jpg",
           "label": "Aisle walk",
           "film": "Kelsie & Davidson",
-          "duration": 3.208333
+          "duration": 3.208333,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
       "number": 18,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
       "id": "6-21",
@@ -1542,7 +1830,11 @@
           "poster": "/cam-b/clips/15.jpg",
           "label": "Groom reaction shot",
           "film": "Moriah & Dane",
-          "duration": 4.004
+          "duration": 4.004,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "15-2",
@@ -1550,7 +1842,11 @@
           "poster": "/cam-b/clips/15-2.jpg",
           "label": "Groom reaction shot",
           "film": "Kelsie & Davidson",
-          "duration": 2.625
+          "duration": 2.625,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "15-3",
@@ -1558,12 +1854,20 @@
           "poster": "/cam-b/clips/15-3.jpg",
           "label": "Groom reaction shot",
           "film": "Gina & Spencer",
-          "duration": 3.166667
+          "duration": 3.166667,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
       "number": 19,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
       "id": "6-22",
@@ -1587,7 +1891,11 @@
           "poster": "/cam-b/clips/17.jpg",
           "label": "Ring exchange detail",
           "film": "Gretchen",
-          "duration": 3.970633
+          "duration": 3.970633,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "17-2",
@@ -1595,7 +1903,11 @@
           "poster": "/cam-b/clips/17-2.jpg",
           "label": "Ring exchange detail",
           "film": "Kelsie & Davidson",
-          "duration": 3.166667
+          "duration": 3.166667,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "17-3",
@@ -1603,12 +1915,20 @@
           "poster": "/cam-b/clips/17-3.jpg",
           "label": "Ring exchange detail",
           "film": "Brianna & Caleb",
-          "duration": 3.169833
+          "duration": 3.169833,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
       "number": 20,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
       "id": "6-23",
@@ -1631,7 +1951,11 @@
           "poster": "/cam-b/clips/18.jpg",
           "label": "Pronouncement, kiss & cheer",
           "film": "Kelsie & Davidson",
-          "duration": 4.0
+          "duration": 4.0,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "18-2",
@@ -1639,7 +1963,11 @@
           "poster": "/cam-b/clips/18-2.jpg",
           "label": "Pronouncement, kiss & cheer",
           "film": "Gabriella & Robert",
-          "duration": 3.166667
+          "duration": 3.166667,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "18-3",
@@ -1647,12 +1975,20 @@
           "poster": "/cam-b/clips/18-3.jpg",
           "label": "Pronouncement, kiss & cheer",
           "film": "Dakota & Rosie",
-          "duration": 3.169833
+          "duration": 3.169833,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
       "number": 21,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
       "id": "6-24",
@@ -1675,7 +2011,11 @@
           "poster": "/cam-b/clips/18-2.jpg",
           "label": "Pronouncement, kiss & cheer",
           "film": "Gabriella & Robert",
-          "duration": 3.166667
+          "duration": 3.166667,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "18-1",
@@ -1683,7 +2023,11 @@
           "poster": "/cam-b/clips/18.jpg",
           "label": "Pronouncement, kiss & cheer",
           "film": "Kelsie & Davidson",
-          "duration": 4.0
+          "duration": 4.0,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "18-3",
@@ -1691,12 +2035,20 @@
           "poster": "/cam-b/clips/18-3.jpg",
           "label": "Pronouncement, kiss & cheer",
           "film": "Dakota & Rosie",
-          "duration": 3.169833
+          "duration": 3.169833,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
       "number": 22,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
       "id": "6-25",
@@ -1719,7 +2071,11 @@
           "poster": "/cam-b/clips/42.jpg",
           "label": "Recessional",
           "film": "Rachel & Ryan",
-          "duration": 2.1021
+          "duration": 2.1021,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "42-2",
@@ -1727,7 +2083,11 @@
           "poster": "/cam-b/clips/42-2.jpg",
           "label": "Recessional",
           "film": "Gina & Spencer",
-          "duration": 3.566667
+          "duration": 3.566667,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "42-3",
@@ -1735,13 +2095,21 @@
           "poster": "/cam-b/clips/42-3.jpg",
           "label": "Recessional",
           "film": "Violet & Devin",
-          "duration": 3.566667
+          "duration": 3.566667,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
       "number": 23,
       "transition": "Cut",
       "opticalFlow": false,
-      "kissEnding": true
+      "kissEnding": true,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
       "id": "6-26",
@@ -1749,47 +2117,57 @@
       "ordinal": 26,
       "start": 120,
       "end": 123,
-      "title": "Reception explosion: bouquet throw / celebration",
-      "detail": "Explosive celebration immediately after the kiss fade. Begin on a genuine action peak, with no black hold. Use a real covered reception action or joyful reaction led by the bride/groom; finish the action within this musical slot. Public auditions illustrate action types; verify actual reception context before selecting source footage.",
+      "title": "Reception 01 / Grand entrance and cheers",
+      "detail": "Immediate energetic restart after the kiss fade; one genuine grand-entrance shot with cheers. Use the actual covered moment, completing the action within the musical slot. Review the full source interval before selecting it.",
       "rules": [
         "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
         "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
-        "Reception opening only, immediately after the kiss false-ending fade: explosive energy and emotion. Bride/groom lead genuine celebration: bouquet throwing when covered, laughter, energetic dancing, jumping, spinning or cheering. Choose action peaks and emotional reactions inside the existing measure slots; use normal speed when slow motion weakens energy. No slow static filler or restrained first-dance swaying at this restart. Keep strong matched scratch/source reactions and unducked energetic reception music. Use three relevant auditions, unique first picks, and only events genuinely covered; never invent events. Preserve the film opening, vows/preparation and later structure."
+        "Reception sequence only, immediately after the kiss false-ending fade: Grand entrance and cheers > First dance > Laughter during speeches or with friends > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Twelve picture slots in this exact order. Preserve measure-based pacing and the immediate energetic unducked musical restart. Grand entrance includes genuine cheers; dance-floor clips must show upbeat movement, not slow first-dance swaying. Use a genuinely covered game/activity if no flower toss exists; never invent events. Maintain matched scratch audio, three relevant audition choices and unique first picks. The film opening and vows/preparation remain unchanged."
       ],
       "speed": 100,
       "fadeIn": 0,
       "fadeOut": 0,
       "takes": [
         {
-          "id": "36-2",
-          "src": "/cam-b/clips/36-2.mp4",
-          "poster": "/cam-b/clips/36-2.jpg",
-          "label": "Flower toss",
-          "film": "Moriah & Dane",
-          "duration": 3.6036
+          "id": "39-1",
+          "src": "/cam-b/clips/39.mp4",
+          "poster": "/cam-b/clips/39.jpg",
+          "label": "Other scheduled reception events",
+          "film": "Kelsie & Davidson",
+          "duration": 3.0,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
-          "id": "36-1",
-          "src": "/cam-b/clips/36.mp4",
-          "poster": "/cam-b/clips/36.jpg",
-          "label": "Flower toss",
-          "film": "Gabriella & Robert",
-          "duration": 3.083333
+          "id": "unassigned-6-26-2",
+          "label": "Grand entrance and cheers / source needed",
+          "assignment": "pending",
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
-          "id": "36-3",
-          "src": "/cam-b/clips/36-3.mp4",
-          "poster": "/cam-b/clips/36-3.jpg",
-          "label": "Flower toss",
-          "film": "Gina & Spencer",
-          "duration": 2.366667
+          "id": "unassigned-6-26-3",
+          "label": "Grand entrance and cheers / source needed",
+          "assignment": "pending",
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
       "number": 24,
       "transition": "Cut",
       "opticalFlow": false,
       "receptionScratchAudio": true,
-      "receptionOpening": true
+      "receptionSequenceIndex": 1,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
       "id": "6-27",
@@ -1797,12 +2175,140 @@
       "ordinal": 27,
       "start": 123,
       "end": 126,
-      "title": "Reception opening: energetic dancing / cheering",
-      "detail": "Explosive celebration immediately after the kiss fade. Use a real covered reception action or joyful reaction led by the bride/groom; finish the action within this musical slot. Public auditions illustrate action types; verify actual reception context before selecting source footage.",
+      "title": "Reception 02 / First dance",
+      "detail": "Use the actual covered moment, completing the action within the musical slot. Review the full source interval before selecting it.",
       "rules": [
         "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
         "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
-        "Reception opening only, immediately after the kiss false-ending fade: explosive energy and emotion. Bride/groom lead genuine celebration: bouquet throwing when covered, laughter, energetic dancing, jumping, spinning or cheering. Choose action peaks and emotional reactions inside the existing measure slots; use normal speed when slow motion weakens energy. No slow static filler or restrained first-dance swaying at this restart. Keep strong matched scratch/source reactions and unducked energetic reception music. Use three relevant auditions, unique first picks, and only events genuinely covered; never invent events. Preserve the film opening, vows/preparation and later structure."
+        "Reception sequence only, immediately after the kiss false-ending fade: Grand entrance and cheers > First dance > Laughter during speeches or with friends > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Twelve picture slots in this exact order. Preserve measure-based pacing and the immediate energetic unducked musical restart. Grand entrance includes genuine cheers; dance-floor clips must show upbeat movement, not slow first-dance swaying. Use a genuinely covered game/activity if no flower toss exists; never invent events. Maintain matched scratch audio, three relevant audition choices and unique first picks. The film opening and vows/preparation remain unchanged."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "21-1",
+          "src": "/cam-b/clips/21.mp4",
+          "poster": "/cam-b/clips/21.jpg",
+          "label": "First dance",
+          "film": "Rachel & Ryan",
+          "duration": 4.004,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
+        },
+        {
+          "id": "21-2",
+          "src": "/cam-b/clips/21-2.mp4",
+          "poster": "/cam-b/clips/21-2.jpg",
+          "label": "First dance",
+          "film": "Caitlin & Cole",
+          "duration": 3.166667,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
+        },
+        {
+          "id": "21-3",
+          "src": "/cam-b/clips/21-3.mp4",
+          "poster": "/cam-b/clips/21-3.jpg",
+          "label": "First dance",
+          "film": "Gina & Spencer",
+          "duration": 3.166667,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
+        }
+      ],
+      "number": 25,
+      "transition": "Cut",
+      "opticalFlow": false,
+      "receptionScratchAudio": true,
+      "receptionSequenceIndex": 2,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
+    },
+    {
+      "id": "6-28",
+      "track": 6,
+      "ordinal": 28,
+      "start": 126,
+      "end": 129,
+      "title": "Reception 03 / Laughter during speeches or with friends",
+      "detail": "Use the actual covered moment, completing the action within the musical slot. Review the full source interval before selecting it.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
+        "Reception sequence only, immediately after the kiss false-ending fade: Grand entrance and cheers > First dance > Laughter during speeches or with friends > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Twelve picture slots in this exact order. Preserve measure-based pacing and the immediate energetic unducked musical restart. Grand entrance includes genuine cheers; dance-floor clips must show upbeat movement, not slow first-dance swaying. Use a genuinely covered game/activity if no flower toss exists; never invent events. Maintain matched scratch audio, three relevant audition choices and unique first picks. The film opening and vows/preparation remain unchanged."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "20-1",
+          "src": "/cam-b/clips/20.mp4",
+          "poster": "/cam-b/clips/20.jpg",
+          "label": "Speech reactions",
+          "film": "Reanna & Brandon",
+          "duration": 4.004,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
+        },
+        {
+          "id": "20-2",
+          "src": "/cam-b/clips/20-2.mp4",
+          "poster": "/cam-b/clips/20-2.jpg",
+          "label": "Speech reactions",
+          "film": "Moriah & Dane",
+          "duration": 3.169833,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
+        },
+        {
+          "id": "20-3",
+          "src": "/cam-b/clips/20-3.mp4",
+          "poster": "/cam-b/clips/20-3.jpg",
+          "label": "Speech reactions",
+          "film": "Dakota & Rosie",
+          "duration": 3.211542,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
+        }
+      ],
+      "number": 26,
+      "transition": "Cut",
+      "opticalFlow": false,
+      "receptionScratchAudio": true,
+      "receptionSequenceIndex": 3,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
+    },
+    {
+      "id": "6-29",
+      "track": 6,
+      "ordinal": 29,
+      "start": 129,
+      "end": 132,
+      "title": "Reception 04 / Upbeat dance floor A",
+      "detail": "Use genuinely upbeat dance-floor movement; reject restrained first-dance swaying. Review the full source interval before selecting it.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
+        "Reception sequence only, immediately after the kiss false-ending fade: Grand entrance and cheers > First dance > Laughter during speeches or with friends > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Twelve picture slots in this exact order. Preserve measure-based pacing and the immediate energetic unducked musical restart. Grand entrance includes genuine cheers; dance-floor clips must show upbeat movement, not slow first-dance swaying. Use a genuinely covered game/activity if no flower toss exists; never invent events. Maintain matched scratch audio, three relevant audition choices and unique first picks. The film opening and vows/preparation remain unchanged."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -1814,126 +2320,43 @@
           "poster": "/cam-b/clips/23.jpg",
           "label": "Open dancing",
           "film": "Dakota & Rosie",
-          "duration": 4.004
+          "duration": 4.004,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
-          "id": "36-1",
-          "src": "/cam-b/clips/36.mp4",
-          "poster": "/cam-b/clips/36.jpg",
-          "label": "Flower toss",
-          "film": "Gabriella & Robert",
-          "duration": 3.083333
+          "id": "23-3",
+          "src": "/cam-b/clips/23-3.mp4",
+          "poster": "/cam-b/clips/23-3.jpg",
+          "label": "Open dancing",
+          "film": "Rachel & Ryan",
+          "duration": 3.003,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
-          "id": "36-2",
-          "src": "/cam-b/clips/36-2.mp4",
-          "poster": "/cam-b/clips/36-2.jpg",
-          "label": "Flower toss",
-          "film": "Moriah & Dane",
-          "duration": 3.6036
-        }
-      ],
-      "number": 25,
-      "transition": "Cut",
-      "opticalFlow": false,
-      "receptionScratchAudio": true,
-      "receptionOpening": true
-    },
-    {
-      "id": "6-28",
-      "track": 6,
-      "ordinal": 28,
-      "start": 126,
-      "end": 129,
-      "title": "Reception opening: couple laughter / delight",
-      "detail": "Explosive celebration immediately after the kiss fade. Use a real covered reception action or joyful reaction led by the bride/groom; finish the action within this musical slot. Public auditions illustrate action types; verify actual reception context before selecting source footage.",
-      "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
-        "Reception opening only, immediately after the kiss false-ending fade: explosive energy and emotion. Bride/groom lead genuine celebration: bouquet throwing when covered, laughter, energetic dancing, jumping, spinning or cheering. Choose action peaks and emotional reactions inside the existing measure slots; use normal speed when slow motion weakens energy. No slow static filler or restrained first-dance swaying at this restart. Keep strong matched scratch/source reactions and unducked energetic reception music. Use three relevant auditions, unique first picks, and only events genuinely covered; never invent events. Preserve the film opening, vows/preparation and later structure."
-      ],
-      "speed": 100,
-      "fadeIn": 0,
-      "fadeOut": 0,
-      "takes": [
-        {
-          "id": "25-2",
-          "src": "/cam-b/clips/25-2.mp4",
-          "poster": "/cam-b/clips/25-2.jpg",
-          "label": "Playful couple moment",
-          "film": "Kylie & Seth",
-          "duration": 3.2032
-        },
-        {
-          "id": "25-1",
-          "src": "/cam-b/clips/25.mp4",
-          "poster": "/cam-b/clips/25.jpg",
-          "label": "Playful couple moment",
-          "film": "Alisia & Matt",
-          "duration": 3.169833
-        },
-        {
-          "id": "25-3",
-          "src": "/cam-b/clips/25-3.mp4",
-          "poster": "/cam-b/clips/25-3.jpg",
-          "label": "Playful couple moment",
-          "film": "Gabriella & Robert",
-          "duration": 3.208333
-        }
-      ],
-      "number": 26,
-      "transition": "Cut",
-      "opticalFlow": false,
-      "receptionScratchAudio": true,
-      "receptionOpening": true
-    },
-    {
-      "id": "6-29",
-      "track": 6,
-      "ordinal": 29,
-      "start": 129,
-      "end": 132,
-      "title": "Reception opening: spinning / joyful movement",
-      "detail": "Explosive celebration immediately after the kiss fade. Use a real covered reception action or joyful reaction led by the bride/groom; finish the action within this musical slot. Public auditions illustrate action types; verify actual reception context before selecting source footage.",
-      "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
-        "Reception opening only, immediately after the kiss false-ending fade: explosive energy and emotion. Bride/groom lead genuine celebration: bouquet throwing when covered, laughter, energetic dancing, jumping, spinning or cheering. Choose action peaks and emotional reactions inside the existing measure slots; use normal speed when slow motion weakens energy. No slow static filler or restrained first-dance swaying at this restart. Keep strong matched scratch/source reactions and unducked energetic reception music. Use three relevant auditions, unique first picks, and only events genuinely covered; never invent events. Preserve the film opening, vows/preparation and later structure."
-      ],
-      "speed": 100,
-      "fadeIn": 0,
-      "fadeOut": 0,
-      "takes": [
-        {
-          "id": "32-1",
-          "src": "/cam-b/clips/32.mp4",
-          "poster": "/cam-b/clips/32.jpg",
-          "label": "Twirl & flowing dress",
-          "film": "Ia & Jared",
-          "duration": 3.583333
-        },
-        {
-          "id": "32-2",
-          "src": "/cam-b/clips/32-2.mp4",
-          "poster": "/cam-b/clips/32-2.jpg",
-          "label": "Twirl & flowing dress",
-          "film": "Gabriella & Robert",
-          "duration": 3.625
-        },
-        {
-          "id": "32-3",
-          "src": "/cam-b/clips/32-3.mp4",
-          "poster": "/cam-b/clips/32-3.jpg",
-          "label": "Twirl & flowing dress",
-          "film": "Allie & Alan",
-          "duration": 3.625
+          "id": "unassigned-6-29-3",
+          "label": "Upbeat dance floor A / source needed",
+          "assignment": "pending",
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
       "number": 27,
       "transition": "Cut",
       "opticalFlow": false,
       "receptionScratchAudio": true,
-      "receptionOpening": true
+      "receptionSequenceIndex": 4,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
       "id": "6-30",
@@ -1941,47 +2364,60 @@
       "ordinal": 30,
       "start": 132,
       "end": 135,
-      "title": "Reception opening: bouquet action / crowd payoff",
-      "detail": "Explosive celebration immediately after the kiss fade. Use a real covered reception action or joyful reaction led by the bride/groom; finish the action within this musical slot. Public auditions illustrate action types; verify actual reception context before selecting source footage.",
+      "title": "Reception 05 / Upbeat dance floor B",
+      "detail": "Use genuinely upbeat dance-floor movement; reject restrained first-dance swaying. Review the full source interval before selecting it.",
       "rules": [
         "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
         "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
-        "Reception opening only, immediately after the kiss false-ending fade: explosive energy and emotion. Bride/groom lead genuine celebration: bouquet throwing when covered, laughter, energetic dancing, jumping, spinning or cheering. Choose action peaks and emotional reactions inside the existing measure slots; use normal speed when slow motion weakens energy. No slow static filler or restrained first-dance swaying at this restart. Keep strong matched scratch/source reactions and unducked energetic reception music. Use three relevant auditions, unique first picks, and only events genuinely covered; never invent events. Preserve the film opening, vows/preparation and later structure."
+        "Reception sequence only, immediately after the kiss false-ending fade: Grand entrance and cheers > First dance > Laughter during speeches or with friends > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Twelve picture slots in this exact order. Preserve measure-based pacing and the immediate energetic unducked musical restart. Grand entrance includes genuine cheers; dance-floor clips must show upbeat movement, not slow first-dance swaying. Use a genuinely covered game/activity if no flower toss exists; never invent events. Maintain matched scratch audio, three relevant audition choices and unique first picks. The film opening and vows/preparation remain unchanged."
       ],
       "speed": 100,
       "fadeIn": 0,
       "fadeOut": 0,
       "takes": [
         {
-          "id": "36-3",
-          "src": "/cam-b/clips/36-3.mp4",
-          "poster": "/cam-b/clips/36-3.jpg",
-          "label": "Flower toss",
-          "film": "Gina & Spencer",
-          "duration": 2.366667
+          "id": "23-3",
+          "src": "/cam-b/clips/23-3.mp4",
+          "poster": "/cam-b/clips/23-3.jpg",
+          "label": "Open dancing",
+          "film": "Rachel & Ryan",
+          "duration": 3.003,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
-          "id": "36-1",
-          "src": "/cam-b/clips/36.mp4",
-          "poster": "/cam-b/clips/36.jpg",
-          "label": "Flower toss",
-          "film": "Gabriella & Robert",
-          "duration": 3.083333
+          "id": "23-1",
+          "src": "/cam-b/clips/23.mp4",
+          "poster": "/cam-b/clips/23.jpg",
+          "label": "Open dancing",
+          "film": "Dakota & Rosie",
+          "duration": 4.004,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
-          "id": "36-2",
-          "src": "/cam-b/clips/36-2.mp4",
-          "poster": "/cam-b/clips/36-2.jpg",
-          "label": "Flower toss",
-          "film": "Moriah & Dane",
-          "duration": 3.6036
+          "id": "unassigned-6-30-3",
+          "label": "Upbeat dance floor B / source needed",
+          "assignment": "pending",
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
       "number": 28,
       "transition": "Cut",
       "opticalFlow": false,
       "receptionScratchAudio": true,
-      "receptionOpening": true
+      "receptionSequenceIndex": 5,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
       "id": "6-31",
@@ -1989,151 +2425,12 @@
       "ordinal": 31,
       "start": 135,
       "end": 138,
-      "title": "Reception opening: couple laughter / emotional reaction",
-      "detail": "Explosive celebration immediately after the kiss fade. Use a real covered reception action or joyful reaction led by the bride/groom; finish the action within this musical slot. Public auditions illustrate action types; verify actual reception context before selecting source footage.",
+      "title": "Reception 06 / Flower toss / game / activity A",
+      "detail": "Use the actual covered moment, completing the action within the musical slot. A covered game or activity substitutes when no toss was filmed. Review the full source interval before selecting it.",
       "rules": [
         "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
         "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
-        "Reception opening only, immediately after the kiss false-ending fade: explosive energy and emotion. Bride/groom lead genuine celebration: bouquet throwing when covered, laughter, energetic dancing, jumping, spinning or cheering. Choose action peaks and emotional reactions inside the existing measure slots; use normal speed when slow motion weakens energy. No slow static filler or restrained first-dance swaying at this restart. Keep strong matched scratch/source reactions and unducked energetic reception music. Use three relevant auditions, unique first picks, and only events genuinely covered; never invent events. Preserve the film opening, vows/preparation and later structure."
-      ],
-      "speed": 100,
-      "fadeIn": 0,
-      "fadeOut": 0,
-      "takes": [
-        {
-          "id": "25-3",
-          "src": "/cam-b/clips/25-3.mp4",
-          "poster": "/cam-b/clips/25-3.jpg",
-          "label": "Playful couple moment",
-          "film": "Gabriella & Robert",
-          "duration": 3.208333
-        },
-        {
-          "id": "25-2",
-          "src": "/cam-b/clips/25-2.mp4",
-          "poster": "/cam-b/clips/25-2.jpg",
-          "label": "Playful couple moment",
-          "film": "Kylie & Seth",
-          "duration": 3.2032
-        },
-        {
-          "id": "25-1",
-          "src": "/cam-b/clips/25.mp4",
-          "poster": "/cam-b/clips/25.jpg",
-          "label": "Playful couple moment",
-          "film": "Alisia & Matt",
-          "duration": 3.169833
-        }
-      ],
-      "number": 29,
-      "transition": "Cut",
-      "opticalFlow": false,
-      "receptionScratchAudio": true,
-      "receptionOpening": true
-    },
-    {
-      "id": "6-32",
-      "track": 6,
-      "ordinal": 32,
-      "start": 138,
-      "end": 141,
-      "title": "Guests: distinct laughter / social moment",
-      "detail": "Proposed quicker rhythm; resize to finish the action. Distinct shot, only if covered.",
-      "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
-      ],
-      "speed": 100,
-      "fadeIn": 0,
-      "fadeOut": 0,
-      "takes": [
-        {
-          "id": "25-1",
-          "src": "/cam-b/clips/25.mp4",
-          "poster": "/cam-b/clips/25.jpg",
-          "label": "Playful couple moment",
-          "film": "Alisia & Matt",
-          "duration": 3.169833
-        },
-        {
-          "id": "25-2",
-          "src": "/cam-b/clips/25-2.mp4",
-          "poster": "/cam-b/clips/25-2.jpg",
-          "label": "Playful couple moment",
-          "film": "Kylie & Seth",
-          "duration": 3.2032
-        },
-        {
-          "id": "25-3",
-          "src": "/cam-b/clips/25-3.mp4",
-          "poster": "/cam-b/clips/25-3.jpg",
-          "label": "Playful couple moment",
-          "film": "Gabriella & Robert",
-          "duration": 3.208333
-        }
-      ],
-      "number": 30,
-      "transition": "Cut",
-      "opticalFlow": false,
-      "receptionScratchAudio": true
-    },
-    {
-      "id": "6-33",
-      "track": 6,
-      "ordinal": 33,
-      "start": 141,
-      "end": 144,
-      "title": "Couple response: laughter / shared connection",
-      "detail": "Proposed quicker rhythm; resize to finish the action. Distinct shot, only if covered.",
-      "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
-      ],
-      "speed": 100,
-      "fadeIn": 0,
-      "fadeOut": 0,
-      "takes": [
-        {
-          "id": "37-1",
-          "src": "/cam-b/clips/37.mp4",
-          "poster": "/cam-b/clips/37.jpg",
-          "label": "Cake cutting",
-          "film": "Gina & Spencer",
-          "duration": 3.566667
-        },
-        {
-          "id": "37-2",
-          "src": "/cam-b/clips/37-2.mp4",
-          "poster": "/cam-b/clips/37-2.jpg",
-          "label": "Cake cutting",
-          "film": "Caitlin & Cole",
-          "duration": 3.583333
-        },
-        {
-          "id": "37-3",
-          "src": "/cam-b/clips/37-3.mp4",
-          "poster": "/cam-b/clips/37-3.jpg",
-          "label": "Cake cutting",
-          "film": "Gabriella & Robert",
-          "duration": 2.291667
-        }
-      ],
-      "number": 31,
-      "transition": "Cut",
-      "opticalFlow": false,
-      "receptionScratchAudio": true
-    },
-    {
-      "id": "6-34",
-      "track": 6,
-      "ordinal": 34,
-      "start": 144,
-      "end": 147,
-      "title": "Covered cake / toss / dance: main action",
-      "detail": "Proposed quicker rhythm; resize to finish the action. Distinct shot, only if covered.",
-      "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
+        "Reception sequence only, immediately after the kiss false-ending fade: Grand entrance and cheers > First dance > Laughter during speeches or with friends > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Twelve picture slots in this exact order. Preserve measure-based pacing and the immediate energetic unducked musical restart. Grand entrance includes genuine cheers; dance-floor clips must show upbeat movement, not slow first-dance swaying. Use a genuinely covered game/activity if no flower toss exists; never invent events. Maintain matched scratch audio, three relevant audition choices and unique first picks. The film opening and vows/preparation remain unchanged."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -2145,7 +2442,11 @@
           "poster": "/cam-b/clips/36.jpg",
           "label": "Flower toss",
           "film": "Gabriella & Robert",
-          "duration": 3.083333
+          "duration": 3.083333,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "36-2",
@@ -2153,7 +2454,11 @@
           "poster": "/cam-b/clips/36-2.jpg",
           "label": "Flower toss",
           "film": "Moriah & Dane",
-          "duration": 3.6036
+          "duration": 3.6036,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "36-3",
@@ -2161,13 +2466,214 @@
           "poster": "/cam-b/clips/36-3.jpg",
           "label": "Flower toss",
           "film": "Gina & Spencer",
-          "duration": 2.366667
+          "duration": 2.366667,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
+        }
+      ],
+      "number": 29,
+      "transition": "Cut",
+      "opticalFlow": false,
+      "receptionScratchAudio": true,
+      "receptionSequenceIndex": 6,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
+    },
+    {
+      "id": "6-32",
+      "track": 6,
+      "ordinal": 32,
+      "start": 138,
+      "end": 141,
+      "title": "Reception 07 / Flower toss / game / activity B",
+      "detail": "Use the actual covered moment, completing the action within the musical slot. A covered game or activity substitutes when no toss was filmed. Review the full source interval before selecting it.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
+        "Reception sequence only, immediately after the kiss false-ending fade: Grand entrance and cheers > First dance > Laughter during speeches or with friends > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Twelve picture slots in this exact order. Preserve measure-based pacing and the immediate energetic unducked musical restart. Grand entrance includes genuine cheers; dance-floor clips must show upbeat movement, not slow first-dance swaying. Use a genuinely covered game/activity if no flower toss exists; never invent events. Maintain matched scratch audio, three relevant audition choices and unique first picks. The film opening and vows/preparation remain unchanged."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "36-2",
+          "src": "/cam-b/clips/36-2.mp4",
+          "poster": "/cam-b/clips/36-2.jpg",
+          "label": "Flower toss",
+          "film": "Moriah & Dane",
+          "duration": 3.6036,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
+        },
+        {
+          "id": "39-2",
+          "src": "/cam-b/clips/39-2.mp4",
+          "poster": "/cam-b/clips/39-2.jpg",
+          "label": "Other scheduled reception events",
+          "film": "Reanna & Brandon",
+          "duration": 2.4024,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
+        },
+        {
+          "id": "39-3",
+          "src": "/cam-b/clips/39-3.mp4",
+          "poster": "/cam-b/clips/39-3.jpg",
+          "label": "Other scheduled reception events",
+          "film": "Gina & Spencer",
+          "duration": 2.366667,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
+        }
+      ],
+      "number": 30,
+      "transition": "Cut",
+      "opticalFlow": false,
+      "receptionScratchAudio": true,
+      "receptionSequenceIndex": 7,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
+    },
+    {
+      "id": "6-33",
+      "track": 6,
+      "ordinal": 33,
+      "start": 141,
+      "end": 144,
+      "title": "Reception 08 / First dance A",
+      "detail": "Use the actual covered moment, completing the action within the musical slot. Review the full source interval before selecting it.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
+        "Reception sequence only, immediately after the kiss false-ending fade: Grand entrance and cheers > First dance > Laughter during speeches or with friends > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Twelve picture slots in this exact order. Preserve measure-based pacing and the immediate energetic unducked musical restart. Grand entrance includes genuine cheers; dance-floor clips must show upbeat movement, not slow first-dance swaying. Use a genuinely covered game/activity if no flower toss exists; never invent events. Maintain matched scratch audio, three relevant audition choices and unique first picks. The film opening and vows/preparation remain unchanged."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "21-2",
+          "src": "/cam-b/clips/21-2.mp4",
+          "poster": "/cam-b/clips/21-2.jpg",
+          "label": "First dance",
+          "film": "Caitlin & Cole",
+          "duration": 3.166667,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
+        },
+        {
+          "id": "21-1",
+          "src": "/cam-b/clips/21.mp4",
+          "poster": "/cam-b/clips/21.jpg",
+          "label": "First dance",
+          "film": "Rachel & Ryan",
+          "duration": 4.004,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
+        },
+        {
+          "id": "21-3",
+          "src": "/cam-b/clips/21-3.mp4",
+          "poster": "/cam-b/clips/21-3.jpg",
+          "label": "First dance",
+          "film": "Gina & Spencer",
+          "duration": 3.166667,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
+        }
+      ],
+      "number": 31,
+      "transition": "Cut",
+      "opticalFlow": false,
+      "receptionScratchAudio": true,
+      "receptionSequenceIndex": 8,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
+    },
+    {
+      "id": "6-34",
+      "track": 6,
+      "ordinal": 34,
+      "start": 144,
+      "end": 147,
+      "title": "Reception 09 / First dance B",
+      "detail": "Use the actual covered moment, completing the action within the musical slot. Review the full source interval before selecting it.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
+        "Reception sequence only, immediately after the kiss false-ending fade: Grand entrance and cheers > First dance > Laughter during speeches or with friends > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Twelve picture slots in this exact order. Preserve measure-based pacing and the immediate energetic unducked musical restart. Grand entrance includes genuine cheers; dance-floor clips must show upbeat movement, not slow first-dance swaying. Use a genuinely covered game/activity if no flower toss exists; never invent events. Maintain matched scratch audio, three relevant audition choices and unique first picks. The film opening and vows/preparation remain unchanged."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "21-3",
+          "src": "/cam-b/clips/21-3.mp4",
+          "poster": "/cam-b/clips/21-3.jpg",
+          "label": "First dance",
+          "film": "Gina & Spencer",
+          "duration": 3.166667,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
+        },
+        {
+          "id": "21-2",
+          "src": "/cam-b/clips/21-2.mp4",
+          "poster": "/cam-b/clips/21-2.jpg",
+          "label": "First dance",
+          "film": "Caitlin & Cole",
+          "duration": 3.166667,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
+        },
+        {
+          "id": "21-1",
+          "src": "/cam-b/clips/21.mp4",
+          "poster": "/cam-b/clips/21.jpg",
+          "label": "First dance",
+          "film": "Rachel & Ryan",
+          "duration": 4.004,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
       "number": 32,
       "transition": "Cut",
       "opticalFlow": false,
-      "receptionScratchAudio": true
+      "receptionScratchAudio": true,
+      "receptionSequenceIndex": 9,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
       "id": "6-35",
@@ -2175,45 +2681,63 @@
       "ordinal": 35,
       "start": 147,
       "end": 150,
-      "title": "Same event: matching distinct reaction / response",
-      "detail": "Proposed quicker rhythm; resize to finish the action. Distinct shot, only if covered.",
+      "title": "Reception 10 / Prettiest golden-hour couple portraits A",
+      "detail": "Use the actual covered moment, completing the action within the musical slot. Review the full source interval before selecting it.",
       "rules": [
         "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
+        "Reception sequence only, immediately after the kiss false-ending fade: Grand entrance and cheers > First dance > Laughter during speeches or with friends > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Twelve picture slots in this exact order. Preserve measure-based pacing and the immediate energetic unducked musical restart. Grand entrance includes genuine cheers; dance-floor clips must show upbeat movement, not slow first-dance swaying. Use a genuinely covered game/activity if no flower toss exists; never invent events. Maintain matched scratch audio, three relevant audition choices and unique first picks. The film opening and vows/preparation remain unchanged."
       ],
       "speed": 100,
       "fadeIn": 0,
       "fadeOut": 0,
       "takes": [
         {
-          "id": "22-1",
-          "src": "/cam-b/clips/22.mp4",
-          "poster": "/cam-b/clips/22.jpg",
-          "label": "Parent dance",
+          "id": "30-2",
+          "src": "/cam-b/clips/30-2.mp4",
+          "poster": "/cam-b/clips/30-2.jpg",
+          "label": "Walking together in warm light",
           "film": "Rachel & Ryan",
-          "duration": 4.004
+          "duration": 3.6036,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
-          "id": "22-2",
-          "src": "/cam-b/clips/22-2.mp4",
-          "poster": "/cam-b/clips/22-2.jpg",
-          "label": "Parent dance",
-          "film": "Reanna & Brandon",
-          "duration": 3.169833
+          "id": "30-1",
+          "src": "/cam-b/clips/30.mp4",
+          "poster": "/cam-b/clips/30.jpg",
+          "label": "Walking together in warm light",
+          "film": "Alisia & Matt",
+          "duration": 3.570233,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
-          "id": "22-3",
-          "src": "/cam-b/clips/22-3.mp4",
-          "poster": "/cam-b/clips/22-3.jpg",
-          "label": "Parent dance",
-          "film": "Gina & Spencer",
-          "duration": 2.266667
+          "id": "30-3",
+          "src": "/cam-b/clips/30-3.mp4",
+          "poster": "/cam-b/clips/30-3.jpg",
+          "label": "Walking together in warm light",
+          "film": "Moriah & Dane",
+          "duration": 3.6036,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
       "number": 33,
       "transition": "Cut",
       "opticalFlow": false,
-      "receptionScratchAudio": true
+      "receptionScratchAudio": true,
+      "receptionSequenceIndex": 10,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
       "id": "6-36",
@@ -2221,57 +2745,12 @@
       "ordinal": 36,
       "start": 150,
       "end": 156,
-      "title": "Distinct final dance or embrace",
-      "detail": "Finish action / camera move; measure counts can adapt.",
+      "title": "Reception 11 / Prettiest golden-hour couple portraits B",
+      "detail": "Use the actual covered moment, completing the action within the musical slot. Review the full source interval before selecting it.",
       "rules": [
         "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
-      ],
-      "speed": 100,
-      "fadeIn": 0,
-      "fadeOut": 0,
-      "takes": [
-        {
-          "id": "33-1",
-          "src": "/cam-b/clips/33.mp4",
-          "poster": "/cam-b/clips/33.jpg",
-          "label": "Dip & playful kiss",
-          "film": "Kylie & Seth",
-          "duration": 3.570233
-        },
-        {
-          "id": "33-2",
-          "src": "/cam-b/clips/33-2.mp4",
-          "poster": "/cam-b/clips/33-2.jpg",
-          "label": "Dip & playful kiss",
-          "film": "Gabriella & Robert",
-          "duration": 3.583333
-        },
-        {
-          "id": "33-3",
-          "src": "/cam-b/clips/33-3.mp4",
-          "poster": "/cam-b/clips/33-3.jpg",
-          "label": "Dip & playful kiss",
-          "film": "Alisia & Matt",
-          "duration": 3.570233
-        }
-      ],
-      "number": 34,
-      "transition": "Cut",
-      "opticalFlow": false,
-      "receptionScratchAudio": true
-    },
-    {
-      "id": "6-37",
-      "track": 6,
-      "ordinal": 37,
-      "start": 156,
-      "end": 162,
-      "title": "Couple closing portrait, no reused framing",
-      "detail": "Finish action / camera move; measure counts can adapt.",
-      "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
+        "Reception sequence only, immediately after the kiss false-ending fade: Grand entrance and cheers > First dance > Laughter during speeches or with friends > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Twelve picture slots in this exact order. Preserve measure-based pacing and the immediate energetic unducked musical restart. Grand entrance includes genuine cheers; dance-floor clips must show upbeat movement, not slow first-dance swaying. Use a genuinely covered game/activity if no flower toss exists; never invent events. Maintain matched scratch audio, three relevant audition choices and unique first picks. The film opening and vows/preparation remain unchanged."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -2283,7 +2762,11 @@
           "poster": "/cam-b/clips/27.jpg",
           "label": "Couple in the landscape",
           "film": "Dakota & Rosie",
-          "duration": 3.586917
+          "duration": 3.586917,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "27-2",
@@ -2291,7 +2774,11 @@
           "poster": "/cam-b/clips/27-2.jpg",
           "label": "Couple in the landscape",
           "film": "Alisia & Matt",
-          "duration": 3.6036
+          "duration": 3.6036,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "27-3",
@@ -2299,25 +2786,35 @@
           "poster": "/cam-b/clips/27-3.jpg",
           "label": "Couple in the landscape",
           "film": "Moriah & Dane",
-          "duration": 3.570233
+          "duration": 3.570233,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
-      "number": 35,
+      "number": 34,
       "transition": "Cut",
       "opticalFlow": false,
-      "receptionScratchAudio": true
+      "receptionScratchAudio": true,
+      "receptionSequenceIndex": 11,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     },
     {
-      "id": "6-38",
+      "id": "6-37",
       "track": 6,
-      "ordinal": 38,
-      "start": 162,
+      "ordinal": 37,
+      "start": 156,
       "end": 168,
-      "title": "Closing wide / drone: couple walking away",
-      "detail": "Mirror the opening establishing composition. Hold the complete walk-away action and finish the fade.",
+      "title": "Reception 12 / Conclusion",
+      "detail": "Use the actual covered moment, completing the action within the musical slot. Review the full source interval before selecting it.",
       "rules": [
         "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
+        "Reception sequence only, immediately after the kiss false-ending fade: Grand entrance and cheers > First dance > Laughter during speeches or with friends > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Twelve picture slots in this exact order. Preserve measure-based pacing and the immediate energetic unducked musical restart. Grand entrance includes genuine cheers; dance-floor clips must show upbeat movement, not slow first-dance swaying. Use a genuinely covered game/activity if no flower toss exists; never invent events. Maintain matched scratch audio, three relevant audition choices and unique first picks. The film opening and vows/preparation remain unchanged."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -2329,7 +2826,11 @@
           "poster": "/cam-b/clips/24.jpg",
           "label": "Closing wide",
           "film": "Alisia & Matt",
-          "duration": 3.970633
+          "duration": 3.970633,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "24-2",
@@ -2337,7 +2838,11 @@
           "poster": "/cam-b/clips/24-2.jpg",
           "label": "Closing wide",
           "film": "Moriah & Dane",
-          "duration": 3.169833
+          "duration": 3.169833,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         },
         {
           "id": "24-3",
@@ -2345,17 +2850,26 @@
           "poster": "/cam-b/clips/24-3.jpg",
           "label": "Closing wide",
           "film": "Caitlin & Cole",
-          "duration": 3.208333
+          "duration": 3.208333,
+          "qualityControl": {
+            "status": "pending",
+            "reason": "Review exposure, camera motion and correct color transform over the full source interval."
+          }
         }
       ],
-      "number": 36,
+      "number": 35,
       "transition": "Cut",
       "opticalFlow": false,
-      "receptionScratchAudio": true
+      "receptionScratchAudio": true,
+      "receptionSequenceIndex": 12,
+      "qualityControl": {
+        "status": "pending",
+        "reason": "Full source interval review required."
+      }
     }
   ],
   "schema": "tov-web-wedding-template-v1",
-  "revision": "2026-10-03.4",
+  "revision": "2026-10-03.5",
   "nativeSeedFingerprint": "8bdfdf4e6e615de832172783bf678bec28f09d367391a56db06be8df2579b348",
   "authority": "Supabase and website; native Resolve capture is historical seed",
   "trackOrder": [
@@ -2409,11 +2923,14 @@
       "description": "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
     },
     {
-      "id": "explosive-reception-opening",
+      "id": "ordered-reception-sequence",
       "approved": "2026-10-03",
-      "start": 120,
-      "end": 138,
-      "instruction": "Reception opening only, immediately after the kiss false-ending fade: explosive energy and emotion. Bride/groom lead genuine celebration: bouquet throwing when covered, laughter, energetic dancing, jumping, spinning or cheering. Choose action peaks and emotional reactions inside the existing measure slots; use normal speed when slow motion weakens energy. No slow static filler or restrained first-dance swaying at this restart. Keep strong matched scratch/source reactions and unducked energetic reception music. Use three relevant auditions, unique first picks, and only events genuinely covered; never invent events. Preserve the film opening, vows/preparation and later structure."
+      "instruction": "Reception sequence only, immediately after the kiss false-ending fade: Grand entrance and cheers > First dance > Laughter during speeches or with friends > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Twelve picture slots in this exact order. Preserve measure-based pacing and the immediate energetic unducked musical restart. Grand entrance includes genuine cheers; dance-floor clips must show upbeat movement, not slow first-dance swaying. Use a genuinely covered game/activity if no flower toss exists; never invent events. Maintain matched scratch audio, three relevant audition choices and unique first picks. The film opening and vows/preparation remain unchanged."
+    },
+    {
+      "id": "mandatory-footage-qc",
+      "approved": "2026-10-03",
+      "instruction": "Mandatory for every selection and audition: review the entire selected source interval for wrong exposure and unintended shake or handheld repositioning. Reject and substitute unusable footage; distinguish intentional camera movement. For log footage, verify the correct color transform before judging exposure. Semantic match alone never passes. Record pending/pass/rejected and a reason; pass requires full-interval exposure, motion and color-transform review. Any source, interval or retiming change requires fresh QC."
     }
   ],
   "policies": {
@@ -2425,11 +2942,26 @@
     "ambient": "One matching nature/wind bed outdoors; fade indoors; none during reception.",
     "transitions": "First two boundaries centered 2-second dissolves; others cuts. Opening/closing fades 1 second. Approved kiss false-ending fade adjustable, default 1 second; immediate energetic reception restart.",
     "receptionScratchAudio": "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
-    "receptionOpening": {
+    "receptionSequence": {
       "start": 120,
-      "end": 138,
-      "instruction": "Reception opening only, immediately after the kiss false-ending fade: explosive energy and emotion. Bride/groom lead genuine celebration: bouquet throwing when covered, laughter, energetic dancing, jumping, spinning or cheering. Choose action peaks and emotional reactions inside the existing measure slots; use normal speed when slow motion weakens energy. No slow static filler or restrained first-dance swaying at this restart. Keep strong matched scratch/source reactions and unducked energetic reception music. Use three relevant auditions, unique first picks, and only events genuinely covered; never invent events. Preserve the film opening, vows/preparation and later structure."
-    }
+      "end": 168,
+      "order": [
+        "Grand entrance and cheers",
+        "First dance",
+        "Laughter during speeches or with friends",
+        "Upbeat dance floor A",
+        "Upbeat dance floor B",
+        "Flower toss / game / activity A",
+        "Flower toss / game / activity B",
+        "First dance A",
+        "First dance B",
+        "Prettiest golden-hour couple portraits A",
+        "Prettiest golden-hour couple portraits B",
+        "Conclusion"
+      ],
+      "instruction": "Reception sequence only, immediately after the kiss false-ending fade: Grand entrance and cheers > First dance > Laughter during speeches or with friends > Upbeat dance floor A > Upbeat dance floor B > Flower toss / game / activity A > Flower toss / game / activity B > First dance A > First dance B > Prettiest golden-hour couple portraits A > Prettiest golden-hour couple portraits B > Conclusion. Twelve picture slots in this exact order. Preserve measure-based pacing and the immediate energetic unducked musical restart. Grand entrance includes genuine cheers; dance-floor clips must show upbeat movement, not slow first-dance swaying. Use a genuinely covered game/activity if no flower toss exists; never invent events. Maintain matched scratch audio, three relevant audition choices and unique first picks. The film opening and vows/preparation remain unchanged."
+    },
+    "footageQualityControl": "Mandatory for every selection and audition: review the entire selected source interval for wrong exposure and unintended shake or handheld repositioning. Reject and substitute unusable footage; distinguish intentional camera movement. For log footage, verify the correct color transform before judging exposure. Semantic match alone never passes. Record pending/pass/rejected and a reason; pass requires full-interval exposure, motion and color-transform review. Any source, interval or retiming change requires fresh QC."
   },
-  "fingerprint": "045089e16e182be0f86d75e1cc8fb8abbf3f609f56ba57bca14b37c0ad959a98"
+  "fingerprint": "07e93e75030791335ad84631e239091ce440c0fb19689e50cede0c747738634d"
 }
