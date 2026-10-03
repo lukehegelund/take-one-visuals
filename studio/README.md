@@ -7,3 +7,5 @@
 The client gate is a navigation convenience. GitHub Pages HTML, template JSON, clips, and source remain public, and this does not make them private. Sensitive future client content must be stored behind Supabase RLS/storage policies or served through an authenticated backend. Existing checklist/timeline changes continue to save on the device; login does not add cloud synchronization.
 
 Open `/tests/studio-journeys.html` locally for seven repeatable browser journeys covering roles, wrong passwords, logout, and unavailable membership lookup. These use auth stubs, so real Supabase login must also be verified. Database checks confirm owner sees one membership and an unrelated user sees zero.
+
+Shared Shotlist / Editor navigation is styled by navigation.css. Signed-in owners land directly on the shotlist, editors on the editor, and shooters on the shotlist; the login panel appears only when needed. Both tools and the login share slate backgrounds and warm gold accents.

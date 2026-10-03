@@ -6,6 +6,7 @@ async function refresh(){
   const member=await tovMembership();
   if(!member){const {data:{session}}=await tovAuth.auth.getSession();$('status').textContent=session?'This account has no TOV access. Contact Luke to be invited.':'Log in to open your shotlist and editor template.';$('login').hidden=!!session;$('logout').hidden=!session;return;}
   $('status').textContent=`Logged in as ${member.user.email}.`;
+  if(member.role!=='couple')location.replace(member.role==='editor'?'/editor-preview/':'/cam-b/');
   $('workspace').hidden=false;$('logout').hidden=false;
   $('shotlist').hidden=!['owner','shooter'].includes(member.role);
   $('editor').hidden=!['owner','editor'].includes(member.role);
