@@ -286,7 +286,8 @@
       "title": "Reception source audio · every picture clip",
       "detail": "Synchronized camera scratch on every reception picture clip, including quiet original sound. Preserve useful voices, laughter, applause and action alongside unducked music.",
       "rules": [
-        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
+        "At the reception opening, prioritize strong synchronized celebration reactions alongside the quiet-source default; never duplicate source-camera audio."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -639,7 +640,8 @@
       "title": "GEAR 4 / Sustained upbeat celebration",
       "detail": "Energetic reception begins immediately after the kiss fade completes. Different reception song: forward movement and sustained celebratory energy. Enter GEAR 4 directly after full cheers.",
       "rules": [
-        "Keep music unducked throughout."
+        "Keep music unducked throughout.",
+        "At the reception restart, energetic unducked music hits immediately with the explosive action; preserve the existing measure slot."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -1747,45 +1749,47 @@
       "ordinal": 26,
       "start": 120,
       "end": 123,
-      "title": "Reception restart: newlywed recessional",
-      "detail": "Immediately start energetic reception picture at the completed kiss fade, no lingering black hold. Preserve complete newlywed movement.",
+      "title": "Reception explosion: bouquet throw / celebration",
+      "detail": "Explosive celebration immediately after the kiss fade. Begin on a genuine action peak, with no black hold. Use a real covered reception action or joyful reaction led by the bride/groom; finish the action within this musical slot. Public auditions illustrate action types; verify actual reception context before selecting source footage.",
       "rules": [
         "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
+        "Reception opening only, immediately after the kiss false-ending fade: explosive energy and emotion. Bride/groom lead genuine celebration: bouquet throwing when covered, laughter, energetic dancing, jumping, spinning or cheering. Choose action peaks and emotional reactions inside the existing measure slots; use normal speed when slow motion weakens energy. No slow static filler or restrained first-dance swaying at this restart. Keep strong matched scratch/source reactions and unducked energetic reception music. Use three relevant auditions, unique first picks, and only events genuinely covered; never invent events. Preserve the film opening, vows/preparation and later structure."
       ],
       "speed": 100,
       "fadeIn": 0,
       "fadeOut": 0,
       "takes": [
         {
-          "id": "13-2",
-          "src": "/cam-b/clips/13-2.mp4",
-          "poster": "/cam-b/clips/13-2.jpg",
-          "label": "Guests & family",
+          "id": "36-2",
+          "src": "/cam-b/clips/36-2.mp4",
+          "poster": "/cam-b/clips/36-2.jpg",
+          "label": "Flower toss",
+          "film": "Moriah & Dane",
+          "duration": 3.6036
+        },
+        {
+          "id": "36-1",
+          "src": "/cam-b/clips/36.mp4",
+          "poster": "/cam-b/clips/36.jpg",
+          "label": "Flower toss",
           "film": "Gabriella & Robert",
-          "duration": 3.166667
+          "duration": 3.083333
         },
         {
-          "id": "13-1",
-          "src": "/cam-b/clips/13-retimed.mp4",
-          "poster": "/cam-b/clips/13-retimed.jpg",
-          "label": "Guests & family",
-          "film": "Brianna & Caleb",
-          "duration": 2.625
-        },
-        {
-          "id": "13-3",
-          "src": "/cam-b/clips/13-3.mp4",
-          "poster": "/cam-b/clips/13-3.jpg",
-          "label": "Guests & family",
-          "film": "Jennifer & partner",
-          "duration": 3.2032
+          "id": "36-3",
+          "src": "/cam-b/clips/36-3.mp4",
+          "poster": "/cam-b/clips/36-3.jpg",
+          "label": "Flower toss",
+          "film": "Gina & Spencer",
+          "duration": 2.366667
         }
       ],
       "number": 24,
       "transition": "Cut",
       "opticalFlow": false,
-      "receptionScratchAudio": true
+      "receptionScratchAudio": true,
+      "receptionOpening": true
     },
     {
       "id": "6-27",
@@ -1793,45 +1797,47 @@
       "ordinal": 27,
       "start": 123,
       "end": 126,
-      "title": "Recessional: guests applause / reactions",
-      "detail": "Proposed quicker rhythm; resize to finish the action. Distinct shot, only if covered.",
+      "title": "Reception opening: energetic dancing / cheering",
+      "detail": "Explosive celebration immediately after the kiss fade. Use a real covered reception action or joyful reaction led by the bride/groom; finish the action within this musical slot. Public auditions illustrate action types; verify actual reception context before selecting source footage.",
       "rules": [
         "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
+        "Reception opening only, immediately after the kiss false-ending fade: explosive energy and emotion. Bride/groom lead genuine celebration: bouquet throwing when covered, laughter, energetic dancing, jumping, spinning or cheering. Choose action peaks and emotional reactions inside the existing measure slots; use normal speed when slow motion weakens energy. No slow static filler or restrained first-dance swaying at this restart. Keep strong matched scratch/source reactions and unducked energetic reception music. Use three relevant auditions, unique first picks, and only events genuinely covered; never invent events. Preserve the film opening, vows/preparation and later structure."
       ],
       "speed": 100,
       "fadeIn": 0,
       "fadeOut": 0,
       "takes": [
         {
-          "id": "40-1",
-          "src": "/cam-b/clips/40.mp4",
-          "poster": "/cam-b/clips/40.jpg",
-          "label": "Send-off & exit",
-          "film": "Gina & Spencer",
-          "duration": 3.566667
+          "id": "23-1",
+          "src": "/cam-b/clips/23.mp4",
+          "poster": "/cam-b/clips/23.jpg",
+          "label": "Open dancing",
+          "film": "Dakota & Rosie",
+          "duration": 4.004
         },
         {
-          "id": "40-2",
-          "src": "/cam-b/clips/40-2.mp4",
-          "poster": "/cam-b/clips/40-2.jpg",
-          "label": "Send-off & exit",
+          "id": "36-1",
+          "src": "/cam-b/clips/36.mp4",
+          "poster": "/cam-b/clips/36.jpg",
+          "label": "Flower toss",
           "film": "Gabriella & Robert",
-          "duration": 2.916667
+          "duration": 3.083333
         },
         {
-          "id": "40-3",
-          "src": "/cam-b/clips/40-3.mp4",
-          "poster": "/cam-b/clips/40-3.jpg",
-          "label": "Send-off & exit",
-          "film": "Reanna & Brandon",
-          "duration": 3.570233
+          "id": "36-2",
+          "src": "/cam-b/clips/36-2.mp4",
+          "poster": "/cam-b/clips/36-2.jpg",
+          "label": "Flower toss",
+          "film": "Moriah & Dane",
+          "duration": 3.6036
         }
       ],
       "number": 25,
       "transition": "Cut",
       "opticalFlow": false,
-      "receptionScratchAudio": true
+      "receptionScratchAudio": true,
+      "receptionOpening": true
     },
     {
       "id": "6-28",
@@ -1839,45 +1845,47 @@
       "ordinal": 28,
       "start": 126,
       "end": 129,
-      "title": "Reception entrance: couple arrival / movement",
-      "detail": "Proposed quicker rhythm; resize to finish the action. Distinct shot, only if covered.",
+      "title": "Reception opening: couple laughter / delight",
+      "detail": "Explosive celebration immediately after the kiss fade. Use a real covered reception action or joyful reaction led by the bride/groom; finish the action within this musical slot. Public auditions illustrate action types; verify actual reception context before selecting source footage.",
       "rules": [
         "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
+        "Reception opening only, immediately after the kiss false-ending fade: explosive energy and emotion. Bride/groom lead genuine celebration: bouquet throwing when covered, laughter, energetic dancing, jumping, spinning or cheering. Choose action peaks and emotional reactions inside the existing measure slots; use normal speed when slow motion weakens energy. No slow static filler or restrained first-dance swaying at this restart. Keep strong matched scratch/source reactions and unducked energetic reception music. Use three relevant auditions, unique first picks, and only events genuinely covered; never invent events. Preserve the film opening, vows/preparation and later structure."
       ],
       "speed": 100,
       "fadeIn": 0,
       "fadeOut": 0,
       "takes": [
         {
-          "id": "20-1",
-          "src": "/cam-b/clips/20.mp4",
-          "poster": "/cam-b/clips/20.jpg",
-          "label": "Speech reactions",
-          "film": "Reanna & Brandon",
-          "duration": 4.004
+          "id": "25-2",
+          "src": "/cam-b/clips/25-2.mp4",
+          "poster": "/cam-b/clips/25-2.jpg",
+          "label": "Playful couple moment",
+          "film": "Kylie & Seth",
+          "duration": 3.2032
         },
         {
-          "id": "20-2",
-          "src": "/cam-b/clips/20-2.mp4",
-          "poster": "/cam-b/clips/20-2.jpg",
-          "label": "Speech reactions",
-          "film": "Moriah & Dane",
+          "id": "25-1",
+          "src": "/cam-b/clips/25.mp4",
+          "poster": "/cam-b/clips/25.jpg",
+          "label": "Playful couple moment",
+          "film": "Alisia & Matt",
           "duration": 3.169833
         },
         {
-          "id": "20-3",
-          "src": "/cam-b/clips/20-3.mp4",
-          "poster": "/cam-b/clips/20-3.jpg",
-          "label": "Speech reactions",
-          "film": "Dakota & Rosie",
-          "duration": 3.211542
+          "id": "25-3",
+          "src": "/cam-b/clips/25-3.mp4",
+          "poster": "/cam-b/clips/25-3.jpg",
+          "label": "Playful couple moment",
+          "film": "Gabriella & Robert",
+          "duration": 3.208333
         }
       ],
       "number": 26,
       "transition": "Cut",
       "opticalFlow": false,
-      "receptionScratchAudio": true
+      "receptionScratchAudio": true,
+      "receptionOpening": true
     },
     {
       "id": "6-29",
@@ -1885,45 +1893,47 @@
       "ordinal": 29,
       "start": 129,
       "end": 132,
-      "title": "Reception entrance: greeting / crowd reaction",
-      "detail": "Proposed quicker rhythm; resize to finish the action. Distinct shot, only if covered.",
+      "title": "Reception opening: spinning / joyful movement",
+      "detail": "Explosive celebration immediately after the kiss fade. Use a real covered reception action or joyful reaction led by the bride/groom; finish the action within this musical slot. Public auditions illustrate action types; verify actual reception context before selecting source footage.",
       "rules": [
         "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
+        "Reception opening only, immediately after the kiss false-ending fade: explosive energy and emotion. Bride/groom lead genuine celebration: bouquet throwing when covered, laughter, energetic dancing, jumping, spinning or cheering. Choose action peaks and emotional reactions inside the existing measure slots; use normal speed when slow motion weakens energy. No slow static filler or restrained first-dance swaying at this restart. Keep strong matched scratch/source reactions and unducked energetic reception music. Use three relevant auditions, unique first picks, and only events genuinely covered; never invent events. Preserve the film opening, vows/preparation and later structure."
       ],
       "speed": 100,
       "fadeIn": 0,
       "fadeOut": 0,
       "takes": [
         {
-          "id": "21-1",
-          "src": "/cam-b/clips/21.mp4",
-          "poster": "/cam-b/clips/21.jpg",
-          "label": "First dance",
-          "film": "Rachel & Ryan",
-          "duration": 4.004
+          "id": "32-1",
+          "src": "/cam-b/clips/32.mp4",
+          "poster": "/cam-b/clips/32.jpg",
+          "label": "Twirl & flowing dress",
+          "film": "Ia & Jared",
+          "duration": 3.583333
         },
         {
-          "id": "21-2",
-          "src": "/cam-b/clips/21-2.mp4",
-          "poster": "/cam-b/clips/21-2.jpg",
-          "label": "First dance",
-          "film": "Caitlin & Cole",
-          "duration": 3.166667
+          "id": "32-2",
+          "src": "/cam-b/clips/32-2.mp4",
+          "poster": "/cam-b/clips/32-2.jpg",
+          "label": "Twirl & flowing dress",
+          "film": "Gabriella & Robert",
+          "duration": 3.625
         },
         {
-          "id": "21-3",
-          "src": "/cam-b/clips/21-3.mp4",
-          "poster": "/cam-b/clips/21-3.jpg",
-          "label": "First dance",
-          "film": "Gina & Spencer",
-          "duration": 3.166667
+          "id": "32-3",
+          "src": "/cam-b/clips/32-3.mp4",
+          "poster": "/cam-b/clips/32-3.jpg",
+          "label": "Twirl & flowing dress",
+          "film": "Allie & Alan",
+          "duration": 3.625
         }
       ],
       "number": 27,
       "transition": "Cut",
       "opticalFlow": false,
-      "receptionScratchAudio": true
+      "receptionScratchAudio": true,
+      "receptionOpening": true
     },
     {
       "id": "6-30",
@@ -1931,45 +1941,47 @@
       "ordinal": 30,
       "start": 132,
       "end": 135,
-      "title": "First dance: expressive turn / step",
-      "detail": "Proposed quicker rhythm; resize to finish the action. Distinct shot, only if covered.",
+      "title": "Reception opening: bouquet action / crowd payoff",
+      "detail": "Explosive celebration immediately after the kiss fade. Use a real covered reception action or joyful reaction led by the bride/groom; finish the action within this musical slot. Public auditions illustrate action types; verify actual reception context before selecting source footage.",
       "rules": [
         "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
+        "Reception opening only, immediately after the kiss false-ending fade: explosive energy and emotion. Bride/groom lead genuine celebration: bouquet throwing when covered, laughter, energetic dancing, jumping, spinning or cheering. Choose action peaks and emotional reactions inside the existing measure slots; use normal speed when slow motion weakens energy. No slow static filler or restrained first-dance swaying at this restart. Keep strong matched scratch/source reactions and unducked energetic reception music. Use three relevant auditions, unique first picks, and only events genuinely covered; never invent events. Preserve the film opening, vows/preparation and later structure."
       ],
       "speed": 100,
       "fadeIn": 0,
       "fadeOut": 0,
       "takes": [
         {
-          "id": "21-2",
-          "src": "/cam-b/clips/21-2.mp4",
-          "poster": "/cam-b/clips/21-2.jpg",
-          "label": "First dance",
-          "film": "Caitlin & Cole",
-          "duration": 3.166667
-        },
-        {
-          "id": "21-1",
-          "src": "/cam-b/clips/21.mp4",
-          "poster": "/cam-b/clips/21.jpg",
-          "label": "First dance",
-          "film": "Rachel & Ryan",
-          "duration": 4.004
-        },
-        {
-          "id": "21-3",
-          "src": "/cam-b/clips/21-3.mp4",
-          "poster": "/cam-b/clips/21-3.jpg",
-          "label": "First dance",
+          "id": "36-3",
+          "src": "/cam-b/clips/36-3.mp4",
+          "poster": "/cam-b/clips/36-3.jpg",
+          "label": "Flower toss",
           "film": "Gina & Spencer",
-          "duration": 3.166667
+          "duration": 2.366667
+        },
+        {
+          "id": "36-1",
+          "src": "/cam-b/clips/36.mp4",
+          "poster": "/cam-b/clips/36.jpg",
+          "label": "Flower toss",
+          "film": "Gabriella & Robert",
+          "duration": 3.083333
+        },
+        {
+          "id": "36-2",
+          "src": "/cam-b/clips/36-2.mp4",
+          "poster": "/cam-b/clips/36-2.jpg",
+          "label": "Flower toss",
+          "film": "Moriah & Dane",
+          "duration": 3.6036
         }
       ],
       "number": 28,
       "transition": "Cut",
       "opticalFlow": false,
-      "receptionScratchAudio": true
+      "receptionScratchAudio": true,
+      "receptionOpening": true
     },
     {
       "id": "6-31",
@@ -1977,45 +1989,47 @@
       "ordinal": 31,
       "start": 135,
       "end": 138,
-      "title": "First dance: close faces / hands / connection",
-      "detail": "Proposed quicker rhythm; resize to finish the action. Distinct shot, only if covered.",
+      "title": "Reception opening: couple laughter / emotional reaction",
+      "detail": "Explosive celebration immediately after the kiss fade. Use a real covered reception action or joyful reaction led by the bride/groom; finish the action within this musical slot. Public auditions illustrate action types; verify actual reception context before selecting source footage.",
       "rules": [
         "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
+        "Reception opening only, immediately after the kiss false-ending fade: explosive energy and emotion. Bride/groom lead genuine celebration: bouquet throwing when covered, laughter, energetic dancing, jumping, spinning or cheering. Choose action peaks and emotional reactions inside the existing measure slots; use normal speed when slow motion weakens energy. No slow static filler or restrained first-dance swaying at this restart. Keep strong matched scratch/source reactions and unducked energetic reception music. Use three relevant auditions, unique first picks, and only events genuinely covered; never invent events. Preserve the film opening, vows/preparation and later structure."
       ],
       "speed": 100,
       "fadeIn": 0,
       "fadeOut": 0,
       "takes": [
         {
-          "id": "38-1",
-          "src": "/cam-b/clips/38.mp4",
-          "poster": "/cam-b/clips/38.jpg",
-          "label": "Reception speeches",
-          "film": "Rachel & Ryan",
-          "duration": 3.6036
+          "id": "25-3",
+          "src": "/cam-b/clips/25-3.mp4",
+          "poster": "/cam-b/clips/25-3.jpg",
+          "label": "Playful couple moment",
+          "film": "Gabriella & Robert",
+          "duration": 3.208333
         },
         {
-          "id": "38-2",
-          "src": "/cam-b/clips/38-2.mp4",
-          "poster": "/cam-b/clips/38-2.jpg",
-          "label": "Reception speeches",
-          "film": "Reanna & Brandon",
-          "duration": 3.570233
+          "id": "25-2",
+          "src": "/cam-b/clips/25-2.mp4",
+          "poster": "/cam-b/clips/25-2.jpg",
+          "label": "Playful couple moment",
+          "film": "Kylie & Seth",
+          "duration": 3.2032
         },
         {
-          "id": "38-3",
-          "src": "/cam-b/clips/38-3.mp4",
-          "poster": "/cam-b/clips/38-3.jpg",
-          "label": "Reception speeches",
-          "film": "Moriah & Dane",
-          "duration": 3.6036
+          "id": "25-1",
+          "src": "/cam-b/clips/25.mp4",
+          "poster": "/cam-b/clips/25.jpg",
+          "label": "Playful couple moment",
+          "film": "Alisia & Matt",
+          "duration": 3.169833
         }
       ],
       "number": 29,
       "transition": "Cut",
       "opticalFlow": false,
-      "receptionScratchAudio": true
+      "receptionScratchAudio": true,
+      "receptionOpening": true
     },
     {
       "id": "6-32",
@@ -2341,7 +2355,7 @@
     }
   ],
   "schema": "tov-web-wedding-template-v1",
-  "revision": "2026-10-03.3",
+  "revision": "2026-10-03.4",
   "nativeSeedFingerprint": "8bdfdf4e6e615de832172783bf678bec28f09d367391a56db06be8df2579b348",
   "authority": "Supabase and website; native Resolve capture is historical seed",
   "trackOrder": [
@@ -2393,6 +2407,13 @@
     {
       "id": "reception-scratch-audio",
       "description": "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
+    },
+    {
+      "id": "explosive-reception-opening",
+      "approved": "2026-10-03",
+      "start": 120,
+      "end": 138,
+      "instruction": "Reception opening only, immediately after the kiss false-ending fade: explosive energy and emotion. Bride/groom lead genuine celebration: bouquet throwing when covered, laughter, energetic dancing, jumping, spinning or cheering. Choose action peaks and emotional reactions inside the existing measure slots; use normal speed when slow motion weakens energy. No slow static filler or restrained first-dance swaying at this restart. Keep strong matched scratch/source reactions and unducked energetic reception music. Use three relevant auditions, unique first picks, and only events genuinely covered; never invent events. Preserve the film opening, vows/preparation and later structure."
     }
   ],
   "policies": {
@@ -2403,7 +2424,12 @@
     "scoring": "Substantially more varied cellos, vocalizations/voicings, risers and swells into/through Gear4, strongest progressive development in Gear5, particularly where song arrangement lacks lift. Align phrases, harmony, downbeats and story. Preserve intelligible dialogue; not every element continuously. Bridge breathers/rough joins outside Gear4/5 as useful.",
     "ambient": "One matching nature/wind bed outdoors; fade indoors; none during reception.",
     "transitions": "First two boundaries centered 2-second dissolves; others cuts. Opening/closing fades 1 second. Approved kiss false-ending fade adjustable, default 1 second; immediate energetic reception restart.",
-    "receptionScratchAudio": "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
+    "receptionScratchAudio": "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
+    "receptionOpening": {
+      "start": 120,
+      "end": 138,
+      "instruction": "Reception opening only, immediately after the kiss false-ending fade: explosive energy and emotion. Bride/groom lead genuine celebration: bouquet throwing when covered, laughter, energetic dancing, jumping, spinning or cheering. Choose action peaks and emotional reactions inside the existing measure slots; use normal speed when slow motion weakens energy. No slow static filler or restrained first-dance swaying at this restart. Keep strong matched scratch/source reactions and unducked energetic reception music. Use three relevant auditions, unique first picks, and only events genuinely covered; never invent events. Preserve the film opening, vows/preparation and later structure."
+    }
   },
-  "fingerprint": "a75425a06191f9fb0aa811ef36e775183fc30254ef87e92a531fab810ea23129"
+  "fingerprint": "045089e16e182be0f86d75e1cc8fb8abbf3f609f56ba57bca14b37c0ad959a98"
 }
