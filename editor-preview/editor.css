@@ -27,3 +27,39 @@
 @media(max-width:700px){.workspace .viewer[data-mode=template]{height:clamp(540px,70svh,760px)}#planning-phase,#planning-phase[hidden]{flex-basis:56px;height:56px}}
 /* Editing tools wrap within the viewport on narrow screens. */
 .timeline-toolbar{flex-wrap:wrap;min-width:0}.timeline-toolbar>div{min-width:0}.timeline-panel{min-width:0;max-width:100%}
+/* Keep the viewer in a fixed viewport band; only the timeline tracks scroll. */
+:root{--track-height:76px}
+body{height:100dvh;overflow:hidden;display:flex;flex-direction:column}
+header{flex:none;height:58px;min-height:58px}
+main{flex:1;min-height:0;display:flex;flex-direction:column;overflow:hidden}
+.view-tabs{flex:none}
+.workspace,.workspace.inspector-open{position:relative;display:grid;flex:0 0 52%;height:52%;min-height:0;overflow:hidden}
+.workspace .viewer-panel{height:100%;min-height:0;padding:8px 18px}
+.workspace .viewer[data-mode=template]{height:auto;min-height:0;flex:1;overflow:hidden}
+.workspace .inspector{height:100%;min-height:0;max-height:none;overflow:auto}
+.transport{flex:none;padding:4px 0}.scrub-label,.panel-title{flex:none}
+#playback-status,#playback-status:empty{display:none}
+.timeline-panel{display:flex;flex-direction:column;flex:1;min-height:0;overflow:hidden}
+.timeline-toolbar{flex:none;gap:8px;padding:6px 12px;max-height:100px;overflow:auto}
+.timeline-toolbar button{font-size:10px;padding:4px 8px}
+.grid-note{flex:none;padding:0 12px 4px}
+#timeline-scroll{flex:1;min-height:0;max-height:none;overflow:auto;overscroll-behavior:contain;scrollbar-gutter:stable}
+#ruler{position:sticky;top:0;z-index:8;background:#191c1f}
+.lane{height:var(--track-height)}
+.clip{height:calc(var(--track-height) - 14px)}
+.track-label{display:flex;flex-direction:column;justify-content:center;padding-top:4px;padding-bottom:4px}
+footer{flex:none;max-height:30px;overflow:auto;padding:4px 12px}
+#guide{min-height:0;overflow:auto;width:100%}
+.guide-open .timeline-panel{display:none}
+.guide-open footer{display:none}
+@media(max-width:700px){
+ header{height:48px;min-height:48px}
+ .workspace,.workspace.inspector-open{display:grid;grid-template-columns:minmax(0,1fr);height:50%;flex-basis:50%}
+ .workspace .viewer-panel{padding:6px 8px}
+ .workspace.inspector-open .inspector{position:absolute;right:0;top:0;bottom:0;width:min(320px,85vw);z-index:12;border-left:1px solid var(--line);box-shadow:-12px 0 24px #0008}
+ .timeline-toolbar{max-height:105px;gap:6px}
+ #planning-phase,#planning-phase[hidden]{height:32px;flex-basis:32px;padding:3px 6px;font-size:9px}
+ .planning-card{padding:5px 7px}.planning-card h3{font-size:11px}.planning-card p{font-size:10px}
+ .planning-heading{font-size:8px;margin-bottom:2px}.planning-settings{font-size:8px}
+ footer{max-height:23px}
+}
