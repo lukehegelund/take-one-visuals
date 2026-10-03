@@ -5,87 +5,28 @@
     "video_id": "6a9c30915c930dcf6c587c73",
     "source_file": "proxy_Rachel & Ryan's Wedding~Rachel & Ryan Extended Film V1.mp4",
     "source_start": 11.7,
-    "duration": 4
+    "duration": 4,
+    "variant": 1
   },
   {
-    "shot": 2,
-    "query": "wedding rings invitation close up",
+    "shot": 1,
+    "variant": 2,
+    "query": "wide establishing wedding venue exterior",
+    "video_id": "6a9b9db9ebf51afb0d9575e8",
+    "source_file": "Ia & Jared Wedding Film V3.mov",
+    "source_start": 13.4,
+    "duration": 3.2,
+    "wedding": "Ia Xiong & Jared Rockford"
+  },
+  {
+    "shot": 1,
+    "variant": 3,
+    "query": "wide establishing wedding venue exterior",
     "video_id": "6a9b9d2fb734162dfc8976a3",
     "source_file": "Day-of HighlightCaitlin Cole.mov",
-    "source_start": 8.4,
-    "duration": 3.1
-  },
-  {
-    "shot": 3,
-    "query": "wedding dress hanging",
-    "video_id": "6a9b9e06cf24a032539cb52d",
-    "source_file": "Reanna & Brandon.mov",
-    "source_start": 40.3,
-    "duration": 4
-  },
-  {
-    "shot": 4,
-    "query": "bride getting ready makeup putting dress on",
-    "video_id": "6a9bb913cf24a032539cc194",
-    "source_file": "Dakota & Rosie's Wedding Video~Dakota & Rosie's Wedding Highlight Reel.mp4",
-    "source_start": 12.6,
-    "duration": 2.6
-  },
-  {
-    "shot": 5,
-    "query": "groom getting ready jacket tie",
-    "video_id": "6a9c2d40ebf51afb0d95aad4",
-    "source_file": "proxy_Moriah & Dane's Wedding~Wedding Film V2.mp4",
-    "source_start": 165.2,
-    "duration": 2.9
-  },
-  {
-    "shot": 6,
-    "query": "bride father first look emotional hug",
-    "video_id": "6a9c29315c930dcf6c5879ea",
-    "source_file": "proxy_Gina and Spencer's Wedding~Gina Spencer Video V2.mp4",
-    "source_start": 31.833,
-    "duration": 4
-  },
-  {
-    "shot": 7,
-    "query": "bride bridesmaids laughing together",
-    "video_id": "6a9b9d2fb734162dfc8976a3",
-    "source_file": "Day-of HighlightCaitlin Cole.mov",
-    "source_start": 16.6,
-    "duration": 2.3
-  },
-  {
-    "shot": 8,
-    "query": "bride groom first look",
-    "video_id": "6a9c30915c930dcf6c587c73",
-    "source_file": "proxy_Rachel & Ryan's Wedding~Rachel & Ryan Extended Film V1.mp4",
-    "source_start": 598.133,
-    "duration": 3.5333251953125
-  },
-  {
-    "shot": 9,
-    "query": "bride groom hands close up",
-    "video_id": "6a9c30915c930dcf6c587c73",
-    "source_file": "proxy_Rachel & Ryan's Wedding~Rachel & Ryan Extended Film V1.mp4",
-    "source_start": 51.433,
-    "duration": 4
-  },
-  {
-    "shot": 10,
-    "query": "bride groom walking together portraits",
-    "video_id": "6a9c1a0cb734162dfc89a491",
-    "source_file": "Ia and Jared's Wedding~Ia & Jared Highlight Video.mp4",
-    "source_start": 34.167,
-    "duration": 4
-  },
-  {
-    "shot": 11,
-    "query": "bride groom kiss golden hour",
-    "video_id": "6a9b9db9afc05fe52de6bbc2",
-    "source_file": "Matt & Alisia Wedding Video.mov",
-    "source_start": 282.633,
-    "duration": 4
+    "source_start": 65.833,
+    "duration": 3.2,
+    "wedding": "Caitlin Relvas & Cole Pennock"
   },
   {
     "shot": 12,
@@ -93,55 +34,86 @@
     "video_id": "6a9c2909b734162dfc89a9d4",
     "source_file": "proxy_Gabby and Robert's Wedding~Gabby & Rob Highlight Video.mp4",
     "source_start": 11.7,
-    "duration": 2.5
+    "duration": 2.5,
+    "variant": 1
   },
   {
-    "shot": 13,
-    "query": "guests arriving wedding ceremony",
-    "video_id": "6a9c28f05c930dcf6c5879be",
-    "source_file": "proxy_Caleb & Brianna's Wedding~Ceremony.mp4",
-    "source_start": 229.7,
-    "duration": 3
+    "shot": 12,
+    "variant": 2,
+    "query": "empty ceremony arch flowers chairs",
+    "video_id": "6a9c1a0cb734162dfc89a491",
+    "source_file": "Ia and Jared's Wedding~Ia & Jared Highlight Video.mp4",
+    "source_start": 6.467,
+    "duration": 3.2,
+    "wedding": "Ia Xiong & Jared Rockford"
   },
   {
-    "shot": 14,
-    "query": "bride walking down aisle",
-    "video_id": "6a9c2d06b734162dfc89ab79",
-    "source_file": "proxy_Gretchen's Wedding~Ceremony.mp4",
-    "source_start": 1180.5,
-    "duration": 3.6
+    "shot": 12,
+    "variant": 3,
+    "query": "empty ceremony arch flowers chairs",
+    "video_id": "6a9b9d20ebf51afb0d9575b5",
+    "source_file": "Caleb and Brianna.mp4",
+    "source_start": 15.9,
+    "duration": 2.6,
+    "wedding": "Brianna Rowan & Caleb Willette"
   },
   {
-    "shot": 15,
-    "query": "groom watching bride walk aisle emotional reaction",
-    "video_id": "6a9c2d405c930dcf6c587b70",
-    "source_file": "proxy_Moriah & Dane's Wedding~Dane & Moriah Ceremony.mp4",
-    "source_start": 392.433,
-    "duration": 4
+    "shot": 2,
+    "query": "wedding rings invitation close up",
+    "video_id": "6a9b9d2fb734162dfc8976a3",
+    "source_file": "Day-of HighlightCaitlin Cole.mov",
+    "source_start": 8.4,
+    "duration": 3.1,
+    "variant": 1
   },
   {
-    "shot": 16,
-    "query": "bride groom vows ceremony side angle",
-    "video_id": "6a9c29605c930dcf6c587a00",
-    "source_file": "proxy_Gina and Spencer's Wedding~Gina and SPencer Ceremony.mp4",
-    "source_start": 854.967,
-    "duration": 4
+    "shot": 2,
+    "variant": 2,
+    "query": "wedding rings close up invitation flat lay",
+    "video_id": "6a9c30915c930dcf6c587c73",
+    "source_file": "proxy_Rachel & Ryan's Wedding~Rachel & Ryan Extended Film V1.mp4",
+    "source_start": 20.5,
+    "duration": 3.2,
+    "wedding": "Rachel Bender & Ryan Burgess"
   },
   {
-    "shot": 17,
-    "query": "wedding ring exchange close up",
-    "video_id": "6a9c2d06b734162dfc89ab79",
-    "source_file": "proxy_Gretchen's Wedding~Ceremony.mp4",
-    "source_start": 903.2,
-    "duration": 4
+    "shot": 2,
+    "variant": 3,
+    "query": "wedding rings close up invitation flat lay",
+    "video_id": "6a9b9e2acf24a032539cb53d",
+    "source_file": "Kylie & Seth Wedding Film.mp4",
+    "source_start": 17.4,
+    "duration": 3.2,
+    "wedding": "Kylie Bianche & Seth Roberts"
   },
   {
-    "shot": 18,
-    "query": "wedding first kiss cheering guests",
-    "video_id": "6a9c2d40ebf51afb0d95aad6",
-    "source_file": "proxy_Kelsie and Davidson's Wedding~Davidson and Kelsey Ceremony Video.mp4",
-    "source_start": 1282.433,
-    "duration": 4
+    "shot": 3,
+    "query": "wedding dress hanging",
+    "video_id": "6a9b9e06cf24a032539cb52d",
+    "source_file": "Reanna & Brandon.mov",
+    "source_start": 40.3,
+    "duration": 4,
+    "variant": 1
+  },
+  {
+    "shot": 3,
+    "variant": 2,
+    "query": "wedding dress hanging",
+    "video_id": "6a9b9d5bebf51afb0d9575c3",
+    "source_file": "Allie & Alan.mp4",
+    "source_start": 18.3,
+    "duration": 3.2,
+    "wedding": "Allie Burch & Alan Lambert"
+  },
+  {
+    "shot": 3,
+    "variant": 3,
+    "query": "wedding dress hanging",
+    "video_id": "6a9c2909b734162dfc89a9d4",
+    "source_file": "proxy_Gabby and Robert's Wedding~Gabby & Rob Highlight Video.mp4",
+    "source_start": 14.767,
+    "duration": 3.2,
+    "wedding": "Gabriella Menetto & Robert Batchelder"
   },
   {
     "shot": 19,
@@ -149,39 +121,435 @@
     "video_id": "6a9b9d5bebf51afb0d9575c3",
     "source_file": "Allie & Alan.mp4",
     "source_start": 10.733,
-    "duration": 4
+    "duration": 4,
+    "variant": 1
   },
   {
-    "shot": 20,
-    "query": "wedding speeches guest reaction laughing",
-    "video_id": "6a9b9e06cf24a032539cb52d",
-    "source_file": "Reanna & Brandon.mov",
-    "source_start": 349.9,
-    "duration": 4
+    "shot": 19,
+    "variant": 2,
+    "query": "wedding reception tables decor",
+    "video_id": "6a9c30915c930dcf6c587c73",
+    "source_file": "proxy_Rachel & Ryan's Wedding~Rachel & Ryan Extended Film V1.mp4",
+    "source_start": 31.733,
+    "duration": 3.2,
+    "wedding": "Rachel Bender & Ryan Burgess"
   },
   {
-    "shot": 21,
-    "query": "bride groom first dance",
-    "video_id": "6a9c2d40aaeae93e2577df15",
-    "source_file": "proxy_Rachel & Ryan's Wedding~First Dance.mp4",
-    "source_start": 49.1,
-    "duration": 4
+    "shot": 19,
+    "variant": 3,
+    "query": "wedding reception tables decor",
+    "video_id": "6a9b9ddcaaeae93e2577aba2",
+    "source_file": "Devin and Violet Wedding Video.mp4",
+    "source_start": 22.4,
+    "duration": 3.2,
+    "wedding": "Violet Gradin & Devin La Croix"
   },
   {
-    "shot": 22,
-    "query": "wedding parent dance",
-    "video_id": "6a9c2d40b734162dfc89ab92",
-    "source_file": "proxy_Rachel & Ryan's Wedding~Parent First Dances.mp4",
-    "source_start": 194.967,
-    "duration": 4
-  },
-  {
-    "shot": 23,
-    "query": "wedding guests dancing party",
+    "shot": 4,
+    "query": "bride getting ready makeup putting dress on",
     "video_id": "6a9bb913cf24a032539cc194",
     "source_file": "Dakota & Rosie's Wedding Video~Dakota & Rosie's Wedding Highlight Reel.mp4",
-    "source_start": 43.433,
-    "duration": 4
+    "source_start": 12.6,
+    "duration": 2.6,
+    "variant": 1
+  },
+  {
+    "shot": 4,
+    "variant": 2,
+    "query": "bride getting ready makeup putting dress on",
+    "video_id": "6a9b9d5bebf51afb0d9575c3",
+    "source_file": "Allie & Alan.mp4",
+    "source_start": 46.733,
+    "duration": 3.2,
+    "wedding": "Allie Burch & Alan Lambert"
+  },
+  {
+    "shot": 4,
+    "variant": 3,
+    "query": "bride getting ready makeup putting dress on",
+    "video_id": "6a9c1a36afc05fe52de6e905",
+    "source_file": "Seth and Kylie's Wedding~Kylie & Seth Highlight Video.mp4",
+    "source_start": 13.5,
+    "duration": 2.0,
+    "wedding": "Kylie Bianche & Seth Roberts"
+  },
+  {
+    "shot": 5,
+    "query": "groom getting ready jacket tie",
+    "video_id": "6a9c2d40ebf51afb0d95aad4",
+    "source_file": "proxy_Moriah & Dane's Wedding~Wedding Film V2.mp4",
+    "source_start": 165.2,
+    "duration": 2.9,
+    "variant": 1
+  },
+  {
+    "shot": 5,
+    "variant": 2,
+    "query": "groom getting ready jacket tie",
+    "video_id": "6a9b9e06cf24a032539cb52d",
+    "source_file": "Reanna & Brandon.mov",
+    "source_start": 66.767,
+    "duration": 3.2,
+    "wedding": "Reanna Rudd & Brandon"
+  },
+  {
+    "shot": 5,
+    "variant": 3,
+    "query": "groom getting ready jacket tie",
+    "video_id": "6a9c29315c930dcf6c5879ea",
+    "source_file": "proxy_Gina and Spencer's Wedding~Gina Spencer Video V2.mp4",
+    "source_start": 25.7,
+    "duration": 2.0,
+    "wedding": "Gina DesCombes & Spencer"
+  },
+  {
+    "shot": 6,
+    "query": "bride father first look emotional hug",
+    "video_id": "6a9c29315c930dcf6c5879ea",
+    "source_file": "proxy_Gina and Spencer's Wedding~Gina Spencer Video V2.mp4",
+    "source_start": 31.833,
+    "duration": 4,
+    "variant": 1
+  },
+  {
+    "shot": 6,
+    "variant": 2,
+    "query": "bride father first look emotional hug",
+    "video_id": "6a9c293dcf24a032539ce846",
+    "source_file": "proxy_Gabby and Robert's Wedding~Robert and Gabriella Ceremony.mp4",
+    "source_start": 46.267,
+    "duration": 3.2,
+    "wedding": "Gabriella Menetto & Robert Batchelder"
+  },
+  {
+    "shot": 6,
+    "variant": 3,
+    "query": "bride father first look emotional hug",
+    "video_id": "6a9b9e06cf24a032539cb52d",
+    "source_file": "Reanna & Brandon.mov",
+    "source_start": 70.9,
+    "duration": 3.2,
+    "wedding": "Reanna Rudd & Brandon"
+  },
+  {
+    "shot": 7,
+    "query": "bride bridesmaids laughing together",
+    "video_id": "6a9b9d2fb734162dfc8976a3",
+    "source_file": "Day-of HighlightCaitlin Cole.mov",
+    "source_start": 16.6,
+    "duration": 2.3,
+    "variant": 1
+  },
+  {
+    "shot": 7,
+    "variant": 2,
+    "query": "bride laughing getting ready",
+    "video_id": "6a9c2d40ebf51afb0d95aad5",
+    "source_file": "proxy_Moriah & Dane's Wedding~Moriah and Dane Wedding Highlight Video.mp4",
+    "source_start": 134.8,
+    "duration": 3.2,
+    "wedding": "Moriah Hartman & Dane Hansen"
+  },
+  {
+    "shot": 7,
+    "variant": 3,
+    "query": "bride laughing getting ready",
+    "video_id": "6a9b9d5bebf51afb0d9575c3",
+    "source_file": "Allie & Alan.mp4",
+    "source_start": 66.333,
+    "duration": 3.2,
+    "wedding": "Allie Burch & Alan Lambert"
+  },
+  {
+    "shot": 8,
+    "query": "bride groom first look",
+    "video_id": "6a9c30915c930dcf6c587c73",
+    "source_file": "proxy_Rachel & Ryan's Wedding~Rachel & Ryan Extended Film V1.mp4",
+    "source_start": 598.133,
+    "duration": 3.5333251953125,
+    "variant": 1
+  },
+  {
+    "shot": 8,
+    "variant": 2,
+    "query": "bride groom first look",
+    "video_id": "6a9b9e2acf24a032539cb53d",
+    "source_file": "Kylie & Seth Wedding Film.mp4",
+    "source_start": 46.767,
+    "duration": 3.2,
+    "wedding": "Kylie Bianche & Seth Roberts"
+  },
+  {
+    "shot": 8,
+    "variant": 3,
+    "query": "bride groom first look",
+    "video_id": "6a9c2d405c930dcf6c587b70",
+    "source_file": "proxy_Moriah & Dane's Wedding~Dane & Moriah Ceremony.mp4",
+    "source_start": 1446.6,
+    "duration": 3.2,
+    "wedding": "Moriah Hartman & Dane Hansen"
+  },
+  {
+    "shot": 9,
+    "query": "bride groom hands close up",
+    "video_id": "6a9c30915c930dcf6c587c73",
+    "source_file": "proxy_Rachel & Ryan's Wedding~Rachel & Ryan Extended Film V1.mp4",
+    "source_start": 51.433,
+    "duration": 4,
+    "variant": 1
+  },
+  {
+    "shot": 9,
+    "variant": 2,
+    "query": "bride groom hands close up",
+    "video_id": "6a9c28efafc05fe52de6edd5",
+    "source_file": "proxy_Dakota & Rosie's Wedding Video~Full Wedding Video Rosie & Dakota.mp4",
+    "source_start": 20.333,
+    "duration": 3.2,
+    "wedding": "Dakota & Rosie"
+  },
+  {
+    "shot": 9,
+    "variant": 3,
+    "query": "bride groom hands close up",
+    "video_id": "6a9b9db9ebf51afb0d9575e8",
+    "source_file": "Ia & Jared Wedding Film V3.mov",
+    "source_start": 652.467,
+    "duration": 3.2,
+    "wedding": "Ia Xiong & Jared Rockford"
+  },
+  {
+    "shot": 10,
+    "query": "bride groom walking together portraits",
+    "video_id": "6a9c1a0cb734162dfc89a491",
+    "source_file": "Ia and Jared's Wedding~Ia & Jared Highlight Video.mp4",
+    "source_start": 34.167,
+    "duration": 4,
+    "variant": 1
+  },
+  {
+    "shot": 10,
+    "variant": 2,
+    "query": "bride groom walking together portraits",
+    "video_id": "6a9c293dcf24a032539ce846",
+    "source_file": "proxy_Gabby and Robert's Wedding~Robert and Gabriella Ceremony.mp4",
+    "source_start": 1176.8,
+    "duration": 3.2,
+    "wedding": "Gabriella Menetto & Robert Batchelder"
+  },
+  {
+    "shot": 10,
+    "variant": 3,
+    "query": "bride groom walking together portraits",
+    "video_id": "6a9b9e2acf24a032539cb53d",
+    "source_file": "Kylie & Seth Wedding Film.mp4",
+    "source_start": 60.767,
+    "duration": 3.2,
+    "wedding": "Kylie Bianche & Seth Roberts"
+  },
+  {
+    "shot": 13,
+    "query": "guests arriving wedding ceremony",
+    "video_id": "6a9c28f05c930dcf6c5879be",
+    "source_file": "proxy_Caleb & Brianna's Wedding~Ceremony.mp4",
+    "source_start": 229.7,
+    "duration": 3,
+    "variant": 1
+  },
+  {
+    "shot": 13,
+    "variant": 2,
+    "query": "wedding guests seated watching ceremony faces",
+    "video_id": "6a9c293dcf24a032539ce846",
+    "source_file": "proxy_Gabby and Robert's Wedding~Robert and Gabriella Ceremony.mp4",
+    "source_start": 107.167,
+    "duration": 3.2,
+    "wedding": "Gabriella Menetto & Robert Batchelder"
+  },
+  {
+    "shot": 13,
+    "variant": 3,
+    "query": "wedding guests seated watching ceremony faces",
+    "video_id": "6a9c2cfdafc05fe52de6ef3a",
+    "source_file": "proxy_Jennifer Otto~Wedding Ceremony v4.mp4",
+    "source_start": 154.133,
+    "duration": 3.2,
+    "wedding": "Jennifer Otto & partner"
+  },
+  {
+    "shot": 14,
+    "variant": 1,
+    "query": "bride processional walking down aisle with father",
+    "video_id": "6a9c29605c930dcf6c587a00",
+    "source_file": "proxy_Gina and Spencer's Wedding~Gina and SPencer Ceremony.mp4",
+    "source_start": 375.367,
+    "duration": 3.2,
+    "wedding": "Gina DesCombes & Spencer"
+  },
+  {
+    "shot": 14,
+    "variant": 2,
+    "query": "bride processional walking down aisle with father",
+    "video_id": "6a9c2cfdafc05fe52de6ef3a",
+    "source_file": "proxy_Jennifer Otto~Wedding Ceremony v4.mp4",
+    "source_start": 204.567,
+    "duration": 3.2,
+    "wedding": "Jennifer Otto & partner"
+  },
+  {
+    "shot": 14,
+    "variant": 3,
+    "query": "bride processional walking down aisle with father",
+    "video_id": "6a9c2d40ebf51afb0d95aad6",
+    "source_file": "proxy_Kelsie and Davidson's Wedding~Davidson and Kelsey Ceremony Video.mp4",
+    "source_start": 237.8,
+    "duration": 3.2,
+    "wedding": "Kelsie & Davidson"
+  },
+  {
+    "shot": 15,
+    "query": "groom watching bride walk aisle emotional reaction",
+    "video_id": "6a9c2d405c930dcf6c587b70",
+    "source_file": "proxy_Moriah & Dane's Wedding~Dane & Moriah Ceremony.mp4",
+    "source_start": 392.433,
+    "duration": 4,
+    "variant": 1
+  },
+  {
+    "shot": 15,
+    "variant": 2,
+    "query": "groom watching bride walk aisle emotional reaction",
+    "video_id": "6a9c2d40ebf51afb0d95aad6",
+    "source_file": "proxy_Kelsie and Davidson's Wedding~Davidson and Kelsey Ceremony Video.mp4",
+    "source_start": 230.3,
+    "duration": 2.6,
+    "wedding": "Kelsie & Davidson"
+  },
+  {
+    "shot": 15,
+    "variant": 3,
+    "query": "groom watching bride walk aisle emotional reaction",
+    "video_id": "6a9c29605c930dcf6c587a00",
+    "source_file": "proxy_Gina and Spencer's Wedding~Gina and SPencer Ceremony.mp4",
+    "source_start": 590.3,
+    "duration": 3.2,
+    "wedding": "Gina DesCombes & Spencer"
+  },
+  {
+    "shot": 16,
+    "query": "bride groom vows ceremony side angle",
+    "video_id": "6a9c29605c930dcf6c587a00",
+    "source_file": "proxy_Gina and Spencer's Wedding~Gina and SPencer Ceremony.mp4",
+    "source_start": 854.967,
+    "duration": 4,
+    "variant": 1
+  },
+  {
+    "shot": 16,
+    "variant": 2,
+    "query": "bride groom vows ceremony side angle",
+    "video_id": "6a9c2d40ebf51afb0d95aad4",
+    "source_file": "proxy_Moriah & Dane's Wedding~Wedding Film V2.mp4",
+    "source_start": 41.9,
+    "duration": 3.2,
+    "wedding": "Moriah Hartman & Dane Hansen"
+  },
+  {
+    "shot": 16,
+    "variant": 3,
+    "query": "bride groom vows ceremony side angle",
+    "video_id": "6a9c2d40ebf51afb0d95aad6",
+    "source_file": "proxy_Kelsie and Davidson's Wedding~Davidson and Kelsey Ceremony Video.mp4",
+    "source_start": 950.3,
+    "duration": 3.2,
+    "wedding": "Kelsie & Davidson"
+  },
+  {
+    "shot": 17,
+    "query": "wedding ring exchange close up",
+    "video_id": "6a9c2d06b734162dfc89ab79",
+    "source_file": "proxy_Gretchen's Wedding~Ceremony.mp4",
+    "source_start": 903.2,
+    "duration": 4,
+    "variant": 1
+  },
+  {
+    "shot": 17,
+    "variant": 2,
+    "query": "wedding ring exchange close up",
+    "video_id": "6a9c2d40ebf51afb0d95aad6",
+    "source_file": "proxy_Kelsie and Davidson's Wedding~Davidson and Kelsey Ceremony Video.mp4",
+    "source_start": 1198.533,
+    "duration": 3.2,
+    "wedding": "Kelsie & Davidson"
+  },
+  {
+    "shot": 17,
+    "variant": 3,
+    "query": "wedding ring exchange close up",
+    "video_id": "6a9c28f05c930dcf6c5879be",
+    "source_file": "proxy_Caleb & Brianna's Wedding~Ceremony.mp4",
+    "source_start": 806.033,
+    "duration": 3.2,
+    "wedding": "Brianna Rowan & Caleb Willette"
+  },
+  {
+    "shot": 18,
+    "query": "wedding first kiss cheering guests",
+    "video_id": "6a9c2d40ebf51afb0d95aad6",
+    "source_file": "proxy_Kelsie and Davidson's Wedding~Davidson and Kelsey Ceremony Video.mp4",
+    "source_start": 1282.433,
+    "duration": 4,
+    "variant": 1
+  },
+  {
+    "shot": 18,
+    "variant": 2,
+    "query": "wedding first kiss cheering guests",
+    "video_id": "6a9c293dcf24a032539ce846",
+    "source_file": "proxy_Gabby and Robert's Wedding~Robert and Gabriella Ceremony.mp4",
+    "source_start": 1157.567,
+    "duration": 3.2,
+    "wedding": "Gabriella Menetto & Robert Batchelder"
+  },
+  {
+    "shot": 18,
+    "variant": 3,
+    "query": "wedding first kiss cheering guests",
+    "video_id": "6a9c28efafc05fe52de6edd5",
+    "source_file": "proxy_Dakota & Rosie's Wedding Video~Full Wedding Video Rosie & Dakota.mp4",
+    "source_start": 274.3,
+    "duration": 3.2,
+    "wedding": "Dakota & Rosie"
+  },
+  {
+    "shot": 11,
+    "query": "bride groom kiss golden hour",
+    "video_id": "6a9b9db9afc05fe52de6bbc2",
+    "source_file": "Matt & Alisia Wedding Video.mov",
+    "source_start": 282.633,
+    "duration": 4,
+    "variant": 1
+  },
+  {
+    "shot": 11,
+    "variant": 2,
+    "query": "bride groom kiss golden hour",
+    "video_id": "6a9c2d40ebf51afb0d95aad4",
+    "source_file": "proxy_Moriah & Dane's Wedding~Wedding Film V2.mp4",
+    "source_start": 436.9,
+    "duration": 3.2,
+    "wedding": "Moriah Hartman & Dane Hansen"
+  },
+  {
+    "shot": 11,
+    "variant": 3,
+    "query": "bride groom kiss golden hour",
+    "video_id": "6a9c1a0cb734162dfc89a491",
+    "source_file": "Ia and Jared's Wedding~Ia & Jared Highlight Video.mp4",
+    "source_start": 90.2,
+    "duration": 3.2,
+    "wedding": "Ia Xiong & Jared Rockford"
   },
   {
     "shot": 24,
@@ -189,6 +557,173 @@
     "video_id": "6a9b9db9afc05fe52de6bbc2",
     "source_file": "Matt & Alisia Wedding Video.mov",
     "source_start": 141.8,
-    "duration": 4
+    "duration": 4,
+    "variant": 1
+  },
+  {
+    "shot": 24,
+    "variant": 2,
+    "query": "wide landscape bride groom walking together outdoors",
+    "video_id": "6a9c2d40ebf51afb0d95aad4",
+    "source_file": "proxy_Moriah & Dane's Wedding~Wedding Film V2.mp4",
+    "source_start": 133.267,
+    "duration": 3.2,
+    "wedding": "Moriah Hartman & Dane Hansen"
+  },
+  {
+    "shot": 24,
+    "variant": 3,
+    "query": "wide landscape bride groom walking together outdoors",
+    "video_id": "6a9b9d2fb734162dfc8976a3",
+    "source_file": "Day-of HighlightCaitlin Cole.mov",
+    "source_start": 94.433,
+    "duration": 3.2,
+    "wedding": "Caitlin Relvas & Cole Pennock"
+  },
+  {
+    "shot": 25,
+    "variant": 1,
+    "query": "bride groom playful laughing portrait outdoors",
+    "video_id": "6a9b9db9afc05fe52de6bbc2",
+    "source_file": "Matt & Alisia Wedding Video.mov",
+    "source_start": 263.833,
+    "duration": 3.2,
+    "wedding": "Alisia Sandstrom & Matt Grozdanich"
+  },
+  {
+    "shot": 25,
+    "variant": 2,
+    "query": "bride groom playful laughing portrait outdoors",
+    "video_id": "6a9c1a36afc05fe52de6e905",
+    "source_file": "Seth and Kylie's Wedding~Kylie & Seth Highlight Video.mp4",
+    "source_start": 65.6,
+    "duration": 3.2,
+    "wedding": "Kylie Bianche & Seth Roberts"
+  },
+  {
+    "shot": 25,
+    "variant": 3,
+    "query": "bride groom playful laughing portrait outdoors",
+    "video_id": "6a9c2cecebf51afb0d95aaaf",
+    "source_file": "proxy_Gabby and Robert's Wedding~Wedding Film.mp4",
+    "source_start": 96.633,
+    "duration": 3.2,
+    "wedding": "Gabriella Menetto & Robert Batchelder"
+  },
+  {
+    "shot": 20,
+    "query": "wedding speeches guest reaction laughing",
+    "video_id": "6a9b9e06cf24a032539cb52d",
+    "source_file": "Reanna & Brandon.mov",
+    "source_start": 349.9,
+    "duration": 4,
+    "variant": 1
+  },
+  {
+    "shot": 20,
+    "variant": 2,
+    "query": "wedding speeches guest reaction laughing",
+    "video_id": "6a9c30915c930dcf6c587c72",
+    "source_file": "proxy_Moriah & Dane's Wedding~Reception Speeches.mp4",
+    "source_start": 297.8,
+    "duration": 3.2,
+    "wedding": "Moriah Hartman & Dane Hansen"
+  },
+  {
+    "shot": 20,
+    "variant": 3,
+    "query": "wedding speeches guest reaction laughing",
+    "video_id": "6a9c28efafc05fe52de6edd5",
+    "source_file": "proxy_Dakota & Rosie's Wedding Video~Full Wedding Video Rosie & Dakota.mp4",
+    "source_start": 591.6,
+    "duration": 3.2,
+    "wedding": "Dakota & Rosie"
+  },
+  {
+    "shot": 21,
+    "query": "bride groom first dance",
+    "video_id": "6a9c2d40aaeae93e2577df15",
+    "source_file": "proxy_Rachel & Ryan's Wedding~First Dance.mp4",
+    "source_start": 49.1,
+    "duration": 4,
+    "variant": 1
+  },
+  {
+    "shot": 21,
+    "variant": 2,
+    "query": "bride groom first dance",
+    "video_id": "6a9b9d2fb734162dfc8976a3",
+    "source_file": "Day-of HighlightCaitlin Cole.mov",
+    "source_start": 75.533,
+    "duration": 3.2,
+    "wedding": "Caitlin Relvas & Cole Pennock"
+  },
+  {
+    "shot": 21,
+    "variant": 3,
+    "query": "bride groom first dance",
+    "video_id": "6a9c29315c930dcf6c5879ea",
+    "source_file": "proxy_Gina and Spencer's Wedding~Gina Spencer Video V2.mp4",
+    "source_start": 243.467,
+    "duration": 3.2,
+    "wedding": "Gina DesCombes & Spencer"
+  },
+  {
+    "shot": 22,
+    "query": "wedding parent dance",
+    "video_id": "6a9c2d40b734162dfc89ab92",
+    "source_file": "proxy_Rachel & Ryan's Wedding~Parent First Dances.mp4",
+    "source_start": 194.967,
+    "duration": 4,
+    "variant": 1
+  },
+  {
+    "shot": 22,
+    "variant": 2,
+    "query": "wedding parent dance",
+    "video_id": "6a9b9e06cf24a032539cb52d",
+    "source_file": "Reanna & Brandon.mov",
+    "source_start": 800.467,
+    "duration": 3.2,
+    "wedding": "Reanna Rudd & Brandon"
+  },
+  {
+    "shot": 22,
+    "variant": 3,
+    "query": "wedding parent dance",
+    "video_id": "6a9c29315c930dcf6c5879ea",
+    "source_file": "proxy_Gina and Spencer's Wedding~Gina Spencer Video V2.mp4",
+    "source_start": 260.8,
+    "duration": 2.3,
+    "wedding": "Gina DesCombes & Spencer"
+  },
+  {
+    "shot": 23,
+    "query": "wedding guests dancing party",
+    "video_id": "6a9bb913cf24a032539cc194",
+    "source_file": "Dakota & Rosie's Wedding Video~Dakota & Rosie's Wedding Highlight Reel.mp4",
+    "source_start": 43.433,
+    "duration": 4,
+    "variant": 1
+  },
+  {
+    "shot": 23,
+    "variant": 2,
+    "query": "wedding guests dancing party",
+    "video_id": "6a9b9e06cf24a032539cb52d",
+    "source_file": "Reanna & Brandon.mov",
+    "source_start": 818.3,
+    "duration": 3.2,
+    "wedding": "Reanna Rudd & Brandon"
+  },
+  {
+    "shot": 23,
+    "variant": 3,
+    "query": "wedding guests dancing party",
+    "video_id": "6a9c2cecebf51afb0d95aaaf",
+    "source_file": "proxy_Gabby and Robert's Wedding~Wedding Film.mp4",
+    "source_start": 297.767,
+    "duration": 3.2,
+    "wedding": "Gabriella Menetto & Robert Batchelder"
   }
 ]
