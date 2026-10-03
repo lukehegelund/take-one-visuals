@@ -29,35 +29,6 @@
     "wedding": "Caitlin Relvas & Cole Pennock"
   },
   {
-    "shot": 12,
-    "query": "empty ceremony arch flowers chairs",
-    "video_id": "6a9c2909b734162dfc89a9d4",
-    "source_file": "proxy_Gabby and Robert's Wedding~Gabby & Rob Highlight Video.mp4",
-    "source_start": 11.7,
-    "duration": 2.5,
-    "variant": 1
-  },
-  {
-    "shot": 12,
-    "variant": 2,
-    "query": "empty ceremony arch flowers chairs",
-    "video_id": "6a9c1a0cb734162dfc89a491",
-    "source_file": "Ia and Jared's Wedding~Ia & Jared Highlight Video.mp4",
-    "source_start": 6.467,
-    "duration": 3.2,
-    "wedding": "Ia Xiong & Jared Rockford"
-  },
-  {
-    "shot": 12,
-    "variant": 3,
-    "query": "empty ceremony arch flowers chairs",
-    "video_id": "6a9b9d20ebf51afb0d9575b5",
-    "source_file": "Caleb and Brianna.mp4",
-    "source_start": 15.9,
-    "duration": 2.6,
-    "wedding": "Brianna Rowan & Caleb Willette"
-  },
-  {
     "shot": 2,
     "query": "wedding rings invitation close up",
     "video_id": "6a9b9d2fb734162dfc8976a3",
@@ -114,35 +85,6 @@
     "source_start": 14.767,
     "duration": 3.2,
     "wedding": "Gabriella Menetto & Robert Batchelder"
-  },
-  {
-    "shot": 19,
-    "query": "wedding reception tables decor",
-    "video_id": "6a9b9d5bebf51afb0d9575c3",
-    "source_file": "Allie & Alan.mp4",
-    "source_start": 10.733,
-    "duration": 4,
-    "variant": 1
-  },
-  {
-    "shot": 19,
-    "variant": 2,
-    "query": "wedding reception tables decor",
-    "video_id": "6a9c30915c930dcf6c587c73",
-    "source_file": "proxy_Rachel & Ryan's Wedding~Rachel & Ryan Extended Film V1.mp4",
-    "source_start": 31.733,
-    "duration": 3.2,
-    "wedding": "Rachel Bender & Ryan Burgess"
-  },
-  {
-    "shot": 19,
-    "variant": 3,
-    "query": "wedding reception tables decor",
-    "video_id": "6a9b9ddcaaeae93e2577aba2",
-    "source_file": "Devin and Violet Wedding Video.mp4",
-    "source_start": 22.4,
-    "duration": 3.2,
-    "wedding": "Violet Gradin & Devin La Croix"
   },
   {
     "shot": 4,
@@ -320,12 +262,13 @@
   },
   {
     "shot": 10,
-    "query": "bride groom walking together portraits",
-    "video_id": "6a9c1a0cb734162dfc89a491",
-    "source_file": "Ia and Jared's Wedding~Ia & Jared Highlight Video.mp4",
-    "source_start": 34.167,
-    "duration": 4,
-    "variant": 1
+    "variant": 1,
+    "query": "bride groom walking holding hands sunset portraits",
+    "video_id": "6a9c2d40ebf51afb0d95aad4",
+    "source_file": "proxy_Moriah & Dane's Wedding~Wedding Film V2.mp4",
+    "source_start": 621.633,
+    "duration": 3.6,
+    "wedding": "Moriah Hartman & Dane Hansen"
   },
   {
     "shot": 10,
@@ -346,6 +289,64 @@
     "source_start": 60.767,
     "duration": 3.2,
     "wedding": "Kylie Bianche & Seth Roberts"
+  },
+  {
+    "shot": 11,
+    "query": "bride groom kiss golden hour",
+    "video_id": "6a9b9db9afc05fe52de6bbc2",
+    "source_file": "Matt & Alisia Wedding Video.mov",
+    "source_start": 282.633,
+    "duration": 4,
+    "variant": 1
+  },
+  {
+    "shot": 11,
+    "variant": 2,
+    "query": "bride groom kiss golden hour",
+    "video_id": "6a9c2d40ebf51afb0d95aad4",
+    "source_file": "proxy_Moriah & Dane's Wedding~Wedding Film V2.mp4",
+    "source_start": 436.9,
+    "duration": 3.2,
+    "wedding": "Moriah Hartman & Dane Hansen"
+  },
+  {
+    "shot": 11,
+    "variant": 3,
+    "query": "bride groom kiss golden hour",
+    "video_id": "6a9c1a0cb734162dfc89a491",
+    "source_file": "Ia and Jared's Wedding~Ia & Jared Highlight Video.mp4",
+    "source_start": 90.2,
+    "duration": 3.2,
+    "wedding": "Ia Xiong & Jared Rockford"
+  },
+  {
+    "shot": 12,
+    "query": "empty ceremony arch flowers chairs",
+    "video_id": "6a9c2909b734162dfc89a9d4",
+    "source_file": "proxy_Gabby and Robert's Wedding~Gabby & Rob Highlight Video.mp4",
+    "source_start": 11.7,
+    "duration": 2.5,
+    "variant": 1
+  },
+  {
+    "shot": 12,
+    "variant": 2,
+    "query": "empty ceremony arch flowers chairs",
+    "video_id": "6a9c1a0cb734162dfc89a491",
+    "source_file": "Ia and Jared's Wedding~Ia & Jared Highlight Video.mp4",
+    "source_start": 6.467,
+    "duration": 3.2,
+    "wedding": "Ia Xiong & Jared Rockford"
+  },
+  {
+    "shot": 12,
+    "variant": 3,
+    "query": "empty ceremony arch flowers chairs",
+    "video_id": "6a9b9d20ebf51afb0d9575b5",
+    "source_file": "Caleb and Brianna.mp4",
+    "source_start": 15.9,
+    "duration": 2.6,
+    "wedding": "Brianna Rowan & Caleb Willette"
   },
   {
     "shot": 13,
@@ -523,92 +524,33 @@
     "wedding": "Dakota & Rosie"
   },
   {
-    "shot": 11,
-    "query": "bride groom kiss golden hour",
-    "video_id": "6a9b9db9afc05fe52de6bbc2",
-    "source_file": "Matt & Alisia Wedding Video.mov",
-    "source_start": 282.633,
+    "shot": 19,
+    "query": "wedding reception tables decor",
+    "video_id": "6a9b9d5bebf51afb0d9575c3",
+    "source_file": "Allie & Alan.mp4",
+    "source_start": 10.733,
     "duration": 4,
     "variant": 1
   },
   {
-    "shot": 11,
+    "shot": 19,
     "variant": 2,
-    "query": "bride groom kiss golden hour",
-    "video_id": "6a9c2d40ebf51afb0d95aad4",
-    "source_file": "proxy_Moriah & Dane's Wedding~Wedding Film V2.mp4",
-    "source_start": 436.9,
+    "query": "wedding reception tables decor",
+    "video_id": "6a9c30915c930dcf6c587c73",
+    "source_file": "proxy_Rachel & Ryan's Wedding~Rachel & Ryan Extended Film V1.mp4",
+    "source_start": 31.733,
     "duration": 3.2,
-    "wedding": "Moriah Hartman & Dane Hansen"
+    "wedding": "Rachel Bender & Ryan Burgess"
   },
   {
-    "shot": 11,
+    "shot": 19,
     "variant": 3,
-    "query": "bride groom kiss golden hour",
-    "video_id": "6a9c1a0cb734162dfc89a491",
-    "source_file": "Ia and Jared's Wedding~Ia & Jared Highlight Video.mp4",
-    "source_start": 90.2,
+    "query": "wedding reception tables decor",
+    "video_id": "6a9b9ddcaaeae93e2577aba2",
+    "source_file": "Devin and Violet Wedding Video.mp4",
+    "source_start": 22.4,
     "duration": 3.2,
-    "wedding": "Ia Xiong & Jared Rockford"
-  },
-  {
-    "shot": 24,
-    "query": "bride groom walking away sunset",
-    "video_id": "6a9b9db9afc05fe52de6bbc2",
-    "source_file": "Matt & Alisia Wedding Video.mov",
-    "source_start": 141.8,
-    "duration": 4,
-    "variant": 1
-  },
-  {
-    "shot": 24,
-    "variant": 2,
-    "query": "wide landscape bride groom walking together outdoors",
-    "video_id": "6a9c2d40ebf51afb0d95aad4",
-    "source_file": "proxy_Moriah & Dane's Wedding~Wedding Film V2.mp4",
-    "source_start": 133.267,
-    "duration": 3.2,
-    "wedding": "Moriah Hartman & Dane Hansen"
-  },
-  {
-    "shot": 24,
-    "variant": 3,
-    "query": "wide landscape bride groom walking together outdoors",
-    "video_id": "6a9b9d2fb734162dfc8976a3",
-    "source_file": "Day-of HighlightCaitlin Cole.mov",
-    "source_start": 94.433,
-    "duration": 3.2,
-    "wedding": "Caitlin Relvas & Cole Pennock"
-  },
-  {
-    "shot": 25,
-    "variant": 1,
-    "query": "bride groom playful laughing portrait outdoors",
-    "video_id": "6a9b9db9afc05fe52de6bbc2",
-    "source_file": "Matt & Alisia Wedding Video.mov",
-    "source_start": 263.833,
-    "duration": 3.2,
-    "wedding": "Alisia Sandstrom & Matt Grozdanich"
-  },
-  {
-    "shot": 25,
-    "variant": 2,
-    "query": "bride groom playful laughing portrait outdoors",
-    "video_id": "6a9c1a36afc05fe52de6e905",
-    "source_file": "Seth and Kylie's Wedding~Kylie & Seth Highlight Video.mp4",
-    "source_start": 65.6,
-    "duration": 3.2,
-    "wedding": "Kylie Bianche & Seth Roberts"
-  },
-  {
-    "shot": 25,
-    "variant": 3,
-    "query": "bride groom playful laughing portrait outdoors",
-    "video_id": "6a9c2cecebf51afb0d95aaaf",
-    "source_file": "proxy_Gabby and Robert's Wedding~Wedding Film.mp4",
-    "source_start": 96.633,
-    "duration": 3.2,
-    "wedding": "Gabriella Menetto & Robert Batchelder"
+    "wedding": "Violet Gradin & Devin La Croix"
   },
   {
     "shot": 20,
@@ -719,11 +661,610 @@
   {
     "shot": 23,
     "variant": 3,
-    "query": "wedding guests dancing party",
+    "query": "wedding guests dancing dance floor party",
+    "video_id": "6a9c30915c930dcf6c587c73",
+    "source_file": "proxy_Rachel & Ryan's Wedding~Rachel & Ryan Extended Film V1.mp4",
+    "source_start": 248.9,
+    "duration": 3,
+    "wedding": "Rachel Bender & Ryan Burgess"
+  },
+  {
+    "shot": 24,
+    "query": "bride groom walking away sunset",
+    "video_id": "6a9b9db9afc05fe52de6bbc2",
+    "source_file": "Matt & Alisia Wedding Video.mov",
+    "source_start": 141.8,
+    "duration": 4,
+    "variant": 1
+  },
+  {
+    "shot": 24,
+    "variant": 2,
+    "query": "wide landscape bride groom walking together outdoors",
+    "video_id": "6a9c2d40ebf51afb0d95aad4",
+    "source_file": "proxy_Moriah & Dane's Wedding~Wedding Film V2.mp4",
+    "source_start": 133.267,
+    "duration": 3.2,
+    "wedding": "Moriah Hartman & Dane Hansen"
+  },
+  {
+    "shot": 24,
+    "variant": 3,
+    "query": "wide landscape bride groom walking together outdoors",
+    "video_id": "6a9b9d2fb734162dfc8976a3",
+    "source_file": "Day-of HighlightCaitlin Cole.mov",
+    "source_start": 94.433,
+    "duration": 3.2,
+    "wedding": "Caitlin Relvas & Cole Pennock"
+  },
+  {
+    "shot": 25,
+    "variant": 1,
+    "query": "bride groom playful laughing portrait outdoors",
+    "video_id": "6a9b9db9afc05fe52de6bbc2",
+    "source_file": "Matt & Alisia Wedding Video.mov",
+    "source_start": 263.833,
+    "duration": 3.2,
+    "wedding": "Alisia Sandstrom & Matt Grozdanich"
+  },
+  {
+    "shot": 25,
+    "variant": 2,
+    "query": "bride groom playful laughing portrait outdoors",
+    "video_id": "6a9c1a36afc05fe52de6e905",
+    "source_file": "Seth and Kylie's Wedding~Kylie & Seth Highlight Video.mp4",
+    "source_start": 65.6,
+    "duration": 3.2,
+    "wedding": "Kylie Bianche & Seth Roberts"
+  },
+  {
+    "shot": 25,
+    "variant": 3,
+    "query": "bride groom playful laughing portrait outdoors",
     "video_id": "6a9c2cecebf51afb0d95aaaf",
     "source_file": "proxy_Gabby and Robert's Wedding~Wedding Film.mp4",
-    "source_start": 297.767,
+    "source_start": 96.633,
     "duration": 3.2,
     "wedding": "Gabriella Menetto & Robert Batchelder"
+  },
+  {
+    "shot": 26,
+    "variant": 1,
+    "query": "bride father giving away daughter hugging groom handoff at altar ceremony",
+    "video_id": "6a9c293dcf24a032539ce846",
+    "source_file": "proxy_Gabby and Robert's Wedding~Robert and Gabriella Ceremony.mp4",
+    "source_start": 43.683,
+    "duration": 5.5,
+    "wedding": "Gabriella Menetto & Robert Batchelder"
+  },
+  {
+    "shot": 26,
+    "variant": 2,
+    "query": "bride father giving away daughter hugging groom handoff at altar ceremony",
+    "video_id": "6a9c291fb734162dfc89a9dc",
+    "source_file": "proxy_Devin and Violet's Wedding~Ceremony.mp4",
+    "source_start": 90.217,
+    "duration": 5.5,
+    "wedding": "Violet Gradin & Devin La Croix"
+  },
+  {
+    "shot": 26,
+    "variant": 3,
+    "query": "bride father giving away daughter hugging groom handoff at altar ceremony",
+    "video_id": "6a9c28f05c930dcf6c5879be",
+    "source_file": "proxy_Caleb & Brianna's Wedding~Ceremony.mp4",
+    "source_start": 278.95,
+    "duration": 5.5,
+    "wedding": "Brianna Rowan & Caleb Willette"
+  },
+  {
+    "shot": 27,
+    "variant": 1,
+    "query": "wide scenic bride groom portrait outdoors landscape",
+    "video_id": "6a9c28efafc05fe52de6edd5",
+    "source_file": "proxy_Dakota & Rosie's Wedding Video~Full Wedding Video Rosie & Dakota.mp4",
+    "source_start": 186.267,
+    "duration": 3.6,
+    "wedding": "Dakota & Rosie"
+  },
+  {
+    "shot": 27,
+    "variant": 2,
+    "query": "wide scenic bride groom portrait outdoors landscape",
+    "video_id": "6a9b9db9afc05fe52de6bbc2",
+    "source_file": "Matt & Alisia Wedding Video.mov",
+    "source_start": 88.933,
+    "duration": 3.6,
+    "wedding": "Alisia Sandstrom & Matt Grozdanich"
+  },
+  {
+    "shot": 27,
+    "variant": 3,
+    "query": "wide scenic bride groom portrait outdoors landscape",
+    "video_id": "6a9c2d40ebf51afb0d95aad4",
+    "source_file": "proxy_Moriah & Dane's Wedding~Wedding Film V2.mp4",
+    "source_start": 133.067,
+    "duration": 3.6,
+    "wedding": "Moriah Hartman & Dane Hansen"
+  },
+  {
+    "shot": 28,
+    "variant": 1,
+    "query": "bride groom posing together outdoors embracing portrait session",
+    "video_id": "6a9c2cecebf51afb0d95aaaf",
+    "source_file": "proxy_Gabby and Robert's Wedding~Wedding Film.mp4",
+    "source_start": 105.867,
+    "duration": 3.6,
+    "wedding": "Gabriella Menetto & Robert Batchelder"
+  },
+  {
+    "shot": 28,
+    "variant": 2,
+    "query": "bride groom posing together outdoors embracing portrait session",
+    "video_id": "6a9b9d5bebf51afb0d9575c3",
+    "source_file": "Allie & Alan.mp4",
+    "source_start": 80.1,
+    "duration": 3.6,
+    "wedding": "Allie Burch & Alan Lambert"
+  },
+  {
+    "shot": 28,
+    "variant": 3,
+    "query": "bride groom posing together outdoors embracing portrait session",
+    "video_id": "6a9c2d40ebf51afb0d95aad5",
+    "source_file": "proxy_Moriah & Dane's Wedding~Moriah and Dane Wedding Highlight Video.mp4",
+    "source_start": 72.5,
+    "duration": 1.7,
+    "wedding": "Moriah Hartman & Dane Hansen"
+  },
+  {
+    "shot": 29,
+    "variant": 1,
+    "query": "bride groom faces close up smiling portrait",
+    "video_id": "6a9b9ddcaaeae93e2577aba2",
+    "source_file": "Devin and Violet Wedding Video.mp4",
+    "source_start": 80.167,
+    "duration": 3.6,
+    "wedding": "Violet Gradin & Devin La Croix"
+  },
+  {
+    "shot": 29,
+    "variant": 2,
+    "query": "bride groom faces close up smiling portrait",
+    "video_id": "6a9c1a36afc05fe52de6e905",
+    "source_file": "Seth and Kylie's Wedding~Kylie & Seth Highlight Video.mp4",
+    "source_start": 65.4,
+    "duration": 3.6,
+    "wedding": "Kylie Bianche & Seth Roberts"
+  },
+  {
+    "shot": 29,
+    "variant": 3,
+    "query": "bride groom faces close up smiling portrait",
+    "video_id": "6a9c28efafc05fe52de6edd5",
+    "source_file": "proxy_Dakota & Rosie's Wedding Video~Full Wedding Video Rosie & Dakota.mp4",
+    "source_start": 138.2,
+    "duration": 3.6,
+    "wedding": "Dakota & Rosie"
+  },
+  {
+    "shot": 30,
+    "variant": 1,
+    "query": "bride groom walking holding hands sunset portraits",
+    "video_id": "6a9b9db9afc05fe52de6bbc2",
+    "source_file": "Matt & Alisia Wedding Video.mov",
+    "source_start": 142.0,
+    "duration": 3.6,
+    "wedding": "Alisia Sandstrom & Matt Grozdanich"
+  },
+  {
+    "shot": 30,
+    "variant": 2,
+    "query": "bride groom walking holding hands sunset portraits",
+    "video_id": "6a9c30915c930dcf6c587c73",
+    "source_file": "proxy_Rachel & Ryan's Wedding~Rachel & Ryan Extended Film V1.mp4",
+    "source_start": 625.7,
+    "duration": 3.6,
+    "wedding": "Rachel Bender & Ryan Burgess"
+  },
+  {
+    "shot": 30,
+    "variant": 3,
+    "query": "bride groom walking holding hands sunset portraits",
+    "video_id": "6a9c2d40ebf51afb0d95aad4",
+    "source_file": "proxy_Moriah & Dane's Wedding~Wedding Film V2.mp4",
+    "source_start": 621.633,
+    "duration": 3.6,
+    "wedding": "Moriah Hartman & Dane Hansen"
+  },
+  {
+    "shot": 31,
+    "variant": 1,
+    "query": "close up bride groom holding hands wedding portrait",
+    "video_id": "6a9c30915c930dcf6c587c73",
+    "source_file": "proxy_Rachel & Ryan's Wedding~Rachel & Ryan Extended Film V1.mp4",
+    "source_start": 51.633,
+    "duration": 3.6,
+    "wedding": "Rachel Bender & Ryan Burgess"
+  },
+  {
+    "shot": 31,
+    "variant": 2,
+    "query": "close up bride groom holding hands wedding portrait",
+    "video_id": "6a9b9db9ebf51afb0d9575e8",
+    "source_file": "Ia & Jared Wedding Film V3.mov",
+    "source_start": 652.267,
+    "duration": 3.6,
+    "wedding": "Ia Xiong & Jared Rockford"
+  },
+  {
+    "shot": 31,
+    "variant": 3,
+    "query": "close up bride groom holding hands wedding portrait",
+    "video_id": "6a9c28efafc05fe52de6edd5",
+    "source_file": "proxy_Dakota & Rosie's Wedding Video~Full Wedding Video Rosie & Dakota.mp4",
+    "source_start": 20.7,
+    "duration": 2.8,
+    "wedding": "Dakota & Rosie"
+  },
+  {
+    "shot": 32,
+    "variant": 1,
+    "query": "bride groom twirling spinning dress outdoors portrait",
+    "video_id": "6a9b9db9ebf51afb0d9575e8",
+    "source_file": "Ia & Jared Wedding Film V3.mov",
+    "source_start": 608.467,
+    "duration": 3.6,
+    "wedding": "Ia Xiong & Jared Rockford"
+  },
+  {
+    "shot": 32,
+    "variant": 2,
+    "query": "bride groom twirling spinning dress outdoors portrait",
+    "video_id": "6a9c2cecebf51afb0d95aaaf",
+    "source_file": "proxy_Gabby and Robert's Wedding~Wedding Film.mp4",
+    "source_start": 837.967,
+    "duration": 3.6,
+    "wedding": "Gabriella Menetto & Robert Batchelder"
+  },
+  {
+    "shot": 32,
+    "variant": 3,
+    "query": "bride groom twirling spinning dress outdoors portrait",
+    "video_id": "6a9b9d5bebf51afb0d9575c3",
+    "source_file": "Allie & Alan.mp4",
+    "source_start": 348.7,
+    "duration": 3.6,
+    "wedding": "Allie Burch & Alan Lambert"
+  },
+  {
+    "shot": 33,
+    "variant": 1,
+    "query": "groom dipping bride kiss outdoors portrait",
+    "video_id": "6a9b9e2acf24a032539cb53d",
+    "source_file": "Kylie & Seth Wedding Film.mp4",
+    "source_start": 251.7,
+    "duration": 3.6,
+    "wedding": "Kylie Bianche & Seth Roberts"
+  },
+  {
+    "shot": 33,
+    "variant": 2,
+    "query": "groom dipping bride kiss outdoors portrait",
+    "video_id": "6a9c2909b734162dfc89a9d4",
+    "source_file": "proxy_Gabby and Robert's Wedding~Gabby & Rob Highlight Video.mp4",
+    "source_start": 65.4,
+    "duration": 3.6,
+    "wedding": "Gabriella Menetto & Robert Batchelder"
+  },
+  {
+    "shot": 33,
+    "variant": 3,
+    "query": "groom dipping bride kiss outdoors portrait",
+    "video_id": "6a9b9db9afc05fe52de6bbc2",
+    "source_file": "Matt & Alisia Wedding Video.mov",
+    "source_start": 343.7,
+    "duration": 3.6,
+    "wedding": "Alisia Sandstrom & Matt Grozdanich"
+  },
+  {
+    "shot": 34,
+    "variant": 1,
+    "query": "bride groom silhouette sunset portrait",
+    "video_id": "6a9b9e06cf24a032539cb52d",
+    "source_file": "Reanna & Brandon.mov",
+    "source_start": 845.933,
+    "duration": 3.6,
+    "wedding": "Reanna Rudd & Brandon"
+  },
+  {
+    "shot": 34,
+    "variant": 2,
+    "query": "bride groom silhouette sunset portrait",
+    "video_id": "6a9b9d5bebf51afb0d9575c3",
+    "source_file": "Allie & Alan.mp4",
+    "source_start": 379.5,
+    "duration": 2,
+    "wedding": "Allie Burch & Alan Lambert"
+  },
+  {
+    "shot": 34,
+    "variant": 3,
+    "query": "bride groom silhouette sunset portrait",
+    "video_id": "6a9bb630aaeae93e2577b665",
+    "source_file": "Jeff and Brie Highlight Video.mp4",
+    "source_start": 66.3,
+    "duration": 2.7,
+    "wedding": "Brie Hodges & Jeff Roberts"
+  },
+  {
+    "shot": 35,
+    "variant": 1,
+    "query": "bride groom veil flowing wedding portrait outdoors",
+    "video_id": "6a9b9db9afc05fe52de6bbc2",
+    "source_file": "Matt & Alisia Wedding Video.mov",
+    "source_start": 187.2,
+    "duration": 3.6,
+    "wedding": "Alisia Sandstrom & Matt Grozdanich"
+  },
+  {
+    "shot": 35,
+    "variant": 2,
+    "query": "bride groom veil flowing wedding portrait outdoors",
+    "video_id": "6a9b9d5bebf51afb0d9575c3",
+    "source_file": "Allie & Alan.mp4",
+    "source_start": 96.633,
+    "duration": 3.6,
+    "wedding": "Allie Burch & Alan Lambert"
+  },
+  {
+    "shot": 35,
+    "variant": 3,
+    "query": "bride groom veil flowing wedding portrait outdoors",
+    "video_id": "6a9b9e2acf24a032539cb53d",
+    "source_file": "Kylie & Seth Wedding Film.mp4",
+    "source_start": 46.567,
+    "duration": 3.6,
+    "wedding": "Kylie Bianche & Seth Roberts"
+  },
+  {
+    "shot": 36,
+    "variant": 1,
+    "query": "bride throwing bouquet flower toss reception guests catching",
+    "video_id": "6a9c2909b734162dfc89a9d4",
+    "source_file": "proxy_Gabby and Robert's Wedding~Gabby & Rob Highlight Video.mp4",
+    "source_start": 91.4,
+    "duration": 3.1,
+    "wedding": "Gabriella Menetto & Robert Batchelder"
+  },
+  {
+    "shot": 36,
+    "variant": 2,
+    "query": "bride throwing bouquet flower toss reception guests catching",
+    "video_id": "6a9c2d40ebf51afb0d95aad4",
+    "source_file": "proxy_Moriah & Dane's Wedding~Wedding Film V2.mp4",
+    "source_start": 586.633,
+    "duration": 3.6,
+    "wedding": "Moriah Hartman & Dane Hansen"
+  },
+  {
+    "shot": 36,
+    "variant": 3,
+    "query": "bride throwing bouquet and guests catching flowers",
+    "video_id": "6a9c29315c930dcf6c5879ea",
+    "source_file": "proxy_Gina and Spencer's Wedding~Gina Spencer Video V2.mp4",
+    "source_start": 271.9,
+    "duration": 2.4,
+    "wedding": "Gina DesCombes & Spencer"
+  },
+  {
+    "shot": 37,
+    "variant": 1,
+    "query": "bride groom cutting wedding cake together",
+    "video_id": "6a9c29315c930dcf6c5879ea",
+    "source_file": "proxy_Gina and Spencer's Wedding~Gina Spencer Video V2.mp4",
+    "source_start": 281.067,
+    "duration": 3.6,
+    "wedding": "Gina DesCombes & Spencer"
+  },
+  {
+    "shot": 37,
+    "variant": 2,
+    "query": "bride groom cutting wedding cake together",
+    "video_id": "6a9b9d2fb734162dfc8976a3",
+    "source_file": "Day-of HighlightCaitlin Cole.mov",
+    "source_start": 83.833,
+    "duration": 3.6,
+    "wedding": "Caitlin Relvas & Cole Pennock"
+  },
+  {
+    "shot": 37,
+    "variant": 3,
+    "query": "bride groom cutting wedding cake together",
+    "video_id": "6a9c2cecebf51afb0d95aaaf",
+    "source_file": "proxy_Gabby and Robert's Wedding~Wedding Film.mp4",
+    "source_start": 302.9,
+    "duration": 2.3,
+    "wedding": "Gabriella Menetto & Robert Batchelder"
+  },
+  {
+    "shot": 38,
+    "variant": 1,
+    "query": "wedding reception speech speaker holding microphone toast",
+    "video_id": "6a9c30915c930dcf6c587c73",
+    "source_file": "proxy_Rachel & Ryan's Wedding~Rachel & Ryan Extended Film V1.mp4",
+    "source_start": 451.667,
+    "duration": 3.6,
+    "wedding": "Rachel Bender & Ryan Burgess"
+  },
+  {
+    "shot": 38,
+    "variant": 2,
+    "query": "wedding reception speech speaker holding microphone toast",
+    "video_id": "6a9b9e06cf24a032539cb52d",
+    "source_file": "Reanna & Brandon.mov",
+    "source_start": 701.367,
+    "duration": 3.6,
+    "wedding": "Reanna Rudd & Brandon"
+  },
+  {
+    "shot": 38,
+    "variant": 3,
+    "query": "wedding reception speech speaker holding microphone toast",
+    "video_id": "6a9c30915c930dcf6c587c72",
+    "source_file": "proxy_Moriah & Dane's Wedding~Reception Speeches.mp4",
+    "source_start": 126.4,
+    "duration": 3.6,
+    "wedding": "Moriah Hartman & Dane Hansen"
+  },
+  {
+    "shot": 39,
+    "variant": 1,
+    "query": "couple entering wedding reception",
+    "video_id": "6a9c1a13afc05fe52de6e902",
+    "source_file": "Kelsie and Davidson's Wedding~Kelsey and Davidson Highlight.mp4",
+    "source_start": 79.2,
+    "duration": 3,
+    "wedding": "Kelsie & Davidson"
+  },
+  {
+    "shot": 39,
+    "variant": 2,
+    "query": "groom throwing garter to guests",
+    "video_id": "6a9c1a1f5c930dcf6c5874e8",
+    "source_file": "Reanna and Brandon's Wedding~Reanna & Brandon's Wedding Highlights.mp4",
+    "source_start": 71,
+    "duration": 2.4,
+    "wedding": "Reanna Rudd & Brandon"
+  },
+  {
+    "shot": 39,
+    "variant": 3,
+    "query": "couple cutting and feeding wedding cake",
+    "video_id": "6a9c29315c930dcf6c5879ea",
+    "source_file": "proxy_Gina and Spencer's Wedding~Gina Spencer Video V2.mp4",
+    "source_start": 279.6,
+    "duration": 2.4,
+    "wedding": "Gina DesCombes & Spencer"
+  },
+  {
+    "shot": 40,
+    "variant": 1,
+    "query": "bride groom wedding send off exit sparklers guests cheering",
+    "video_id": "6a9c29315c930dcf6c5879ea",
+    "source_file": "proxy_Gina and Spencer's Wedding~Gina Spencer Video V2.mp4",
+    "source_start": 286.933,
+    "duration": 3.6,
+    "wedding": "Gina DesCombes & Spencer"
+  },
+  {
+    "shot": 40,
+    "variant": 2,
+    "query": "bride groom wedding send off exit sparklers guests cheering",
+    "video_id": "6a9c2cecebf51afb0d95aaaf",
+    "source_file": "proxy_Gabby and Robert's Wedding~Wedding Film.mp4",
+    "source_start": 820.267,
+    "duration": 2.9,
+    "wedding": "Gabriella Menetto & Robert Batchelder"
+  },
+  {
+    "shot": 40,
+    "variant": 3,
+    "query": "bride groom wedding send off exit sparklers guests cheering",
+    "video_id": "6a9b9e06cf24a032539cb52d",
+    "source_file": "Reanna & Brandon.mov",
+    "source_start": 835.967,
+    "duration": 3.6,
+    "wedding": "Reanna Rudd & Brandon"
+  },
+  {
+    "shot": 42,
+    "variant": 1,
+    "query": "bride groom grand entrance into wedding reception cheering",
+    "video_id": "6a9c30915c930dcf6c587c73",
+    "source_file": "proxy_Rachel & Ryan's Wedding~Rachel & Ryan Extended Film V1.mp4",
+    "source_start": 219.867,
+    "duration": 2.1,
+    "wedding": "Rachel Bender & Ryan Burgess"
+  },
+  {
+    "shot": 42,
+    "variant": 2,
+    "query": "bride groom grand entrance into wedding reception cheering",
+    "video_id": "6a9c29605c930dcf6c587a00",
+    "source_file": "proxy_Gina and Spencer's Wedding~Gina and SPencer Ceremony.mp4",
+    "source_start": 1377.6,
+    "duration": 3.6,
+    "wedding": "Gina DesCombes & Spencer"
+  },
+  {
+    "shot": 42,
+    "variant": 3,
+    "query": "bride groom recessional walking back down aisle married",
+    "video_id": "6a9c291fb734162dfc89a9dc",
+    "source_file": "proxy_Devin and Violet's Wedding~Ceremony.mp4",
+    "source_start": 40.033,
+    "duration": 3.6,
+    "wedding": "Violet Gradin & Devin La Croix"
+  },
+  {
+    "shot": 44,
+    "variant": 1,
+    "query": "wedding guests dancing dance floor party",
+    "video_id": "6a9c30915c930dcf6c587c73",
+    "source_file": "proxy_Rachel & Ryan's Wedding~Rachel & Ryan Extended Film V1.mp4",
+    "source_start": 249.133,
+    "duration": 3.6,
+    "wedding": "Rachel Bender & Ryan Burgess"
+  },
+  {
+    "shot": 44,
+    "variant": 2,
+    "query": "wedding guests dancing dance floor party",
+    "video_id": "6a9b9e06cf24a032539cb52d",
+    "source_file": "Reanna & Brandon.mov",
+    "source_start": 818.1,
+    "duration": 3.6,
+    "wedding": "Reanna Rudd & Brandon"
+  },
+  {
+    "shot": 44,
+    "variant": 3,
+    "query": "wedding guests dancing dance floor party",
+    "video_id": "6a9bb913cf24a032539cc194",
+    "source_file": "Dakota & Rosie's Wedding Video~Dakota & Rosie's Wedding Highlight Reel.mp4",
+    "source_start": 44.5,
+    "duration": 3,
+    "wedding": "Dakota & Rosie"
+  },
+  {
+    "shot": 45,
+    "variant": 1,
+    "query": "bride groom posing together outdoors embracing portrait session",
+    "video_id": "6a9c2cecebf51afb0d95aaaf",
+    "source_file": "proxy_Gabby and Robert's Wedding~Wedding Film.mp4",
+    "source_start": 105.867,
+    "duration": 3.6,
+    "wedding": "Gabriella Menetto & Robert Batchelder"
+  },
+  {
+    "shot": 45,
+    "variant": 2,
+    "query": "bride groom posing together outdoors embracing portrait session",
+    "video_id": "6a9b9d5bebf51afb0d9575c3",
+    "source_file": "Allie & Alan.mp4",
+    "source_start": 80.1,
+    "duration": 3.6,
+    "wedding": "Allie Burch & Alan Lambert"
+  },
+  {
+    "shot": 45,
+    "variant": 3,
+    "query": "bride groom posing together outdoors embracing portrait session",
+    "video_id": "6a9c2d40ebf51afb0d95aad5",
+    "source_file": "proxy_Moriah & Dane's Wedding~Moriah and Dane Wedding Highlight Video.mp4",
+    "source_start": 72.5,
+    "duration": 1.7,
+    "wedding": "Moriah Hartman & Dane Hansen"
   }
 ]

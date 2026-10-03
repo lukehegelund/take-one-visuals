@@ -151,9 +151,10 @@
         "category": "ideas",
         "editor": {
           "slots": [
-            11
+            1,
+            2
           ],
-          "description": "Optional reception picture. A room detail can orient the new section before returning to people and action."
+          "description": "Second or third opening picture. Reception tables, flowers and room details can introduce the wedding alongside the ceremony detail or rings."
         },
         "variations": [
           {
@@ -195,7 +196,7 @@
           "slots": [
             3
           ],
-          "description": "Bride preparation under the groom\u2019s vows. Hold a complete action, then move to groom preparation."
+          "description": "Bride preparation under the groom’s vows. Hold a complete action, then move to groom preparation."
         },
         "variations": [
           {
@@ -230,7 +231,7 @@
           "slots": [
             4
           ],
-          "description": "Groom preparation under the groom\u2019s vows. One developed action supports this longer preparation slot."
+          "description": "Groom preparation under the groom’s vows. One developed action supports this longer preparation slot."
         },
         "variations": [
           {
@@ -337,14 +338,14 @@
       {
         "id": 8,
         "title": "First look reaction",
-        "cue": "Be ready before the turn. Hold on the face, then stay through the embrace.",
-        "category": "ideas",
+        "cue": "When scheduled, be ready before the reveal and record the full approach, turn and reaction. Coordinate angles with Luke and keep rolling.",
+        "category": "essential",
         "editor": {
           "slots": [
             5,
             8
           ],
-          "description": "Optional first-look picture during either partner\u2019s vows. Let the emotion and available musical space determine its place."
+          "description": "Optional first-look picture during either partner’s vows. Let the emotion and available musical space determine its place."
         },
         "variations": [
           {
@@ -368,7 +369,8 @@
             "wedding_key": "Moriah Hartman & Dane Hansen",
             "source_video_id": "6a9c2d405c930dcf6c587b70"
           }
-        ]
+        ],
+        "event": true
       },
       {
         "id": 9,
@@ -409,7 +411,7 @@
       {
         "id": 10,
         "title": "Couple walking",
-        "cue": "Capture them walking together with faces visible. Leave room in their direction of travel.",
+        "cue": "Capture them walking together during portraits, with both faces visible. Leave room in their direction of travel.",
         "category": "essential",
         "editor": {
           "slots": [
@@ -422,9 +424,9 @@
           {
             "src": "clips/10.mp4",
             "poster": "clips/10.jpg",
-            "wedding": "Ia & Jared",
-            "wedding_key": "Ia Xiong & Jared Rockford",
-            "source_video_id": "6a9c1a0cb734162dfc89a491"
+            "wedding": "Moriah & Dane",
+            "wedding_key": "Moriah Hartman & Dane Hansen",
+            "source_video_id": "6a9c2d40ebf51afb0d95aad4"
           },
           {
             "src": "clips/10-2.mp4",
@@ -441,13 +443,50 @@
             "source_video_id": "6a9b9e2acf24a032539cb53d"
           }
         ]
+      },
+      {
+        "id": 45,
+        "title": "Extra portrait angle",
+        "category": "ideas",
+        "cue": "After the first look or main portrait setup is covered, gather a complementary angle of the couple together. Hold their connection and leave generous handles.",
+        "event": false,
+        "editor": {
+          "slots": [
+            5,
+            8
+          ],
+          "description": "Additional portrait coverage under vows. A complementary angle gives the editor an alternative after the main reveal or portrait."
+        },
+        "variations": [
+          {
+            "src": "clips/28.mp4",
+            "poster": "clips/28.jpg",
+            "wedding": "Gabriella & Robert",
+            "wedding_key": "Gabriella Menetto & Robert Batchelder",
+            "source_video_id": "6a9c2cecebf51afb0d95aaaf"
+          },
+          {
+            "src": "clips/28-2.mp4",
+            "poster": "clips/28-2.jpg",
+            "wedding": "Allie & Alan",
+            "wedding_key": "Allie Burch & Alan Lambert",
+            "source_video_id": "6a9b9d5bebf51afb0d9575c3"
+          },
+          {
+            "src": "clips/28-3.mp4",
+            "poster": "clips/28-3.jpg",
+            "wedding": "Moriah & Dane",
+            "wedding_key": "Moriah Hartman & Dane Hansen",
+            "source_video_id": "6a9c2d40ebf51afb0d95aad5"
+          }
+        ]
       }
     ]
   },
   {
     "id": "ceremony",
     "name": "Ceremony",
-    "note": "Keep recording through key moments. Coordinate your angle with Luke before the processional.",
+    "note": "Record every scheduled ceremony moment, including readings, vows, ring exchange and special rituals. Keep uninterrupted coverage from your assigned angle and coordinate any changes with Luke before the processional.",
     "shots": [
       {
         "id": 13,
@@ -486,14 +525,14 @@
       },
       {
         "id": 14,
-        "title": "Aisle walk & handoff",
-        "cue": "Hold the bride\u2019s approach and arrival. Keep guests from blocking the frame where possible.",
+        "title": "Aisle walk",
+        "cue": "Record the full processional from the assigned angle. Hold the bride’s approach through her arrival without stopping or reframing abruptly.",
         "category": "essential",
         "editor": {
           "slots": [
             9
           ],
-          "description": "Aisle walk and handoff under the bride\u2019s vows. This moves her picture sequence into ceremony anticipation."
+          "description": "Aisle walk under the bride’s vows. Let her approach develop into ceremony anticipation; the handoff has its own coverage card."
         },
         "variations": [
           {
@@ -517,18 +556,19 @@
             "wedding_key": "Kelsie & Davidson",
             "source_video_id": "6a9c2d40ebf51afb0d95aad6"
           }
-        ]
+        ],
+        "event": true
       },
       {
         "id": 15,
-        "title": "Groom receiving the bride",
+        "title": "Groom reaction shot",
         "cue": "Be on the groom before he sees her. Stay on his reaction instead of chasing the aisle camera.",
         "category": "essential",
         "editor": {
           "slots": [
             9
           ],
-          "description": "Groom receiving the bride under her vows. Keep the authentic reaction and let anticipation build."
+          "description": "Groom reaction during the bride’s aisle walk. Preserve his authentic expression as the ceremony anticipation builds."
         },
         "variations": [
           {
@@ -551,6 +591,43 @@
             "wedding": "Gina & Spencer",
             "wedding_key": "Gina DesCombes & Spencer",
             "source_video_id": "6a9c29605c930dcf6c587a00"
+          }
+        ],
+        "event": true
+      },
+      {
+        "id": 26,
+        "title": "Bride handoff",
+        "category": "essential",
+        "cue": "Hold the parent’s final hug, the handoff to the groom and the transition to the altar. Start before the bride arrives and keep recording through the entire exchange.",
+        "event": true,
+        "editor": {
+          "slots": [
+            9
+          ],
+          "description": "The handoff follows the aisle walk in ceremony anticipation. Preserve the complete exchange for the documentary edit."
+        },
+        "variations": [
+          {
+            "src": "clips/26.mp4",
+            "poster": "clips/26.jpg",
+            "wedding": "Gabriella & Robert",
+            "wedding_key": "Gabriella Menetto & Robert Batchelder",
+            "source_video_id": "6a9c293dcf24a032539ce846"
+          },
+          {
+            "src": "clips/26-2.mp4",
+            "poster": "clips/26-2.jpg",
+            "wedding": "Violet & Devin",
+            "wedding_key": "Violet Gradin & Devin La Croix",
+            "source_video_id": "6a9c291fb734162dfc89a9dc"
+          },
+          {
+            "src": "clips/26-3.mp4",
+            "poster": "clips/26-3.jpg",
+            "wedding": "Brianna & Caleb",
+            "wedding_key": "Brianna Rowan & Caleb Willette",
+            "source_video_id": "6a9c28f05c930dcf6c5879be"
           }
         ]
       },
@@ -588,18 +665,19 @@
             "wedding_key": "Kelsie & Davidson",
             "source_video_id": "6a9c2d40ebf51afb0d95aad6"
           }
-        ]
+        ],
+        "event": true
       },
       {
         "id": 17,
         "title": "Ring exchange detail",
-        "cue": "If your assigned angle allows it, frame the hands and rings without crossing Cam A. Keep rolling.",
-        "category": "ideas",
+        "cue": "Record the full ring exchange from your assigned angle. Keep the hands and rings visible where possible without crossing Cam A, and hold through the finished action.",
+        "category": "essential",
         "editor": {
           "slots": [
             9
           ],
-          "description": "Ceremony alternative or documentary coverage. The ring exchange is extra coverage rather than a fixed highlight slot."
+          "description": "Required ceremony coverage. Record the entire exchange cleanly; an excerpt can support the ceremony picture even when it has no fixed highlight slot."
         },
         "variations": [
           {
@@ -623,7 +701,8 @@
             "wedding_key": "Brianna Rowan & Caleb Willette",
             "source_video_id": "6a9c28f05c930dcf6c5879be"
           }
-        ]
+        ],
+        "event": true
       },
       {
         "id": 18,
@@ -634,7 +713,7 @@
           "slots": [
             10
           ],
-          "description": "Pronouncement, kiss and full natural cheer. Preserve the officiant\u2019s invitation and let the cheer finish before reception music takes over."
+          "description": "Pronouncement, kiss and full natural cheer. Preserve the officiant’s invitation and let the cheer finish before reception music takes over."
         },
         "variations": [
           {
@@ -658,6 +737,43 @@
             "wedding_key": "Dakota & Rosie",
             "source_video_id": "6a9c28efafc05fe52de6edd5"
           }
+        ],
+        "event": true
+      },
+      {
+        "id": 42,
+        "title": "Recessional",
+        "category": "essential",
+        "cue": "Keep rolling as the couple turns and walks back down the aisle. Capture the complete walk, cheers and any pause or kiss without interrupting the take.",
+        "event": true,
+        "editor": {
+          "slots": [
+            10
+          ],
+          "description": "Required ceremony event coverage after the kiss and cheer. Preserve the full exit before moving to reception coverage."
+        },
+        "variations": [
+          {
+            "src": "clips/42.mp4",
+            "poster": "clips/42.jpg",
+            "wedding": "Rachel & Ryan",
+            "wedding_key": "Rachel Bender & Ryan Burgess",
+            "source_video_id": "6a9c30915c930dcf6c587c73"
+          },
+          {
+            "src": "clips/42-2.mp4",
+            "poster": "clips/42-2.jpg",
+            "wedding": "Gina & Spencer",
+            "wedding_key": "Gina DesCombes & Spencer",
+            "source_video_id": "6a9c29605c930dcf6c587a00"
+          },
+          {
+            "src": "clips/42-3.mp4",
+            "poster": "clips/42-3.jpg",
+            "wedding": "Violet & Devin",
+            "wedding_key": "Violet Gradin & Devin La Croix",
+            "source_video_id": "6a9c291fb734162dfc89a9dc"
+          }
         ]
       }
     ]
@@ -665,7 +781,7 @@
   {
     "id": "golden-hour",
     "name": "Golden-hour portraits",
-    "note": "Follow the actual sunset window, even if these happen during the reception.",
+    "note": "Gather plenty of varied portraits for both partners’ vow sequences: wide, medium, close, details and movement. Hold each action with generous handles, then change angle or composition. Follow the actual sunset window.",
     "shots": [
       {
         "id": 11,
@@ -773,24 +889,434 @@
             "source_video_id": "6a9c2cecebf51afb0d95aaaf"
           }
         ]
+      },
+      {
+        "id": 27,
+        "title": "Couple in the landscape",
+        "category": "essential",
+        "cue": "Capture a wide showing the couple within the setting. Hold long enough for a clean edit, then change composition or distance.",
+        "event": false,
+        "editor": {
+          "slots": [
+            5,
+            8
+          ],
+          "description": "A scenic portrait establishes the couple within the location under vows. Gather separate compositions for each partner’s vow sequence."
+        },
+        "variations": [
+          {
+            "src": "clips/27.mp4",
+            "poster": "clips/27.jpg",
+            "wedding": "Dakota & Rosie",
+            "wedding_key": "Dakota & Rosie",
+            "source_video_id": "6a9c28efafc05fe52de6edd5"
+          },
+          {
+            "src": "clips/27-2.mp4",
+            "poster": "clips/27-2.jpg",
+            "wedding": "Alisia & Matt",
+            "wedding_key": "Alisia Sandstrom & Matt Grozdanich",
+            "source_video_id": "6a9b9db9afc05fe52de6bbc2"
+          },
+          {
+            "src": "clips/27-3.mp4",
+            "poster": "clips/27-3.jpg",
+            "wedding": "Moriah & Dane",
+            "wedding_key": "Moriah Hartman & Dane Hansen",
+            "source_video_id": "6a9c2d40ebf51afb0d95aad4"
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "title": "Medium portrait & connection",
+        "category": "essential",
+        "cue": "Frame both faces clearly from the waist or chest up. Hold eye contact, closeness and small natural movements.",
+        "event": false,
+        "editor": {
+          "slots": [
+            5,
+            8
+          ],
+          "description": "A medium portrait bridges the wide reveal and closer emotional pictures. Keep several distinct holds available under both sets of vows."
+        },
+        "variations": [
+          {
+            "src": "clips/28.mp4",
+            "poster": "clips/28.jpg",
+            "wedding": "Gabriella & Robert",
+            "wedding_key": "Gabriella Menetto & Robert Batchelder",
+            "source_video_id": "6a9c2cecebf51afb0d95aaaf"
+          },
+          {
+            "src": "clips/28-2.mp4",
+            "poster": "clips/28-2.jpg",
+            "wedding": "Allie & Alan",
+            "wedding_key": "Allie Burch & Alan Lambert",
+            "source_video_id": "6a9b9d5bebf51afb0d9575c3"
+          },
+          {
+            "src": "clips/28-3.mp4",
+            "poster": "clips/28-3.jpg",
+            "wedding": "Moriah & Dane",
+            "wedding_key": "Moriah Hartman & Dane Hansen",
+            "source_video_id": "6a9c2d40ebf51afb0d95aad5"
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "title": "Close faces & expressions",
+        "category": "essential",
+        "cue": "Get a clean close portrait of their faces and expressions. Collect several quiet holds, smiles and reactions without cutting them short.",
+        "event": false,
+        "editor": {
+          "slots": [
+            5,
+            8
+          ],
+          "description": "Close expressions carry the intimate vow-led picture. Leave generous handles and collect distinct pictures for each partner."
+        },
+        "variations": [
+          {
+            "src": "clips/29.mp4",
+            "poster": "clips/29.jpg",
+            "wedding": "Violet & Devin",
+            "wedding_key": "Violet Gradin & Devin La Croix",
+            "source_video_id": "6a9b9ddcaaeae93e2577aba2"
+          },
+          {
+            "src": "clips/29-2.mp4",
+            "poster": "clips/29-2.jpg",
+            "wedding": "Kylie & Seth",
+            "wedding_key": "Kylie Bianche & Seth Roberts",
+            "source_video_id": "6a9c1a36afc05fe52de6e905"
+          },
+          {
+            "src": "clips/29-3.mp4",
+            "poster": "clips/29-3.jpg",
+            "wedding": "Dakota & Rosie",
+            "wedding_key": "Dakota & Rosie",
+            "source_video_id": "6a9c28efafc05fe52de6edd5"
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "title": "Walking together in warm light",
+        "category": "essential",
+        "cue": "Capture a full walking action together: toward camera, across frame or away. Keep faces visible for at least one angle and leave room to move.",
+        "event": false,
+        "editor": {
+          "slots": [
+            5,
+            8,
+            12
+          ],
+          "description": "Walking provides movement under vows; a wide walking-away version can also close the film. Gather different directions and distances."
+        },
+        "variations": [
+          {
+            "src": "clips/30.mp4",
+            "poster": "clips/30.jpg",
+            "wedding": "Alisia & Matt",
+            "wedding_key": "Alisia Sandstrom & Matt Grozdanich",
+            "source_video_id": "6a9b9db9afc05fe52de6bbc2"
+          },
+          {
+            "src": "clips/30-2.mp4",
+            "poster": "clips/30-2.jpg",
+            "wedding": "Rachel & Ryan",
+            "wedding_key": "Rachel Bender & Ryan Burgess",
+            "source_video_id": "6a9c30915c930dcf6c587c73"
+          },
+          {
+            "src": "clips/30-3.mp4",
+            "poster": "clips/30-3.jpg",
+            "wedding": "Moriah & Dane",
+            "wedding_key": "Moriah Hartman & Dane Hansen",
+            "source_video_id": "6a9c2d40ebf51afb0d95aad4"
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "title": "Hands & small portrait details",
+        "category": "essential",
+        "cue": "Gather linked hands, rings and small gestures while the couple is together. Hold each detail steadily and capture the action finishing.",
+        "event": false,
+        "editor": {
+          "slots": [
+            5,
+            8
+          ],
+          "description": "A partial reveal begins the portrait progression before visible faces and connection. These details give the editor variety under vows."
+        },
+        "variations": [
+          {
+            "src": "clips/31.mp4",
+            "poster": "clips/31.jpg",
+            "wedding": "Rachel & Ryan",
+            "wedding_key": "Rachel Bender & Ryan Burgess",
+            "source_video_id": "6a9c30915c930dcf6c587c73"
+          },
+          {
+            "src": "clips/31-2.mp4",
+            "poster": "clips/31-2.jpg",
+            "wedding": "Ia & Jared",
+            "wedding_key": "Ia Xiong & Jared Rockford",
+            "source_video_id": "6a9b9db9ebf51afb0d9575e8"
+          },
+          {
+            "src": "clips/31-3.mp4",
+            "poster": "clips/31-3.jpg",
+            "wedding": "Dakota & Rosie",
+            "wedding_key": "Dakota & Rosie",
+            "source_video_id": "6a9c28efafc05fe52de6edd5"
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "title": "Twirl & flowing dress",
+        "category": "ideas",
+        "cue": "When it suits the couple, capture the complete turn and their reaction. Give the dress room and leave handles before and after.",
+        "event": false,
+        "editor": {
+          "slots": [
+            5,
+            8
+          ],
+          "description": "A complete twirl offers a lively portrait alternative where the vow mood and music support movement."
+        },
+        "variations": [
+          {
+            "src": "clips/32.mp4",
+            "poster": "clips/32.jpg",
+            "wedding": "Ia & Jared",
+            "wedding_key": "Ia Xiong & Jared Rockford",
+            "source_video_id": "6a9b9db9ebf51afb0d9575e8"
+          },
+          {
+            "src": "clips/32-2.mp4",
+            "poster": "clips/32-2.jpg",
+            "wedding": "Gabriella & Robert",
+            "wedding_key": "Gabriella Menetto & Robert Batchelder",
+            "source_video_id": "6a9c2cecebf51afb0d95aaaf"
+          },
+          {
+            "src": "clips/32-3.mp4",
+            "poster": "clips/32-3.jpg",
+            "wedding": "Allie & Alan",
+            "wedding_key": "Allie Burch & Alan Lambert",
+            "source_video_id": "6a9b9d5bebf51afb0d9575c3"
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "title": "Dip & playful kiss",
+        "category": "ideas",
+        "cue": "If Luke directs a dip or playful kiss, capture the whole action and the laugh afterward. Choose a complementary angle.",
+        "event": false,
+        "editor": {
+          "slots": [
+            5,
+            8
+          ],
+          "description": "A playful portrait alternative. The lead-in and payoff let the editor choose a complete action instead of cutting into its middle."
+        },
+        "variations": [
+          {
+            "src": "clips/33.mp4",
+            "poster": "clips/33.jpg",
+            "wedding": "Kylie & Seth",
+            "wedding_key": "Kylie Bianche & Seth Roberts",
+            "source_video_id": "6a9b9e2acf24a032539cb53d"
+          },
+          {
+            "src": "clips/33-2.mp4",
+            "poster": "clips/33-2.jpg",
+            "wedding": "Gabriella & Robert",
+            "wedding_key": "Gabriella Menetto & Robert Batchelder",
+            "source_video_id": "6a9c2909b734162dfc89a9d4"
+          },
+          {
+            "src": "clips/33-3.mp4",
+            "poster": "clips/33-3.jpg",
+            "wedding": "Alisia & Matt",
+            "wedding_key": "Alisia Sandstrom & Matt Grozdanich",
+            "source_video_id": "6a9b9db9afc05fe52de6bbc2"
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "title": "Backlight & silhouette",
+        "category": "ideas",
+        "cue": "Try a backlit or silhouette composition after getting clean faces. Hold a simple shape with the couple clearly separated from the background.",
+        "event": false,
+        "editor": {
+          "slots": [
+            5,
+            8,
+            12
+          ],
+          "description": "An atmospheric portrait alternative under vows, or a quiet wide ending when the song and setting support it."
+        },
+        "variations": [
+          {
+            "src": "clips/34.mp4",
+            "poster": "clips/34.jpg",
+            "wedding": "Reanna & Brandon",
+            "wedding_key": "Reanna Rudd & Brandon",
+            "source_video_id": "6a9b9e06cf24a032539cb52d"
+          },
+          {
+            "src": "clips/34-2.mp4",
+            "poster": "clips/34-2.jpg",
+            "wedding": "Allie & Alan",
+            "wedding_key": "Allie Burch & Alan Lambert",
+            "source_video_id": "6a9b9d5bebf51afb0d9575c3"
+          },
+          {
+            "src": "clips/34-3.mp4",
+            "poster": "clips/34-3.jpg",
+            "wedding": "Brie & Jeff",
+            "wedding_key": "Brie Hodges & Jeff Roberts",
+            "source_video_id": "6a9bb630aaeae93e2577b665"
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "title": "Veil & fabric movement",
+        "category": "ideas",
+        "cue": "If there is a veil, let fabric and light create gentle movement around the couple. Keep their connection visible and the take steady.",
+        "event": false,
+        "editor": {
+          "slots": [
+            5,
+            8
+          ],
+          "description": "A soft portrait alternative adds visual texture without losing the couple during the vow-led picture."
+        },
+        "variations": [
+          {
+            "src": "clips/35.mp4",
+            "poster": "clips/35.jpg",
+            "wedding": "Alisia & Matt",
+            "wedding_key": "Alisia Sandstrom & Matt Grozdanich",
+            "source_video_id": "6a9b9db9afc05fe52de6bbc2"
+          },
+          {
+            "src": "clips/35-2.mp4",
+            "poster": "clips/35-2.jpg",
+            "wedding": "Allie & Alan",
+            "wedding_key": "Allie Burch & Alan Lambert",
+            "source_video_id": "6a9b9d5bebf51afb0d9575c3"
+          },
+          {
+            "src": "clips/35-3.mp4",
+            "poster": "clips/35-3.jpg",
+            "wedding": "Kylie & Seth",
+            "wedding_key": "Kylie Bianche & Seth Roberts",
+            "source_video_id": "6a9b9e2acf24a032539cb53d"
+          }
+        ]
       }
     ]
   },
   {
     "id": "reception",
     "name": "Reception & dancing",
-    "note": "Stay ready for spontaneous reactions, then gather varied movement for the energetic finish.",
+    "note": "Every event on the schedule is essential when it happens. Confirm the running order with Luke and the coordinator; cover additional games, traditions or performances with the same uninterrupted event standard.",
     "shots": [
       {
-        "id": 20,
-        "title": "Toast reaction",
-        "cue": "Cover the couple\u2019s faces while the speaker talks. Stay through laughter, tears and applause.",
-        "category": "ideas",
+        "id": 39,
+        "title": "Other scheduled reception events",
+        "category": "essential",
+        "cue": "Follow the running order for entrances, garter tosses, games, traditions and performances. Every scheduled event is essential: set your angle before it starts and record the whole moment through the final reaction.",
+        "event": true,
         "editor": {
           "slots": [
             11
           ],
-          "description": "Reception picture alternative. A toast reaction adds laughter or emotion; choose the moment to fit the reception song."
+          "description": "Required coverage of every additional scheduled event. The examples show an entrance, a garter toss and cake cutting; retain each complete event for the documentary edit and choose a fitting highlight excerpt."
+        },
+        "variations": [
+          {
+            "src": "clips/39.mp4",
+            "poster": "clips/39.jpg",
+            "wedding": "Kelsie & Davidson",
+            "wedding_key": "Kelsie & Davidson",
+            "source_video_id": "6a9c1a13afc05fe52de6e902",
+            "example": "Entrance"
+          },
+          {
+            "src": "clips/39-2.mp4",
+            "poster": "clips/39-2.jpg",
+            "wedding": "Reanna & Brandon",
+            "wedding_key": "Reanna Rudd & Brandon",
+            "source_video_id": "6a9c1a1f5c930dcf6c5874e8",
+            "example": "Garter toss"
+          },
+          {
+            "src": "clips/39-3.mp4",
+            "poster": "clips/39-3.jpg",
+            "wedding": "Gina & Spencer",
+            "wedding_key": "Gina DesCombes & Spencer",
+            "source_video_id": "6a9c29315c930dcf6c5879ea",
+            "example": "Cake cutting"
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "title": "Reception speeches",
+        "category": "essential",
+        "cue": "Cover every speaker from before the introduction through the final applause. Confirm clean audio and your assigned speaker or reaction angle with Luke; never stop mid-speech.",
+        "event": true,
+        "editor": {
+          "slots": [
+            11
+          ],
+          "description": "Required speech coverage. Keep the full speech and matching reaction angle for the documentary edit; a meaningful excerpt can enter the highlight."
+        },
+        "variations": [
+          {
+            "src": "clips/38.mp4",
+            "poster": "clips/38.jpg",
+            "wedding": "Rachel & Ryan",
+            "wedding_key": "Rachel Bender & Ryan Burgess",
+            "source_video_id": "6a9c30915c930dcf6c587c73"
+          },
+          {
+            "src": "clips/38-2.mp4",
+            "poster": "clips/38-2.jpg",
+            "wedding": "Reanna & Brandon",
+            "wedding_key": "Reanna Rudd & Brandon",
+            "source_video_id": "6a9b9e06cf24a032539cb52d"
+          },
+          {
+            "src": "clips/38-3.mp4",
+            "poster": "clips/38-3.jpg",
+            "wedding": "Moriah & Dane",
+            "wedding_key": "Moriah Hartman & Dane Hansen",
+            "source_video_id": "6a9c30915c930dcf6c587c72"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "title": "Speech reactions",
+        "cue": "Coordinate with Luke: cover the couple continuously while the speaker talks. Keep rolling through every speech, laughter, tears and applause.",
+        "category": "essential",
+        "editor": {
+          "slots": [
+            11
+          ],
+          "description": "Continuous reaction angle paired with the speech camera in the documentary edit. Select a meaningful laugh or emotional beat for the reception montage."
         },
         "variations": [
           {
@@ -813,6 +1339,43 @@
             "wedding": "Dakota & Rosie",
             "wedding_key": "Dakota & Rosie",
             "source_video_id": "6a9c28efafc05fe52de6edd5"
+          }
+        ],
+        "event": true
+      },
+      {
+        "id": 37,
+        "title": "Cake cutting",
+        "category": "essential",
+        "cue": "Record the full cutting, feeding and reactions. Keep hands, cake and faces in the frame and continue through the finish.",
+        "event": true,
+        "editor": {
+          "slots": [
+            11
+          ],
+          "description": "Required reception event coverage. The complete action serves the documentary edit; cutting or feeding can fit the reception montage."
+        },
+        "variations": [
+          {
+            "src": "clips/37.mp4",
+            "poster": "clips/37.jpg",
+            "wedding": "Gina & Spencer",
+            "wedding_key": "Gina DesCombes & Spencer",
+            "source_video_id": "6a9c29315c930dcf6c5879ea"
+          },
+          {
+            "src": "clips/37-2.mp4",
+            "poster": "clips/37-2.jpg",
+            "wedding": "Caitlin & Cole",
+            "wedding_key": "Caitlin Relvas & Cole Pennock",
+            "source_video_id": "6a9b9d2fb734162dfc8976a3"
+          },
+          {
+            "src": "clips/37-3.mp4",
+            "poster": "clips/37-3.jpg",
+            "wedding": "Gabriella & Robert",
+            "wedding_key": "Gabriella Menetto & Robert Batchelder",
+            "source_video_id": "6a9c2cecebf51afb0d95aaaf"
           }
         ]
       },
@@ -849,18 +1412,19 @@
             "wedding_key": "Gina DesCombes & Spencer",
             "source_video_id": "6a9c29315c930dcf6c5879ea"
           }
-        ]
+        ],
+        "event": true
       },
       {
         "id": 22,
         "title": "Parent dance",
-        "cue": "Capture the relationship: faces, hands and the embrace. Avoid interrupting the lead camera\u2019s view.",
-        "category": "ideas",
+        "cue": "Record every scheduled parent dance from start to finish. Hold a clean second angle with faces visible; stay through the final embrace.",
+        "category": "essential",
         "editor": {
           "slots": [
             11
           ],
-          "description": "Reception relationship alternative. A parent dance adds a distinct emotional moment to the reception sequence."
+          "description": "Required reception event coverage. The full dance supports the documentary edit; an emotional excerpt can fit the reception montage."
         },
         "variations": [
           {
@@ -884,12 +1448,49 @@
             "wedding_key": "Gina DesCombes & Spencer",
             "source_video_id": "6a9c29315c930dcf6c5879ea"
           }
+        ],
+        "event": true
+      },
+      {
+        "id": 36,
+        "title": "Flower toss",
+        "category": "essential",
+        "cue": "Be ready before the countdown. Frame the throw and catching group; record continuously through the catch and celebration.",
+        "event": true,
+        "editor": {
+          "slots": [
+            11
+          ],
+          "description": "Required reception event coverage. Preserve setup, throw, catch and reactions for the full edit; choose the payoff for the highlight."
+        },
+        "variations": [
+          {
+            "src": "clips/36.mp4",
+            "poster": "clips/36.jpg",
+            "wedding": "Gabriella & Robert",
+            "wedding_key": "Gabriella Menetto & Robert Batchelder",
+            "source_video_id": "6a9c2909b734162dfc89a9d4"
+          },
+          {
+            "src": "clips/36-2.mp4",
+            "poster": "clips/36-2.jpg",
+            "wedding": "Moriah & Dane",
+            "wedding_key": "Moriah Hartman & Dane Hansen",
+            "source_video_id": "6a9c2d40ebf51afb0d95aad4"
+          },
+          {
+            "src": "clips/36-3.mp4",
+            "poster": "clips/36-3.jpg",
+            "wedding": "Gina & Spencer",
+            "wedding_key": "Gina DesCombes & Spencer",
+            "source_video_id": "6a9c29315c930dcf6c5879ea"
+          }
         ]
       },
       {
         "id": 23,
         "title": "Open dancing",
-        "cue": "Capture joyful faces and full actions. Mix a wider group with closer moments for variety.",
+        "cue": "After securing the scheduled events, capture joyful faces and complete dance moves. Mix wider groups with close moments; keep flower toss coverage separate.",
         "category": "essential",
         "editor": {
           "slots": [
@@ -915,9 +1516,81 @@
           {
             "src": "clips/23-3.mp4",
             "poster": "clips/23-3.jpg",
+            "wedding": "Rachel & Ryan",
+            "wedding_key": "Rachel Bender & Ryan Burgess",
+            "source_video_id": "6a9c30915c930dcf6c587c73"
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "title": "Extra dance-floor angles",
+        "category": "ideas",
+        "cue": "Gather additional guest moments and views of the party. Mix wider groups with closer faces, and let a complete dance action unfold.",
+        "editor": {
+          "slots": [
+            11
+          ],
+          "description": "An extra reception angle provides scale and energy between closer dance moments. Secure all scheduled events first."
+        },
+        "variations": [
+          {
+            "src": "clips/44.mp4",
+            "poster": "clips/44.jpg",
+            "wedding": "Rachel & Ryan",
+            "wedding_key": "Rachel Bender & Ryan Burgess",
+            "source_video_id": "6a9c30915c930dcf6c587c73"
+          },
+          {
+            "src": "clips/44-2.mp4",
+            "poster": "clips/44-2.jpg",
+            "wedding": "Reanna & Brandon",
+            "wedding_key": "Reanna Rudd & Brandon",
+            "source_video_id": "6a9b9e06cf24a032539cb52d"
+          },
+          {
+            "src": "clips/44-3.mp4",
+            "poster": "clips/44-3.jpg",
+            "wedding": "Dakota & Rosie",
+            "wedding_key": "Dakota & Rosie",
+            "source_video_id": "6a9bb913cf24a032539cc194"
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "title": "Send-off & exit",
+        "category": "essential",
+        "cue": "When scheduled, check the route and exposure before it begins. Keep recording the full exit, kiss or final pause and the celebration afterward.",
+        "event": true,
+        "editor": {
+          "slots": [
+            11,
+            12
+          ],
+          "description": "Required exit coverage. A final departure may close the reception story or support the ending, depending on the approved film structure."
+        },
+        "variations": [
+          {
+            "src": "clips/40.mp4",
+            "poster": "clips/40.jpg",
+            "wedding": "Gina & Spencer",
+            "wedding_key": "Gina DesCombes & Spencer",
+            "source_video_id": "6a9c29315c930dcf6c5879ea"
+          },
+          {
+            "src": "clips/40-2.mp4",
+            "poster": "clips/40-2.jpg",
             "wedding": "Gabriella & Robert",
             "wedding_key": "Gabriella Menetto & Robert Batchelder",
             "source_video_id": "6a9c2cecebf51afb0d95aaaf"
+          },
+          {
+            "src": "clips/40-3.mp4",
+            "poster": "clips/40-3.jpg",
+            "wedding": "Reanna & Brandon",
+            "wedding_key": "Reanna Rudd & Brandon",
+            "source_video_id": "6a9b9e06cf24a032539cb52d"
           }
         ]
       }

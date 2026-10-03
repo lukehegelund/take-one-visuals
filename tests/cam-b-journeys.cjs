@@ -2,9 +2,11 @@
 const {chromium}=require('playwright');const assert=require('node:assert/strict');const fs=require('node:fs');const path=require('node:path');const os=require('node:os');
 (async()=>{const browser=await chromium.launch({headless:true});let checks=0;const base=process.env.CAM_B_BASE||'http://127.0.0.1:8765';
 for(const width of [1280,390]){
- const page=await browser.newPage({viewport:{width,height:950}}),errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto(base+'/cam-b/');await page.waitForSelector('.shot');assert.equal(await page.locator('.shot').count(),25);checks++;
+ const page=await browser.newPage({viewport:{width,height:950}}),errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto(base+'/cam-b/');await page.waitForSelector('.shot');assert.equal(await page.locator('.shot').count(),43);checks++;
  const data=await page.evaluate(async()=>fetch('shots.json').then(r=>r.json()));
  for(const g of data){assert(g.shots.some(s=>s.category==='essential')&&g.shots.some(s=>s.category==='ideas'));checks++;for(const shot of g.shots){assert.equal(shot.variations.length,3);assert.equal(new Set(shot.variations.map(v=>v.wedding_key)).size,3);checks++;}}
+ assert.equal(data.find(g=>g.id==='golden-hour').shots.length,12);checks++;
+ for(const shot of data.flatMap(g=>g.shots).filter(s=>s.event)){assert.equal(shot.category,'essential');assert.match(await page.locator(`.shot[data-id="${shot.id}"] .event-guidance`).textContent(),/entire moment.*uninterrupted/);checks++;}
  assert.match(await page.locator('meta[name=robots]').getAttribute('content'),/noindex/);checks++;
  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);checks++;
  for(const group of data){
@@ -27,6 +29,7 @@ for(const width of [1280,390]){
   // Tab changes hide and pause the other panel, without mixing coverage levels.
   await page.locator(`#${group.id}-essential-tab`).click();assert.equal(await page.locator(`#${group.id}-ideas video`).evaluateAll(v=>v.every(x=>x.paused)),true);checks++;
  }
+ await page.locator('#arrival-essential-tab').click();await page.locator('#arrival-essential summary').nth(0).click();await page.locator('#arrival-essential summary').nth(1).click();await page.waitForFunction(()=>document.querySelectorAll('details[open]').length===1);assert.equal(await page.locator('#arrival-essential details').nth(0).getAttribute('open'),null);checks++;await page.locator('#arrival-essential summary').nth(1).click();
  const first=page.locator('#arrival-essential input').first();await first.check();await page.reload();await page.waitForSelector('.shot');assert.equal(await first.isChecked(),true);checks++;
  const keyboard=page.locator('#arrival-essential-tab');await keyboard.focus();await keyboard.press('ArrowRight');assert.equal(await page.locator('#arrival-ideas-tab').getAttribute('aria-selected'),'true');checks++;await page.locator('#arrival-ideas-tab').press('ArrowLeft');checks++;
  await page.getByRole('button',{name:'Pause all clips',exact:true}).click();assert.equal(await page.locator('video').evaluateAll(v=>v.every(x=>x.paused)),true);checks++;
