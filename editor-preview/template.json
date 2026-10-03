@@ -282,11 +282,11 @@
       "track": 1,
       "ordinal": 4,
       "start": 120,
-      "end": 149.95833333333334,
-      "title": "Reception laughter / celebration reactions",
-      "detail": "Keep visible actions and reactions synchronized. Matching source sound, audible beside music. Keep music unducked.",
+      "end": 168,
+      "title": "Reception source audio · every picture clip",
+      "detail": "Synchronized camera scratch on every reception picture clip, including quiet original sound. Preserve useful voices, laughter, applause and action alongside unducked music.",
       "rules": [
-        "Matching source sound; keep music unducked."
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -314,7 +314,7 @@
       "start": 0,
       "end": 17.958333333333332,
       "title": "GEAR 1 / Calm ambient opening",
-      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song\u2019s key; match elements to its key and the story.",
+      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song’s key; match elements to its key and the story.",
       "rules": [
         "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
         "Keep music unducked. Preserve intelligible dialogue with fitting scoring level, register and spacing.",
@@ -331,7 +331,7 @@
       "start": 18,
       "end": 29.958333333333332,
       "title": "GEAR 2 / Gentle melodic flow",
-      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song\u2019s key; match elements to its key and the story.",
+      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song’s key; match elements to its key and the story.",
       "rules": [
         "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
         "Keep music unducked. Preserve intelligible dialogue with fitting scoring level, register and spacing.",
@@ -348,7 +348,7 @@
       "start": 30,
       "end": 59.958333333333336,
       "title": "GEAR 3 / Moderate rhythmic lift",
-      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song\u2019s key; match elements to its key and the story.",
+      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song’s key; match elements to its key and the story.",
       "rules": [
         "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
         "Keep music unducked. Preserve intelligible dialogue with fitting scoring level, register and spacing.",
@@ -365,7 +365,7 @@
       "start": 60,
       "end": 65.95833333333333,
       "title": "GEAR 2 / Restrained melodic flow",
-      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song\u2019s key; match elements to its key and the story.",
+      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song’s key; match elements to its key and the story.",
       "rules": [
         "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
         "Keep music unducked. Preserve intelligible dialogue with fitting scoring level, register and spacing.",
@@ -381,7 +381,7 @@
       "ordinal": 5,
       "start": 66,
       "end": 77.95833333333333,
-      "title": "GEAR 3 \u2192 4 / Cello phrase + rising swell",
+      "title": "GEAR 3 → 4 / Cello phrase + rising swell",
       "detail": "Begin the lift with a sustained cello phrase or solo, then add a phrase-aligned swell or riser into Gear 4. Key/mode/local harmony must be verified.",
       "rules": [
         "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
@@ -467,7 +467,7 @@
       "start": 120,
       "end": 149.95833333333334,
       "title": "GEAR 4 / Sustained upbeat celebration",
-      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Energetic reception begins immediately after the kiss fade completes. Custom Scoring folder: vocalizations, cellos and swells. Detect each song\u2019s key; match elements to its key and the story.",
+      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Energetic reception begins immediately after the kiss fade completes. Custom Scoring folder: vocalizations, cellos and swells. Detect each song’s key; match elements to its key and the story.",
       "rules": [
         "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
         "Keep music unducked. Preserve intelligible dialogue with fitting scoring level, register and spacing.",
@@ -484,7 +484,7 @@
       "start": 150,
       "end": 167.95833333333334,
       "title": "GEAR 4 to GEAR 2 / Closing drop",
-      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song\u2019s key; match elements to its key and the story.",
+      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song’s key; match elements to its key and the story.",
       "rules": [
         "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
         "Keep music unducked. Preserve intelligible dialogue with fitting scoring level, register and spacing.",
@@ -797,7 +797,7 @@
         }
       ],
       "number": 2,
-      "transition": "Dissolve \u00b7 2 s centered",
+      "transition": "Dissolve · 2 s centered",
       "opticalFlow": true
     },
     {
@@ -841,7 +841,7 @@
         }
       ],
       "number": 3,
-      "transition": "Dissolve \u00b7 2 s centered",
+      "transition": "Dissolve · 2 s centered",
       "opticalFlow": true
     },
     {
@@ -1750,7 +1750,8 @@
       "title": "Reception restart: newlywed recessional",
       "detail": "Immediately start energetic reception picture at the completed kiss fade, no lingering black hold. Preserve complete newlywed movement.",
       "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -1783,7 +1784,8 @@
       ],
       "number": 24,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "receptionScratchAudio": true
     },
     {
       "id": "6-27",
@@ -1794,7 +1796,8 @@
       "title": "Recessional: guests applause / reactions",
       "detail": "Proposed quicker rhythm; resize to finish the action. Distinct shot, only if covered.",
       "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -1827,7 +1830,8 @@
       ],
       "number": 25,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "receptionScratchAudio": true
     },
     {
       "id": "6-28",
@@ -1838,7 +1842,8 @@
       "title": "Reception entrance: couple arrival / movement",
       "detail": "Proposed quicker rhythm; resize to finish the action. Distinct shot, only if covered.",
       "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -1871,7 +1876,8 @@
       ],
       "number": 26,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "receptionScratchAudio": true
     },
     {
       "id": "6-29",
@@ -1882,7 +1888,8 @@
       "title": "Reception entrance: greeting / crowd reaction",
       "detail": "Proposed quicker rhythm; resize to finish the action. Distinct shot, only if covered.",
       "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -1915,7 +1922,8 @@
       ],
       "number": 27,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "receptionScratchAudio": true
     },
     {
       "id": "6-30",
@@ -1926,7 +1934,8 @@
       "title": "First dance: expressive turn / step",
       "detail": "Proposed quicker rhythm; resize to finish the action. Distinct shot, only if covered.",
       "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -1959,7 +1968,8 @@
       ],
       "number": 28,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "receptionScratchAudio": true
     },
     {
       "id": "6-31",
@@ -1970,7 +1980,8 @@
       "title": "First dance: close faces / hands / connection",
       "detail": "Proposed quicker rhythm; resize to finish the action. Distinct shot, only if covered.",
       "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -2003,7 +2014,8 @@
       ],
       "number": 29,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "receptionScratchAudio": true
     },
     {
       "id": "6-32",
@@ -2014,7 +2026,8 @@
       "title": "Guests: distinct laughter / social moment",
       "detail": "Proposed quicker rhythm; resize to finish the action. Distinct shot, only if covered.",
       "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -2047,7 +2060,8 @@
       ],
       "number": 30,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "receptionScratchAudio": true
     },
     {
       "id": "6-33",
@@ -2058,7 +2072,8 @@
       "title": "Couple response: laughter / shared connection",
       "detail": "Proposed quicker rhythm; resize to finish the action. Distinct shot, only if covered.",
       "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -2091,7 +2106,8 @@
       ],
       "number": 31,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "receptionScratchAudio": true
     },
     {
       "id": "6-34",
@@ -2102,7 +2118,8 @@
       "title": "Covered cake / toss / dance: main action",
       "detail": "Proposed quicker rhythm; resize to finish the action. Distinct shot, only if covered.",
       "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -2135,7 +2152,8 @@
       ],
       "number": 32,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "receptionScratchAudio": true
     },
     {
       "id": "6-35",
@@ -2146,7 +2164,8 @@
       "title": "Same event: matching distinct reaction / response",
       "detail": "Proposed quicker rhythm; resize to finish the action. Distinct shot, only if covered.",
       "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -2179,7 +2198,8 @@
       ],
       "number": 33,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "receptionScratchAudio": true
     },
     {
       "id": "6-36",
@@ -2190,7 +2210,8 @@
       "title": "Distinct final dance or embrace",
       "detail": "Finish action / camera move; measure counts can adapt.",
       "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -2223,7 +2244,8 @@
       ],
       "number": 34,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "receptionScratchAudio": true
     },
     {
       "id": "6-37",
@@ -2234,7 +2256,8 @@
       "title": "Couple closing portrait, no reused framing",
       "detail": "Finish action / camera move; measure counts can adapt.",
       "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -2267,7 +2290,8 @@
       ],
       "number": 35,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "receptionScratchAudio": true
     },
     {
       "id": "6-38",
@@ -2278,7 +2302,8 @@
       "title": "Closing wide / drone: couple walking away",
       "detail": "Mirror the opening establishing composition. Hold the complete walk-away action and finish the fade.",
       "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -2311,11 +2336,12 @@
       ],
       "number": 36,
       "transition": "Cut",
-      "opticalFlow": false
+      "opticalFlow": false,
+      "receptionScratchAudio": true
     }
   ],
   "schema": "tov-web-wedding-template-v1",
-  "revision": "2026-10-03.2",
+  "revision": "2026-10-03.3",
   "nativeSeedFingerprint": "8bdfdf4e6e615de832172783bf678bec28f09d367391a56db06be8df2579b348",
   "authority": "Supabase and website; native Resolve capture is historical seed",
   "trackOrder": [
@@ -2363,6 +2389,10 @@
       "id": "expanded-scoring",
       "approved": "2026-10-03",
       "instruction": "Substantially more varied scoring into/through Gear4, strongest development in Gear5. Phrase/downbeat/harmony/story alignment; progressive density, dialogue intelligible and music unducked. Bridge breathers and rough joins outside Gear4/5 too. Verify song key, mode and local chord compatibility before choosing pitched assets."
+    },
+    {
+      "id": "reception-scratch-audio",
+      "description": "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
     }
   ],
   "policies": {
@@ -2372,7 +2402,8 @@
     "music": "No ducking. Verify actual tempo; key, major/minor mode and local harmony before pitched scoring.",
     "scoring": "Substantially more varied cellos, vocalizations/voicings, risers and swells into/through Gear4, strongest progressive development in Gear5, particularly where song arrangement lacks lift. Align phrases, harmony, downbeats and story. Preserve intelligible dialogue; not every element continuously. Bridge breathers/rough joins outside Gear4/5 as useful.",
     "ambient": "One matching nature/wind bed outdoors; fade indoors; none during reception.",
-    "transitions": "First two boundaries centered 2-second dissolves; others cuts. Opening/closing fades 1 second. Approved kiss false-ending fade adjustable, default 1 second; immediate energetic reception restart."
+    "transitions": "First two boundaries centered 2-second dissolves; others cuts. Opening/closing fades 1 second. Approved kiss false-ending fade adjustable, default 1 second; immediate energetic reception restart.",
+    "receptionScratchAudio": "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
   },
-  "fingerprint": "5a2070d29383a06f003a8af0ba3f993b9f208e9b9f90ad8b10df651c7d29e500"
+  "fingerprint": "a75425a06191f9fb0aa811ef36e775183fc30254ef87e92a531fab810ea23129"
 }
