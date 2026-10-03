@@ -14,3 +14,5 @@
 #planning-phase{margin:6px 6px 0;padding:6px 10px;background:#3b2d1e;color:#e7c699;border:1px solid #755b39;font-size:11px;border-radius:3px}.viewer[data-mode=footage]>#planning-phase{display:none}
 /* All instructional cards remain fully readable, including long scoring guidance. */
 .workspace .viewer[data-mode=template]{max-height:none!important;overflow:visible}
+/* The phase cue and card grid size naturally together, so neither overlaps transport. */
+#planning-view{min-height:0}.workspace .viewer[data-mode=template]{display:block;height:auto;flex:0 0 auto}
