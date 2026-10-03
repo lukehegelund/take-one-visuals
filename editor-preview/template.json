@@ -1,0 +1,2378 @@
+{
+  "capturedAt": "2026-10-03T17:55:57.731908+00:00",
+  "duration": 168,
+  "markers": [
+    {
+      "time": 0,
+      "name": "1 measure"
+    },
+    {
+      "time": 3,
+      "name": "1 measure"
+    },
+    {
+      "time": 6,
+      "name": "1 measure"
+    },
+    {
+      "time": 9,
+      "name": "1 measure"
+    },
+    {
+      "time": 12,
+      "name": "1 measure"
+    },
+    {
+      "time": 15,
+      "name": "1 measure"
+    },
+    {
+      "time": 18,
+      "name": "1 measure"
+    },
+    {
+      "time": 21,
+      "name": "1 measure"
+    },
+    {
+      "time": 24,
+      "name": "1 measure"
+    },
+    {
+      "time": 27,
+      "name": "1 measure"
+    },
+    {
+      "time": 30,
+      "name": "1 measure"
+    },
+    {
+      "time": 33,
+      "name": "1 measure"
+    },
+    {
+      "time": 36,
+      "name": "1 measure"
+    },
+    {
+      "time": 39,
+      "name": "1 measure"
+    },
+    {
+      "time": 42,
+      "name": "1 measure"
+    },
+    {
+      "time": 45,
+      "name": "1 measure"
+    },
+    {
+      "time": 48,
+      "name": "1 measure"
+    },
+    {
+      "time": 51,
+      "name": "1 measure"
+    },
+    {
+      "time": 54,
+      "name": "1 measure"
+    },
+    {
+      "time": 57,
+      "name": "1 measure"
+    },
+    {
+      "time": 60,
+      "name": "1 measure"
+    },
+    {
+      "time": 63,
+      "name": "1 measure"
+    },
+    {
+      "time": 66,
+      "name": "1 measure"
+    },
+    {
+      "time": 69,
+      "name": "1 measure"
+    },
+    {
+      "time": 72,
+      "name": "1 measure"
+    },
+    {
+      "time": 75,
+      "name": "1 measure"
+    },
+    {
+      "time": 77.95833333333333,
+      "name": "Gear 4 here"
+    },
+    {
+      "time": 78,
+      "name": "1 measure"
+    },
+    {
+      "time": 81,
+      "name": "1 measure"
+    },
+    {
+      "time": 84,
+      "name": "1 measure"
+    },
+    {
+      "time": 87,
+      "name": "1 measure"
+    },
+    {
+      "time": 90,
+      "name": "1 measure"
+    },
+    {
+      "time": 93,
+      "name": "1 measure"
+    },
+    {
+      "time": 96,
+      "name": "1 measure"
+    },
+    {
+      "time": 99,
+      "name": "1 measure"
+    },
+    {
+      "time": 102,
+      "name": "1 measure"
+    },
+    {
+      "time": 105,
+      "name": "1 measure"
+    },
+    {
+      "time": 108,
+      "name": "1 measure"
+    },
+    {
+      "time": 111,
+      "name": "1 measure"
+    },
+    {
+      "time": 114,
+      "name": "1 measure"
+    },
+    {
+      "time": 117,
+      "name": "1 measure"
+    },
+    {
+      "time": 120,
+      "name": "1 measure"
+    },
+    {
+      "time": 123,
+      "name": "1 measure"
+    },
+    {
+      "time": 126,
+      "name": "1 measure"
+    },
+    {
+      "time": 129,
+      "name": "1 measure"
+    },
+    {
+      "time": 132,
+      "name": "1 measure"
+    },
+    {
+      "time": 135,
+      "name": "1 measure"
+    },
+    {
+      "time": 138,
+      "name": "1 measure"
+    },
+    {
+      "time": 141,
+      "name": "1 measure"
+    },
+    {
+      "time": 144,
+      "name": "1 measure"
+    },
+    {
+      "time": 147,
+      "name": "1 measure"
+    },
+    {
+      "time": 150,
+      "name": "1 measure"
+    },
+    {
+      "time": 153,
+      "name": "1 measure"
+    },
+    {
+      "time": 156,
+      "name": "1 measure"
+    },
+    {
+      "time": 159,
+      "name": "1 measure"
+    },
+    {
+      "time": 162,
+      "name": "1 measure"
+    },
+    {
+      "time": 165,
+      "name": "1 measure"
+    }
+  ],
+  "cards": [
+    {
+      "id": "1-1",
+      "track": 1,
+      "ordinal": 1,
+      "start": 42,
+      "end": 47.958333333333336,
+      "title": "Optional first-look reactions",
+      "detail": "Keep visible actions and reactions synchronized. Only if the first look exists; use corresponding natural sound.",
+      "rules": [
+        "Matching source sound; keep music unducked."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "1-2",
+      "track": 1,
+      "ordinal": 2,
+      "start": 60,
+      "end": 65.95833333333333,
+      "title": "Authentic vow handoff",
+      "detail": "Keep visible actions and reactions synchronized. Chuckle / cry / laugh / hug. Real source determines duration.",
+      "rules": [
+        "Matching source sound; keep music unducked."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "1-3",
+      "track": 1,
+      "ordinal": 3,
+      "start": 114,
+      "end": 119.95833333333333,
+      "title": "Kiss source sound, through false ending",
+      "detail": "Keep source sound synchronized with the kiss. End with the fade; no separate cheer or release interlude.",
+      "rules": [
+        "Matching source sound; keep music unducked."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "1-4",
+      "track": 1,
+      "ordinal": 4,
+      "start": 120,
+      "end": 149.95833333333334,
+      "title": "Reception laughter / celebration reactions",
+      "detail": "Keep visible actions and reactions synchronized. Matching source sound, audible beside music. Keep music unducked.",
+      "rules": [
+        "Matching source sound; keep music unducked."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "2-1",
+      "track": 2,
+      "ordinal": 1,
+      "start": 0,
+      "end": 120,
+      "title": "Continuous nature / wind bed",
+      "detail": "Keep one long nature/wind bed while outside and it matches. Fade away indoors. No ambient bed during reception.",
+      "rules": [
+        "Follow the location; preserve natural transitions."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "3-1",
+      "track": 3,
+      "ordinal": 1,
+      "start": 0,
+      "end": 17.958333333333332,
+      "title": "GEAR 1 / Calm ambient opening",
+      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song\u2019s key; match elements to its key and the story.",
+      "rules": [
+        "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
+        "Keep music unducked. Preserve intelligible dialogue with fitting scoring level, register and spacing.",
+        "Planning only, no sample scoring audio is played."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "3-2",
+      "track": 3,
+      "ordinal": 2,
+      "start": 18,
+      "end": 29.958333333333332,
+      "title": "GEAR 2 / Gentle melodic flow",
+      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song\u2019s key; match elements to its key and the story.",
+      "rules": [
+        "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
+        "Keep music unducked. Preserve intelligible dialogue with fitting scoring level, register and spacing.",
+        "Planning only, no sample scoring audio is played."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "3-3",
+      "track": 3,
+      "ordinal": 3,
+      "start": 30,
+      "end": 59.958333333333336,
+      "title": "GEAR 3 / Moderate rhythmic lift",
+      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song\u2019s key; match elements to its key and the story.",
+      "rules": [
+        "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
+        "Keep music unducked. Preserve intelligible dialogue with fitting scoring level, register and spacing.",
+        "Planning only, no sample scoring audio is played."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "3-4",
+      "track": 3,
+      "ordinal": 4,
+      "start": 60,
+      "end": 65.95833333333333,
+      "title": "GEAR 2 / Restrained melodic flow",
+      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song\u2019s key; match elements to its key and the story.",
+      "rules": [
+        "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
+        "Keep music unducked. Preserve intelligible dialogue with fitting scoring level, register and spacing.",
+        "Planning only, no sample scoring audio is played."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "3-5",
+      "track": 3,
+      "ordinal": 5,
+      "start": 66,
+      "end": 77.95833333333333,
+      "title": "GEAR 3 \u2192 4 / Cello phrase + rising swell",
+      "detail": "Begin the lift with a sustained cello phrase or solo, then add a phrase-aligned swell or riser into Gear 4. Key/mode/local harmony must be verified.",
+      "rules": [
+        "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
+        "Keep music unducked. Preserve intelligible dialogue with fitting scoring level, register and spacing.",
+        "Planning only, no sample scoring audio is played."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "3-6",
+      "track": 3,
+      "ordinal": 6,
+      "start": 77.95833333333333,
+      "end": 108,
+      "title": "GEAR 4 / Cello + vocal texture + risers",
+      "detail": "Substantially fuller development: stagger cellos, voicings/vocalizations, risers and swells at song phrases, harmonic changes and downbeats. Add density as story lifts; leave space around vows.",
+      "rules": [
+        "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
+        "Keep music unducked. Preserve intelligible dialogue with fitting scoring level, register and spacing.",
+        "Planning only, no sample scoring audio is played."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "3-7",
+      "track": 3,
+      "ordinal": 7,
+      "start": 108,
+      "end": 113.95833333333333,
+      "title": "GEAR 5 / Full scoring lift, kiss build",
+      "detail": "Strongest progressive scoring development: fitting cellos, vocalizations/voicings, risers and swells. Align peaks to the kiss and musical phrases, especially where the song arrangement lacks lift. Do not run every element constantly.",
+      "rules": [
+        "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
+        "Keep music unducked. Preserve intelligible dialogue with fitting scoring level, register and spacing.",
+        "Planning only, no sample scoring audio is played."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "3-8",
+      "track": 3,
+      "ordinal": 8,
+      "start": 114,
+      "end": 118.20833333333333,
+      "title": "GEAR 5 / Full scoring lift, kiss peak",
+      "detail": "Strongest progressive scoring development: fitting cellos, vocalizations/voicings, risers and swells. Align peaks to the kiss and musical phrases, especially where the song arrangement lacks lift. Do not run every element constantly.",
+      "rules": [
+        "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
+        "Keep music unducked. Preserve intelligible dialogue with fitting scoring level, register and spacing.",
+        "Planning only, no sample scoring audio is played."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "3-9",
+      "track": 3,
+      "ordinal": 9,
+      "start": 118.25,
+      "end": 119.95833333333333,
+      "title": "False ending / scoring resolves with kiss fade",
+      "detail": "Resolve the scoring through the kiss fade, then immediately restart with energetic reception music. No cheer/release interlude, no lingering black hold.",
+      "rules": [
+        "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
+        "Keep music unducked. Preserve intelligible dialogue with fitting scoring level, register and spacing.",
+        "Planning only, no sample scoring audio is played."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "3-10",
+      "track": 3,
+      "ordinal": 10,
+      "start": 120,
+      "end": 149.95833333333334,
+      "title": "GEAR 4 / Sustained upbeat celebration",
+      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Energetic reception begins immediately after the kiss fade completes. Custom Scoring folder: vocalizations, cellos and swells. Detect each song\u2019s key; match elements to its key and the story.",
+      "rules": [
+        "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
+        "Keep music unducked. Preserve intelligible dialogue with fitting scoring level, register and spacing.",
+        "Planning only, no sample scoring audio is played."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "3-11",
+      "track": 3,
+      "ordinal": 11,
+      "start": 150,
+      "end": 167.95833333333334,
+      "title": "GEAR 4 to GEAR 2 / Closing drop",
+      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song\u2019s key; match elements to its key and the story.",
+      "rules": [
+        "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
+        "Keep music unducked. Preserve intelligible dialogue with fitting scoring level, register and spacing.",
+        "Planning only, no sample scoring audio is played."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "4-1",
+      "track": 4,
+      "ordinal": 1,
+      "start": 0,
+      "end": 17.958333333333332,
+      "title": "GEAR 1 / Calm ambient opening",
+      "detail": "Very ambient, low energy and calm. Leave room for the opening.",
+      "rules": [
+        "Keep music unducked throughout."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "4-2",
+      "track": 4,
+      "ordinal": 2,
+      "start": 18,
+      "end": 29.958333333333332,
+      "title": "GEAR 2 / Gentle melodic flow",
+      "detail": "Melody with gentle flowing rhythm; no distinct beat. Keep vows clear.",
+      "rules": [
+        "Keep music unducked throughout."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "4-3",
+      "track": 4,
+      "ordinal": 3,
+      "start": 30,
+      "end": 59.958333333333336,
+      "title": "GEAR 3 / Moderate rhythmic lift",
+      "detail": "More strumming and a distinct rhythm or beat; moderate growing energy.",
+      "rules": [
+        "Keep music unducked throughout."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "4-4",
+      "track": 4,
+      "ordinal": 4,
+      "start": 60,
+      "end": 65.95833333333333,
+      "title": "GEAR 2 / Restrained melodic flow",
+      "detail": "Gentle melody and flowing rhythm, no distinct beat; stay beneath bride vows.",
+      "rules": [
+        "Keep music unducked throughout."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "4-5",
+      "track": 4,
+      "ordinal": 5,
+      "start": 66,
+      "end": 77.95833333333333,
+      "title": "GEAR 3 / Moderate rhythmic lift",
+      "detail": "More strumming and a distinct rhythm or beat; moderate growing energy.",
+      "rules": [
+        "Keep music unducked throughout."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "4-gear4",
+      "track": 4,
+      "ordinal": 5.5,
+      "start": 77.95833333333333,
+      "end": 108,
+      "title": "GEAR 4 / Sustained musical lift",
+      "detail": "Carry the song through the pre-reception lift, unducked. Use the actual arrangement and phrase boundaries; scoring supplies additional energy where the song lacks it.",
+      "rules": [
+        "Actual song tempo determines timing; provisional grid is not analyzed beats.",
+        "Keep music unducked."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "4-6",
+      "track": 4,
+      "ordinal": 6,
+      "start": 108,
+      "end": 113.95833333333333,
+      "title": "GEAR 5 / Build toward the kiss climax",
+      "detail": "Build through the pronouncement toward the kiss climax; keep the officiant audible.",
+      "rules": [
+        "Keep music unducked throughout."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "4-7",
+      "track": 4,
+      "ordinal": 7,
+      "start": 114,
+      "end": 118.20833333333333,
+      "title": "GEAR 5 / Kiss climax",
+      "detail": "Carry the ceremony build through the complete kiss climax, then CRASH OUT to GEAR 1.",
+      "rules": [
+        "Keep music unducked throughout."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "4-8",
+      "track": 4,
+      "ordinal": 8,
+      "start": 118.25,
+      "end": 119.95833333333333,
+      "title": "Kiss false ending / immediate reception restart",
+      "detail": "Resolve this musical ending with the kiss fade, then begin exciting reception music immediately. No black hold, no separate cheer/release. No ducking.",
+      "rules": [
+        "Keep music unducked throughout."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "4-9",
+      "track": 4,
+      "ordinal": 9,
+      "start": 120,
+      "end": 149.95833333333334,
+      "title": "GEAR 4 / Sustained upbeat celebration",
+      "detail": "Energetic reception begins immediately after the kiss fade completes. Different reception song: forward movement and sustained celebratory energy. Enter GEAR 4 directly after full cheers.",
+      "rules": [
+        "Keep music unducked throughout."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "4-10",
+      "track": 4,
+      "ordinal": 10,
+      "start": 150,
+      "end": 167.95833333333334,
+      "title": "GEAR 4 to GEAR 2 / Closing drop",
+      "detail": "Drop from steady upbeat energy into gentle melodic flow for the ending. This is distinct from CRASH OUT (GEAR 5 to GEAR 1).",
+      "rules": [
+        "Keep music unducked throughout."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "5-1",
+      "track": 5,
+      "ordinal": 1,
+      "start": 18,
+      "end": 60,
+      "title": "Groom vows / selected intro + promises / flexible",
+      "detail": "Intro and promises can each be as long or short as needed. Middle may be omitted; whole span is temporary.",
+      "rules": [],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "5-2",
+      "track": 5,
+      "ordinal": 2,
+      "start": 60,
+      "end": 66,
+      "title": "Natural handoff, groom to bride",
+      "detail": "Chuckle / cry / laugh / hug as available. Authentic source editing.",
+      "rules": [],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "5-3",
+      "track": 5,
+      "ordinal": 3,
+      "start": 66,
+      "end": 108,
+      "title": "Bride vows / selected intro + promises / flexible",
+      "detail": "Intro and promises can each be as long or short as needed. Middle may be omitted; whole span is temporary.",
+      "rules": [],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "5-4",
+      "track": 5,
+      "ordinal": 4,
+      "start": 108,
+      "end": 114,
+      "title": "Officiant pronouncement + invitation to kiss",
+      "detail": "Actual officiant words later; no fabricated recording. Flexible duration.",
+      "rules": [],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0
+    },
+    {
+      "id": "6-1",
+      "track": 6,
+      "ordinal": 1,
+      "start": 0,
+      "end": 6,
+      "title": "Establishing drone or wide ground shot",
+      "detail": "Original opening preserved. Fade in.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+      ],
+      "speed": 100,
+      "fadeIn": 1,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "1-1",
+          "src": "/cam-b/clips/01.mp4",
+          "poster": "/cam-b/clips/01.jpg",
+          "label": "Venue establishing wide",
+          "film": "Rachel & Ryan",
+          "duration": 3.970633
+        },
+        {
+          "id": "1-2",
+          "src": "/cam-b/clips/01-2.mp4",
+          "poster": "/cam-b/clips/01-2.jpg",
+          "label": "Venue establishing wide",
+          "film": "Ia & Jared",
+          "duration": 3.208333
+        },
+        {
+          "id": "1-3",
+          "src": "/cam-b/clips/01-3.mp4",
+          "poster": "/cam-b/clips/01-3.jpg",
+          "label": "Venue establishing wide",
+          "film": "Caitlin & Cole",
+          "duration": 3.166667
+        }
+      ],
+      "number": 1,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-3",
+      "track": 6,
+      "ordinal": 3,
+      "start": 6,
+      "end": 12,
+      "title": "Ceremony arch / nature / empty venue detail",
+      "detail": "Original opening preserved. Fade through.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+      ],
+      "speed": 70,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "12-1",
+          "src": "/cam-b/clips/12.mp4",
+          "poster": "/cam-b/clips/12.jpg",
+          "label": "Empty ceremony space",
+          "film": "Gabriella & Robert",
+          "duration": 2.458333
+        },
+        {
+          "id": "12-2",
+          "src": "/cam-b/clips/12-2.mp4",
+          "poster": "/cam-b/clips/12-2.jpg",
+          "label": "Empty ceremony space",
+          "film": "Ia & Jared",
+          "duration": 3.208333
+        },
+        {
+          "id": "12-3",
+          "src": "/cam-b/clips/12-3.mp4",
+          "poster": "/cam-b/clips/12-3.jpg",
+          "label": "Empty ceremony space",
+          "film": "Brianna & Caleb",
+          "duration": 2.569233
+        }
+      ],
+      "number": 2,
+      "transition": "Dissolve \u00b7 2 s centered",
+      "opticalFlow": true
+    },
+    {
+      "id": "6-5",
+      "track": 6,
+      "ordinal": 5,
+      "start": 12,
+      "end": 18,
+      "title": "Rings / invitation detail; dress fallback",
+      "detail": "Use rings or invitation detail. If unavailable, use the dress. Preserve musical slot; fade through.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+      ],
+      "speed": 70,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "2-1",
+          "src": "/cam-b/clips/02.mp4",
+          "poster": "/cam-b/clips/02.jpg",
+          "label": "Rings & invitation",
+          "film": "Caitlin & Cole",
+          "duration": 3.083333
+        },
+        {
+          "id": "2-2",
+          "src": "/cam-b/clips/02-2.mp4",
+          "poster": "/cam-b/clips/02-2.jpg",
+          "label": "Rings & invitation",
+          "film": "Rachel & Ryan",
+          "duration": 3.2032
+        },
+        {
+          "id": "2-3",
+          "src": "/cam-b/clips/02-3.mp4",
+          "poster": "/cam-b/clips/02-3.jpg",
+          "label": "Rings & invitation",
+          "film": "Kylie & Seth",
+          "duration": 3.169833
+        }
+      ],
+      "number": 3,
+      "transition": "Dissolve \u00b7 2 s centered",
+      "opticalFlow": true
+    },
+    {
+      "id": "6-6",
+      "track": 6,
+      "ordinal": 6,
+      "start": 18,
+      "end": 24,
+      "title": "Bride preparation: vow-led picture choice",
+      "detail": "Match vow meaning and emotion; complete the prep action, then progress to portraits. Keep the musical slot.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Show bride and/or groom by default; leave them only when the specific vow line naturally leads elsewhere."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "4-1",
+          "src": "/cam-b/clips/04.mp4",
+          "poster": "/cam-b/clips/04.jpg",
+          "label": "Bride preparation",
+          "film": "Dakota & Rosie",
+          "duration": 2.627625
+        },
+        {
+          "id": "4-2",
+          "src": "/cam-b/clips/04-2.mp4",
+          "poster": "/cam-b/clips/04-2.jpg",
+          "label": "Bride preparation",
+          "film": "Allie & Alan",
+          "duration": 3.208333
+        },
+        {
+          "id": "4-3",
+          "src": "/cam-b/clips/04-3.mp4",
+          "poster": "/cam-b/clips/04-3.jpg",
+          "label": "Bride preparation",
+          "film": "Kylie & Seth",
+          "duration": 1.968633
+        }
+      ],
+      "number": 4,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-7",
+      "track": 6,
+      "ordinal": 7,
+      "start": 24,
+      "end": 30,
+      "title": "Groom preparation: vow-led picture choice",
+      "detail": "Match vow meaning and emotion; complete the prep action, then progress to portraits. Keep the musical slot.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Show bride and/or groom by default; leave them only when the specific vow line naturally leads elsewhere."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "5-1",
+          "src": "/cam-b/clips/05.mp4",
+          "poster": "/cam-b/clips/05.jpg",
+          "label": "Groom preparation",
+          "film": "Moriah & Dane",
+          "duration": 2.869533
+        },
+        {
+          "id": "5-2",
+          "src": "/cam-b/clips/05-2.mp4",
+          "poster": "/cam-b/clips/05-2.jpg",
+          "label": "Groom preparation",
+          "film": "Reanna & Brandon",
+          "duration": 3.169833
+        },
+        {
+          "id": "5-3",
+          "src": "/cam-b/clips/05-3.mp4",
+          "poster": "/cam-b/clips/05-3.jpg",
+          "label": "Groom preparation",
+          "film": "Gina & Spencer",
+          "duration": 1.966667
+        }
+      ],
+      "number": 5,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-8",
+      "track": 6,
+      "ordinal": 8,
+      "start": 30,
+      "end": 33,
+      "title": "Portraits 1: choose for groom vow meaning / emotion",
+      "detail": "Choose portrait action and connection for the meaning and emotion of the groom vows.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Show bride and/or groom by default; leave them only when the specific vow line naturally leads elsewhere."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "10-1",
+          "src": "/cam-b/clips/10.mp4",
+          "poster": "/cam-b/clips/10.jpg",
+          "label": "Couple walking",
+          "film": "Moriah & Dane",
+          "duration": 3.6036
+        },
+        {
+          "id": "10-2",
+          "src": "/cam-b/clips/10-2.mp4",
+          "poster": "/cam-b/clips/10-2.jpg",
+          "label": "Couple walking",
+          "film": "Gabriella & Robert",
+          "duration": 3.208333
+        },
+        {
+          "id": "10-3",
+          "src": "/cam-b/clips/10-3.mp4",
+          "poster": "/cam-b/clips/10-3.jpg",
+          "label": "Couple walking",
+          "film": "Kylie & Seth",
+          "duration": 3.2032
+        }
+      ],
+      "number": 6,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-9",
+      "track": 6,
+      "ordinal": 9,
+      "start": 33,
+      "end": 36,
+      "title": "Portraits 2: fresh action matching the spoken thought",
+      "detail": "Fit complete source action to the spoken thought within the existing musical slot.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Show bride and/or groom by default; leave them only when the specific vow line naturally leads elsewhere."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "28-1",
+          "src": "/cam-b/clips/28.mp4",
+          "poster": "/cam-b/clips/28.jpg",
+          "label": "Medium portrait & connection",
+          "film": "Gabriella & Robert",
+          "duration": 3.583333
+        },
+        {
+          "id": "28-2",
+          "src": "/cam-b/clips/28-2.mp4",
+          "poster": "/cam-b/clips/28-2.jpg",
+          "label": "Medium portrait & connection",
+          "film": "Allie & Alan",
+          "duration": 3.583333
+        },
+        {
+          "id": "28-3",
+          "src": "/cam-b/clips/28-3.mp4",
+          "poster": "/cam-b/clips/28-3.jpg",
+          "label": "Medium portrait & connection",
+          "film": "Moriah & Dane",
+          "duration": 1.668333
+        }
+      ],
+      "number": 7,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-10",
+      "track": 6,
+      "ordinal": 10,
+      "start": 36,
+      "end": 39,
+      "title": "Portraits 3: connection matching the spoken thought",
+      "detail": "Words choose shots; music controls cuts. Preserve action and emotional progression.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Show bride and/or groom by default; leave them only when the specific vow line naturally leads elsewhere."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "29-1",
+          "src": "/cam-b/clips/29.mp4",
+          "poster": "/cam-b/clips/29.jpg",
+          "label": "Close faces & expressions",
+          "film": "Violet & Devin",
+          "duration": 3.6
+        },
+        {
+          "id": "29-2",
+          "src": "/cam-b/clips/29-2.mp4",
+          "poster": "/cam-b/clips/29-2.jpg",
+          "label": "Close faces & expressions",
+          "film": "Kylie & Seth",
+          "duration": 3.6036
+        },
+        {
+          "id": "29-3",
+          "src": "/cam-b/clips/29-3.mp4",
+          "poster": "/cam-b/clips/29-3.jpg",
+          "label": "Close faces & expressions",
+          "film": "Dakota & Rosie",
+          "duration": 3.628625
+        }
+      ],
+      "number": 8,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-11",
+      "track": 6,
+      "ordinal": 11,
+      "start": 39,
+      "end": 42,
+      "title": "Portraits 4: complete action matching the spoken thought",
+      "detail": "Complete the source action within the existing musical slot; avoid literal word-by-word matching.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Show bride and/or groom by default; leave them only when the specific vow line naturally leads elsewhere."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "31-1",
+          "src": "/cam-b/clips/31.mp4",
+          "poster": "/cam-b/clips/31.jpg",
+          "label": "Hands & small portrait details",
+          "film": "Rachel & Ryan",
+          "duration": 3.6036
+        },
+        {
+          "id": "31-2",
+          "src": "/cam-b/clips/31-2.mp4",
+          "poster": "/cam-b/clips/31-2.jpg",
+          "label": "Hands & small portrait details",
+          "film": "Ia & Jared",
+          "duration": 3.583333
+        },
+        {
+          "id": "31-3",
+          "src": "/cam-b/clips/31-3.mp4",
+          "poster": "/cam-b/clips/31-3.jpg",
+          "label": "Hands & small portrait details",
+          "film": "Dakota & Rosie",
+          "duration": 2.836167
+        }
+      ],
+      "number": 9,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-12",
+      "track": 6,
+      "ordinal": 12,
+      "start": 42,
+      "end": 45,
+      "title": "First look 1: real reveal, or truthful portrait reveal",
+      "detail": "Use a real first look if covered; otherwise a truthful portrait reveal. Never invent the event.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Show bride and/or groom by default; leave them only when the specific vow line naturally leads elsewhere."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "8-1",
+          "src": "/cam-b/clips/08.mp4",
+          "poster": "/cam-b/clips/08.jpg",
+          "label": "First look reaction",
+          "film": "Rachel & Ryan",
+          "duration": 3.5035
+        },
+        {
+          "id": "8-2",
+          "src": "/cam-b/clips/08-2.mp4",
+          "poster": "/cam-b/clips/08-2.jpg",
+          "label": "First look reaction",
+          "film": "Kylie & Seth",
+          "duration": 3.169833
+        },
+        {
+          "id": "8-3",
+          "src": "/cam-b/clips/08-3.mp4",
+          "poster": "/cam-b/clips/08-3.jpg",
+          "label": "First look reaction",
+          "film": "Moriah & Dane",
+          "duration": 3.169833
+        }
+      ],
+      "number": 10,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-13",
+      "track": 6,
+      "ordinal": 13,
+      "start": 45,
+      "end": 48,
+      "title": "First look 2: real reaction, or truthful portrait reaction",
+      "detail": "Use a real first-look reaction if covered; otherwise a truthful portrait reaction.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Show bride and/or groom by default; leave them only when the specific vow line naturally leads elsewhere."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "9-1",
+          "src": "/cam-b/clips/09.mp4",
+          "poster": "/cam-b/clips/09.jpg",
+          "label": "Hands & partial reveal",
+          "film": "Rachel & Ryan",
+          "duration": 4.004
+        },
+        {
+          "id": "9-2",
+          "src": "/cam-b/clips/09-2.mp4",
+          "poster": "/cam-b/clips/09-2.jpg",
+          "label": "Hands & partial reveal",
+          "film": "Dakota & Rosie",
+          "duration": 3.211542
+        },
+        {
+          "id": "9-3",
+          "src": "/cam-b/clips/09-3.mp4",
+          "poster": "/cam-b/clips/09-3.jpg",
+          "label": "Hands & partial reveal",
+          "film": "Ia & Jared",
+          "duration": 3.166667
+        }
+      ],
+      "number": 11,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-14",
+      "track": 6,
+      "ordinal": 14,
+      "start": 48,
+      "end": 60,
+      "title": "Groom on camera: hold until selected vows finish",
+      "detail": "Only if still speaking; hold until groom finishes, flexible duration.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Show bride and/or groom by default; leave them only when the specific vow line naturally leads elsewhere."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "16-1",
+          "src": "/cam-b/clips/16.mp4",
+          "poster": "/cam-b/clips/16.jpg",
+          "label": "Vows & listening reaction",
+          "film": "Gina & Spencer",
+          "duration": 3.966667
+        },
+        {
+          "id": "16-2",
+          "src": "/cam-b/clips/16-2.mp4",
+          "poster": "/cam-b/clips/16-2.jpg",
+          "label": "Vows & listening reaction",
+          "film": "Moriah & Dane",
+          "duration": 3.169833
+        },
+        {
+          "id": "16-3",
+          "src": "/cam-b/clips/16-3.mp4",
+          "poster": "/cam-b/clips/16-3.jpg",
+          "label": "Vows & listening reaction",
+          "film": "Kelsie & Davidson",
+          "duration": 3.208333
+        }
+      ],
+      "number": 12,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-15",
+      "track": 6,
+      "ordinal": 15,
+      "start": 60,
+      "end": 66,
+      "title": "Natural handoff: chuckle / cry / laugh / hug",
+      "detail": "Use authentic reaction / handoff; keep natural duration.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "7-1",
+          "src": "/cam-b/clips/07.mp4",
+          "poster": "/cam-b/clips/07.jpg",
+          "label": "Candid bride reaction",
+          "film": "Caitlin & Cole",
+          "duration": 2.333008
+        },
+        {
+          "id": "7-2",
+          "src": "/cam-b/clips/07-2.mp4",
+          "poster": "/cam-b/clips/07-2.jpg",
+          "label": "Candid bride reaction",
+          "film": "Moriah & Dane",
+          "duration": 3.169833
+        },
+        {
+          "id": "7-3",
+          "src": "/cam-b/clips/07-3.mp4",
+          "poster": "/cam-b/clips/07-3.jpg",
+          "label": "Candid bride reaction",
+          "film": "Allie & Alan",
+          "duration": 3.208333
+        }
+      ],
+      "number": 13,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-16",
+      "track": 6,
+      "ordinal": 16,
+      "start": 66,
+      "end": 72,
+      "title": "Bride vows begin: DISTINCT golden-hour portrait A",
+      "detail": "Match her words and emotion; include other people only when her words make them relevant.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Show bride and/or groom by default; leave them only when the specific vow line naturally leads elsewhere."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "11-1",
+          "src": "/cam-b/clips/11.mp4",
+          "poster": "/cam-b/clips/11.jpg",
+          "label": "Faces, embrace & kiss",
+          "film": "Alisia & Matt",
+          "duration": 4.004
+        },
+        {
+          "id": "11-2",
+          "src": "/cam-b/clips/11-2.mp4",
+          "poster": "/cam-b/clips/11-2.jpg",
+          "label": "Faces, embrace & kiss",
+          "film": "Moriah & Dane",
+          "duration": 3.169833
+        },
+        {
+          "id": "11-3",
+          "src": "/cam-b/clips/11-3.mp4",
+          "poster": "/cam-b/clips/11-3.jpg",
+          "label": "Faces, embrace & kiss",
+          "film": "Ia & Jared",
+          "duration": 3.166667
+        }
+      ],
+      "number": 14,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-17",
+      "track": 6,
+      "ordinal": 17,
+      "start": 72,
+      "end": 78,
+      "title": "Bride vows: fresh moment matching her words; dad if relevant",
+      "detail": "Choose bride/groom by default. Use dad or others when her specific words naturally lead to them.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Show bride and/or groom by default; leave them only when the specific vow line naturally leads elsewhere."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "6-1",
+          "src": "/cam-b/clips/06.mp4",
+          "poster": "/cam-b/clips/06.jpg",
+          "label": "Bride & parent moment",
+          "film": "Gina & Spencer",
+          "duration": 3.966667
+        },
+        {
+          "id": "6-2",
+          "src": "/cam-b/clips/06-2.mp4",
+          "poster": "/cam-b/clips/06-2.jpg",
+          "label": "Bride & parent moment",
+          "film": "Gabriella & Robert",
+          "duration": 3.208333
+        },
+        {
+          "id": "6-3",
+          "src": "/cam-b/clips/06-3.mp4",
+          "poster": "/cam-b/clips/06-3.jpg",
+          "label": "Bride & parent moment",
+          "film": "Reanna & Brandon",
+          "duration": 3.169833
+        }
+      ],
+      "number": 15,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-18",
+      "track": 6,
+      "ordinal": 18,
+      "start": 78,
+      "end": 84,
+      "title": "Bride vows: fresh reaction matching her words; friends if relevant",
+      "detail": "Choose bride/groom by default. Use bridesmaids or others when her words make them relevant.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Show bride and/or groom by default; leave them only when the specific vow line naturally leads elsewhere."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "13-1",
+          "src": "/cam-b/clips/13-retimed.mp4",
+          "poster": "/cam-b/clips/13-retimed.jpg",
+          "label": "Guests & family",
+          "film": "Brianna & Caleb",
+          "duration": 2.625
+        },
+        {
+          "id": "13-2",
+          "src": "/cam-b/clips/13-2.mp4",
+          "poster": "/cam-b/clips/13-2.jpg",
+          "label": "Guests & family",
+          "film": "Gabriella & Robert",
+          "duration": 3.166667
+        },
+        {
+          "id": "13-3",
+          "src": "/cam-b/clips/13-3.mp4",
+          "poster": "/cam-b/clips/13-3.jpg",
+          "label": "Guests & family",
+          "film": "Jennifer & partner",
+          "duration": 3.2032
+        }
+      ],
+      "number": 16,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-19",
+      "track": 6,
+      "ordinal": 19,
+      "start": 84,
+      "end": 90,
+      "title": "DISTINCT portrait B or UNUSED preparation moment",
+      "detail": "Match her words and emotion with fresh footage; keep the existing musical slot.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Show bride and/or groom by default; leave them only when the specific vow line naturally leads elsewhere."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "30-1",
+          "src": "/cam-b/clips/30.mp4",
+          "poster": "/cam-b/clips/30.jpg",
+          "label": "Walking together in warm light",
+          "film": "Alisia & Matt",
+          "duration": 3.570233
+        },
+        {
+          "id": "30-2",
+          "src": "/cam-b/clips/30-2.mp4",
+          "poster": "/cam-b/clips/30-2.jpg",
+          "label": "Walking together in warm light",
+          "film": "Rachel & Ryan",
+          "duration": 3.6036
+        },
+        {
+          "id": "30-3",
+          "src": "/cam-b/clips/30-3.mp4",
+          "poster": "/cam-b/clips/30-3.jpg",
+          "label": "Walking together in warm light",
+          "film": "Moriah & Dane",
+          "duration": 3.6036
+        }
+      ],
+      "number": 17,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-20",
+      "track": 6,
+      "ordinal": 20,
+      "start": 90,
+      "end": 96,
+      "title": "Aisle walk, bride vows continue",
+      "detail": "Show the bride's approach and emotion; choose action matching the spoken thought.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Show bride and/or groom by default; leave them only when the specific vow line naturally leads elsewhere."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "14-1",
+          "src": "/cam-b/clips/14.mp4",
+          "poster": "/cam-b/clips/14.jpg",
+          "label": "Aisle walk",
+          "film": "Gina & Spencer",
+          "duration": 3.166667
+        },
+        {
+          "id": "14-2",
+          "src": "/cam-b/clips/14-2.mp4",
+          "poster": "/cam-b/clips/14-2.jpg",
+          "label": "Aisle walk",
+          "film": "Jennifer & partner",
+          "duration": 3.169833
+        },
+        {
+          "id": "14-3",
+          "src": "/cam-b/clips/14-3.mp4",
+          "poster": "/cam-b/clips/14-3.jpg",
+          "label": "Aisle walk",
+          "film": "Kelsie & Davidson",
+          "duration": 3.208333
+        }
+      ],
+      "number": 18,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-21",
+      "track": 6,
+      "ordinal": 21,
+      "start": 96,
+      "end": 102,
+      "title": "Groom receiving bride, bride vows continue",
+      "detail": "Show his response and their connection; choose action matching the spoken thought.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Show bride and/or groom by default; leave them only when the specific vow line naturally leads elsewhere."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "15-1",
+          "src": "/cam-b/clips/15.mp4",
+          "poster": "/cam-b/clips/15.jpg",
+          "label": "Groom reaction shot",
+          "film": "Moriah & Dane",
+          "duration": 4.004
+        },
+        {
+          "id": "15-2",
+          "src": "/cam-b/clips/15-2.mp4",
+          "poster": "/cam-b/clips/15-2.jpg",
+          "label": "Groom reaction shot",
+          "film": "Kelsie & Davidson",
+          "duration": 2.625
+        },
+        {
+          "id": "15-3",
+          "src": "/cam-b/clips/15-3.mp4",
+          "poster": "/cam-b/clips/15-3.jpg",
+          "label": "Groom reaction shot",
+          "film": "Gina & Spencer",
+          "duration": 3.166667
+        }
+      ],
+      "number": 19,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-22",
+      "track": 6,
+      "ordinal": 22,
+      "start": 102,
+      "end": 108,
+      "title": "Ceremony anticipation immediately before kiss, bride finishes",
+      "detail": "Hold bride/groom connection until her thought finishes; preserve the existing musical slot.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
+        "Show bride and/or groom by default; leave them only when the specific vow line naturally leads elsewhere."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "17-1",
+          "src": "/cam-b/clips/17.mp4",
+          "poster": "/cam-b/clips/17.jpg",
+          "label": "Ring exchange detail",
+          "film": "Gretchen",
+          "duration": 3.970633
+        },
+        {
+          "id": "17-2",
+          "src": "/cam-b/clips/17-2.mp4",
+          "poster": "/cam-b/clips/17-2.jpg",
+          "label": "Ring exchange detail",
+          "film": "Kelsie & Davidson",
+          "duration": 3.166667
+        },
+        {
+          "id": "17-3",
+          "src": "/cam-b/clips/17-3.mp4",
+          "poster": "/cam-b/clips/17-3.jpg",
+          "label": "Ring exchange detail",
+          "film": "Brianna & Caleb",
+          "duration": 3.169833
+        }
+      ],
+      "number": 20,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-23",
+      "track": 6,
+      "ordinal": 23,
+      "start": 108,
+      "end": 114,
+      "title": "Officiant pronouncement and invitation to kiss",
+      "detail": "Actual pronouncement and invitation; speech controls length.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "18-1",
+          "src": "/cam-b/clips/18.mp4",
+          "poster": "/cam-b/clips/18.jpg",
+          "label": "Pronouncement, kiss & cheer",
+          "film": "Kelsie & Davidson",
+          "duration": 4.0
+        },
+        {
+          "id": "18-2",
+          "src": "/cam-b/clips/18-2.mp4",
+          "poster": "/cam-b/clips/18-2.jpg",
+          "label": "Pronouncement, kiss & cheer",
+          "film": "Gabriella & Robert",
+          "duration": 3.166667
+        },
+        {
+          "id": "18-3",
+          "src": "/cam-b/clips/18-3.mp4",
+          "poster": "/cam-b/clips/18-3.jpg",
+          "label": "Pronouncement, kiss & cheer",
+          "film": "Dakota & Rosie",
+          "duration": 3.169833
+        }
+      ],
+      "number": 21,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-24",
+      "track": 6,
+      "ordinal": 24,
+      "start": 114,
+      "end": 118.25,
+      "title": "First ceremony kiss, preserve complete action",
+      "detail": "Finish action / camera move; measure counts can adapt.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "18-2",
+          "src": "/cam-b/clips/18-2.mp4",
+          "poster": "/cam-b/clips/18-2.jpg",
+          "label": "Pronouncement, kiss & cheer",
+          "film": "Gabriella & Robert",
+          "duration": 3.166667
+        },
+        {
+          "id": "18-1",
+          "src": "/cam-b/clips/18.mp4",
+          "poster": "/cam-b/clips/18.jpg",
+          "label": "Pronouncement, kiss & cheer",
+          "film": "Kelsie & Davidson",
+          "duration": 4.0
+        },
+        {
+          "id": "18-3",
+          "src": "/cam-b/clips/18-3.mp4",
+          "poster": "/cam-b/clips/18-3.jpg",
+          "label": "Pronouncement, kiss & cheer",
+          "film": "Dakota & Rosie",
+          "duration": 3.169833
+        }
+      ],
+      "number": 22,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-25",
+      "track": 6,
+      "ordinal": 25,
+      "start": 118.25,
+      "end": 120,
+      "title": "Kiss false ending: fade while still kissing",
+      "detail": "Continue readable kiss action; fade picture to black while they are still kissing. Reception and energetic unducked music start immediately after fade completes. No cheer/release interlude or black hold.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 1,
+      "takes": [
+        {
+          "id": "42-1",
+          "src": "/cam-b/clips/42.mp4",
+          "poster": "/cam-b/clips/42.jpg",
+          "label": "Recessional",
+          "film": "Rachel & Ryan",
+          "duration": 2.1021
+        },
+        {
+          "id": "42-2",
+          "src": "/cam-b/clips/42-2.mp4",
+          "poster": "/cam-b/clips/42-2.jpg",
+          "label": "Recessional",
+          "film": "Gina & Spencer",
+          "duration": 3.566667
+        },
+        {
+          "id": "42-3",
+          "src": "/cam-b/clips/42-3.mp4",
+          "poster": "/cam-b/clips/42-3.jpg",
+          "label": "Recessional",
+          "film": "Violet & Devin",
+          "duration": 3.566667
+        }
+      ],
+      "number": 23,
+      "transition": "Cut",
+      "opticalFlow": false,
+      "kissEnding": true
+    },
+    {
+      "id": "6-26",
+      "track": 6,
+      "ordinal": 26,
+      "start": 120,
+      "end": 123,
+      "title": "Reception restart: newlywed recessional",
+      "detail": "Immediately start energetic reception picture at the completed kiss fade, no lingering black hold. Preserve complete newlywed movement.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "13-2",
+          "src": "/cam-b/clips/13-2.mp4",
+          "poster": "/cam-b/clips/13-2.jpg",
+          "label": "Guests & family",
+          "film": "Gabriella & Robert",
+          "duration": 3.166667
+        },
+        {
+          "id": "13-1",
+          "src": "/cam-b/clips/13-retimed.mp4",
+          "poster": "/cam-b/clips/13-retimed.jpg",
+          "label": "Guests & family",
+          "film": "Brianna & Caleb",
+          "duration": 2.625
+        },
+        {
+          "id": "13-3",
+          "src": "/cam-b/clips/13-3.mp4",
+          "poster": "/cam-b/clips/13-3.jpg",
+          "label": "Guests & family",
+          "film": "Jennifer & partner",
+          "duration": 3.2032
+        }
+      ],
+      "number": 24,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-27",
+      "track": 6,
+      "ordinal": 27,
+      "start": 123,
+      "end": 126,
+      "title": "Recessional: guests applause / reactions",
+      "detail": "Proposed quicker rhythm; resize to finish the action. Distinct shot, only if covered.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "40-1",
+          "src": "/cam-b/clips/40.mp4",
+          "poster": "/cam-b/clips/40.jpg",
+          "label": "Send-off & exit",
+          "film": "Gina & Spencer",
+          "duration": 3.566667
+        },
+        {
+          "id": "40-2",
+          "src": "/cam-b/clips/40-2.mp4",
+          "poster": "/cam-b/clips/40-2.jpg",
+          "label": "Send-off & exit",
+          "film": "Gabriella & Robert",
+          "duration": 2.916667
+        },
+        {
+          "id": "40-3",
+          "src": "/cam-b/clips/40-3.mp4",
+          "poster": "/cam-b/clips/40-3.jpg",
+          "label": "Send-off & exit",
+          "film": "Reanna & Brandon",
+          "duration": 3.570233
+        }
+      ],
+      "number": 25,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-28",
+      "track": 6,
+      "ordinal": 28,
+      "start": 126,
+      "end": 129,
+      "title": "Reception entrance: couple arrival / movement",
+      "detail": "Proposed quicker rhythm; resize to finish the action. Distinct shot, only if covered.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "20-1",
+          "src": "/cam-b/clips/20.mp4",
+          "poster": "/cam-b/clips/20.jpg",
+          "label": "Speech reactions",
+          "film": "Reanna & Brandon",
+          "duration": 4.004
+        },
+        {
+          "id": "20-2",
+          "src": "/cam-b/clips/20-2.mp4",
+          "poster": "/cam-b/clips/20-2.jpg",
+          "label": "Speech reactions",
+          "film": "Moriah & Dane",
+          "duration": 3.169833
+        },
+        {
+          "id": "20-3",
+          "src": "/cam-b/clips/20-3.mp4",
+          "poster": "/cam-b/clips/20-3.jpg",
+          "label": "Speech reactions",
+          "film": "Dakota & Rosie",
+          "duration": 3.211542
+        }
+      ],
+      "number": 26,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-29",
+      "track": 6,
+      "ordinal": 29,
+      "start": 129,
+      "end": 132,
+      "title": "Reception entrance: greeting / crowd reaction",
+      "detail": "Proposed quicker rhythm; resize to finish the action. Distinct shot, only if covered.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "21-1",
+          "src": "/cam-b/clips/21.mp4",
+          "poster": "/cam-b/clips/21.jpg",
+          "label": "First dance",
+          "film": "Rachel & Ryan",
+          "duration": 4.004
+        },
+        {
+          "id": "21-2",
+          "src": "/cam-b/clips/21-2.mp4",
+          "poster": "/cam-b/clips/21-2.jpg",
+          "label": "First dance",
+          "film": "Caitlin & Cole",
+          "duration": 3.166667
+        },
+        {
+          "id": "21-3",
+          "src": "/cam-b/clips/21-3.mp4",
+          "poster": "/cam-b/clips/21-3.jpg",
+          "label": "First dance",
+          "film": "Gina & Spencer",
+          "duration": 3.166667
+        }
+      ],
+      "number": 27,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-30",
+      "track": 6,
+      "ordinal": 30,
+      "start": 132,
+      "end": 135,
+      "title": "First dance: expressive turn / step",
+      "detail": "Proposed quicker rhythm; resize to finish the action. Distinct shot, only if covered.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "21-2",
+          "src": "/cam-b/clips/21-2.mp4",
+          "poster": "/cam-b/clips/21-2.jpg",
+          "label": "First dance",
+          "film": "Caitlin & Cole",
+          "duration": 3.166667
+        },
+        {
+          "id": "21-1",
+          "src": "/cam-b/clips/21.mp4",
+          "poster": "/cam-b/clips/21.jpg",
+          "label": "First dance",
+          "film": "Rachel & Ryan",
+          "duration": 4.004
+        },
+        {
+          "id": "21-3",
+          "src": "/cam-b/clips/21-3.mp4",
+          "poster": "/cam-b/clips/21-3.jpg",
+          "label": "First dance",
+          "film": "Gina & Spencer",
+          "duration": 3.166667
+        }
+      ],
+      "number": 28,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-31",
+      "track": 6,
+      "ordinal": 31,
+      "start": 135,
+      "end": 138,
+      "title": "First dance: close faces / hands / connection",
+      "detail": "Proposed quicker rhythm; resize to finish the action. Distinct shot, only if covered.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "38-1",
+          "src": "/cam-b/clips/38.mp4",
+          "poster": "/cam-b/clips/38.jpg",
+          "label": "Reception speeches",
+          "film": "Rachel & Ryan",
+          "duration": 3.6036
+        },
+        {
+          "id": "38-2",
+          "src": "/cam-b/clips/38-2.mp4",
+          "poster": "/cam-b/clips/38-2.jpg",
+          "label": "Reception speeches",
+          "film": "Reanna & Brandon",
+          "duration": 3.570233
+        },
+        {
+          "id": "38-3",
+          "src": "/cam-b/clips/38-3.mp4",
+          "poster": "/cam-b/clips/38-3.jpg",
+          "label": "Reception speeches",
+          "film": "Moriah & Dane",
+          "duration": 3.6036
+        }
+      ],
+      "number": 29,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-32",
+      "track": 6,
+      "ordinal": 32,
+      "start": 138,
+      "end": 141,
+      "title": "Guests: distinct laughter / social moment",
+      "detail": "Proposed quicker rhythm; resize to finish the action. Distinct shot, only if covered.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "25-1",
+          "src": "/cam-b/clips/25.mp4",
+          "poster": "/cam-b/clips/25.jpg",
+          "label": "Playful couple moment",
+          "film": "Alisia & Matt",
+          "duration": 3.169833
+        },
+        {
+          "id": "25-2",
+          "src": "/cam-b/clips/25-2.mp4",
+          "poster": "/cam-b/clips/25-2.jpg",
+          "label": "Playful couple moment",
+          "film": "Kylie & Seth",
+          "duration": 3.2032
+        },
+        {
+          "id": "25-3",
+          "src": "/cam-b/clips/25-3.mp4",
+          "poster": "/cam-b/clips/25-3.jpg",
+          "label": "Playful couple moment",
+          "film": "Gabriella & Robert",
+          "duration": 3.208333
+        }
+      ],
+      "number": 30,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-33",
+      "track": 6,
+      "ordinal": 33,
+      "start": 141,
+      "end": 144,
+      "title": "Couple response: laughter / shared connection",
+      "detail": "Proposed quicker rhythm; resize to finish the action. Distinct shot, only if covered.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "37-1",
+          "src": "/cam-b/clips/37.mp4",
+          "poster": "/cam-b/clips/37.jpg",
+          "label": "Cake cutting",
+          "film": "Gina & Spencer",
+          "duration": 3.566667
+        },
+        {
+          "id": "37-2",
+          "src": "/cam-b/clips/37-2.mp4",
+          "poster": "/cam-b/clips/37-2.jpg",
+          "label": "Cake cutting",
+          "film": "Caitlin & Cole",
+          "duration": 3.583333
+        },
+        {
+          "id": "37-3",
+          "src": "/cam-b/clips/37-3.mp4",
+          "poster": "/cam-b/clips/37-3.jpg",
+          "label": "Cake cutting",
+          "film": "Gabriella & Robert",
+          "duration": 2.291667
+        }
+      ],
+      "number": 31,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-34",
+      "track": 6,
+      "ordinal": 34,
+      "start": 144,
+      "end": 147,
+      "title": "Covered cake / toss / dance: main action",
+      "detail": "Proposed quicker rhythm; resize to finish the action. Distinct shot, only if covered.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "36-1",
+          "src": "/cam-b/clips/36.mp4",
+          "poster": "/cam-b/clips/36.jpg",
+          "label": "Flower toss",
+          "film": "Gabriella & Robert",
+          "duration": 3.083333
+        },
+        {
+          "id": "36-2",
+          "src": "/cam-b/clips/36-2.mp4",
+          "poster": "/cam-b/clips/36-2.jpg",
+          "label": "Flower toss",
+          "film": "Moriah & Dane",
+          "duration": 3.6036
+        },
+        {
+          "id": "36-3",
+          "src": "/cam-b/clips/36-3.mp4",
+          "poster": "/cam-b/clips/36-3.jpg",
+          "label": "Flower toss",
+          "film": "Gina & Spencer",
+          "duration": 2.366667
+        }
+      ],
+      "number": 32,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-35",
+      "track": 6,
+      "ordinal": 35,
+      "start": 147,
+      "end": 150,
+      "title": "Same event: matching distinct reaction / response",
+      "detail": "Proposed quicker rhythm; resize to finish the action. Distinct shot, only if covered.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "22-1",
+          "src": "/cam-b/clips/22.mp4",
+          "poster": "/cam-b/clips/22.jpg",
+          "label": "Parent dance",
+          "film": "Rachel & Ryan",
+          "duration": 4.004
+        },
+        {
+          "id": "22-2",
+          "src": "/cam-b/clips/22-2.mp4",
+          "poster": "/cam-b/clips/22-2.jpg",
+          "label": "Parent dance",
+          "film": "Reanna & Brandon",
+          "duration": 3.169833
+        },
+        {
+          "id": "22-3",
+          "src": "/cam-b/clips/22-3.mp4",
+          "poster": "/cam-b/clips/22-3.jpg",
+          "label": "Parent dance",
+          "film": "Gina & Spencer",
+          "duration": 2.266667
+        }
+      ],
+      "number": 33,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-36",
+      "track": 6,
+      "ordinal": 36,
+      "start": 150,
+      "end": 156,
+      "title": "Distinct final dance or embrace",
+      "detail": "Finish action / camera move; measure counts can adapt.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "33-1",
+          "src": "/cam-b/clips/33.mp4",
+          "poster": "/cam-b/clips/33.jpg",
+          "label": "Dip & playful kiss",
+          "film": "Kylie & Seth",
+          "duration": 3.570233
+        },
+        {
+          "id": "33-2",
+          "src": "/cam-b/clips/33-2.mp4",
+          "poster": "/cam-b/clips/33-2.jpg",
+          "label": "Dip & playful kiss",
+          "film": "Gabriella & Robert",
+          "duration": 3.583333
+        },
+        {
+          "id": "33-3",
+          "src": "/cam-b/clips/33-3.mp4",
+          "poster": "/cam-b/clips/33-3.jpg",
+          "label": "Dip & playful kiss",
+          "film": "Alisia & Matt",
+          "duration": 3.570233
+        }
+      ],
+      "number": 34,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-37",
+      "track": 6,
+      "ordinal": 37,
+      "start": 156,
+      "end": 162,
+      "title": "Couple closing portrait, no reused framing",
+      "detail": "Finish action / camera move; measure counts can adapt.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "takes": [
+        {
+          "id": "27-1",
+          "src": "/cam-b/clips/27.mp4",
+          "poster": "/cam-b/clips/27.jpg",
+          "label": "Couple in the landscape",
+          "film": "Dakota & Rosie",
+          "duration": 3.586917
+        },
+        {
+          "id": "27-2",
+          "src": "/cam-b/clips/27-2.mp4",
+          "poster": "/cam-b/clips/27-2.jpg",
+          "label": "Couple in the landscape",
+          "film": "Alisia & Matt",
+          "duration": 3.6036
+        },
+        {
+          "id": "27-3",
+          "src": "/cam-b/clips/27-3.mp4",
+          "poster": "/cam-b/clips/27-3.jpg",
+          "label": "Couple in the landscape",
+          "film": "Moriah & Dane",
+          "duration": 3.570233
+        }
+      ],
+      "number": 35,
+      "transition": "Cut",
+      "opticalFlow": false
+    },
+    {
+      "id": "6-38",
+      "track": 6,
+      "ordinal": 38,
+      "start": 162,
+      "end": 168,
+      "title": "Closing wide / drone: couple walking away",
+      "detail": "Mirror the opening establishing composition. Hold the complete walk-away action and finish the fade.",
+      "rules": [
+        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 1,
+      "takes": [
+        {
+          "id": "24-1",
+          "src": "/cam-b/clips/24.mp4",
+          "poster": "/cam-b/clips/24.jpg",
+          "label": "Closing wide",
+          "film": "Alisia & Matt",
+          "duration": 3.970633
+        },
+        {
+          "id": "24-2",
+          "src": "/cam-b/clips/24-2.mp4",
+          "poster": "/cam-b/clips/24-2.jpg",
+          "label": "Closing wide",
+          "film": "Moriah & Dane",
+          "duration": 3.169833
+        },
+        {
+          "id": "24-3",
+          "src": "/cam-b/clips/24-3.mp4",
+          "poster": "/cam-b/clips/24-3.jpg",
+          "label": "Closing wide",
+          "film": "Caitlin & Cole",
+          "duration": 3.208333
+        }
+      ],
+      "number": 36,
+      "transition": "Cut",
+      "opticalFlow": false
+    }
+  ],
+  "schema": "tov-web-wedding-template-v1",
+  "revision": "2026-10-03.2",
+  "nativeSeedFingerprint": "8bdfdf4e6e615de832172783bf678bec28f09d367391a56db06be8df2579b348",
+  "authority": "Supabase and website; native Resolve capture is historical seed",
+  "trackOrder": [
+    {
+      "id": 6,
+      "name": "Picture"
+    },
+    {
+      "id": 5,
+      "name": "Dialogue / A-roll"
+    },
+    {
+      "id": 4,
+      "name": "Music"
+    },
+    {
+      "id": 3,
+      "name": "Custom Scoring"
+    },
+    {
+      "id": 2,
+      "name": "Ambient SFX"
+    },
+    {
+      "id": 1,
+      "name": "Clip SFX"
+    }
+  ],
+  "grid": {
+    "bpm": 80,
+    "meter": "4/4",
+    "provisional": true,
+    "secondsPerMeasure": 3,
+    "measures": 56
+  },
+  "overrides": [
+    {
+      "id": "kiss-false-ending",
+      "approved": "2026-10-03",
+      "instruction": "Fade picture to black while couple is still kissing; reception and exciting unducked reception music begin immediately when fade completes. No separate cheer/release interlude or black hold. Fade duration adjustable; preserve readable kiss action.",
+      "defaultFadeSeconds": 1,
+      "receptionStartMeasure": 41
+    },
+    {
+      "id": "expanded-scoring",
+      "approved": "2026-10-03",
+      "instruction": "Substantially more varied scoring into/through Gear4, strongest development in Gear5. Phrase/downbeat/harmony/story alignment; progressive density, dialogue intelligible and music unducked. Bridge breathers and rough joins outside Gear4/5 too. Verify song key, mode and local chord compatibility before choosing pitched assets."
+    }
+  ],
+  "policies": {
+    "vows": "Vows guide meaning/emotion; preparation > portraits > first look. Bride/groom unless a specific line naturally leads elsewhere. Preserve musical slots and synchronized A-roll.",
+    "takes": "Three auditions in Take Selector only; no ALT tracks. First-pick source excerpt once; backup reuse allowed.",
+    "slowMotion": "Shots 2/3 and marked slow-motion clips: 70%, Optical Flow, preserve musical slots.",
+    "music": "No ducking. Verify actual tempo; key, major/minor mode and local harmony before pitched scoring.",
+    "scoring": "Substantially more varied cellos, vocalizations/voicings, risers and swells into/through Gear4, strongest progressive development in Gear5, particularly where song arrangement lacks lift. Align phrases, harmony, downbeats and story. Preserve intelligible dialogue; not every element continuously. Bridge breathers/rough joins outside Gear4/5 as useful.",
+    "ambient": "One matching nature/wind bed outdoors; fade indoors; none during reception.",
+    "transitions": "First two boundaries centered 2-second dissolves; others cuts. Opening/closing fades 1 second. Approved kiss false-ending fade adjustable, default 1 second; immediate energetic reception restart."
+  },
+  "fingerprint": "5a2070d29383a06f003a8af0ba3f993b9f208e9b9f90ad8b10df651c7d29e500"
+}
