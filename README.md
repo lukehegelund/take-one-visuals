@@ -20,4 +20,4 @@ Open `index.html` directly in a browser, or serve with `python3 -m http.server 8
 
 Cake activity pairs use cutting first, eating together second, with the couple visible. Backups match each role; missing eating is flagged and replaced with a different covered activity pair. The existing two activity slots keep their timing.
 
-Revision 2026-10-03.13 replaces the whole-day recap with a Gear 2 romantic ending: two couple first-dance shots, two golden-hour shots, and a closing shot. Holds double to 2/2/2/2/6 measures, with one-second centered dissolves and a final two-second fade. Parent dances are not couple first dance. Extend the softer stem arrangement by complete phrases. Earlier reception slots remain unchanged.
+Revision 2026-10-03.14 matches the shortened Gear 2 ending: one couple dance shot, one golden-hour walking shot, and a closing drone/couple shot. Holds are 2/2/6 measures, about 30 seconds at the preview tempo. Cut into golden hour, one-second dissolve into closing, and final two-second fade. Earlier reception slots remain unchanged.

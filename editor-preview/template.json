@@ -1,6 +1,6 @@
 {
   "capturedAt": "2026-10-03T17:55:57.731908+00:00",
-  "duration": 186,
+  "duration": 174,
   "markers": [
     {
       "time": 77.95833333333333,
@@ -19,7 +19,7 @@
       "name": "Gear 2 / Long romantic ending"
     },
     {
-      "time": 168,
+      "time": 156,
       "name": "Closing shot / final fade"
     }
   ],
@@ -74,7 +74,7 @@
       "track": 1,
       "ordinal": 4,
       "start": 120,
-      "end": 186,
+      "end": 174,
       "title": "Reception source audio \u00b7 every picture clip",
       "detail": "Synchronized camera scratch on every reception picture clip, including quiet original sound. Preserve useful voices, laughter, applause and action alongside unducked music.",
       "rules": [
@@ -307,11 +307,11 @@
       "track": 3,
       "ordinal": 10,
       "start": 144,
-      "end": 186,
+      "end": 174,
       "title": "GEAR 2 / Long romantic closing",
-      "detail": "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with two shots of the bride and groom dancing TOGETHER, two golden-hour couple shots, and a closing couple/drone shot. Parent dances never substitute for couple first dance. Double the former ending shot lengths: first four shots two measures each, closing shot six measures, fourteen measures total. Use centered one-second cross dissolves between these long ending shots and a final two-second fade. Extend the softer musical arrangement with complete phrases to support the longer ending; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy.",
+      "detail": "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with ONE bride-and-groom first-dance shot, ONE golden-hour couple wide/walking shot, and ONE closing couple/drone shot. Parent dances never substitute for couple first dance. Hold the dance and golden-hour shots for two measures each and the closing shot for six measures, ten measures total (about 30 seconds at the preview tempo). Match the approved shorter ending: cut from dance to golden hour, then use a centered one-second cross dissolve into the closing shot and a final two-second fade. Fit the softer stem arrangement to this shorter ending using complete phrases; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy.",
       "rules": [
-        "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with two shots of the bride and groom dancing TOGETHER, two golden-hour couple shots, and a closing couple/drone shot. Parent dances never substitute for couple first dance. Double the former ending shot lengths: first four shots two measures each, closing shot six measures, fourteen measures total. Use centered one-second cross dissolves between these long ending shots and a final two-second fade. Extend the softer musical arrangement with complete phrases to support the longer ending; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy."
+        "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with ONE bride-and-groom first-dance shot, ONE golden-hour couple wide/walking shot, and ONE closing couple/drone shot. Parent dances never substitute for couple first dance. Hold the dance and golden-hour shots for two measures each and the closing shot for six measures, ten measures total (about 30 seconds at the preview tempo). Match the approved shorter ending: cut from dance to golden hour, then use a centered one-second cross dissolve into the closing shot and a final two-second fade. Fit the softer stem arrangement to this shorter ending using complete phrases; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -522,11 +522,11 @@
       "track": 4,
       "ordinal": 9,
       "start": 144,
-      "end": 186,
+      "end": 174,
       "title": "GEAR 2 / Long romantic closing",
-      "detail": "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with two shots of the bride and groom dancing TOGETHER, two golden-hour couple shots, and a closing couple/drone shot. Parent dances never substitute for couple first dance. Double the former ending shot lengths: first four shots two measures each, closing shot six measures, fourteen measures total. Use centered one-second cross dissolves between these long ending shots and a final two-second fade. Extend the softer musical arrangement with complete phrases to support the longer ending; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy.",
+      "detail": "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with ONE bride-and-groom first-dance shot, ONE golden-hour couple wide/walking shot, and ONE closing couple/drone shot. Parent dances never substitute for couple first dance. Hold the dance and golden-hour shots for two measures each and the closing shot for six measures, ten measures total (about 30 seconds at the preview tempo). Match the approved shorter ending: cut from dance to golden hour, then use a centered one-second cross dissolve into the closing shot and a final two-second fade. Fit the softer stem arrangement to this shorter ending using complete phrases; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy.",
       "rules": [
-        "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with two shots of the bride and groom dancing TOGETHER, two golden-hour couple shots, and a closing couple/drone shot. Parent dances never substitute for couple first dance. Double the former ending shot lengths: first four shots two measures each, closing shot six measures, fourteen measures total. Use centered one-second cross dissolves between these long ending shots and a final two-second fade. Extend the softer musical arrangement with complete phrases to support the longer ending; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy."
+        "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with ONE bride-and-groom first-dance shot, ONE golden-hour couple wide/walking shot, and ONE closing couple/drone shot. Parent dances never substitute for couple first dance. Hold the dance and golden-hour shots for two measures each and the closing shot for six measures, ten measures total (about 30 seconds at the preview tempo). Match the approved shorter ending: cut from dance to golden hour, then use a centered one-second cross dissolve into the closing shot and a final two-second fade. Fit the softer stem arrangement to this shorter ending using complete phrases; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy."
       ],
       "speed": 100,
       "fadeIn": 0,
@@ -655,7 +655,7 @@
     {
       "id": "6-3",
       "track": 6,
-      "ordinal": 3,
+      "ordinal": 2,
       "start": 6,
       "end": 12,
       "title": "Ceremony arch / nature / empty venue detail",
@@ -715,7 +715,7 @@
     {
       "id": "6-5",
       "track": 6,
-      "ordinal": 5,
+      "ordinal": 3,
       "start": 12,
       "end": 18,
       "title": "Rings / invitation detail; dress fallback",
@@ -775,7 +775,7 @@
     {
       "id": "6-6",
       "track": 6,
-      "ordinal": 6,
+      "ordinal": 4,
       "start": 18,
       "end": 24,
       "title": "Bride preparation: vow-led picture choice",
@@ -836,7 +836,7 @@
     {
       "id": "6-7",
       "track": 6,
-      "ordinal": 7,
+      "ordinal": 5,
       "start": 24,
       "end": 30,
       "title": "Groom preparation: vow-led picture choice",
@@ -897,7 +897,7 @@
     {
       "id": "6-8",
       "track": 6,
-      "ordinal": 8,
+      "ordinal": 6,
       "start": 30,
       "end": 33,
       "title": "Portraits 1: choose for groom vow meaning / emotion",
@@ -958,7 +958,7 @@
     {
       "id": "6-9",
       "track": 6,
-      "ordinal": 9,
+      "ordinal": 7,
       "start": 33,
       "end": 36,
       "title": "Portraits 2: fresh action matching the spoken thought",
@@ -1019,7 +1019,7 @@
     {
       "id": "6-10",
       "track": 6,
-      "ordinal": 10,
+      "ordinal": 8,
       "start": 36,
       "end": 39,
       "title": "Portraits 3: connection matching the spoken thought",
@@ -1080,7 +1080,7 @@
     {
       "id": "6-11",
       "track": 6,
-      "ordinal": 11,
+      "ordinal": 9,
       "start": 39,
       "end": 42,
       "title": "Portraits 4: complete action matching the spoken thought",
@@ -1141,7 +1141,7 @@
     {
       "id": "6-12",
       "track": 6,
-      "ordinal": 12,
+      "ordinal": 10,
       "start": 42,
       "end": 45,
       "title": "First look 1: real reveal, or truthful portrait reveal",
@@ -1202,7 +1202,7 @@
     {
       "id": "6-13",
       "track": 6,
-      "ordinal": 13,
+      "ordinal": 11,
       "start": 45,
       "end": 48,
       "title": "First look 2: real reaction, or truthful portrait reaction",
@@ -1263,7 +1263,7 @@
     {
       "id": "6-14",
       "track": 6,
-      "ordinal": 14,
+      "ordinal": 12,
       "start": 48,
       "end": 60,
       "title": "Groom on camera: hold until selected vows finish",
@@ -1324,7 +1324,7 @@
     {
       "id": "6-15",
       "track": 6,
-      "ordinal": 15,
+      "ordinal": 13,
       "start": 60,
       "end": 66,
       "title": "Natural handoff: chuckle / cry / laugh / hug",
@@ -1384,7 +1384,7 @@
     {
       "id": "6-16",
       "track": 6,
-      "ordinal": 16,
+      "ordinal": 14,
       "start": 66,
       "end": 72,
       "title": "Bride vows begin: DISTINCT golden-hour portrait A",
@@ -1445,7 +1445,7 @@
     {
       "id": "6-17",
       "track": 6,
-      "ordinal": 17,
+      "ordinal": 15,
       "start": 72,
       "end": 78,
       "title": "Bride vows: fresh moment matching her words; dad if relevant",
@@ -1506,7 +1506,7 @@
     {
       "id": "6-18",
       "track": 6,
-      "ordinal": 18,
+      "ordinal": 16,
       "start": 78,
       "end": 84,
       "title": "Bride vows: fresh reaction matching her words; friends if relevant",
@@ -1567,7 +1567,7 @@
     {
       "id": "6-19",
       "track": 6,
-      "ordinal": 19,
+      "ordinal": 17,
       "start": 84,
       "end": 90,
       "title": "DISTINCT portrait B or UNUSED preparation moment",
@@ -1628,7 +1628,7 @@
     {
       "id": "6-20",
       "track": 6,
-      "ordinal": 20,
+      "ordinal": 18,
       "start": 90,
       "end": 96,
       "title": "Aisle walk, bride vows continue",
@@ -1689,7 +1689,7 @@
     {
       "id": "6-21",
       "track": 6,
-      "ordinal": 21,
+      "ordinal": 19,
       "start": 96,
       "end": 102,
       "title": "Groom receiving bride, bride vows continue",
@@ -1750,7 +1750,7 @@
     {
       "id": "6-22",
       "track": 6,
-      "ordinal": 22,
+      "ordinal": 20,
       "start": 102,
       "end": 108,
       "title": "Ceremony anticipation immediately before kiss, bride finishes",
@@ -1811,7 +1811,7 @@
     {
       "id": "6-23",
       "track": 6,
-      "ordinal": 23,
+      "ordinal": 21,
       "start": 108,
       "end": 114,
       "title": "Officiant pronouncement and invitation to kiss",
@@ -1871,7 +1871,7 @@
     {
       "id": "6-24",
       "track": 6,
-      "ordinal": 24,
+      "ordinal": 22,
       "start": 114,
       "end": 118.25,
       "title": "First ceremony kiss, preserve complete action",
@@ -1931,7 +1931,7 @@
     {
       "id": "6-25",
       "track": 6,
-      "ordinal": 25,
+      "ordinal": 23,
       "start": 118.25,
       "end": 120,
       "title": "Kiss false ending: fade while still kissing",
@@ -1992,7 +1992,7 @@
     {
       "id": "6-26",
       "track": 6,
-      "ordinal": 26,
+      "ordinal": 24,
       "start": 120,
       "end": 123,
       "title": "Reception 01 / Grand entrance and cheers",
@@ -2054,7 +2054,7 @@
     {
       "id": "6-27",
       "track": 6,
-      "ordinal": 27,
+      "ordinal": 25,
       "start": 123,
       "end": 126,
       "title": "Reception 02 / First dance",
@@ -2122,7 +2122,7 @@
     {
       "id": "6-28",
       "track": 6,
-      "ordinal": 28,
+      "ordinal": 26,
       "start": 126,
       "end": 129,
       "title": "Reception 03 / Couple talking with guests and laughing A",
@@ -2190,7 +2190,7 @@
     {
       "id": "6-social-b",
       "track": 6,
-      "ordinal": 28,
+      "ordinal": 27,
       "start": 129,
       "end": 132,
       "title": "Reception 04 / Couple talking with guests and laughing B",
@@ -2258,7 +2258,7 @@
     {
       "id": "6-29",
       "track": 6,
-      "ordinal": 29,
+      "ordinal": 28,
       "start": 132,
       "end": 135,
       "title": "Reception 05 / Upbeat dance floor A",
@@ -2323,7 +2323,7 @@
     {
       "id": "6-30",
       "track": 6,
-      "ordinal": 30,
+      "ordinal": 29,
       "start": 135,
       "end": 138,
       "title": "Reception 06 / Upbeat dance floor B",
@@ -2388,7 +2388,7 @@
     {
       "id": "6-31",
       "track": 6,
-      "ordinal": 31,
+      "ordinal": 30,
       "start": 138,
       "end": 141,
       "title": "Reception 07 / Flower toss / game / activity A",
@@ -2461,7 +2461,7 @@
     {
       "id": "6-32",
       "track": 6,
-      "ordinal": 32,
+      "ordinal": 31,
       "start": 141,
       "end": 144,
       "title": "Reception 08 / Flower toss / game / activity B",
@@ -2538,7 +2538,7 @@
       "start": 144,
       "end": 150,
       "title": "Reception 9 / Gear 2 / Bride and groom first dance together",
-      "detail": "Bride and groom first dance together. Hold for 2 musical measures. After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with two shots of the bride and groom dancing TOGETHER, two golden-hour couple shots, and a closing couple/drone shot. Parent dances never substitute for couple first dance. Double the former ending shot lengths: first four shots two measures each, closing shot six measures, fourteen measures total. Use centered one-second cross dissolves between these long ending shots and a final two-second fade. Extend the softer musical arrangement with complete phrases to support the longer ending; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy.",
+      "detail": "Bride and groom first dance together. Hold for 2 musical measures. After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with ONE bride-and-groom first-dance shot, ONE golden-hour couple wide/walking shot, and ONE closing couple/drone shot. Parent dances never substitute for couple first dance. Hold the dance and golden-hour shots for two measures each and the closing shot for six measures, ten measures total (about 30 seconds at the preview tempo). Match the approved shorter ending: cut from dance to golden hour, then use a centered one-second cross dissolve into the closing shot and a final two-second fade. Fit the softer stem arrangement to this shorter ending using complete phrases; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy.",
       "rules": [
         "Three role-matching auditions. Bride and groom dancing together only; parent dances rejected.",
         "Twice the former ending hold; sufficient source handles for the one-second centered dissolves. Never freeze or repeat missing frames.",
@@ -2597,143 +2597,13 @@
       "endingMeasureCount": 2
     },
     {
-      "id": "6-ending-2",
+      "id": "6-ending-4",
       "track": 6,
       "ordinal": 33,
       "start": 150,
       "end": 156,
-      "title": "Reception 10 / Gear 2 / Bride and groom first dance, distinct angle",
-      "detail": "Bride and groom first dance, distinct angle. Hold for 2 musical measures. After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with two shots of the bride and groom dancing TOGETHER, two golden-hour couple shots, and a closing couple/drone shot. Parent dances never substitute for couple first dance. Double the former ending shot lengths: first four shots two measures each, closing shot six measures, fourteen measures total. Use centered one-second cross dissolves between these long ending shots and a final two-second fade. Extend the softer musical arrangement with complete phrases to support the longer ending; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy.",
-      "rules": [
-        "Three role-matching auditions. Bride and groom dancing together only; parent dances rejected.",
-        "Twice the former ending hold; sufficient source handles for the one-second centered dissolves. Never freeze or repeat missing frames.",
-        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
-      ],
-      "speed": 100,
-      "fadeIn": 0,
-      "fadeOut": 0,
-      "takes": [
-        {
-          "id": "unassigned-ending-2-1",
-          "label": "Bride and groom first dance, distinct angle / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify bride-and-groom identity and action, source length including dissolve handles, exposure, motion and correct color transform over the full interval."
-          }
-        },
-        {
-          "id": "unassigned-ending-2-2",
-          "label": "Bride and groom first dance, distinct angle / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify bride-and-groom identity and action, source length including dissolve handles, exposure, motion and correct color transform over the full interval."
-          }
-        },
-        {
-          "id": "unassigned-ending-2-3",
-          "label": "Bride and groom first dance, distinct angle / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify bride-and-groom identity and action, source length including dissolve handles, exposure, motion and correct color transform over the full interval."
-          }
-        }
-      ],
-      "number": 33,
-      "transition": "Cross Dissolve",
-      "opticalFlow": false,
-      "receptionScratchAudio": true,
-      "receptionSequenceIndex": 10,
-      "qualityControl": {
-        "status": "pending",
-        "reason": "Full source interval review required."
-      },
-      "ruleRefs": [
-        "receptionSequence",
-        "receptionScratchAudio",
-        "footageQualityControl",
-        "gear2Ending"
-      ],
-      "transitionDuration": 1,
-      "gear2Ending": true,
-      "gear2Cue": "Bride and groom first dance, distinct angle",
-      "endingMeasureCount": 2
-    },
-    {
-      "id": "6-ending-3",
-      "track": 6,
-      "ordinal": 34,
-      "start": 156,
-      "end": 162,
-      "title": "Reception 11 / Gear 2 / Golden-hour couple embrace",
-      "detail": "Golden-hour couple embrace. Hold for 2 musical measures. After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with two shots of the bride and groom dancing TOGETHER, two golden-hour couple shots, and a closing couple/drone shot. Parent dances never substitute for couple first dance. Double the former ending shot lengths: first four shots two measures each, closing shot six measures, fourteen measures total. Use centered one-second cross dissolves between these long ending shots and a final two-second fade. Extend the softer musical arrangement with complete phrases to support the longer ending; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy.",
-      "rules": [
-        "Three role-matching auditions; first pick unique.",
-        "Twice the former ending hold; sufficient source handles for the one-second centered dissolves. Never freeze or repeat missing frames.",
-        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
-      ],
-      "speed": 100,
-      "fadeIn": 0,
-      "fadeOut": 0,
-      "takes": [
-        {
-          "id": "unassigned-ending-3-1",
-          "label": "Golden-hour couple embrace / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify bride-and-groom identity and action, source length including dissolve handles, exposure, motion and correct color transform over the full interval."
-          }
-        },
-        {
-          "id": "unassigned-ending-3-2",
-          "label": "Golden-hour couple embrace / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify bride-and-groom identity and action, source length including dissolve handles, exposure, motion and correct color transform over the full interval."
-          }
-        },
-        {
-          "id": "unassigned-ending-3-3",
-          "label": "Golden-hour couple embrace / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify bride-and-groom identity and action, source length including dissolve handles, exposure, motion and correct color transform over the full interval."
-          }
-        }
-      ],
-      "number": 34,
-      "transition": "Cross Dissolve",
-      "opticalFlow": false,
-      "receptionScratchAudio": true,
-      "receptionSequenceIndex": 11,
-      "qualityControl": {
-        "status": "pending",
-        "reason": "Full source interval review required."
-      },
-      "ruleRefs": [
-        "receptionSequence",
-        "receptionScratchAudio",
-        "footageQualityControl",
-        "gear2Ending"
-      ],
-      "transitionDuration": 1,
-      "gear2Ending": true,
-      "gear2Cue": "Golden-hour couple embrace",
-      "endingMeasureCount": 2
-    },
-    {
-      "id": "6-ending-4",
-      "track": 6,
-      "ordinal": 35,
-      "start": 162,
-      "end": 168,
-      "title": "Reception 12 / Gear 2 / Golden-hour couple wide / walking",
-      "detail": "Golden-hour couple wide / walking. Hold for 2 musical measures. After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with two shots of the bride and groom dancing TOGETHER, two golden-hour couple shots, and a closing couple/drone shot. Parent dances never substitute for couple first dance. Double the former ending shot lengths: first four shots two measures each, closing shot six measures, fourteen measures total. Use centered one-second cross dissolves between these long ending shots and a final two-second fade. Extend the softer musical arrangement with complete phrases to support the longer ending; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy.",
+      "title": "Reception 10 / Gear 2 / Golden-hour couple wide / walking",
+      "detail": "Golden-hour couple wide / walking. Hold for 2 musical measures. After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with ONE bride-and-groom first-dance shot, ONE golden-hour couple wide/walking shot, and ONE closing couple/drone shot. Parent dances never substitute for couple first dance. Hold the dance and golden-hour shots for two measures each and the closing shot for six measures, ten measures total (about 30 seconds at the preview tempo). Match the approved shorter ending: cut from dance to golden hour, then use a centered one-second cross dissolve into the closing shot and a final two-second fade. Fit the softer stem arrangement to this shorter ending using complete phrases; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy.",
       "rules": [
         "Three role-matching auditions; first pick unique.",
         "Twice the former ending hold; sufficient source handles for the one-second centered dissolves. Never freeze or repeat missing frames.",
@@ -2771,11 +2641,11 @@
           }
         }
       ],
-      "number": 35,
-      "transition": "Cross Dissolve",
+      "number": 33,
+      "transition": "Cut",
       "opticalFlow": false,
       "receptionScratchAudio": true,
-      "receptionSequenceIndex": 12,
+      "receptionSequenceIndex": 10,
       "qualityControl": {
         "status": "pending",
         "reason": "Full source interval review required."
@@ -2786,7 +2656,7 @@
         "footageQualityControl",
         "gear2Ending"
       ],
-      "transitionDuration": 1,
+      "transitionDuration": 0,
       "gear2Ending": true,
       "gear2Cue": "Golden-hour couple wide / walking",
       "endingMeasureCount": 2
@@ -2794,11 +2664,11 @@
     {
       "id": "6-ending-5",
       "track": 6,
-      "ordinal": 36,
-      "start": 168,
-      "end": 186,
-      "title": "Reception 13 / Gear 2 / Closing couple / drone",
-      "detail": "Closing couple / drone. Hold for 6 musical measures. After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with two shots of the bride and groom dancing TOGETHER, two golden-hour couple shots, and a closing couple/drone shot. Parent dances never substitute for couple first dance. Double the former ending shot lengths: first four shots two measures each, closing shot six measures, fourteen measures total. Use centered one-second cross dissolves between these long ending shots and a final two-second fade. Extend the softer musical arrangement with complete phrases to support the longer ending; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy.",
+      "ordinal": 34,
+      "start": 156,
+      "end": 174,
+      "title": "Reception 11 / Gear 2 / Closing couple / drone",
+      "detail": "Closing couple / drone. Hold for 6 musical measures. After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with ONE bride-and-groom first-dance shot, ONE golden-hour couple wide/walking shot, and ONE closing couple/drone shot. Parent dances never substitute for couple first dance. Hold the dance and golden-hour shots for two measures each and the closing shot for six measures, ten measures total (about 30 seconds at the preview tempo). Match the approved shorter ending: cut from dance to golden hour, then use a centered one-second cross dissolve into the closing shot and a final two-second fade. Fit the softer stem arrangement to this shorter ending using complete phrases; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy.",
       "rules": [
         "Three role-matching auditions; first pick unique.",
         "Twice the former ending hold; sufficient source handles for the one-second centered dissolves. Never freeze or repeat missing frames.",
@@ -2836,11 +2706,11 @@
           }
         }
       ],
-      "number": 36,
+      "number": 34,
       "transition": "Cross Dissolve",
       "opticalFlow": false,
       "receptionScratchAudio": true,
-      "receptionSequenceIndex": 13,
+      "receptionSequenceIndex": 11,
       "qualityControl": {
         "status": "pending",
         "reason": "Full source interval review required."
@@ -2858,7 +2728,7 @@
     }
   ],
   "schema": "tov-web-wedding-template-v1",
-  "revision": "2026-10-03.13",
+  "revision": "2026-10-03.14",
   "nativeSeedFingerprint": "8bdfdf4e6e615de832172783bf678bec28f09d367391a56db06be8df2579b348",
   "authority": "Supabase and website; native Resolve capture is historical seed",
   "trackOrder": [
@@ -2892,7 +2762,7 @@
     "meter": "4/4",
     "provisional": true,
     "secondsPerMeasure": 3,
-    "measures": 62
+    "measures": 58
   },
   "overrides": [
     {
@@ -2914,7 +2784,7 @@
     {
       "id": "ordered-reception-sequence",
       "approved": "2026-10-03",
-      "instruction": "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with two shots of the bride and groom dancing TOGETHER, two golden-hour couple shots, and a closing couple/drone shot. Parent dances never substitute for couple first dance. Double the former ending shot lengths: first four shots two measures each, closing shot six measures, fourteen measures total. Use centered one-second cross dissolves between these long ending shots and a final two-second fade. Extend the softer musical arrangement with complete phrases to support the longer ending; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy."
+      "instruction": "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with ONE bride-and-groom first-dance shot, ONE golden-hour couple wide/walking shot, and ONE closing couple/drone shot. Parent dances never substitute for couple first dance. Hold the dance and golden-hour shots for two measures each and the closing shot for six measures, ten measures total (about 30 seconds at the preview tempo). Match the approved shorter ending: cut from dance to golden hour, then use a centered one-second cross dissolve into the closing shot and a final two-second fade. Fit the softer stem arrangement to this shorter ending using complete phrases; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy."
     },
     {
       "id": "mandatory-footage-qc",
@@ -2934,7 +2804,12 @@
     {
       "id": "gear2-long-ending",
       "approved": "2026-10-03",
-      "instruction": "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with two shots of the bride and groom dancing TOGETHER, two golden-hour couple shots, and a closing couple/drone shot. Parent dances never substitute for couple first dance. Double the former ending shot lengths: first four shots two measures each, closing shot six measures, fourteen measures total. Use centered one-second cross dissolves between these long ending shots and a final two-second fade. Extend the softer musical arrangement with complete phrases to support the longer ending; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy."
+      "instruction": "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with ONE bride-and-groom first-dance shot, ONE golden-hour couple wide/walking shot, and ONE closing couple/drone shot. Parent dances never substitute for couple first dance. Hold the dance and golden-hour shots for two measures each and the closing shot for six measures, ten measures total (about 30 seconds at the preview tempo). Match the approved shorter ending: cut from dance to golden hour, then use a centered one-second cross dissolve into the closing shot and a final two-second fade. Fit the softer stem arrangement to this shorter ending using complete phrases; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy."
+    },
+    {
+      "id": "gear2-three-shot-ending",
+      "approved": "2026-10-03",
+      "instruction": "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with ONE bride-and-groom first-dance shot, ONE golden-hour couple wide/walking shot, and ONE closing couple/drone shot. Parent dances never substitute for couple first dance. Hold the dance and golden-hour shots for two measures each and the closing shot for six measures, ten measures total (about 30 seconds at the preview tempo). Match the approved shorter ending: cut from dance to golden hour, then use a centered one-second cross dissolve into the closing shot and a final two-second fade. Fit the softer stem arrangement to this shorter ending using complete phrases; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy."
     }
   ],
   "policies": {
@@ -2944,11 +2819,11 @@
     "music": "No ducking. Analyze every chosen full song for tempo, measures, key and chord progression before constructing the timeline; use that map for passage selection, section moods, gear changes, phrase-aligned edits and compatible pitched scoring. Follow musicAnalysis.",
     "scoring": "Substantially more varied cellos, vocalizations/voicings, risers and swells into/through Gear4, strongest progressive development in Gear5, particularly where song arrangement lacks lift. Align phrases, harmony, downbeats and story. Preserve intelligible dialogue; not every element continuously. Bridge breathers/rough joins outside Gear4/5 as useful.",
     "ambient": "One matching nature/wind bed outdoors; fade indoors; none during reception.",
-    "transitions": "First two opening boundaries: centered two-second dissolves. Gear 2 ending: centered one-second cross dissolves between long shots. Other boundaries remain cuts. Opening fade one second; closing fade two seconds. Kiss false-ending fade remains adjustable, default one second; immediate energetic reception restart.",
+    "transitions": "First two opening boundaries: centered two-second dissolves. Gear 2 ending: cut from couple dance to golden-hour walking, centered one-second cross dissolve into closing. Other boundaries remain cuts. Opening fade one second; closing fade two seconds. Kiss false-ending fade remains adjustable, default one second; immediate energetic reception restart.",
     "receptionScratchAudio": "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
     "receptionSequence": {
       "start": 120,
-      "end": 186,
+      "end": 174,
       "order": [
         "Grand entrance and cheers",
         "First dance",
@@ -2959,12 +2834,10 @@
         "Flower toss / game / activity A",
         "Flower toss / game / activity B",
         "Bride and groom first dance together",
-        "Bride and groom first dance, distinct angle",
-        "Golden-hour couple embrace",
         "Golden-hour couple wide / walking",
         "Closing couple / drone"
       ],
-      "instruction": "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with two shots of the bride and groom dancing TOGETHER, two golden-hour couple shots, and a closing couple/drone shot. Parent dances never substitute for couple first dance. Double the former ending shot lengths: first four shots two measures each, closing shot six measures, fourteen measures total. Use centered one-second cross dissolves between these long ending shots and a final two-second fade. Extend the softer musical arrangement with complete phrases to support the longer ending; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy."
+      "instruction": "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with ONE bride-and-groom first-dance shot, ONE golden-hour couple wide/walking shot, and ONE closing couple/drone shot. Parent dances never substitute for couple first dance. Hold the dance and golden-hour shots for two measures each and the closing shot for six measures, ten measures total (about 30 seconds at the preview tempo). Match the approved shorter ending: cut from dance to golden hour, then use a centered one-second cross dissolve into the closing shot and a final two-second fade. Fit the softer stem arrangement to this shorter ending using complete phrases; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy."
     },
     "footageQualityControl": "Mandatory for every selection and audition: review the entire selected source interval for wrong exposure and unintended shake or handheld repositioning. Reject and substitute unusable footage; distinguish intentional camera movement. For log footage, verify the correct color transform before judging exposure. Semantic match alone never passes. Record pending/pass/rejected and a reason; pass requires full-interval exposure, motion and color-transform review. Any source, interval or retiming change requires fresh QC.",
     "markers": "Sparse essential story/musical markers only. No per-clip QC markers; exposure/shake review stays in Inspector and records. Explicit measure anchors are allowed.",
@@ -2972,7 +2845,7 @@
     "cakePair": "Whenever two cake shots are used: ONE real shot of the couple cutting cake, then ONE real shot of them eating it together (feeding each other or sharing first bites qualifies), with the couple visible in both. Serving, plated cake, details or another cutting angle never substitute for eating. All three auditions for each slot must match its distinct cutting/eating role and pass full-interval exposure, motion and color-transform QC. If eating footage is absent, flag it missing and use another genuinely covered activity pair; never invent eating. Preserve the two existing slots and durations.",
     "musicSelection": "Choose passages for their role: held 1 for warm opening anticipation; gentle 4 / 1 / optional 5 movement into Gears 2 and 3; steady celebration for reception; growing romantic tension and release for recap. These are preferences, not a mandatory progression. Chord numbers are relative to the verified local key; inversions such as 1/3 can help explain bass movement. Judge melody, rhythm, voicing and arrangement alongside harmony. Analyze tempo and downbeats before mapping chord changes; keep real changes at verified musical boundaries without forcing them to a grid. Rearrange a song's steady and moving passages when useful, preserving complete phrases, compatible harmony and musical joins. Use Ryan and Rachel as the preferred recap mood reference; Krysta and Dylan is acceptable but the target is more moving. Search unused song families and audition actual passages; model estimates and catalog tags alone do not verify mood or chords.",
     "musicAnalysis": "Default before constructing a film timeline: analyze each chosen full song for tempo, downbeats and measures, local key, and chord progression. Use the trained ChordFormer ensemble for a first pass where available; retain useful bass inversions such as 1/3, simplify chord decoration to the base chord, and check ambiguous or important changes against the audio. Distinguish estimated from verified harmony and timing. Use this map actively to choose and rearrange passages, assign section moods and gear changes, shape harmonic tension and release, align edits to musical phrases and changes, and select compatible custom scoring. Combine harmony with melody, rhythm, arrangement and story; chords alone do not determine mood. Keep the user's chosen song unless a replacement is requested. Mark only new chord changes with concise Nashville numbers, including useful minor or slash-bass notation; no consecutive duplicate chord labels. Analyze the actual tempo and measure positions first; do not force a detected change onto a convenient grid or claim unverified frame accuracy.",
-    "gear2Ending": "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with two shots of the bride and groom dancing TOGETHER, two golden-hour couple shots, and a closing couple/drone shot. Parent dances never substitute for couple first dance. Double the former ending shot lengths: first four shots two measures each, closing shot six measures, fourteen measures total. Use centered one-second cross dissolves between these long ending shots and a final two-second fade. Extend the softer musical arrangement with complete phrases to support the longer ending; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy."
+    "gear2Ending": "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with ONE bride-and-groom first-dance shot, ONE golden-hour couple wide/walking shot, and ONE closing couple/drone shot. Parent dances never substitute for couple first dance. Hold the dance and golden-hour shots for two measures each and the closing shot for six measures, ten measures total (about 30 seconds at the preview tempo). Match the approved shorter ending: cut from dance to golden hour, then use a centered one-second cross dissolve into the closing shot and a final two-second fade. Fit the softer stem arrangement to this shorter ending using complete phrases; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy."
   },
-  "fingerprint": "0bde82f39b39c97df1d0c099724e146a6fd0513aa4b0caa41985d0a0808c85dd"
+  "fingerprint": "b12eb51da393ff81ff2dbf41d3a75ee731eaa561b42e7beb4dd49dbd756b1819"
 }
