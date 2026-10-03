@@ -1,0 +1,17 @@
+<!doctype html><meta charset="utf-8"><title>TOV authentication journeys</title><p id="result">Running…</p><div id="fixture"></div><script>
+/* Repeatable browser journeys use a copied membership response and auth stub;
+   real credentials and RLS are checked separately against Supabase. */
+(async()=>{let count=0;const check=(v,msg)=>{if(!v)throw Error(msg);count++;};
+for(const scenario of ['signed-out','owner','shooter','editor','couple','uninvited','offline']){
+ document.getElementById('fixture').innerHTML='<p id="status"></p><form id="login" hidden><input id="email"><input id="password"><button id="submit">Log in</button></form><section id="workspace" hidden><a id="shotlist"></a><a id="editor"></a></section><button id="logout" hidden>Log out</button>';
+ let loggedOut=false;window.tovMembership=async()=>{if(scenario==='offline')throw Error('Unable to check TOV access. Please try again.');return loggedOut||['signed-out','uninvited'].includes(scenario)?null:{user:{email:'owner@example.test'},role:scenario};};
+ window.tovAuth={auth:{getSession:async()=>({data:{session:loggedOut||scenario==='signed-out'?null:{}}}),onAuthStateChange:()=>{},signOut:async()=>{loggedOut=true;return{};},signInWithPassword:async()=>({error:Error('Invalid credentials')})}};
+ const source=await(await fetch('../studio/studio.js')).text();const run=new Function(source+';return {refresh};')();await run.refresh();const el=id=>document.getElementById(id);
+ if(scenario==='signed-out'){check(!el('login').hidden,'signed out login');el('password').value='invalid-test-password';await el('login').onsubmit({preventDefault(){}});check(el('password').value==='','password cleared');check(el('status').textContent.includes('Check your email'),'wrong password feedback');}
+ else if(scenario==='offline')check(el('status').textContent.includes('Unable to check'),'offline failure');
+ else if(scenario==='uninvited'){check(el('workspace').hidden,'uninvited denied');check(!el('logout').hidden,'uninvited can logout');}
+ else{check(!el('workspace').hidden,'member workspace');check(el('shotlist').hidden===!['owner','shooter'].includes(scenario),'shotlist role');check(el('editor').hidden===!['owner','editor'].includes(scenario),'editor role');await el('logout').onclick();check(el('workspace').hidden,'logout hides workspace');check(!el('login').hidden,'logout returns login');}
+}
+document.getElementById('result').textContent=`7 journeys, ${count} checks, all green. Real password login and database access require live verification.`;
+})().catch(e=>{document.getElementById('result').textContent='FAILED: '+e.message;});
+</script>
