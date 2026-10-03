@@ -135,3 +135,5 @@ footer{display:none}
 @media(max-width:700px){.planning-card .card-picker{padding:0;font-size:0}.planning-track-6 .card-picker{right:80px}}
 .planning-card .planning-heading{padding-right:32px}
 .planning-card:not(.planning-track-6) h3{padding-right:32px}
+
+.movable-transition{top:3px;height:calc(var(--track-height) - 6px);z-index:6;pointer-events:auto;cursor:grab;padding:0;border-radius:1px;touch-action:none;background:linear-gradient(45deg,transparent 48%,#ddc69b 49%,#ddc69b 51%,transparent 52%),#ddc69b18;border:1px solid #ddc69b99}.movable-transition:hover{background-color:#ddc69b30}.movable-transition:active{cursor:grabbing}.transition-resize{position:absolute;right:-3px;top:0;bottom:0;width:7px;cursor:ew-resize}
