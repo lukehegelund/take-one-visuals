@@ -133,3 +133,5 @@ footer{display:none}
 .planning-track-6 .card-picker{right:128px}
 .timeline-card-picker{background-color:transparent;height:22px}
 @media(max-width:700px){.planning-card .card-picker{padding:0;font-size:0}.planning-track-6 .card-picker{right:80px}}
+.planning-card .planning-heading{padding-right:32px}
+.planning-card:not(.planning-track-6) h3{padding-right:32px}
