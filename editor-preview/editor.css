@@ -105,3 +105,7 @@ footer{display:none}
 .workspace,.workspace.inspector-open{flex:0 0 45%;height:45%}
 .timeline-panel{flex:1;height:auto}
 @media(max-width:700px){.workspace,.workspace.inspector-open{flex-basis:48%;height:48%}.timeline-panel{flex:1;height:auto}}
+/* Only active cards occupy viewer space; long text stays scrollable without chrome. */
+.planning-card{scrollbar-width:none;scrollbar-gutter:auto}
+.planning-card::-webkit-scrollbar,#planning-phase::-webkit-scrollbar{display:none;width:0;height:0}
+#planning-phase{scrollbar-width:none}
