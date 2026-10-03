@@ -110,3 +110,11 @@ footer{display:none}
 .planning-card::-webkit-scrollbar,#planning-phase::-webkit-scrollbar{display:none;width:0;height:0}
 #planning-phase{scrollbar-width:none}
 #shuttle-rate{font:10px ui-monospace,monospace;color:var(--accent)}#shuttle-rate:empty{display:none}
+/* Static viewer blocks: typography scales to fit instead of scrolling. */
+.planning-card{overflow:hidden;overscroll-behavior:none;font-size:12px}
+.planning-card h3{font-size:1em;line-height:1.25}
+.planning-card p{font-size:.92em;line-height:1.3}
+.planning-card .planning-rule,.planning-settings{font-size:.75em;line-height:1.25}
+.planning-heading{font-size:.67em;line-height:1.2}
+#planning-phase{overflow:hidden}
+@media(max-width:700px){.planning-settings{display:none}.planning-card{padding:3px 5px}.planning-card h3,.planning-card p{margin-bottom:2px}}
