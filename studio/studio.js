@@ -4,7 +4,7 @@ const $=id=>document.getElementById(id);
 let restoring=false;
 async function refresh(){
  if(restoring)return;restoring=true;
- $('login').hidden=true;$('workspace').hidden=true;$('logout').hidden=true;$('retry').hidden=true;
+ $('password-help').hidden=false;$('login').hidden=true;$('workspace').hidden=true;$('logout').hidden=true;$('retry').hidden=true;
  try{
   const member=await tovMembership();
   if(!member){const {data:{session}}=await tovAuth.auth.getSession();$('status').textContent=session?'This account has no TOV access. Contact Luke to be invited.':'Log in to open your shotlist and editor template.';$('login').hidden=!!session;$('logout').hidden=!session;return;}
