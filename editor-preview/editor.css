@@ -109,3 +109,4 @@ footer{display:none}
 .planning-card{scrollbar-width:none;scrollbar-gutter:auto}
 .planning-card::-webkit-scrollbar,#planning-phase::-webkit-scrollbar{display:none;width:0;height:0}
 #planning-phase{scrollbar-width:none}
+#shuttle-rate{font:10px ui-monospace,monospace;color:var(--accent)}#shuttle-rate:empty{display:none}
