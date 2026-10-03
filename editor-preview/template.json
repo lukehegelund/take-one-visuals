@@ -1,6 +1,6 @@
 {
   "capturedAt": "2026-10-03T17:55:57.731908+00:00",
-  "duration": 183,
+  "duration": 186,
   "markers": [
     {
       "time": 77.95833333333333,
@@ -16,10 +16,10 @@
     },
     {
       "time": 144,
-      "name": "Gear 5 / Whole-wedding-day recap"
+      "name": "Gear 2 / Long romantic ending"
     },
     {
-      "time": 174,
+      "time": 168,
       "name": "Closing shot / final fade"
     }
   ],
@@ -74,7 +74,7 @@
       "track": 1,
       "ordinal": 4,
       "start": 120,
-      "end": 183,
+      "end": 186,
       "title": "Reception source audio \u00b7 every picture clip",
       "detail": "Synchronized camera scratch on every reception picture clip, including quiet original sound. Preserve useful voices, laughter, applause and action alongside unducked music.",
       "rules": [
@@ -303,6 +303,28 @@
       ]
     },
     {
+      "id": "3-reception-peak",
+      "track": 3,
+      "ordinal": 10,
+      "start": 144,
+      "end": 186,
+      "title": "GEAR 2 / Long romantic closing",
+      "detail": "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with two shots of the bride and groom dancing TOGETHER, two golden-hour couple shots, and a closing couple/drone shot. Parent dances never substitute for couple first dance. Double the former ending shot lengths: first four shots two measures each, closing shot six measures, fourteen measures total. Use centered one-second cross dissolves between these long ending shots and a final two-second fade. Extend the softer musical arrangement with complete phrases to support the longer ending; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy.",
+      "rules": [
+        "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with two shots of the bride and groom dancing TOGETHER, two golden-hour couple shots, and a closing couple/drone shot. Parent dances never substitute for couple first dance. Double the former ending shot lengths: first four shots two measures each, closing shot six measures, fourteen measures total. Use centered one-second cross dissolves between these long ending shots and a final two-second fade. Extend the softer musical arrangement with complete phrases to support the longer ending; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "ruleRefs": [
+        "gear2Ending",
+        "music",
+        "scoring",
+        "musicalCrash",
+        "musicAnalysis"
+      ]
+    },
+    {
       "id": "4-1",
       "track": 4,
       "ordinal": 1,
@@ -491,6 +513,29 @@
       "fadeIn": 0,
       "fadeOut": 0,
       "ruleRefs": [
+        "musicSelection",
+        "musicAnalysis"
+      ]
+    },
+    {
+      "id": "4-reception-peak",
+      "track": 4,
+      "ordinal": 9,
+      "start": 144,
+      "end": 186,
+      "title": "GEAR 2 / Long romantic closing",
+      "detail": "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with two shots of the bride and groom dancing TOGETHER, two golden-hour couple shots, and a closing couple/drone shot. Parent dances never substitute for couple first dance. Double the former ending shot lengths: first four shots two measures each, closing shot six measures, fourteen measures total. Use centered one-second cross dissolves between these long ending shots and a final two-second fade. Extend the softer musical arrangement with complete phrases to support the longer ending; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy.",
+      "rules": [
+        "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with two shots of the bride and groom dancing TOGETHER, two golden-hour couple shots, and a closing couple/drone shot. Parent dances never substitute for couple first dance. Double the former ending shot lengths: first four shots two measures each, closing shot six measures, fourteen measures total. Use centered one-second cross dissolves between these long ending shots and a final two-second fade. Extend the softer musical arrangement with complete phrases to support the longer ending; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy."
+      ],
+      "speed": 100,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "ruleRefs": [
+        "gear2Ending",
+        "music",
+        "scoring",
+        "musicalCrash",
         "musicSelection",
         "musicAnalysis"
       ]
@@ -2487,94 +2532,47 @@
       "cakePairRole": "eating-together"
     },
     {
-      "id": "4-reception-peak",
-      "track": 4,
-      "ordinal": 9,
-      "start": 144,
-      "end": 183,
-      "title": "GEAR 5 / Whole-wedding-day recap",
-      "detail": "Build toward a deeply moving, romantic recap with growing harmonic tension and satisfying release. Prefer the emotional arc of Ryan and Rachel's song over the current Krysta and Dylan recap reference. Choose the passage where chord movement, bass movement and arrangement jointly intensify, rather than relying on volume alone. Progressively develop Gear 5 scoring and land the closing shot on a natural musical resolution. Any crash or release must follow the verified source arrangement.",
-      "rules": [
-        "Keep music unducked throughout.",
-        "Energetic reception music restarts immediately at the completed kiss fade and remains unducked throughout the ordered reception sequence."
-      ],
-      "speed": 100,
-      "fadeIn": 0,
-      "fadeOut": 0,
-      "ruleRefs": [
-        "weddingDayRecap",
-        "music",
-        "scoring",
-        "musicalCrash",
-        "musicSelection",
-        "musicAnalysis"
-      ]
-    },
-    {
-      "id": "3-reception-peak",
-      "track": 3,
-      "ordinal": 10,
-      "start": 144,
-      "end": 183,
-      "title": "GEAR 5 / Whole-wedding-day recap",
-      "detail": "Strong Gear 5 recap energy through the closing shot; progressively varied scoring. Any musical release follows the verified source-song arrangement, never an arbitrary high-to-low switch.",
-      "rules": [
-        "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
-        "Keep music unducked. Preserve intelligible dialogue with fitting scoring level, register and spacing.",
-        "Planning only, no sample scoring audio is played."
-      ],
-      "speed": 100,
-      "fadeIn": 0,
-      "fadeOut": 0,
-      "ruleRefs": [
-        "weddingDayRecap",
-        "music",
-        "scoring",
-        "musicalCrash",
-        "musicAnalysis"
-      ]
-    },
-    {
-      "id": "6-recap-1",
+      "id": "6-ending-1",
       "track": 6,
-      "ordinal": 33,
+      "ordinal": 32,
       "start": 144,
-      "end": 145.5,
-      "title": "Reception 09 / Recap / Bride getting-ready close-up",
-      "detail": "Whole-wedding-day recap shot 1: Bride getting-ready close-up. Hold for 0.5 musical measures at the template BPM, not the reference film seconds. Choose real covered footage; disclose truthful substitutions when the event was not filmed. Never invent first looks or send-offs.",
+      "end": 150,
+      "title": "Reception 9 / Gear 2 / Bride and groom first dance together",
+      "detail": "Bride and groom first dance together. Hold for 2 musical measures. After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with two shots of the bride and groom dancing TOGETHER, two golden-hour couple shots, and a closing couple/drone shot. Parent dances never substitute for couple first dance. Double the former ending shot lengths: first four shots two measures each, closing shot six measures, fourteen measures total. Use centered one-second cross dissolves between these long ending shots and a final two-second fade. Extend the softer musical arrangement with complete phrases to support the longer ending; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy.",
       "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Follow the ordered reception policy. Keep synchronized source sound, including quiet audio; skip loud music-only/silent sources. Full source-interval QC is mandatory."
+        "Three role-matching auditions. Bride and groom dancing together only; parent dances rejected.",
+        "Twice the former ending hold; sufficient source handles for the one-second centered dissolves. Never freeze or repeat missing frames.",
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
       ],
       "speed": 100,
       "fadeIn": 0,
       "fadeOut": 0,
       "takes": [
         {
-          "id": "unassigned-recap-1-1",
-          "label": "Bride getting-ready close-up / source needed",
+          "id": "unassigned-ending-1-1",
+          "label": "Bride and groom first dance together / source needed",
           "assignment": "pending",
           "qualityControl": {
             "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
+            "reason": "Verify bride-and-groom identity and action, source length including dissolve handles, exposure, motion and correct color transform over the full interval."
           }
         },
         {
-          "id": "unassigned-recap-1-2",
-          "label": "Bride getting-ready close-up / source needed",
+          "id": "unassigned-ending-1-2",
+          "label": "Bride and groom first dance together / source needed",
           "assignment": "pending",
           "qualityControl": {
             "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
+            "reason": "Verify bride-and-groom identity and action, source length including dissolve handles, exposure, motion and correct color transform over the full interval."
           }
         },
         {
-          "id": "unassigned-recap-1-3",
-          "label": "Bride getting-ready close-up / source needed",
+          "id": "unassigned-ending-1-3",
+          "label": "Bride and groom first dance together / source needed",
           "assignment": "pending",
           "qualityControl": {
             "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
+            "reason": "Verify bride-and-groom identity and action, source length including dissolve handles, exposure, motion and correct color transform over the full interval."
           }
         }
       ],
@@ -2591,58 +2589,60 @@
         "receptionSequence",
         "receptionScratchAudio",
         "footageQualityControl",
-        "weddingDayRecap",
-        "musicalCrash"
+        "gear2Ending"
       ],
-      "recapCue": "Bride getting-ready close-up",
-      "recapMeasureCount": 0.5
+      "transitionDuration": 0,
+      "gear2Ending": true,
+      "gear2Cue": "Bride and groom first dance together",
+      "endingMeasureCount": 2
     },
     {
-      "id": "6-recap-2",
+      "id": "6-ending-2",
       "track": 6,
-      "ordinal": 34,
-      "start": 145.5,
-      "end": 147,
-      "title": "Reception 10 / Recap / Groom getting-ready / boutonniere",
-      "detail": "Whole-wedding-day recap shot 2: Groom getting-ready / boutonniere. Hold for 0.5 musical measures at the template BPM, not the reference film seconds. Choose real covered footage; disclose truthful substitutions when the event was not filmed. Never invent first looks or send-offs.",
+      "ordinal": 33,
+      "start": 150,
+      "end": 156,
+      "title": "Reception 10 / Gear 2 / Bride and groom first dance, distinct angle",
+      "detail": "Bride and groom first dance, distinct angle. Hold for 2 musical measures. After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with two shots of the bride and groom dancing TOGETHER, two golden-hour couple shots, and a closing couple/drone shot. Parent dances never substitute for couple first dance. Double the former ending shot lengths: first four shots two measures each, closing shot six measures, fourteen measures total. Use centered one-second cross dissolves between these long ending shots and a final two-second fade. Extend the softer musical arrangement with complete phrases to support the longer ending; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy.",
       "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Follow the ordered reception policy. Keep synchronized source sound, including quiet audio; skip loud music-only/silent sources. Full source-interval QC is mandatory."
+        "Three role-matching auditions. Bride and groom dancing together only; parent dances rejected.",
+        "Twice the former ending hold; sufficient source handles for the one-second centered dissolves. Never freeze or repeat missing frames.",
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
       ],
       "speed": 100,
       "fadeIn": 0,
       "fadeOut": 0,
       "takes": [
         {
-          "id": "unassigned-recap-2-1",
-          "label": "Groom getting-ready / boutonniere / source needed",
+          "id": "unassigned-ending-2-1",
+          "label": "Bride and groom first dance, distinct angle / source needed",
           "assignment": "pending",
           "qualityControl": {
             "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
+            "reason": "Verify bride-and-groom identity and action, source length including dissolve handles, exposure, motion and correct color transform over the full interval."
           }
         },
         {
-          "id": "unassigned-recap-2-2",
-          "label": "Groom getting-ready / boutonniere / source needed",
+          "id": "unassigned-ending-2-2",
+          "label": "Bride and groom first dance, distinct angle / source needed",
           "assignment": "pending",
           "qualityControl": {
             "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
+            "reason": "Verify bride-and-groom identity and action, source length including dissolve handles, exposure, motion and correct color transform over the full interval."
           }
         },
         {
-          "id": "unassigned-recap-2-3",
-          "label": "Groom getting-ready / boutonniere / source needed",
+          "id": "unassigned-ending-2-3",
+          "label": "Bride and groom first dance, distinct angle / source needed",
           "assignment": "pending",
           "qualityControl": {
             "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
+            "reason": "Verify bride-and-groom identity and action, source length including dissolve handles, exposure, motion and correct color transform over the full interval."
           }
         }
       ],
       "number": 33,
-      "transition": "Cut",
+      "transition": "Cross Dissolve",
       "opticalFlow": false,
       "receptionScratchAudio": true,
       "receptionSequenceIndex": 10,
@@ -2654,58 +2654,60 @@
         "receptionSequence",
         "receptionScratchAudio",
         "footageQualityControl",
-        "weddingDayRecap",
-        "musicalCrash"
+        "gear2Ending"
       ],
-      "recapCue": "Groom getting-ready / boutonniere",
-      "recapMeasureCount": 0.5
+      "transitionDuration": 1,
+      "gear2Ending": true,
+      "gear2Cue": "Bride and groom first dance, distinct angle",
+      "endingMeasureCount": 2
     },
     {
-      "id": "6-recap-3",
+      "id": "6-ending-3",
       "track": 6,
-      "ordinal": 35,
-      "start": 147,
-      "end": 148.5,
-      "title": "Reception 11 / Recap / Bride/father first-look turn",
-      "detail": "Whole-wedding-day recap shot 3: Bride/father first-look turn. Hold for 0.5 musical measures at the template BPM, not the reference film seconds. Choose real covered footage; disclose truthful substitutions when the event was not filmed. Never invent first looks or send-offs.",
+      "ordinal": 34,
+      "start": 156,
+      "end": 162,
+      "title": "Reception 11 / Gear 2 / Golden-hour couple embrace",
+      "detail": "Golden-hour couple embrace. Hold for 2 musical measures. After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with two shots of the bride and groom dancing TOGETHER, two golden-hour couple shots, and a closing couple/drone shot. Parent dances never substitute for couple first dance. Double the former ending shot lengths: first four shots two measures each, closing shot six measures, fourteen measures total. Use centered one-second cross dissolves between these long ending shots and a final two-second fade. Extend the softer musical arrangement with complete phrases to support the longer ending; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy.",
       "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Follow the ordered reception policy. Keep synchronized source sound, including quiet audio; skip loud music-only/silent sources. Full source-interval QC is mandatory."
+        "Three role-matching auditions; first pick unique.",
+        "Twice the former ending hold; sufficient source handles for the one-second centered dissolves. Never freeze or repeat missing frames.",
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
       ],
       "speed": 100,
       "fadeIn": 0,
       "fadeOut": 0,
       "takes": [
         {
-          "id": "unassigned-recap-3-1",
-          "label": "Bride/father first-look turn / source needed",
+          "id": "unassigned-ending-3-1",
+          "label": "Golden-hour couple embrace / source needed",
           "assignment": "pending",
           "qualityControl": {
             "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
+            "reason": "Verify bride-and-groom identity and action, source length including dissolve handles, exposure, motion and correct color transform over the full interval."
           }
         },
         {
-          "id": "unassigned-recap-3-2",
-          "label": "Bride/father first-look turn / source needed",
+          "id": "unassigned-ending-3-2",
+          "label": "Golden-hour couple embrace / source needed",
           "assignment": "pending",
           "qualityControl": {
             "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
+            "reason": "Verify bride-and-groom identity and action, source length including dissolve handles, exposure, motion and correct color transform over the full interval."
           }
         },
         {
-          "id": "unassigned-recap-3-3",
-          "label": "Bride/father first-look turn / source needed",
+          "id": "unassigned-ending-3-3",
+          "label": "Golden-hour couple embrace / source needed",
           "assignment": "pending",
           "qualityControl": {
             "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
+            "reason": "Verify bride-and-groom identity and action, source length including dissolve handles, exposure, motion and correct color transform over the full interval."
           }
         }
       ],
       "number": 34,
-      "transition": "Cut",
+      "transition": "Cross Dissolve",
       "opticalFlow": false,
       "receptionScratchAudio": true,
       "receptionSequenceIndex": 11,
@@ -2717,58 +2719,60 @@
         "receptionSequence",
         "receptionScratchAudio",
         "footageQualityControl",
-        "weddingDayRecap",
-        "musicalCrash"
+        "gear2Ending"
       ],
-      "recapCue": "Bride/father first-look turn",
-      "recapMeasureCount": 0.5
+      "transitionDuration": 1,
+      "gear2Ending": true,
+      "gear2Cue": "Golden-hour couple embrace",
+      "endingMeasureCount": 2
     },
     {
-      "id": "6-recap-4",
+      "id": "6-ending-4",
       "track": 6,
-      "ordinal": 36,
-      "start": 148.5,
-      "end": 150,
-      "title": "Reception 12 / Recap / Bride/father hug",
-      "detail": "Whole-wedding-day recap shot 4: Bride/father hug. Hold for 0.5 musical measures at the template BPM, not the reference film seconds. Choose real covered footage; disclose truthful substitutions when the event was not filmed. Never invent first looks or send-offs.",
+      "ordinal": 35,
+      "start": 162,
+      "end": 168,
+      "title": "Reception 12 / Gear 2 / Golden-hour couple wide / walking",
+      "detail": "Golden-hour couple wide / walking. Hold for 2 musical measures. After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with two shots of the bride and groom dancing TOGETHER, two golden-hour couple shots, and a closing couple/drone shot. Parent dances never substitute for couple first dance. Double the former ending shot lengths: first four shots two measures each, closing shot six measures, fourteen measures total. Use centered one-second cross dissolves between these long ending shots and a final two-second fade. Extend the softer musical arrangement with complete phrases to support the longer ending; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy.",
       "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Follow the ordered reception policy. Keep synchronized source sound, including quiet audio; skip loud music-only/silent sources. Full source-interval QC is mandatory."
+        "Three role-matching auditions; first pick unique.",
+        "Twice the former ending hold; sufficient source handles for the one-second centered dissolves. Never freeze or repeat missing frames.",
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
       ],
       "speed": 100,
       "fadeIn": 0,
       "fadeOut": 0,
       "takes": [
         {
-          "id": "unassigned-recap-4-1",
-          "label": "Bride/father hug / source needed",
+          "id": "unassigned-ending-4-1",
+          "label": "Golden-hour couple wide / walking / source needed",
           "assignment": "pending",
           "qualityControl": {
             "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
+            "reason": "Verify bride-and-groom identity and action, source length including dissolve handles, exposure, motion and correct color transform over the full interval."
           }
         },
         {
-          "id": "unassigned-recap-4-2",
-          "label": "Bride/father hug / source needed",
+          "id": "unassigned-ending-4-2",
+          "label": "Golden-hour couple wide / walking / source needed",
           "assignment": "pending",
           "qualityControl": {
             "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
+            "reason": "Verify bride-and-groom identity and action, source length including dissolve handles, exposure, motion and correct color transform over the full interval."
           }
         },
         {
-          "id": "unassigned-recap-4-3",
-          "label": "Bride/father hug / source needed",
+          "id": "unassigned-ending-4-3",
+          "label": "Golden-hour couple wide / walking / source needed",
           "assignment": "pending",
           "qualityControl": {
             "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
+            "reason": "Verify bride-and-groom identity and action, source length including dissolve handles, exposure, motion and correct color transform over the full interval."
           }
         }
       ],
       "number": 35,
-      "transition": "Cut",
+      "transition": "Cross Dissolve",
       "opticalFlow": false,
       "receptionScratchAudio": true,
       "receptionSequenceIndex": 12,
@@ -2780,58 +2784,60 @@
         "receptionSequence",
         "receptionScratchAudio",
         "footageQualityControl",
-        "weddingDayRecap",
-        "musicalCrash"
+        "gear2Ending"
       ],
-      "recapCue": "Bride/father hug",
-      "recapMeasureCount": 0.5
+      "transitionDuration": 1,
+      "gear2Ending": true,
+      "gear2Cue": "Golden-hour couple wide / walking",
+      "endingMeasureCount": 2
     },
     {
-      "id": "6-recap-5",
+      "id": "6-ending-5",
       "track": 6,
-      "ordinal": 37,
-      "start": 150,
-      "end": 153,
-      "title": "Reception 13 / Recap / Bride approaching groom for first look",
-      "detail": "Whole-wedding-day recap shot 5: Bride approaching groom for first look. Hold for 1 musical measures at the template BPM, not the reference film seconds. Choose real covered footage; disclose truthful substitutions when the event was not filmed. Never invent first looks or send-offs.",
+      "ordinal": 36,
+      "start": 168,
+      "end": 186,
+      "title": "Reception 13 / Gear 2 / Closing couple / drone",
+      "detail": "Closing couple / drone. Hold for 6 musical measures. After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with two shots of the bride and groom dancing TOGETHER, two golden-hour couple shots, and a closing couple/drone shot. Parent dances never substitute for couple first dance. Double the former ending shot lengths: first four shots two measures each, closing shot six measures, fourteen measures total. Use centered one-second cross dissolves between these long ending shots and a final two-second fade. Extend the softer musical arrangement with complete phrases to support the longer ending; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy.",
       "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Follow the ordered reception policy. Keep synchronized source sound, including quiet audio; skip loud music-only/silent sources. Full source-interval QC is mandatory."
+        "Three role-matching auditions; first pick unique.",
+        "Twice the former ending hold; sufficient source handles for the one-second centered dissolves. Never freeze or repeat missing frames.",
+        "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked."
       ],
       "speed": 100,
       "fadeIn": 0,
-      "fadeOut": 0,
+      "fadeOut": 2,
       "takes": [
         {
-          "id": "unassigned-recap-5-1",
-          "label": "Bride approaching groom for first look / source needed",
+          "id": "unassigned-ending-5-1",
+          "label": "Closing couple / drone / source needed",
           "assignment": "pending",
           "qualityControl": {
             "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
+            "reason": "Verify bride-and-groom identity and action, source length including dissolve handles, exposure, motion and correct color transform over the full interval."
           }
         },
         {
-          "id": "unassigned-recap-5-2",
-          "label": "Bride approaching groom for first look / source needed",
+          "id": "unassigned-ending-5-2",
+          "label": "Closing couple / drone / source needed",
           "assignment": "pending",
           "qualityControl": {
             "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
+            "reason": "Verify bride-and-groom identity and action, source length including dissolve handles, exposure, motion and correct color transform over the full interval."
           }
         },
         {
-          "id": "unassigned-recap-5-3",
-          "label": "Bride approaching groom for first look / source needed",
+          "id": "unassigned-ending-5-3",
+          "label": "Closing couple / drone / source needed",
           "assignment": "pending",
           "qualityControl": {
             "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
+            "reason": "Verify bride-and-groom identity and action, source length including dissolve handles, exposure, motion and correct color transform over the full interval."
           }
         }
       ],
       "number": 36,
-      "transition": "Cut",
+      "transition": "Cross Dissolve",
       "opticalFlow": false,
       "receptionScratchAudio": true,
       "receptionSequenceIndex": 13,
@@ -2843,519 +2849,16 @@
         "receptionSequence",
         "receptionScratchAudio",
         "footageQualityControl",
-        "weddingDayRecap",
-        "musicalCrash"
+        "gear2Ending"
       ],
-      "recapCue": "Bride approaching groom for first look",
-      "recapMeasureCount": 1
-    },
-    {
-      "id": "6-recap-6",
-      "track": 6,
-      "ordinal": 38,
-      "start": 153,
-      "end": 156,
-      "title": "Reception 14 / Recap / Groom turns / reveal",
-      "detail": "Whole-wedding-day recap shot 6: Groom turns / reveal. Hold for 1 musical measures at the template BPM, not the reference film seconds. Choose real covered footage; disclose truthful substitutions when the event was not filmed. Never invent first looks or send-offs.",
-      "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Follow the ordered reception policy. Keep synchronized source sound, including quiet audio; skip loud music-only/silent sources. Full source-interval QC is mandatory."
-      ],
-      "speed": 100,
-      "fadeIn": 0,
-      "fadeOut": 0,
-      "takes": [
-        {
-          "id": "unassigned-recap-6-1",
-          "label": "Groom turns / reveal / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
-          }
-        },
-        {
-          "id": "unassigned-recap-6-2",
-          "label": "Groom turns / reveal / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
-          }
-        },
-        {
-          "id": "unassigned-recap-6-3",
-          "label": "Groom turns / reveal / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
-          }
-        }
-      ],
-      "number": 37,
-      "transition": "Cut",
-      "opticalFlow": false,
-      "receptionScratchAudio": true,
-      "receptionSequenceIndex": 14,
-      "qualityControl": {
-        "status": "pending",
-        "reason": "Full source interval review required."
-      },
-      "ruleRefs": [
-        "receptionSequence",
-        "receptionScratchAudio",
-        "footageQualityControl",
-        "weddingDayRecap",
-        "musicalCrash"
-      ],
-      "recapCue": "Groom turns / reveal",
-      "recapMeasureCount": 1
-    },
-    {
-      "id": "6-recap-7",
-      "track": 6,
-      "ordinal": 39,
-      "start": 156,
-      "end": 162,
-      "title": "Reception 15 / Recap / Emotional first-look reaction / hold",
-      "detail": "Whole-wedding-day recap shot 7: Emotional first-look reaction / hold. Hold for 2 musical measures at the template BPM, not the reference film seconds. Choose real covered footage; disclose truthful substitutions when the event was not filmed. Never invent first looks or send-offs.",
-      "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Follow the ordered reception policy. Keep synchronized source sound, including quiet audio; skip loud music-only/silent sources. Full source-interval QC is mandatory."
-      ],
-      "speed": 100,
-      "fadeIn": 0,
-      "fadeOut": 0,
-      "takes": [
-        {
-          "id": "unassigned-recap-7-1",
-          "label": "Emotional first-look reaction / hold / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
-          }
-        },
-        {
-          "id": "unassigned-recap-7-2",
-          "label": "Emotional first-look reaction / hold / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
-          }
-        },
-        {
-          "id": "unassigned-recap-7-3",
-          "label": "Emotional first-look reaction / hold / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
-          }
-        }
-      ],
-      "number": 38,
-      "transition": "Cut",
-      "opticalFlow": false,
-      "receptionScratchAudio": true,
-      "receptionSequenceIndex": 15,
-      "qualityControl": {
-        "status": "pending",
-        "reason": "Full source interval review required."
-      },
-      "ruleRefs": [
-        "receptionSequence",
-        "receptionScratchAudio",
-        "footageQualityControl",
-        "weddingDayRecap",
-        "musicalCrash"
-      ],
-      "recapCue": "Emotional first-look reaction / hold",
-      "recapMeasureCount": 2
-    },
-    {
-      "id": "6-recap-8",
-      "track": 6,
-      "ordinal": 40,
-      "start": 162,
-      "end": 165,
-      "title": "Reception 16 / Recap / Ceremony kiss",
-      "detail": "Whole-wedding-day recap shot 8: Ceremony kiss. Hold for 1 musical measures at the template BPM, not the reference film seconds. Choose real covered footage; disclose truthful substitutions when the event was not filmed. Never invent first looks or send-offs.",
-      "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Follow the ordered reception policy. Keep synchronized source sound, including quiet audio; skip loud music-only/silent sources. Full source-interval QC is mandatory."
-      ],
-      "speed": 100,
-      "fadeIn": 0,
-      "fadeOut": 0,
-      "takes": [
-        {
-          "id": "unassigned-recap-8-1",
-          "label": "Ceremony kiss / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
-          }
-        },
-        {
-          "id": "unassigned-recap-8-2",
-          "label": "Ceremony kiss / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
-          }
-        },
-        {
-          "id": "unassigned-recap-8-3",
-          "label": "Ceremony kiss / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
-          }
-        }
-      ],
-      "number": 39,
-      "transition": "Cut",
-      "opticalFlow": false,
-      "receptionScratchAudio": true,
-      "receptionSequenceIndex": 16,
-      "qualityControl": {
-        "status": "pending",
-        "reason": "Full source interval review required."
-      },
-      "ruleRefs": [
-        "receptionSequence",
-        "receptionScratchAudio",
-        "footageQualityControl",
-        "weddingDayRecap",
-        "musicalCrash"
-      ],
-      "recapCue": "Ceremony kiss",
-      "recapMeasureCount": 1
-    },
-    {
-      "id": "6-recap-9",
-      "track": 6,
-      "ordinal": 41,
-      "start": 165,
-      "end": 168,
-      "title": "Reception 17 / Recap / Grand entrance with cheers",
-      "detail": "Whole-wedding-day recap shot 9: Grand entrance with cheers. Hold for 1 musical measures at the template BPM, not the reference film seconds. Choose real covered footage; disclose truthful substitutions when the event was not filmed. Never invent first looks or send-offs.",
-      "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Follow the ordered reception policy. Keep synchronized source sound, including quiet audio; skip loud music-only/silent sources. Full source-interval QC is mandatory."
-      ],
-      "speed": 100,
-      "fadeIn": 0,
-      "fadeOut": 0,
-      "takes": [
-        {
-          "id": "unassigned-recap-9-1",
-          "label": "Grand entrance with cheers / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
-          }
-        },
-        {
-          "id": "unassigned-recap-9-2",
-          "label": "Grand entrance with cheers / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
-          }
-        },
-        {
-          "id": "unassigned-recap-9-3",
-          "label": "Grand entrance with cheers / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
-          }
-        }
-      ],
-      "number": 40,
-      "transition": "Cut",
-      "opticalFlow": false,
-      "receptionScratchAudio": true,
-      "receptionSequenceIndex": 17,
-      "qualityControl": {
-        "status": "pending",
-        "reason": "Full source interval review required."
-      },
-      "ruleRefs": [
-        "receptionSequence",
-        "receptionScratchAudio",
-        "footageQualityControl",
-        "weddingDayRecap",
-        "musicalCrash"
-      ],
-      "recapCue": "Grand entrance with cheers",
-      "recapMeasureCount": 1
-    },
-    {
-      "id": "6-recap-10",
-      "track": 6,
-      "ordinal": 42,
-      "start": 168,
-      "end": 171,
-      "title": "Reception 18 / Recap / Couple first-dance spin",
-      "detail": "Whole-wedding-day recap shot 10: Couple first-dance spin. Hold for 1 musical measures at the template BPM, not the reference film seconds. Choose real covered footage; disclose truthful substitutions when the event was not filmed. Never invent first looks or send-offs.",
-      "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Follow the ordered reception policy. Keep synchronized source sound, including quiet audio; skip loud music-only/silent sources. Full source-interval QC is mandatory."
-      ],
-      "speed": 100,
-      "fadeIn": 0,
-      "fadeOut": 0,
-      "takes": [
-        {
-          "id": "unassigned-recap-10-1",
-          "label": "Couple first-dance spin / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
-          }
-        },
-        {
-          "id": "unassigned-recap-10-2",
-          "label": "Couple first-dance spin / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
-          }
-        },
-        {
-          "id": "unassigned-recap-10-3",
-          "label": "Couple first-dance spin / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
-          }
-        }
-      ],
-      "number": 41,
-      "transition": "Cut",
-      "opticalFlow": false,
-      "receptionScratchAudio": true,
-      "receptionSequenceIndex": 18,
-      "qualityControl": {
-        "status": "pending",
-        "reason": "Full source interval review required."
-      },
-      "ruleRefs": [
-        "receptionSequence",
-        "receptionScratchAudio",
-        "footageQualityControl",
-        "weddingDayRecap",
-        "musicalCrash"
-      ],
-      "recapCue": "Couple first-dance spin",
-      "recapMeasureCount": 1
-    },
-    {
-      "id": "6-recap-11",
-      "track": 6,
-      "ordinal": 43,
-      "start": 171,
-      "end": 172.5,
-      "title": "Reception 19 / Recap / Send-off walking through cheering guests",
-      "detail": "Whole-wedding-day recap shot 11: Send-off walking through cheering guests. Hold for 0.5 musical measures at the template BPM, not the reference film seconds. Choose real covered footage; disclose truthful substitutions when the event was not filmed. Never invent first looks or send-offs.",
-      "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Follow the ordered reception policy. Keep synchronized source sound, including quiet audio; skip loud music-only/silent sources. Full source-interval QC is mandatory."
-      ],
-      "speed": 100,
-      "fadeIn": 0,
-      "fadeOut": 0,
-      "takes": [
-        {
-          "id": "unassigned-recap-11-1",
-          "label": "Send-off walking through cheering guests / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
-          }
-        },
-        {
-          "id": "unassigned-recap-11-2",
-          "label": "Send-off walking through cheering guests / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
-          }
-        },
-        {
-          "id": "unassigned-recap-11-3",
-          "label": "Send-off walking through cheering guests / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
-          }
-        }
-      ],
-      "number": 42,
-      "transition": "Cut",
-      "opticalFlow": false,
-      "receptionScratchAudio": true,
-      "receptionSequenceIndex": 19,
-      "qualityControl": {
-        "status": "pending",
-        "reason": "Full source interval review required."
-      },
-      "ruleRefs": [
-        "receptionSequence",
-        "receptionScratchAudio",
-        "footageQualityControl",
-        "weddingDayRecap",
-        "musicalCrash"
-      ],
-      "recapCue": "Send-off walking through cheering guests",
-      "recapMeasureCount": 0.5
-    },
-    {
-      "id": "6-recap-12",
-      "track": 6,
-      "ordinal": 44,
-      "start": 172.5,
-      "end": 174,
-      "title": "Reception 20 / Recap / Send-off dip / kiss",
-      "detail": "Whole-wedding-day recap shot 12: Send-off dip / kiss. Hold for 0.5 musical measures at the template BPM, not the reference film seconds. Choose real covered footage; disclose truthful substitutions when the event was not filmed. Never invent first looks or send-offs.",
-      "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Follow the ordered reception policy. Keep synchronized source sound, including quiet audio; skip loud music-only/silent sources. Full source-interval QC is mandatory."
-      ],
-      "speed": 100,
-      "fadeIn": 0,
-      "fadeOut": 0,
-      "takes": [
-        {
-          "id": "unassigned-recap-12-1",
-          "label": "Send-off dip / kiss / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
-          }
-        },
-        {
-          "id": "unassigned-recap-12-2",
-          "label": "Send-off dip / kiss / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
-          }
-        },
-        {
-          "id": "unassigned-recap-12-3",
-          "label": "Send-off dip / kiss / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
-          }
-        }
-      ],
-      "number": 43,
-      "transition": "Cut",
-      "opticalFlow": false,
-      "receptionScratchAudio": true,
-      "receptionSequenceIndex": 20,
-      "qualityControl": {
-        "status": "pending",
-        "reason": "Full source interval review required."
-      },
-      "ruleRefs": [
-        "receptionSequence",
-        "receptionScratchAudio",
-        "footageQualityControl",
-        "weddingDayRecap",
-        "musicalCrash"
-      ],
-      "recapCue": "Send-off dip / kiss",
-      "recapMeasureCount": 0.5
-    },
-    {
-      "id": "6-recap-13",
-      "track": 6,
-      "ordinal": 45,
-      "start": 174,
-      "end": 183,
-      "title": "Reception 21 / Recap / Golden-hour field / walking closing shot",
-      "detail": "Whole-wedding-day recap shot 13: Golden-hour field / walking closing shot. Hold for 3 musical measures at the template BPM, not the reference film seconds. Choose real covered footage; disclose truthful substitutions when the event was not filmed. Never invent first looks or send-offs.",
-      "rules": [
-        "3 options by default. First pick: source used once per film. Backups 2/3: reuse allowed.",
-        "Follow the ordered reception policy. Keep synchronized source sound, including quiet audio; skip loud music-only/silent sources. Full source-interval QC is mandatory."
-      ],
-      "speed": 100,
-      "fadeIn": 0,
-      "fadeOut": 1,
-      "takes": [
-        {
-          "id": "unassigned-recap-13-1",
-          "label": "Golden-hour field / walking closing shot / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
-          }
-        },
-        {
-          "id": "unassigned-recap-13-2",
-          "label": "Golden-hour field / walking closing shot / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
-          }
-        },
-        {
-          "id": "unassigned-recap-13-3",
-          "label": "Golden-hour field / walking closing shot / source needed",
-          "assignment": "pending",
-          "qualityControl": {
-            "status": "pending",
-            "reason": "Verify matching event/action, truthful substitution, exposure, motion and correct color transform over the full source interval."
-          }
-        }
-      ],
-      "number": 44,
-      "transition": "Cut",
-      "opticalFlow": false,
-      "receptionScratchAudio": true,
-      "receptionSequenceIndex": 21,
-      "qualityControl": {
-        "status": "pending",
-        "reason": "Full source interval review required."
-      },
-      "ruleRefs": [
-        "receptionSequence",
-        "receptionScratchAudio",
-        "footageQualityControl",
-        "weddingDayRecap",
-        "musicalCrash"
-      ],
-      "recapCue": "Golden-hour field / walking closing shot",
-      "recapMeasureCount": 3
+      "transitionDuration": 1,
+      "gear2Ending": true,
+      "gear2Cue": "Closing couple / drone",
+      "endingMeasureCount": 6
     }
   ],
   "schema": "tov-web-wedding-template-v1",
-  "revision": "2026-10-03.12",
+  "revision": "2026-10-03.13",
   "nativeSeedFingerprint": "8bdfdf4e6e615de832172783bf678bec28f09d367391a56db06be8df2579b348",
   "authority": "Supabase and website; native Resolve capture is historical seed",
   "trackOrder": [
@@ -3389,7 +2892,7 @@
     "meter": "4/4",
     "provisional": true,
     "secondsPerMeasure": 3,
-    "measures": 61
+    "measures": 62
   },
   "overrides": [
     {
@@ -3411,7 +2914,7 @@
     {
       "id": "ordered-reception-sequence",
       "approved": "2026-10-03",
-      "instruction": "Reception begins after the kiss fade. Keep the first eight slots through the activity pair unchanged; if cake, cutting first then eating together under cakePair. Immediately follow with the 13-shot weddingDayRecap, 13 musical measures. Twenty-one reception picture slots, ending at measure 61. Gear 5 recap energy/scoring; any release follows a real verified source-song arrangement. Preserve unducked music, scratch audio, auditions, QC and all opening/vow/preparation defaults."
+      "instruction": "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with two shots of the bride and groom dancing TOGETHER, two golden-hour couple shots, and a closing couple/drone shot. Parent dances never substitute for couple first dance. Double the former ending shot lengths: first four shots two measures each, closing shot six measures, fourteen measures total. Use centered one-second cross dissolves between these long ending shots and a final two-second fade. Extend the softer musical arrangement with complete phrases to support the longer ending; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy."
     },
     {
       "id": "mandatory-footage-qc",
@@ -3427,6 +2930,11 @@
       "id": "verified-source-song-crash",
       "approved": "2026-10-03",
       "instruction": "Gear describes energy; crash describes a specific audible musical event. A crash requires a clear planned drop within the actual source-song arrangement, verified by listening through that interval. A high-to-low gear change, quieter song/section, fade or tail is not automatically a crash. Identify the exact source song and source drop time, then align picture and emotional release to it. Until verified, use energy reduction/transition. If no deliberate drop exists and the story needs a crash, choose a source song with a real drop; never invent or certify an unverified event."
+    },
+    {
+      "id": "gear2-long-ending",
+      "approved": "2026-10-03",
+      "instruction": "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with two shots of the bride and groom dancing TOGETHER, two golden-hour couple shots, and a closing couple/drone shot. Parent dances never substitute for couple first dance. Double the former ending shot lengths: first four shots two measures each, closing shot six measures, fourteen measures total. Use centered one-second cross dissolves between these long ending shots and a final two-second fade. Extend the softer musical arrangement with complete phrases to support the longer ending; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy."
     }
   ],
   "policies": {
@@ -3436,11 +2944,11 @@
     "music": "No ducking. Analyze every chosen full song for tempo, measures, key and chord progression before constructing the timeline; use that map for passage selection, section moods, gear changes, phrase-aligned edits and compatible pitched scoring. Follow musicAnalysis.",
     "scoring": "Substantially more varied cellos, vocalizations/voicings, risers and swells into/through Gear4, strongest progressive development in Gear5, particularly where song arrangement lacks lift. Align phrases, harmony, downbeats and story. Preserve intelligible dialogue; not every element continuously. Bridge breathers/rough joins outside Gear4/5 as useful.",
     "ambient": "One matching nature/wind bed outdoors; fade indoors; none during reception.",
-    "transitions": "First two boundaries centered 2-second dissolves; others cuts. Opening/closing fades 1 second. Approved kiss false-ending fade adjustable, default 1 second; immediate energetic reception restart.",
+    "transitions": "First two opening boundaries: centered two-second dissolves. Gear 2 ending: centered one-second cross dissolves between long shots. Other boundaries remain cuts. Opening fade one second; closing fade two seconds. Kiss false-ending fade remains adjustable, default one second; immediate energetic reception restart.",
     "receptionScratchAudio": "Every reception picture clip carries synchronized scratch/source-camera audio by default, including quiet sound. Keep useful speech, laughter, applause, greetings and matching action even with background music. Skip loud music-only sources or files with no recorded audio; document the exception, never fabricate sound. Use the exact selected interval and preserve frame-rate/retiming alignment. Set an appropriate level with short edge fades, avoid duplicate camera audio on reaction/SFX tracks, and keep music unducked.",
     "receptionSequence": {
       "start": 120,
-      "end": 183,
+      "end": 186,
       "order": [
         "Grand entrance and cheers",
         "First dance",
@@ -3450,29 +2958,21 @@
         "Upbeat dance floor B",
         "Flower toss / game / activity A",
         "Flower toss / game / activity B",
-        "Recap / Bride getting-ready close-up",
-        "Recap / Groom getting-ready / boutonniere",
-        "Recap / Bride/father first-look turn",
-        "Recap / Bride/father hug",
-        "Recap / Bride approaching groom for first look",
-        "Recap / Groom turns / reveal",
-        "Recap / Emotional first-look reaction / hold",
-        "Recap / Ceremony kiss",
-        "Recap / Grand entrance with cheers",
-        "Recap / Couple first-dance spin",
-        "Recap / Send-off walking through cheering guests",
-        "Recap / Send-off dip / kiss",
-        "Recap / Golden-hour field / walking closing shot"
+        "Bride and groom first dance together",
+        "Bride and groom first dance, distinct angle",
+        "Golden-hour couple embrace",
+        "Golden-hour couple wide / walking",
+        "Closing couple / drone"
       ],
-      "instruction": "Reception begins after the kiss fade. Keep the first eight slots through the activity pair unchanged; if cake, cutting first then eating together under cakePair. Immediately follow with the 13-shot weddingDayRecap, 13 musical measures. Twenty-one reception picture slots, ending at measure 61. Gear 5 recap energy/scoring; any release follows a real verified source-song arrangement. Preserve unducked music, scratch audio, auditions, QC and all opening/vow/preparation defaults."
+      "instruction": "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with two shots of the bride and groom dancing TOGETHER, two golden-hour couple shots, and a closing couple/drone shot. Parent dances never substitute for couple first dance. Double the former ending shot lengths: first four shots two measures each, closing shot six measures, fourteen measures total. Use centered one-second cross dissolves between these long ending shots and a final two-second fade. Extend the softer musical arrangement with complete phrases to support the longer ending; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy."
     },
     "footageQualityControl": "Mandatory for every selection and audition: review the entire selected source interval for wrong exposure and unintended shake or handheld repositioning. Reject and substitute unusable footage; distinguish intentional camera movement. For log footage, verify the correct color transform before judging exposure. Semantic match alone never passes. Record pending/pass/rejected and a reason; pass requires full-interval exposure, motion and color-transform review. Any source, interval or retiming change requires fresh QC.",
     "markers": "Sparse essential story/musical markers only. No per-clip QC markers; exposure/shake review stays in Inspector and records. Explicit measure anchors are allowed.",
     "musicalCrash": "Gear describes energy; crash describes a specific audible musical event. A crash requires a clear planned drop within the actual source-song arrangement, verified by listening through that interval. A high-to-low gear change, quieter song/section, fade or tail is not automatically a crash. Identify the exact source song and source drop time, then align picture and emotional release to it. Until verified, use energy reduction/transition. If no deliberate drop exists and the story needs a crash, choose a source song with a real drop; never invent or certify an unverified event.",
     "cakePair": "Whenever two cake shots are used: ONE real shot of the couple cutting cake, then ONE real shot of them eating it together (feeding each other or sharing first bites qualifies), with the couple visible in both. Serving, plated cake, details or another cutting angle never substitute for eating. All three auditions for each slot must match its distinct cutting/eating role and pass full-interval exposure, motion and color-transform QC. If eating footage is absent, flag it missing and use another genuinely covered activity pair; never invent eating. Preserve the two existing slots and durations.",
-    "weddingDayRecap": "Immediately after the two activity/cake shots, use the Rachel & Ryan EXTENDED FILM whole-day recap order and musical measures, not seconds: Bride getting-ready close-up (0.5 measures) > Groom getting-ready / boutonniere (0.5 measures) > Bride/father first-look turn (0.5 measures) > Bride/father hug (0.5 measures) > Bride approaching groom for first look (1 measures) > Groom turns / reveal (1 measures) > Emotional first-look reaction / hold (2 measures) > Ceremony kiss (1 measures) > Grand entrance with cheers (1 measures) > Couple first-dance spin (1 measures) > Send-off walking through cheering guests (0.5 measures) > Send-off dip / kiss (0.5 measures) > Golden-hour field / walking closing shot (3 measures). Thirteen shots total 13 measures. Strong Gear 5 music/scoring through recap; any release must follow the actual song arrangement, not a fake crash or arbitrary gear switch. Final closing shot fades out. Use real covered footage; when first look or send-off is absent, disclose truthful substitutions, never invent events. Preserve three role-matching auditions, unique assigned first picks, full-interval QC, synchronized source audio and sparse markers.",
     "musicSelection": "Choose passages for their role: held 1 for warm opening anticipation; gentle 4 / 1 / optional 5 movement into Gears 2 and 3; steady celebration for reception; growing romantic tension and release for recap. These are preferences, not a mandatory progression. Chord numbers are relative to the verified local key; inversions such as 1/3 can help explain bass movement. Judge melody, rhythm, voicing and arrangement alongside harmony. Analyze tempo and downbeats before mapping chord changes; keep real changes at verified musical boundaries without forcing them to a grid. Rearrange a song's steady and moving passages when useful, preserving complete phrases, compatible harmony and musical joins. Use Ryan and Rachel as the preferred recap mood reference; Krysta and Dylan is acceptable but the target is more moving. Search unused song families and audition actual passages; model estimates and catalog tags alone do not verify mood or chords.",
-    "musicAnalysis": "Default before constructing a film timeline: analyze each chosen full song for tempo, downbeats and measures, local key, and chord progression. Use the trained ChordFormer ensemble for a first pass where available; retain useful bass inversions such as 1/3, simplify chord decoration to the base chord, and check ambiguous or important changes against the audio. Distinguish estimated from verified harmony and timing. Use this map actively to choose and rearrange passages, assign section moods and gear changes, shape harmonic tension and release, align edits to musical phrases and changes, and select compatible custom scoring. Combine harmony with melody, rhythm, arrangement and story; chords alone do not determine mood. Keep the user's chosen song unless a replacement is requested. Mark only new chord changes with concise Nashville numbers, including useful minor or slash-bass notation; no consecutive duplicate chord labels. Analyze the actual tempo and measure positions first; do not force a detected change onto a convenient grid or claim unverified frame accuracy."
+    "musicAnalysis": "Default before constructing a film timeline: analyze each chosen full song for tempo, downbeats and measures, local key, and chord progression. Use the trained ChordFormer ensemble for a first pass where available; retain useful bass inversions such as 1/3, simplify chord decoration to the base chord, and check ambiguous or important changes against the audio. Distinguish estimated from verified harmony and timing. Use this map actively to choose and rearrange passages, assign section moods and gear changes, shape harmonic tension and release, align edits to musical phrases and changes, and select compatible custom scoring. Combine harmony with melody, rhythm, arrangement and story; chords alone do not determine mood. Keep the user's chosen song unless a replacement is requested. Mark only new chord changes with concise Nashville numbers, including useful minor or slash-bass notation; no consecutive duplicate chord labels. Analyze the actual tempo and measure positions first; do not force a detected change onto a convenient grid or claim unverified frame accuracy.",
+    "gear2Ending": "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with two shots of the bride and groom dancing TOGETHER, two golden-hour couple shots, and a closing couple/drone shot. Parent dances never substitute for couple first dance. Double the former ending shot lengths: first four shots two measures each, closing shot six measures, fourteen measures total. Use centered one-second cross dissolves between these long ending shots and a final two-second fade. Extend the softer musical arrangement with complete phrases to support the longer ending; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy."
   },
-  "fingerprint": "0ad6e5c7b83dd3ea1eb175c98931873526c248d527e68b432a044629be191fb8"
+  "fingerprint": "0bde82f39b39c97df1d0c099724e146a6fd0513aa4b0caa41985d0a0808c85dd"
 }
