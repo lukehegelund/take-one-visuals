@@ -8,6 +8,10 @@ The approved kiss false ending fades during the kiss, immediately restarting rec
 
 Public example assets are referenced from `/cam-b/clips/`, already selected through the authorized `tov-approved-films` TwelveLabs index and published for the shot guide. There is no live semantic search or new API upload. Primary demo excerpt IDs are unique; alternatives may be reused. Several movies supply the examples, not one coherent wedding. Excerpts loop to illustrate musical slots; assembled/source footage is not exported. Dialogue planning stays locked below B-roll, preserving template timing without claiming actual synchronized speech playback.
 
+The default viewer displays active template instructions independently of footage: Picture across the top, Dialogue/A-roll full width below, Music left / Custom Scoring right, Ambient SFX left / Clip SFX right. Empty lanes explain when no cue is needed. Template transport works with no media populated. Phase cues show the opening/closing fades, centered dissolves, kiss fade and immediate reception restart without fading the readable instructions. Demo footage is a separate viewer toggle; auditioning a take switches into it. The default layout keeps the media pool hidden, the inspector collapsed, and share/save/import/reset/tempo under Options. A compact Section menu navigates story anchors.
+
+The playhead head and full vertical line support pointer-captured dragging over the ruler, all tracks and clips, with continuous time/card updates. Mouse/touch share the same path; coordinate conversion uses the current scrolled timeline rectangle and zoom. Home/End and arrow keys work on the focused playhead. Clip dragging stays independent.
+
 Device variants live in localStorage. Share URLs include only template fingerprint, measure-relative trims, take choices, speeds, fades and grid tempo. Save/Open JSON round-trip the same validated allowlisted representation. They cannot change authoritative template defaults or insert arbitrary source URLs. Incompatible versions open the current demo with an explanation.
 
 ## Maintaining the authoritative template
@@ -28,6 +32,7 @@ Run a repository-root HTTP server and the repeatable harness:
 python3 tools/validate_editor_template.py
 python3 -m http.server 8766
 node tests/editor-preview-journeys.cjs
+node tests/editor-planning-journeys.cjs
 ```
 
-Set `EDITOR_BASE` to the public origin to rerun against the deployed version. `PW_EXECUTABLE` optionally selects an installed testing Chromium binary. The harness covers desktop/mobile playback for every audition, clip selection, inspector and pointer resizing, keyboard movement, tempo/zoom, persistence, share/save/import, readable template lanes, A-roll lock, dissolves, kiss fade/restart and absence from homepage navigation. It does not validate real source synchronization, musical beat/key analysis, real audio mixing or Resolve integration.
+Set `EDITOR_BASE` to the public origin to rerun against the deployed version. `PW_EXECUTABLE` optionally selects an installed testing Chromium binary. The planning harness adds desktop, narrow-desktop and mobile layout, populated-independent active cards, unpopulated template playback, phase cues, captured ruler/line dragging through every track at several zoom/scroll offsets, a real touch-pointer journey and compact-panel controls. The original harness covers desktop/mobile playback for every audition, clip selection, inspector and pointer resizing, keyboard movement, tempo/zoom, persistence, share/save/import, readable template lanes, A-roll lock, dissolves, kiss fade/restart and absence from homepage navigation. It does not validate real source synchronization, musical beat/key analysis, real audio mixing or Resolve integration.
