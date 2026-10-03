@@ -63,3 +63,45 @@ footer{flex:none;max-height:30px;overflow:auto;padding:4px 12px}
  .planning-heading{font-size:8px;margin-bottom:2px}.planning-settings{font-size:8px}
  footer{max-height:23px}
 }
+/* Minimal editor chrome: one header, one transport, one compact tool row. */
+header{height:36px;min-height:36px;padding:0 10px;gap:8px}
+.brand{font-size:9px;letter-spacing:1px}
+header .view-tabs{padding:0;border:0;background:none;gap:2px;flex:1}
+header .view-tabs button{font-size:10px;padding:3px 7px}
+header .view-tabs #inspector-toggle{margin-left:auto}
+.options-menu>summary{font-size:10px;padding:3px 7px}
+.options-content{top:29px}
+.workspace,.workspace.inspector-open{flex:1;height:auto;min-height:0}
+.workspace .viewer-panel{padding:4px 6px}
+.viewer-panel>.panel-title,.scrub-label,.transport-note,.grid-note{display:none}
+.transport{padding:2px 0;gap:4px}
+.transport button{padding:0 7px;font-size:12px}#play{font-size:15px}#time{font-size:10px;padding:0 8px}
+#planning-view{gap:3px;padding:3px}
+.planning-card{border-radius:0;border-left-width:2px;padding:5px 7px}
+.planning-heading{font-size:8px;letter-spacing:.6px;margin-bottom:2px}
+.planning-card h3{font-size:12px;margin-bottom:3px}
+.planning-card p{font-size:11px;margin-bottom:3px}
+.planning-card .planning-rule,.planning-settings{font-size:9px}
+#planning-phase,#planning-phase[hidden]{height:26px;flex-basis:26px;margin:3px 3px 0;padding:3px 7px;font-size:10px;border-radius:0}
+.timeline-panel{flex:0 0 auto;height:min(calc(6 * var(--track-height) + 58px),52%)}
+.timeline-toolbar{padding:3px 6px;gap:7px;min-height:28px;max-height:68px}
+.timeline-toolbar label{font-size:9px}.timeline-toolbar input[type=range]{width:70px}
+.timeline-toolbar button,.timeline-toolbar #fit{font-size:9px;padding:2px 6px}
+.timeline-toolbar #undo-edit{margin-left:auto}
+#ruler{height:26px}.track-label small,.clip .meta{display:none}
+.track-label strong{font-size:10px;font-weight:550}
+.track-label{padding-left:8px}.clip{top:3px;height:calc(var(--track-height) - 6px);padding:3px 6px;border-radius:2px}
+.clip .title{font-size:10px}.clip{display:flex;align-items:center}
+footer{display:none}
+@media(max-width:700px){
+ header{height:34px;min-height:34px;padding:0 5px;gap:3px}.brand{font-size:8px;letter-spacing:0}
+ header .view-tabs button{font-size:9px;padding:3px 4px}.options-menu>summary{font-size:9px;padding:3px 5px}
+ .workspace,.workspace.inspector-open{flex:1;height:auto}.workspace .viewer-panel{padding:3px}
+ .timeline-panel{height:min(calc(6 * var(--track-height) + 80px),48%)}
+ .timeline-toolbar{gap:4px;max-height:68px}.timeline-toolbar input[type=range]{width:57px}
+ .timeline-toolbar #undo-edit{margin-left:0}.planning-card{padding:4px 5px}.planning-card h3{font-size:11px}.planning-card p{font-size:10px}
+}
+/* Scaling tracks never shifts the viewer or the timeline boundary. */
+.workspace,.workspace.inspector-open{flex:0 0 45%;height:45%}
+.timeline-panel{flex:1;height:auto}
+@media(max-width:700px){.workspace,.workspace.inspector-open{flex-basis:48%;height:48%}.timeline-panel{flex:1;height:auto}}
