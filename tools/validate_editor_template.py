@@ -9,13 +9,19 @@ fingerprint = data.pop('fingerprint')
 assert fingerprint == hashlib.sha256(json.dumps(data, sort_keys=True, separators=(',', ':')).encode()).hexdigest(), 'Fingerprint mismatch'
 assert [t['id'] for t in data['trackOrder']] == [6, 5, 4, 3, 2, 1]
 picture = [c for c in data['cards'] if c['track'] == 6]
-assert len(picture) == 40
+assert len(picture) == 44
 assert len({c['id'] for c in data['cards']}) == len(data['cards'])
-assert len({c['takes'][0]['id'] for c in picture}) == 40
+assert len({c['takes'][0]['id'] for c in picture}) == 44
 assert all(len(c['takes']) == 3 for c in picture)
 assert picture[1]['speed'] == picture[2]['speed'] == 70
 assert picture[1]['opticalFlow'] and picture[2]['opticalFlow']
 assert picture[0]['fadeIn'] == picture[-1]['fadeOut'] == 1
+recap=[c for c in picture if c['id'].startswith('6-recap-')]
+assert [c['recapMeasureCount'] for c in recap]==[.5,.5,.5,.5,1,1,2,1,1,1,.5,.5,3]
+assert sum(c['recapMeasureCount'] for c in recap)==13
+assert recap[0]['start']==144 and recap[-1]['end']==183
+assert len([c for c in picture if c['start']>=120])==21
+assert not any(c.get('plannedCrash') for c in data['cards'])
 kiss = next(c for c in picture if c.get('kissEnding'))
 restart = next(c for c in picture if c['id'] == '6-26')
 assert kiss['end'] == restart['start'] == 120
