@@ -501,11 +501,11 @@
         },
         "variations": [
           {
-            "src": "clips/13.mp4",
-            "poster": "clips/13.jpg",
+            "src": "clips/13-retimed.mp4",
+            "poster": "clips/13-retimed.jpg",
             "wedding": "Brianna & Caleb",
             "wedding_key": "Brianna Rowan & Caleb Willette",
-            "source_video_id": "6a9c28f05c930dcf6c5879be"
+            "source_video_id": "6a9b9d20ebf51afb0d9575b5"
           },
           {
             "src": "clips/13-2.mp4",
