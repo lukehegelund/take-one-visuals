@@ -25,3 +25,5 @@
 .planning-card{min-height:0;overflow:auto;scrollbar-gutter:stable;overscroll-behavior:contain}
 #playback-status,#playback-status:empty{display:block;min-height:23px;height:23px;overflow:hidden}
 @media(max-width:700px){.workspace .viewer[data-mode=template]{height:clamp(540px,70svh,760px)}#planning-phase,#planning-phase[hidden]{flex-basis:56px;height:56px}}
+/* Editing tools wrap within the viewport on narrow screens. */
+.timeline-toolbar{flex-wrap:wrap;min-width:0}.timeline-toolbar>div{min-width:0}.timeline-panel{min-width:0;max-width:100%}
