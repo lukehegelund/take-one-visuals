@@ -2730,7 +2730,7 @@
     }
   ],
   "schema": "tov-web-wedding-template-v1",
-  "revision": "2026-10-03.15",
+  "revision": "2026-10-03.16",
   "nativeSeedFingerprint": "8bdfdf4e6e615de832172783bf678bec28f09d367391a56db06be8df2579b348",
   "authority": "Supabase and website; native Resolve capture is historical seed",
   "trackOrder": [
@@ -2849,5 +2849,189 @@
     "musicAnalysis": "Default before constructing a film timeline: analyze each chosen full song for tempo, downbeats and measures, local key, and chord progression. Use the trained ChordFormer ensemble for a first pass where available; retain useful bass inversions such as 1/3, simplify chord decoration to the base chord, and check ambiguous or important changes against the audio. Distinguish estimated from verified harmony and timing. Use this map actively to choose and rearrange passages, assign section moods and gear changes, shape harmonic tension and release, align edits to musical phrases and changes, and select compatible custom scoring. Combine harmony with melody, rhythm, arrangement and story; chords alone do not determine mood. Keep the user's chosen song unless a replacement is requested. Mark only new chord changes with concise Nashville numbers, including useful minor or slash-bass notation; no consecutive duplicate chord labels. Analyze the actual tempo and measure positions first; do not force a detected change onto a convenient grid or claim unverified frame accuracy.",
     "gear2Ending": "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with ONE bride-and-groom first-dance shot, ONE golden-hour couple wide/walking shot, and ONE closing couple/drone shot. Parent dances never substitute for couple first dance. Hold the dance and golden-hour shots for two measures each and the closing shot for six measures, ten measures total (about 30 seconds at the preview tempo). Match the approved shorter ending: cut from dance to golden hour, then use a centered one-second cross dissolve into the closing shot and a final two-second fade. Fit the softer stem arrangement to this shorter ending using complete phrases; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy. Use slow motion by default for the closing bride-and-groom first-dance shot and golden-hour couple wide/walking shot, with 70% speed as the starting setting; review retiming over the full interval and preserve the two-measure holds."
   },
-  "fingerprint": "7622b693777ae476478f32f48b9cf98d56f517e7b96ee59f6e7634fd85f90c23"
+  "fingerprint": "26d333a57ed77b4d2af3cf0a8afccb932f64e5f49d9413cb4b76dc9b91f6127b",
+  "finalPass": {
+    "title": "Final pass",
+    "intro": "Work through the six stages in order. Keep the edit's emotion and natural character; make each change easy to review and adjust.",
+    "reviewNote": "Checkmarks are your review notes, saved on this device. They do not apply effects or verify work in Resolve.",
+    "stages": [
+      {
+        "id": "clip-points",
+        "title": "Fine tune clip in/out points",
+        "owner": "Luke",
+        "summary": "Let each action breathe and make every cut feel intentional.",
+        "checks": [
+          "Review each cut in motion, including the shot before and after it.",
+          "Choose the strongest start and finish; remove accidental repositioning or weak tails.",
+          "Keep developing action, faces and reactions readable; do not cut a hero move just to land on a beat.",
+          "Verify transition handles, slow-motion tails and synchronized sound after every trim."
+        ],
+        "done": "The picture sequence and timing are ready for finishing."
+      },
+      {
+        "id": "stabilization",
+        "title": "Stabilization",
+        "owner": "Assistant, with Luke's review",
+        "summary": "Remove distracting shake while keeping intentional movement.",
+        "checks": [
+          "Review the whole shot and distinguish unwanted shake from a deliberate pan, tilt or handheld move.",
+          "Apply the lightest useful stabilization only to shots that need it.",
+          "Check faces, edges and backgrounds for stretching, wobble, excessive zoom or drifting frames.",
+          "Recheck slow-motion shots and transition handles; leave natural movement intact."
+        ],
+        "done": "Motion is comfortable and no stabilization artifacts are visible."
+      },
+      {
+        "id": "cropping",
+        "title": "Cropping",
+        "owner": "Luke, usually",
+        "summary": "Refine composition after stabilization has settled the frame.",
+        "checks": [
+          "Set the intended framing, headroom and horizon.",
+          "Watch the entire shot for clipped faces, hands, unwanted equipment and moving subjects near the edges.",
+          "Check the crop at the actual delivery aspect ratio and through dissolves.",
+          "Confirm picture framing before the assistant's color passes."
+        ],
+        "done": "Framing feels intentional throughout every shot."
+      },
+      {
+        "id": "color-correction",
+        "title": "Color correct",
+        "owner": "Assistant",
+        "summary": "Consistent exposure and white balance, with natural skin and the real light preserved.",
+        "checks": [
+          "Audit each source's camera profile and the existing color pipeline; prevent double conversions and preserve manual corrections.",
+          "Choose a reference shot for each lighting situation and compare nearby shots and cameras against it.",
+          "Balance exposure and white balance using the image, waveform, RGB parade and vectorscope together.",
+          "Preserve sunset warmth, shade, tungsten and reception lighting; never force every scene to the same brightness or neutral color.",
+          "Review the full interval and cuts in sequence for clipping, noise, color jumps and changes over time."
+        ],
+        "done": "Shots connect naturally within each scene, without a creative look hiding correction problems.",
+        "research": [
+          {
+            "title": "How to judge consistently",
+            "text": "Start from correctly interpreted camera footage. Use a scene reference, a wipe or split screen, and scopes together. Compare the same person's face or a genuinely neutral object under comparable light; frame contents differ, so equal average brightness or identical histograms are not a matching goal. A white dress lit by sunset is not a guaranteed white-balance target.",
+            "sourceIds": [
+              "color-guide"
+            ]
+          },
+          {
+            "title": "The proposed correction workflow",
+            "text": "Build a short scene ledger: source profile, lighting, reference shot, existing correction and review status. Check exposure with face detail, useful highlight detail and shadow noise; adjust only the mismatch. Use neutral surfaces when trustworthy, then check skin and the scene together. Keep corrections separate from the later look. Share a baseline only across genuinely similar camera and lighting conditions; allow small shot trims when needed. Do not impose one skin brightness value on every complexion or scene."
+          },
+          {
+            "title": "What the assistant must prove",
+            "text": "Before the pass, test that a Resolve-exported still represents the current output transform and grade. Verify frame timing, resolution and color interpretation before measuring pixels. Use several frames to locate problems, then review the complete shot and its neighboring cuts. Save before/after references and read back native changes. Thumbnails or a single first frame cannot certify a correction. Uncertain input profiles or missing review evidence stay pending."
+          }
+        ]
+      },
+      {
+        "id": "color-grade",
+        "title": "Color grade",
+        "owner": "Assistant; Luke supplies the look",
+        "summary": "Use Film Look Creator after correction, guided by Luke's reference.",
+        "checks": [
+          "Wait for Luke's reference and desired look before choosing creative settings.",
+          "Build one restrained Film Look Creator starting look on representative corrected shots.",
+          "Check the effect's color-space handling against the current project pipeline.",
+          "Keep the look separate and easy to bypass or adjust; test skin, highlights, shadows and saturation across scenes.",
+          "Compare the full sequence and refine scene exceptions without giving every clip an unrelated grade."
+        ],
+        "done": "Luke's reference is approved and the look holds together across the film.",
+        "research": [
+          {
+            "title": "Why correction comes first",
+            "text": "Film Look Creator changes color and can add spatial effects. In a color-managed pipeline it normally uses the timeline space; in a manually transformed pipeline its input must be checked. Color Blend and Effects Blend control different parts of the look. Even Default No Effects still includes a base film color look. Keep texture, halation, bloom, grain and other additions restrained until Luke shows the target.",
+            "sourceIds": [
+              "film-look"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "audio",
+        "title": "Audio pass",
+        "owner": "Assistant",
+        "summary": "Clear voices, believable sound and an unducked musical arc, controlled with a few faders.",
+        "checks": [
+          "Identify every clip by actual source and role: voice, matching action/reaction, ambience, music or scoring; verify channels and synchronization.",
+          "Use one baseline per speaker and recording setup across that person's cuts; retain emotional dynamics and document rare repair exceptions.",
+          "Use consistent calibration per scoring family, such as violin or cello fills; preserve intentional musical intensity and the balance between stems.",
+          "Balance through clearly named Voice, Clip SFX, Ambience, Music and Scoring controls; keep music unducked and avoid competing automatic levelers.",
+          "Measure the processed full mix and role stems; audibly review joins, voices, music and effects in context, stereo and mono.",
+          "Check the intended delivery loudness and true peaks; keep processing reversible and leave a simple control map."
+        ],
+        "done": "The mix is measured and audibly reviewed, with consistent sources and simple role controls.",
+        "research": [
+          {
+            "title": "Perception requires more than a meter",
+            "text": "A filename or waveform cannot tell whether a quiet clip contains a useful reaction, wind, speech or only background music. Inspect recorded channels and the selected interval, compare it with the picture, and listen solo and in the full mix. Transcripts and audio classifiers can help label material, but do not prove intelligibility, emotional balance or the absence of artifacts."
+          },
+          {
+            "title": "Consistency without per-cut gain changes",
+            "text": "Separate source calibration from mix balance. Establish a baseline for each speaker plus microphone/recording setup across all selected speech, using comparable voiced passages rather than silence-heavy clip averages. If necessary, use gentle track-level dynamics, reviewed for breathing, pumping and lost emotion. Keep source-specific cleanup separate from a shared Voice control. Scoring family tracks retain a consistent baseline, with rare documented source exceptions rather than unrelated levels on every fill. Use a shared role bus, a combined volume control, for each sound category.",
+            "sourceIds": [
+              "audio-guide"
+            ]
+          },
+          {
+            "title": "Balance with no ducking",
+            "text": "Choose a stable voice-to-music relationship and preserve the song's intended gear changes. If music masks words, first inspect the source, arrangement and competing frequencies; use restrained fixed tonal adjustments where useful. Do not add sidechain ducking, per-sentence music dips or blanket peak normalization. Keep synchronized reactions believable and one matching outdoor bed; fade ambience when the location changes."
+          },
+          {
+            "title": "Measurement plan",
+            "text": "Measure after routing and processing, not just the raw source: full-program loudness, short-term loudness, true peaks, dynamics and noise. Use 3-second short-term and 400-millisecond momentary windows to locate changes; integrated loudness describes the whole measured program. Check phase and speech in mono. Compare role stems with the final sum. Delivery targets depend on where the film will play; broadcast -23/-24 LUFS is not an automatic wedding-web target.",
+            "sourceIds": [
+              "loudness",
+              "itu",
+              "ffmpeg"
+            ]
+          },
+          {
+            "title": "What the assistant must prove",
+            "text": "Verify the selected source ranges, channel mapping, trims, fades, retiming, clip gains and track/bus processing. Test a short representative section before the full pass. Resolve's scripting API exposes some clip audio settings, but not a complete bus-mixer control surface; unsupported settings need native UI verification. A measured mix is not an audibly verified mix. If direct audio review is unavailable in the session, keep listening checks pending and give Luke a short review list. No new renders or heavy analysis begin merely because this tab exists."
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "color-guide",
+        "title": "Blackmagic Colorist Guide 20",
+        "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinci-Resolve-20-Colorist-Guide.pdf",
+        "detail": "Lessons 1-2: balancing and continuity; Lesson 7: groups. In particular, pp. 54-66 and 288-292."
+      },
+      {
+        "id": "audio-guide",
+        "title": "Blackmagic Fairlight Audio Guide 20",
+        "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinci-Resolve-20-Fairlight-Audio-Post.pdf",
+        "detail": "Dialogue Leveler and source review; pp. 548-551: track/submix balance; pp. 572-575: dialogue dynamics; pp. 616-624: measurement and delivery. Its ducking examples are not adopted."
+      },
+      {
+        "id": "film-look",
+        "title": "Blackmagic Film Look Creator reference",
+        "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_19_New_Features_Guide.pdf",
+        "detail": "Color FX, pp. 64-68. Current Resolve 21.1 interface and settings must be checked when the look is applied."
+      },
+      {
+        "id": "loudness",
+        "title": "EBU loudness measurement",
+        "url": "https://tech.ebu.ch/loudness/",
+        "detail": "Momentary, short-term and integrated measurements describe different time windows."
+      },
+      {
+        "id": "itu",
+        "title": "ITU-R BS.1770",
+        "url": "https://www.itu.int/rec/R-REC-BS.1770/en",
+        "detail": "Program loudness and true-peak measurement. A measurement method is not a universal delivery target."
+      },
+      {
+        "id": "ffmpeg",
+        "title": "FFmpeg audio measurement tools",
+        "url": "https://ffmpeg.org/ffmpeg-filters.html#ebur128",
+        "detail": "ebur128 for loudness and true-peak analysis; astats for channel diagnostics. Measurements complement audible review."
+      }
+    ],
+    "researchStatus": "Official color, Film Look Creator and audio references reviewed Sat Oct 3 2026. This is a finishing plan; no film passes have been applied."
+  }
 }

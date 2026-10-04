@@ -139,3 +139,30 @@ footer{display:none}
 .movable-transition{top:3px;height:calc(var(--track-height) - 6px);z-index:6;pointer-events:auto;cursor:grab;padding:0;border-radius:1px;touch-action:none;background:linear-gradient(45deg,transparent 48%,#ddc69b 49%,#ddc69b 51%,transparent 52%),#ddc69b18;border:1px solid #ddc69b99}.movable-transition:hover{background-color:#ddc69b30}.movable-transition:active{cursor:grabbing}.transition-resize{position:absolute;right:-3px;top:0;bottom:0;width:7px;cursor:ew-resize}
 
 .duplicate-ghost{opacity:.7;outline:1px solid #e4b57d;pointer-events:none}
+/* Final pass keeps review notes separate from the editable timeline. */
+#final-pass[hidden],.final-open .workspace,.final-open .timeline-panel,.guide-open .workspace{display:none!important}
+#final-pass{flex:1;min-height:0;overflow:auto;padding:22px 28px;background:#15181b}
+.final-layout{display:grid;grid-template-columns:255px minmax(0,760px);gap:32px;max-width:1100px;margin:0 auto}
+.final-sidebar h1{font-size:25px;line-height:1.2;margin:0 0 12px;letter-spacing:-.4px}
+.final-sidebar>p{color:#aeb8bf;font-size:12px;line-height:1.6;margin:0 0 14px}
+.final-progress{display:block;color:#d9b47e;font-size:11px;margin:14px 0}
+.final-sidebar nav{display:grid;gap:6px}
+.final-sidebar nav button{display:grid;grid-template-columns:22px 1fr 30px;gap:7px;text-align:left;align-items:center;padding:12px 9px;font-size:12px;line-height:1.4;background:#20252a;border:1px solid #353d43}
+.final-sidebar nav button.active{border-color:#9f8057;background:#332a21;color:#f4dfc2}
+.final-stage-number,.final-stage-count{font-size:10px;color:#9ba7b0}.final-stage-count{text-align:right}
+.final-sidebar .final-local-note{font-size:10px;margin-top:16px;color:#9ba7b0}
+#final-stage{min-width:0;background:#1c2126;border:1px solid #353d43;padding:24px;border-radius:5px}
+.final-owner{font-size:10px;text-transform:uppercase;letter-spacing:.5px;color:#d9b47e;margin:0 0 9px}
+#final-stage h2{font-size:24px;line-height:1.3;margin:0 0 10px}.final-summary{font-size:14px;color:#c1cbd1;line-height:1.6;margin:0 0 22px}
+.final-checks{border:0;padding:0;margin:0}.final-checks legend{font-size:10px;color:#9ba7b0;text-transform:uppercase;letter-spacing:.7px;margin-bottom:8px}
+.final-checks label{display:flex;align-items:flex-start;gap:11px;padding:12px 0;border-bottom:1px solid #32393f;font-size:13px;line-height:1.65;color:#e1e5e8;cursor:pointer}
+.final-checks input{margin:5px 0 0;width:15px;height:15px;flex:none;accent-color:#c9a674}
+.final-ready{padding:12px 14px;font-size:12px;line-height:1.6;background:#26302c;color:#c6d7cf;border-left:2px solid #719580;margin:18px 0}
+.final-note-label{display:block;color:#aeb8bf;font-size:11px}.final-note-label textarea{display:block;width:100%;box-sizing:border-box;margin-top:7px;padding:10px;background:#13171a;color:#e1e5e8;border:1px solid #414a52;border-radius:3px;font:inherit;line-height:1.5;resize:vertical}
+.final-research{margin:24px 0 0;border-top:1px solid #353d43;padding-top:14px}.final-research>summary,.final-sources>summary{font-size:12px;color:#d9b47e;cursor:pointer;line-height:1.5}
+.final-research article{margin-top:20px}.final-research h3{font-size:14px;line-height:1.5;margin:0 0 7px}.final-research p{font-size:12px;line-height:1.8;color:#c3cbd1;margin:0}
+.final-source-links{display:flex;gap:12px;flex-wrap:wrap;margin-top:8px}.final-source-links a,.final-sources a{font-size:11px;color:#d9b47e;text-decoration:underline;text-underline-offset:3px}
+.final-stage-footer{display:flex;justify-content:space-between;gap:12px;margin-top:24px;flex-wrap:wrap}.final-stage-footer button{font-size:11px;padding:8px 12px}
+.final-sources{max-width:1100px;margin:24px auto 0;padding-top:15px;border-top:1px solid #353d43}.final-sources p{font-size:11px;line-height:1.7;color:#aeb8bf;max-width:850px}
+@media(max-width:800px){#final-pass{padding:16px}.final-layout{grid-template-columns:1fr;gap:16px}.final-sidebar nav{grid-template-columns:repeat(2,minmax(0,1fr))}.final-sidebar h1{font-size:23px}.final-sidebar nav button{font-size:11px;padding:9px 7px}.final-sidebar .final-local-note{margin-bottom:0}#final-stage{padding:18px}#final-stage h2{font-size:21px}.final-summary{font-size:13px}.final-checks label{font-size:12px}header .view-tabs{min-width:0}header .view-tabs #inspector-toggle{margin-left:auto}}
+@media(max-width:390px){header .brand{font-size:7px}header .view-tabs button{font-size:8px;padding:3px}#final-pass{padding:12px}.final-sidebar nav button{grid-template-columns:18px 1fr 24px;gap:4px}.final-stage-count{font-size:9px}}
