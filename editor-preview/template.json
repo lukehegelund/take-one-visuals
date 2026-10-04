@@ -2730,7 +2730,7 @@
     }
   ],
   "schema": "tov-web-wedding-template-v1",
-  "revision": "2026-10-03.16",
+  "revision": "2026-10-03.17",
   "nativeSeedFingerprint": "8bdfdf4e6e615de832172783bf678bec28f09d367391a56db06be8df2579b348",
   "authority": "Supabase and website; native Resolve capture is historical seed",
   "trackOrder": [
@@ -2849,10 +2849,10 @@
     "musicAnalysis": "Default before constructing a film timeline: analyze each chosen full song for tempo, downbeats and measures, local key, and chord progression. Use the trained ChordFormer ensemble for a first pass where available; retain useful bass inversions such as 1/3, simplify chord decoration to the base chord, and check ambiguous or important changes against the audio. Distinguish estimated from verified harmony and timing. Use this map actively to choose and rearrange passages, assign section moods and gear changes, shape harmonic tension and release, align edits to musical phrases and changes, and select compatible custom scoring. Combine harmony with melody, rhythm, arrangement and story; chords alone do not determine mood. Keep the user's chosen song unless a replacement is requested. Mark only new chord changes with concise Nashville numbers, including useful minor or slash-bass notation; no consecutive duplicate chord labels. Analyze the actual tempo and measure positions first; do not force a detected change onto a convenient grid or claim unverified frame accuracy.",
     "gear2Ending": "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with ONE bride-and-groom first-dance shot, ONE golden-hour couple wide/walking shot, and ONE closing couple/drone shot. Parent dances never substitute for couple first dance. Hold the dance and golden-hour shots for two measures each and the closing shot for six measures, ten measures total (about 30 seconds at the preview tempo). Match the approved shorter ending: cut from dance to golden hour, then use a centered one-second cross dissolve into the closing shot and a final two-second fade. Fit the softer stem arrangement to this shorter ending using complete phrases; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy. Use slow motion by default for the closing bride-and-groom first-dance shot and golden-hour couple wide/walking shot, with 70% speed as the starting setting; review retiming over the full interval and preserve the two-measure holds."
   },
-  "fingerprint": "26d333a57ed77b4d2af3cf0a8afccb932f64e5f49d9413cb4b76dc9b91f6127b",
+  "fingerprint": "4c38dcb7a22c0aa553c8bf68488967b2bc5eae78bd0714d59f5740746dee0cf8",
   "finalPass": {
     "title": "Final pass",
-    "intro": "Work through the six stages in order. Keep the edit's emotion and natural character; make each change easy to review and adjust.",
+    "intro": "Work through the seven stages in order. Keep the edit's emotion and natural character; make each change easy to review and adjust.",
     "reviewNote": "Checkmarks are your review notes, saved on this device. They do not apply effects or verify work in Resolve.",
     "stages": [
       {
@@ -2992,6 +2992,21 @@
             "text": "Verify the selected source ranges, channel mapping, trims, fades, retiming, clip gains and track/bus processing. Test a short representative section before the full pass. Resolve's scripting API exposes some clip audio settings, but not a complete bus-mixer control surface; unsupported settings need native UI verification. A measured mix is not an audibly verified mix. If direct audio review is unavailable in the session, keep listening checks pending and give Luke a short review list. No new renders or heavy analysis begin merely because this tab exists."
           }
         ]
+      },
+      {
+        "id": "final-review",
+        "title": "Final review and confirmation",
+        "owner": "Luke, after the assistant\u2019s passes",
+        "summary": "Watch and listen to the finished film, then confirm it or leave changes for the assistant.",
+        "checks": [
+          "Confirm the assistant\u2019s stabilization, color correction, Film Look Creator grade and audio passes are ready for review.",
+          "Watch the complete film in order; confirm cut timing, movement, crops and transitions.",
+          "Confirm exposure, white balance, natural skin and the approved look stay consistent in context.",
+          "Listen to voices, effects, ambience, music and scoring together; confirm clarity, stable balance and no distracting ducking.",
+          "Review any flagged uncertainties and adjustments; leave timecoded notes for changes.",
+          "After any requested changes, review again and explicitly confirm the final version."
+        ],
+        "done": "Luke has explicitly confirmed this version after reviewing the completed passes. Until then, final approval is pending."
       }
     ],
     "sources": [
