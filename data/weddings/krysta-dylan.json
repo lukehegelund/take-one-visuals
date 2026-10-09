@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "slug": "krysta-dylan",
+  "names": "Krysta & Dylan",
+  "date": "2026-09-26",
+  "status": "published",
+  "drive_folder_id": "1M4CF9gBsfqBMq-1aI9exIUxQWF-iV_OH",
+  "videos": [
+    {
+      "id": "highlight",
+      "title": "Wedding Highlight",
+      "drive_id": "1QZanyRh7lylB5DILKyJhuLGf-0jfzlv8",
+      "format": "landscape",
+      "description": ""
+    }
+  ],
+  "cover": {
+    "source": "drive",
+    "video_id": "1QZanyRh7lylB5DILKyJhuLGf-0jfzlv8",
+    "time_seconds": 55
+  }
+}
