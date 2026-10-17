@@ -75,7 +75,7 @@
       "ordinal": 4,
       "start": 120,
       "end": 174,
-      "title": "Reception source audio \u00b7 every picture clip",
+      "title": "Reception source audio · every picture clip",
       "detail": "Synchronized camera scratch on every reception picture clip, including quiet original sound. Preserve useful voices, laughter, applause and action alongside unducked music.",
       "rules": [
         "Strong synchronized cheers at the grand entrance, with source-camera sound for every ordered reception clip under the existing scratch policy."
@@ -109,7 +109,7 @@
       "start": 0,
       "end": 17.958333333333332,
       "title": "GEAR 1 / Calm ambient opening",
-      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song\u2019s key; match elements to its key and the story.",
+      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song’s key; match elements to its key and the story.",
       "rules": [
         "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
         "Keep music unducked. Preserve intelligible dialogue with fitting scoring level, register and spacing.",
@@ -129,7 +129,7 @@
       "start": 18,
       "end": 29.958333333333332,
       "title": "GEAR 2 / Gentle melodic flow",
-      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song\u2019s key; match elements to its key and the story.",
+      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song’s key; match elements to its key and the story.",
       "rules": [
         "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
         "Keep music unducked. Preserve intelligible dialogue with fitting scoring level, register and spacing.",
@@ -149,7 +149,7 @@
       "start": 30,
       "end": 59.958333333333336,
       "title": "GEAR 3 / Moderate rhythmic lift",
-      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song\u2019s key; match elements to its key and the story.",
+      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song’s key; match elements to its key and the story.",
       "rules": [
         "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
         "Keep music unducked. Preserve intelligible dialogue with fitting scoring level, register and spacing.",
@@ -169,7 +169,7 @@
       "start": 60,
       "end": 65.95833333333333,
       "title": "GEAR 2 / Restrained melodic flow",
-      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song\u2019s key; match elements to its key and the story.",
+      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Custom Scoring folder: vocalizations, cellos and swells. Detect each song’s key; match elements to its key and the story.",
       "rules": [
         "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
         "Keep music unducked. Preserve intelligible dialogue with fitting scoring level, register and spacing.",
@@ -188,7 +188,7 @@
       "ordinal": 5,
       "start": 66,
       "end": 77.95833333333333,
-      "title": "GEAR 3 \u2192 4 / Cello phrase + rising swell",
+      "title": "GEAR 3 → 4 / Cello phrase + rising swell",
       "detail": "Begin the lift with a sustained cello phrase or solo, then add a phrase-aligned swell or riser into Gear 4. Key/mode/local harmony must be verified.",
       "rules": [
         "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
@@ -259,7 +259,8 @@
       "fadeIn": 0,
       "fadeOut": 0,
       "ruleRefs": [
-        "musicAnalysis"
+        "musicAnalysis",
+        "texturePadBridge"
       ]
     },
     {
@@ -279,7 +280,8 @@
       "fadeIn": 0,
       "fadeOut": 0,
       "ruleRefs": [
-        "musicAnalysis"
+        "musicAnalysis",
+        "texturePadBridge"
       ]
     },
     {
@@ -289,7 +291,7 @@
       "start": 120,
       "end": 143.95833333333334,
       "title": "GEAR 4 / Sustained upbeat celebration",
-      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Energetic reception begins immediately after the kiss fade completes. Custom Scoring folder: vocalizations, cellos and swells. Detect each song\u2019s key; match elements to its key and the story.",
+      "detail": "Bridge breathers or rough musical joins with a fitting swell, cello solo, sustained phrase or vocal texture where useful. Match natural phrase entrances/exits and local harmony. Energetic reception begins immediately after the kiss fade completes. Custom Scoring folder: vocalizations, cellos and swells. Detect each song’s key; match elements to its key and the story.",
       "rules": [
         "Verify tonic, major/minor mode and local chord compatibility; record confidence and evidence.",
         "Keep music unducked. Preserve intelligible dialogue with fitting scoring level, register and spacing.",
@@ -299,7 +301,8 @@
       "fadeIn": 0,
       "fadeOut": 0,
       "ruleRefs": [
-        "musicAnalysis"
+        "musicAnalysis",
+        "texturePadBridge"
       ]
     },
     {
@@ -321,7 +324,8 @@
         "music",
         "scoring",
         "musicalCrash",
-        "musicAnalysis"
+        "musicAnalysis",
+        "texturePadBridge"
       ]
     },
     {
@@ -705,7 +709,7 @@
         }
       ],
       "number": 2,
-      "transition": "Dissolve \u00b7 2 s centered",
+      "transition": "Dissolve · 2 s centered",
       "opticalFlow": true,
       "qualityControl": {
         "status": "pending",
@@ -765,7 +769,7 @@
         }
       ],
       "number": 3,
-      "transition": "Dissolve \u00b7 2 s centered",
+      "transition": "Dissolve · 2 s centered",
       "opticalFlow": true,
       "qualityControl": {
         "status": "pending",
@@ -2733,7 +2737,7 @@
     }
   ],
   "schema": "tov-web-wedding-template-v1",
-  "revision": "2026-10-03.18",
+  "revision": "2026-10-08.1",
   "nativeSeedFingerprint": "8bdfdf4e6e615de832172783bf678bec28f09d367391a56db06be8df2579b348",
   "authority": "Supabase and website; native Resolve capture is historical seed",
   "trackOrder": [
@@ -2815,6 +2819,11 @@
       "id": "gear2-three-shot-ending",
       "approved": "2026-10-03",
       "instruction": "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with ONE bride-and-groom first-dance shot, ONE golden-hour couple wide/walking shot, and ONE closing couple/drone shot. Parent dances never substitute for couple first dance. Hold the dance and golden-hour shots for two measures each and the closing shot for six measures, ten measures total (about 30 seconds at the preview tempo). Match the approved shorter ending: cut from dance to golden hour, then use a centered one-second cross dissolve into the closing shot and a final two-second fade. Fit the softer stem arrangement to this shorter ending using complete phrases; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy. Use slow motion by default for all three closing shots: bride-and-groom first dance, golden-hour couple wide/walking, and closing couple/drone. Start at 70%; review the full retimed interval and preserve the two-, two-, and six-measure holds."
+    },
+    {
+      "id": "luke-texture-pad-bridge",
+      "instruction": "Bring in a compatible sustained texture before the incoming song, fade it up under the outgoing song, and carry it continuously through the transition and subsequent section. Use the observed Krysta/Dylan arrangement below as a concrete reference; adapt placement and length to the actual new edit, verify local harmony, and preserve unducked music.",
+      "source": "Luke explicit template-save request Thu Oct8 2026; exact live native observation in policies.texturePadBridge"
     }
   ],
   "policies": {
@@ -2850,9 +2859,74 @@
     "cakePair": "Whenever two cake shots are used: ONE real shot of the couple cutting cake, then ONE real shot of them eating it together (feeding each other or sharing first bites qualifies), with the couple visible in both. Serving, plated cake, details or another cutting angle never substitute for eating. All three auditions for each slot must match its distinct cutting/eating role and pass full-interval exposure, motion and color-transform QC. If eating footage is absent, flag it missing and use another genuinely covered activity pair; never invent eating. Preserve the two existing slots and durations.",
     "musicSelection": "Choose passages for their role: held 1 for warm opening anticipation; gentle 4 / 1 / optional 5 movement into Gears 2 and 3; steady celebration for reception; growing romantic tension and release for recap. These are preferences, not a mandatory progression. Chord numbers are relative to the verified local key; inversions such as 1/3 can help explain bass movement. Judge melody, rhythm, voicing and arrangement alongside harmony. Analyze tempo and downbeats before mapping chord changes; keep real changes at verified musical boundaries without forcing them to a grid. Rearrange a song's steady and moving passages when useful, preserving complete phrases, compatible harmony and musical joins. Use Ryan and Rachel as the preferred recap mood reference; Krysta and Dylan is acceptable but the target is more moving. Search unused song families and audition actual passages; model estimates and catalog tags alone do not verify mood or chords.",
     "musicAnalysis": "Default before constructing a film timeline: analyze each chosen full song for tempo, downbeats and measures, local key, and chord progression. Use the trained ChordFormer ensemble for a first pass where available; retain useful bass inversions such as 1/3, simplify chord decoration to the base chord, and check ambiguous or important changes against the audio. Distinguish estimated from verified harmony and timing. Use this map actively to choose and rearrange passages, assign section moods and gear changes, shape harmonic tension and release, align edits to musical phrases and changes, and select compatible custom scoring. Combine harmony with melody, rhythm, arrangement and story; chords alone do not determine mood. Keep the user's chosen song unless a replacement is requested. Mark only new chord changes with concise Nashville numbers, including useful minor or slash-bass notation; no consecutive duplicate chord labels. Analyze the actual tempo and measure positions first; do not force a detected change onto a convenient grid or claim unverified frame accuracy.",
-    "gear2Ending": "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with ONE bride-and-groom first-dance shot, ONE golden-hour couple wide/walking shot, and ONE closing couple/drone shot. Parent dances never substitute for couple first dance. Hold the dance and golden-hour shots for two measures each and the closing shot for six measures, ten measures total (about 30 seconds at the preview tempo). Match the approved shorter ending: cut from dance to golden hour, then use a centered one-second cross dissolve into the closing shot and a final two-second fade. Fit the softer stem arrangement to this shorter ending using complete phrases; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy. Use slow motion by default for all three closing shots: bride-and-groom first dance, golden-hour couple wide/walking, and closing couple/drone. Start at 70%; review the full retimed interval and preserve the two-, two-, and six-measure holds."
+    "gear2Ending": "After the two activity/cake shots, reduce the arrangement to Gear 2 using the song stems. End with ONE bride-and-groom first-dance shot, ONE golden-hour couple wide/walking shot, and ONE closing couple/drone shot. Parent dances never substitute for couple first dance. Hold the dance and golden-hour shots for two measures each and the closing shot for six measures, ten measures total (about 30 seconds at the preview tempo). Match the approved shorter ending: cut from dance to golden hour, then use a centered one-second cross dissolve into the closing shot and a final two-second fade. Fit the softer stem arrangement to this shorter ending using complete phrases; preserve tempo and unducked music. Keep the preceding eight reception slots, three role-matching auditions, unique primary excerpts, full-interval QC and synchronized source-audio policy. Use slow motion by default for all three closing shots: bride-and-groom first dance, golden-hour couple wide/walking, and closing couple/drone. Start at 70%; review the full retimed interval and preserve the two-, two-, and six-measure holds.",
+    "texturePadBridge": {
+      "title": "Luke texture-pad bridge before the song transition",
+      "instruction": "Bring in a compatible sustained texture before the incoming song, fade it up under the outgoing song, and carry it continuously through the transition and subsequent section. Use the observed Krysta/Dylan arrangement below as a concrete reference; adapt placement and length to the actual new edit, verify local harmony, and preserve unducked music.",
+      "sourceEdit": {
+        "project": "Krysta & Dylan - 2026-09-26",
+        "timeline": "06 Template Highlight - Audition Draft 01",
+        "verifiedAt": "2026-10-08",
+        "fps": 30,
+        "timelineStartFrame": 108000,
+        "timelineId": "21c18868-d235-40c9-b93f-d930a3a3bbfe",
+        "clipId": "84505444-454f-48b0-b256-9f063300402c"
+      },
+      "source": {
+        "name": "01 Horizon Major C.wav",
+        "collection": "CHPTRS FILM SCORE COLLECTION (BY KEY Final)",
+        "relativePath": "01 Tonal Sounds/Key of C/01 Textures & Drones/01 Horizon Major C.wav",
+        "key": "C major, verified library filename/folder label; independent tonal verification and song compatibility not established here",
+        "sourceInFrame": 0,
+        "sourceOutFrame": 1650,
+        "speedPercent": 100,
+        "pitchSemitones": 0,
+        "pitchCents": 0,
+        "channels": "stereo, native channel mapping"
+      },
+      "placement": {
+        "trackIndex": 8,
+        "trackName": "CUSTOM SCORING - vocalizations / C major",
+        "enabled": true,
+        "startFrame": 112229,
+        "endFrameExclusive": 113879,
+        "startRelativeSeconds": 140.96666666666667,
+        "endRelativeSeconds": 195.96666666666667,
+        "durationFrames": 1650,
+        "durationSeconds": 55,
+        "incomingSong": "Everything Comes To An End - Of Water, stems",
+        "incomingSongStartFrame": 112498,
+        "leadInFrames": 269,
+        "leadInSeconds": 8.966666666666667,
+        "outgoingSong": "Surroundings - Helmut Schenker",
+        "outgoingSongEndFrame": 112542,
+        "continuesPastOutgoingSongFrames": 1337,
+        "continuesPastOutgoingSongSeconds": 44.56666666666667,
+        "context": "Incoming stems overlap outgoing song for44frames/1.467s; incoming stems fade in31frames/1.033s. Pad continues across this join into reception and romantic ending."
+      },
+      "fades": {
+        "inFrames": 105,
+        "inSeconds": 3.5,
+        "outFrames": 111,
+        "outSeconds": 3.7,
+        "shape": "curve shape not exposed by inspected API"
+      },
+      "clipMix": {
+        "gainDb": 0,
+        "pan": 0,
+        "volumeEnabled": true,
+        "panEnabled": true,
+        "pitchEnabled": true,
+        "voiceIsolationEnabled": false,
+        "dialogueLevelerEnabled": false
+      },
+      "verificationLimits": {
+        "trackAndBusGain": "Native Fairlight mixer readback at01:00:00:00: A8 fader0.0dB; direct outputBus1; Bus1 fader-8.0dB. These are observed fader values, not a claim of no automation.",
+        "routingEffectsAutomation": "A8 native mixer: no input, directBus1 output, empty insert-effects and bus-sends rows, straight dynamics graph and flat EQ graph; individual processor enable states/parameters not opened. TrackFX displays grey DialLev. Global Automation enabled and AutomationFollowsEdit enabled. No curve/keyframe enumeration available from API; presence/absence of fader or plugin automation not established. No unobserved settings inferred.",
+        "audibleReview": "not auditioned by this worker; Luke declared horizontal ready"
+      }
+    }
   },
-  "fingerprint": "9d2a6ad8c612307852d667eb404c25621923f77b0d5910d9de96c23340c004e4",
   "finalPass": {
     "title": "Final pass",
     "intro": "Work through the seven stages in order. Keep the edit's emotion and natural character; make each change easy to review and adjust.",
@@ -2999,10 +3073,10 @@
       {
         "id": "final-review",
         "title": "Final review and confirmation",
-        "owner": "Luke, after the assistant\u2019s passes",
+        "owner": "Luke, after the assistant’s passes",
         "summary": "Watch and listen to the finished film, then confirm it or leave changes for the assistant.",
         "checks": [
-          "Confirm the assistant\u2019s stabilization, color correction, Film Look Creator grade and audio passes are ready for review.",
+          "Confirm the assistant’s stabilization, color correction, Film Look Creator grade and audio passes are ready for review.",
           "Watch the complete film in order; confirm cut timing, movement, crops and transitions.",
           "Confirm exposure, white balance, natural skin and the approved look stay consistent in context.",
           "Listen to voices, effects, ambience, music and scoring together; confirm clarity, stable balance and no distracting ducking.",
@@ -3051,5 +3125,6 @@
       }
     ],
     "researchStatus": "Official color, Film Look Creator and audio references reviewed Sat Oct 3 2026. This is a finishing plan; no film passes have been applied."
-  }
+  },
+  "fingerprint": "c81c91de4807b8f90b1944db99a1b29a19ad0f565b9650c62e03d6c2785e99e1"
 }
