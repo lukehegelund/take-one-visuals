@@ -7,6 +7,13 @@
   "drive_folder_id": "1f-3t9bAKdU_X7punsH-UM7TBdiGojGwD",
   "videos": [
     {
+      "id": "highlight",
+      "title": "Wedding Highlight",
+      "drive_id": "1vGFdCbjJGEiRqIQC-3JmoXeu_qPpC01R",
+      "format": "landscape",
+      "description": ""
+    },
+    {
       "id": "ceremony",
       "title": "Full Ceremony",
       "drive_id": "14pRdiUym2mNORDdRHKou6cReGZtjvxlZ",
